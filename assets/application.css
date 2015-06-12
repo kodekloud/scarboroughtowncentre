@@ -5,4 +5,6 @@
     margin: 0 auto;
 }
 
-.nav>li>a:focus, .nav>li>a:hover
+.nav>li>a:focus, .nav>li>a:hover{
+    background: #000;
+}
