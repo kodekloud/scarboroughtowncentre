@@ -9,6 +9,10 @@
     background: #fff;
 }
 
-.menu_link{
-    
+.menu_link:first-child{
+    padding-left:0px;
+}
+
+.menu_link:last-child{
+    padding-right:0px;
 }
