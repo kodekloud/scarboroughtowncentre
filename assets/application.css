@@ -16,6 +16,11 @@
     padding-top:50px;
 }
 
+.footer p{
+    font-size:12px;
+    color:878A8A;
+}
+
 #stc_menu{
     padding: 0;    
 }
