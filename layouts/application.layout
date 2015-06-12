@@ -48,7 +48,7 @@
                             <li><a class="menu_link" href="#">GUEST SERVICES</a></li>
                             <li><a class="menu_link" href="#">SOCIAL NAV</a></li>
                             <li><a class="menu_link" href="#">MEDIA</a></li>
-                            <li><a class="menu_link menu_search" href="#">SEARCH</a></li>
+                            <li><span class="menu_link menu_search"></span></li>
                         </ul>
                     </div>
                 </div>
