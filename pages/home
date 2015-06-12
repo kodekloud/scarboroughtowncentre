@@ -31,6 +31,10 @@
     </li>
   </ul>
 </div>
+
+<div class="section_feature">
+    
+</div>
 <script>
     $(document).ready(function(){
         $('.flexslider').flexslider({
