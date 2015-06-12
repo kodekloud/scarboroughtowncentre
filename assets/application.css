@@ -230,6 +230,9 @@ body{
     border-right: 7px solid transparent; 
     border-bottom: 10px solid #ccc; 
     margin: 0 auto;
+    position: absolute;
+    top: -10px;
+    left: 48%;
 }
 
 #triangle-up-inside { 
