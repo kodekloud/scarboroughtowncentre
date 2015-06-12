@@ -46,8 +46,10 @@
                     <div class="collapse navbar-collapse" id="stc_menu">
                         <ul class="nav navbar-nav">
                             <li><a class="home_stc" href="#">SCARBOROUGH TOWN CENTRE</a></li>
-                            <li><a class="home_stc" href="#">SCARBOROUGH TOWN CENTRE</a></li>
-                            <li><a class="home_stc" href="#">SCARBOROUGH TOWN CENTRE</a></li>
+                            <li><a class="home_stc" href="#">STORES</a></li>
+                            <li><a class="home_stc" href="#">TRENDING</a></li>
+                            <li><a class="home_stc" href="#">GUEST SERVICES</a></li>
+                            <li><a class="home_stc" href="#">TRENDING</a></li>
                         </ul>
                     </div>
                 </div>
