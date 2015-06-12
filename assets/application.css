@@ -4,6 +4,10 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+
+.header{
+    border-bottom:1px solid #ccc;
+}
 .stc_navbar{
     border: none;
     margin-bottom: 0px;
