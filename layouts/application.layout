@@ -58,7 +58,7 @@
             {{yield}}
         </div>
         <footer class="footer">
-            <div class="content_container>
+            <div class="content_container">
                 Footer
             </div>
         </footer>
