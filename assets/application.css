@@ -123,6 +123,9 @@ body{
     border:0;
 }
 
+.dd_guest a{
+    color: #F15F5C !important;;
+}
 .menu_home:hover, .menu_home:focus{
     color: #F15F5C !important;
 }
