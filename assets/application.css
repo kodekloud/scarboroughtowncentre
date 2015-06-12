@@ -251,7 +251,7 @@ body{
     text-align: center;
 }
 .feature_hours_img{
-    width: 50px;
+    width: 50px !important;
     margin-top: 50px;
 }
 .feature_box img{
