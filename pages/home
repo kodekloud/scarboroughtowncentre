@@ -61,13 +61,25 @@
         <div class="col-md-4 feature_box">
             <h4 class="feature_header">NEW STORES</h4>
             <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/feature1.jpg" class="" alt="">
+            <hr class="chevron_line" />
+            <div id="triangle-down"></div>
+            <div id="triangle-down-inside"></div>
+            <p class="text-center"><a class="feature_read_more" href="#">WATCH NOW</a></p>
         </div>
         <div class="col-md-4 feature_box">
             <h4 class="feature_header">GIFT CARDS</h4>
             <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/feature2.jpg" class="" alt="">
+            <hr class="chevron_line" />
+            <div id="triangle-down"></div>
+            <div id="triangle-down-inside"></div>
+            <p class="text-center"><a class="feature_read_more" href="#">WATCH NOW</a></p>
         </div>
         <div class="col-md-4 feature_box_2">
             <h4 class="feature_header">HOURS</h4>
+            <hr class="chevron_line" />
+            <div id="triangle-down"></div>
+            <div id="triangle-down-inside"></div>
+            <p class="text-center"><a class="feature_read_more" href="#">WATCH NOW</a></p>
         </div>
     </div>
     
