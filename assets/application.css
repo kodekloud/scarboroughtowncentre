@@ -10,9 +10,9 @@
 }
 
 .menu_home{
-    padding-left:0px;
+    padding-left:0px !important;
 }
 
 .menu_search{
-    padding-right:0px;
+    padding-right:0px !important;
 }
