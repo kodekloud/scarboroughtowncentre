@@ -254,6 +254,11 @@ body{
     width: 50px !important;
     margin: 35px 0;
 }
+
+.feature_hours p{
+    color: #fff;
+    
+}
 .feature_box img{
     width:100%;
 }
