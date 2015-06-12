@@ -50,6 +50,8 @@
                             <li><a class="home_stc" href="#">TRENDING</a></li>
                             <li><a class="home_stc" href="#">GUEST SERVICES</a></li>
                             <li>Social nav</li>
+                            <li><a class="home_stc" href="#">MEDIA</a></li>
+                            <li>Search</li>
                         </ul>
                     </div>
                 </div>
