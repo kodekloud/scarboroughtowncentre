@@ -33,7 +33,7 @@
     </head>
     <body>
         <header class="header">
-            
+            <div class="content_container"></div>
         </header>
         {{yield}}
         <footer>Footer</footer>
