@@ -223,7 +223,7 @@ body{
 }
 
 
-#triangle-down { 
+#triangle-up { 
     width: 0; 
     height: 0; 
     border-left: 7px solid transparent; 
@@ -232,7 +232,7 @@ body{
     margin: 0 auto;
 }
 
-#triangle-down-inside { 
+#triangle-up-inside { 
     width: 0; 
     height: 0; 
     border-left: 6px solid transparent; 
