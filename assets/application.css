@@ -186,9 +186,7 @@ body{
     margin-bottom:65px;    
 }
 
-.feature_box img{
-    width:100%;
-}
+
 
 #triangle-down { 
     width: 0; 
@@ -255,4 +253,7 @@ body{
 .feature_hours_img{
     width: 50px;
     margin-top: 50px;
+}
+.feature_box img{
+    width:100%;
 }
