@@ -179,6 +179,8 @@ body{
 .feature_box img{
     width:100%;
 }
+
+#triangle-down { width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-top: 100px solid red; }
 .feature_header{
     border-top:2px solid #ccc;
     border-bottom:2px solid #ccc;
