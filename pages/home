@@ -51,7 +51,7 @@
             <div id="triangle-down"></div>
             <div id="triangle-down-inside"></div>
             <h3 class="feature_text">Experience the <br/>STC Spring Fashion Video</h3>
-            <p class="text-center"><a class="feature_read_more">READ MORE</a></p>
+            <p class="text-center"><a class="feature_read_more" href="#">READ MORE</a></p>
         </div>
     </div>
 </div>
