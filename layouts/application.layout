@@ -59,6 +59,10 @@
         </div>
         <footer class="footer">
             <div class="content_container">
+                <div class="pull-right">
+                    <img src="http://placehold.it/180x60">
+                    <img src="http://placehold.it/180x60">
+                </div>
                 <div class="footer_nav">
                     <ul class="nav navbar-nav">
                         <li><a class="footer_menu_link" href="#">ABOUT US</a></li>
@@ -72,10 +76,6 @@
                     </ul>
                     <div class="clearfix"></div>
                     <p>Copyright © 2015 Scarborough Town Centre. All Rights Reserved.</p>
-                </div>
-                <div class="pull-right">
-                    <img src="http://placehold.it/180x60">
-                    <img src="http://placehold.it/180x60">
                 </div>
                 <div class="clearfix"></div>
             </div>
