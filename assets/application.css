@@ -25,6 +25,10 @@
     padding: 0;    
 }
 
+.icon_search{
+    width:20px;    
+}
+
 .stc_nav li{ 
     border-right:1px solid #BFBEBD;
 }
