@@ -109,20 +109,7 @@
 }
 
 
-.sub_menu{
-    color:#606264;
-    letter-spacing: 2;
-    margin-bottom: 30px;
-}
 
-.open_now{
-    color: #3DC2D1;
-}
-.icon_top{
-    width: 20px;
-    margin-left: 10px;
-    margin-top: -4px;
-}
 .footer_menu_link{
     font-size: 12px;
     color:#878A8A !important;
@@ -164,4 +151,20 @@
 
 .flex-direction-nav a{
     height:43px;
+}
+
+.sub_menu{
+    color:#606264;
+    letter-spacing: 2;
+    margin-bottom: 30px;
+    font-family: CircularStd-Book;
+}
+
+.open_now{
+    color: #3DC2D1;
+}
+.icon_top{
+    width: 20px;
+    margin-left: 10px;
+    margin-top: -4px;
 }
