@@ -32,4 +32,7 @@
         <script src="/application.js"></script>
     </head>
     <body>
-{{yield}}<footer>Footer</footer>
+        {{yield}}
+        <footer>Footer</footer>
+    </body>
+</html>
