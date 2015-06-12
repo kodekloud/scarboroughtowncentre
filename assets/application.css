@@ -35,6 +35,10 @@
 .social_img{
     width:20px;
 }
+
+.social_link{
+ padding:15px 10px;   
+}
 .stc_nav li{ 
     border-right:1px solid #BFBEBD;
 }
