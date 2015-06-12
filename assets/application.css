@@ -9,6 +9,10 @@
     border-bottom:1px solid #ccc;
 }
 
+.footer{
+    background: #ccc;
+}
+
 #stc_menu{
     padding: 0;    
 }
