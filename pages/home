@@ -81,8 +81,8 @@
             <div class="feature_hours">
                 <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/icon_hour.png" class="feature_hours_img" alt="hours">
                 <p>MON - FRI: 10:00 - 9:00</p>
-                <p>SAT: 10:00 - 9:00</p>
-                <p>SUN: 10:00 - 9:00</p>
+                <p>SAT: 9:30 - 9:00</p>
+                <p>SUN: 11:00 - 7:00</p>
             </div>
             <hr class="chevron_line" />
             <div id="triangle-down"></div>
