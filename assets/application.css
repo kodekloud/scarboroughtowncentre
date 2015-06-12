@@ -232,7 +232,8 @@ body{
     margin: 0 auto;
     position: absolute;
     top: -10px;
-    left: 48%;
+    left: 50%;
+    transform:translate(0 -50%);
 }
 
 #triangle-up-inside { 
@@ -244,7 +245,8 @@ body{
     margin: 0 auto;
     position: absolute;
     top: -11px;
-    left: 48%;
+    left: 50%;
+    transform:translate(0 -50%);
 }
 
 
