@@ -19,6 +19,7 @@
         <!--MallMaverick v1.0-->
         <script src="http://mallmaverick.kodekloud.io/mallmaverick.js?v=0.3"></script>
         <script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
         <script>
             setEndPoint('http://stc.mallmaverick.com/api/v2/erinmills/all.json');
             sessionStorage.setItem('primary_locale', 'en-CA');
