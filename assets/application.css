@@ -126,6 +126,12 @@ body{
 .dd_guest a{
     color: #F15F5C !important;;
 }
+
+.dd_guest a:hover{
+    background:transparent;
+    font-weight:bold;
+}
+
 .menu_home:hover, .menu_home:focus{
     color: #F15F5C !important;
 }
