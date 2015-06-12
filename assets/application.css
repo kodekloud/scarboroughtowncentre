@@ -113,7 +113,9 @@ body{
 }
 
 
-
+.logo_footer{
+    width:160px;
+}
 .footer_menu_link{
     font-size: 12px;
     color:#878A8A !important;
