@@ -244,7 +244,7 @@ body{
     border-bottom: 9px solid #fff; 
     margin: 0 auto;
     position: absolute;
-    top: -11px;
+    top: -9px;
     left: 50%;
     transform:translate(0 -50%);
 }
