@@ -3,7 +3,11 @@
     <p class="sub_menu">
         <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/icon_hour.png" class="icon_top" alt="icob hours">
         <span class="open_now">OPEN NOW</span> 
-        
-        UNTIL 9PM Call US DIRECTIONS SUBSCRIBE
+        UNTIL 9PM
+        <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/icon_call.png" class="" alt="">
+        Call US 
+        <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/icon_direction.png" class="" alt="">
+        DIRECTIONS
+        <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/icon_subscribe.png" class="" alt="">SUBSCRIBE
     </p>
 </div>
