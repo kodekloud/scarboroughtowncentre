@@ -176,7 +176,9 @@ body{
     margin-left: 10px;
     margin-top: -4px;
 }
-
+.feature_box img{
+    width:100%;
+}
 .feature_header{
     border-top:2px solid #ccc;
     border-bottom:2px solid #ccc;
