@@ -45,7 +45,10 @@
                         <a class="navbar-brand" href="#">Brand</a>
                     </div>
                     <div class="collapse navbar-collapse" id="stc_menu">
-                    <a class="home_stc">SCARBOROUGH TOWN CENTRE</a>
+                        <ul class="nav navbar-nav">
+                            <a class="home_stc">SCARBOROUGH TOWN CENTRE</a>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </header>
