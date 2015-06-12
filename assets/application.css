@@ -41,8 +41,8 @@
     color:#000;
     letter-spacing: 2;
 }
-.menu_link:first-child{
-    padding-left:0px;
+.menu_home{
+    padding-left:0px !important;
     color: #F15F5C;
 }
 
