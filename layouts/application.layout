@@ -71,6 +71,10 @@
                         <li><a class="footer_menu_link" href="#">MEDIA</a></li>
                     </ul>
                 </div>
+                <div class="pull-right">
+                    <img src="http://placehold.it/350x150">
+                    <img src="http://placehold.it/350x150">
+                </div>
             </div>
         </footer>
     </body>
