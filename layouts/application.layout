@@ -44,6 +44,7 @@
                         </button>
                         <a class="navbar-brand" href="#">Brand</a>
                     </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <a class="home_stc">SCARBOROUGH TOWN CENTRE</a>
                 </div>
             </div>
