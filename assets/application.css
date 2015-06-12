@@ -119,6 +119,10 @@
     right:15px;
 }
 
+.flex-control-paging li a{
+    background: #fff;    
+}
+
 .flex-direction-nav a{
     height:43px;
 }
