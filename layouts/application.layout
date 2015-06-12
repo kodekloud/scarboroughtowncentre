@@ -59,7 +59,9 @@
         </div>
         <footer class="footer">
             <div class="content_container">
-                Footer
+                <div class="footer_nav">
+                    
+                </div>
             </div>
         </footer>
     </body>
