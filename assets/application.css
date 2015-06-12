@@ -32,7 +32,9 @@
 .social_nav{
     border-right:0px !important;
 }
-
+.social_img{
+    width:20px;
+}
 .stc_nav li{ 
     border-right:1px solid #BFBEBD;
 }
