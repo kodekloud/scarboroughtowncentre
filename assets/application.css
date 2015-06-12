@@ -22,6 +22,10 @@
     border-right:1px solid #ccc;
 }
 
+.stc_nav li:last-child{
+    border-right:0px;
+}
+
 .stc_navbar{
     border: none;
     margin-bottom: 0px;
