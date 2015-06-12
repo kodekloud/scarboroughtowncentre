@@ -176,6 +176,12 @@ body{
     margin-left: 10px;
     margin-top: -4px;
 }
+
+
+.feature_box{
+    margin-bottom:25px;    
+}
+
 .feature_box img{
     width:100%;
 }
