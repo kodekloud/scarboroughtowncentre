@@ -6,7 +6,7 @@
 }
 
 .header{
-    border-bottom:1px solid #ccc;
+    border-bottom:1px solid #f2f2f2;
 }
 
 .footer{
@@ -16,6 +16,10 @@
 
 #stc_menu{
     padding: 0;    
+}
+
+.stc_nav>li{ 
+    border-right:1px solid #f2f2f2;
 }
 
 .stc_navbar{
