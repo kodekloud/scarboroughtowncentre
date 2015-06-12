@@ -47,9 +47,8 @@
                             <li><a class="menu_link menu_home" href="#">SCARBOROUGH TOWN CENTRE</a></li>
                             <li><a class="menu_link" href="#">STORES</a></li>
                             <li><a class="menu_link" href="#">TRENDING</a></li>
-                            <li><a class="menu_link" href="#">GUEST SERVICES</a></li>
-                            <li class="dropdown">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">GUEST SERVICES <b class="caret"></b></a>
+                            <li class="dropdown menu_link">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">GUEST SERVICES</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Inbox</a></li>
                                     <li><a href="#">Drafts</a></li>
