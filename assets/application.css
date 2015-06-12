@@ -191,6 +191,7 @@ body{
 .chevron_line{
     margin-bottom: 0;
     margin-top:10px;
+    color: #ccc;
 }
 .feature_header{
     border-top:2px solid #ccc;
