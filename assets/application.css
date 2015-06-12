@@ -8,6 +8,11 @@
 .header{
     border-bottom:1px solid #ccc;
 }
+
+#stc_menu{
+    padding: 0;    
+}
+
 .stc_navbar{
     border: none;
     margin-bottom: 0px;
