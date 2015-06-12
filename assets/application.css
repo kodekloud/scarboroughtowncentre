@@ -40,7 +40,8 @@
 }
 .menu_home{
     padding-left:0px !important;
-    color: #F15F5C
+    color: #F15F5C;
+    letter-spacing: 2;
 }
 
 .menu_search{
