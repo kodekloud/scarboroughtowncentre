@@ -34,7 +34,7 @@
     <body>
         <header class="header">
             <div class="content_container">
-                <div class="navbar">
+                <div class="navbar stc_navbar">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#stc_menu">
                             <span class="sr-only">Toggle navigation</span>
