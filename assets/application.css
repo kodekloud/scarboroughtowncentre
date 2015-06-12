@@ -54,7 +54,7 @@
     font-size: 12px;
     color:#878A8A !important;
 }
-.footer_menu_link:hover{
+.footer_menu_link:hover, .footer_menu_link:focus{
     background: transparent !important;
     color:inherit !important;
 }
