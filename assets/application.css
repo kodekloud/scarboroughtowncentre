@@ -237,3 +237,7 @@ body{
     letter-spacing: 2;
     color: #000;
 }
+.feature_read_more:hover,.feature_read_more:focus{
+    text-decoration: none;
+    color:#000;
+}
