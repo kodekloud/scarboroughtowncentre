@@ -65,7 +65,7 @@
                 </div>
                 <div class="footer_nav">
                     <ul class="nav navbar-nav">
-                        <li><a class="footer_menu_link" href="#">ABOUT US</a></li>
+                        <li><a class="footer_menu_link footer_menu_link" href="#">ABOUT US</a></li>
                         <li><a class="footer_menu_link" href="#">JOBS</a></li>
                         <li><a class="footer_menu_link" href="#">LEASING</a></li>
                         <li><a class="footer_menu_link" href="#">EVENTS</a></li>
