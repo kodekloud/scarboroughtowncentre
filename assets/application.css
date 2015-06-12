@@ -112,6 +112,13 @@
     margin: 50px 0px;
 }
 
+.flex-control-nav{
+    text-align:right;
+    font-size: 0px;
+    bottom: 15px;
+    right:15px;
+}
+
 .flex-direction-nav a{
     height:43px;
 }
