@@ -119,6 +119,10 @@ body{
     top: 60px;
 }    
 
+.dd_guest li{
+    border:0;
+}
+
 .menu_home:hover, .menu_home:focus{
     color: #F15F5C !important;
 }
