@@ -83,7 +83,9 @@
     color: #3DC2D1;
 }
 .icon_top{
-    width:20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-top: -4px;
 }
 .footer_menu_link{
     font-size: 12px;
