@@ -46,7 +46,7 @@
                     </div>
                     <div class="collapse navbar-collapse" id="stc_menu">
                         <ul class="nav navbar-nav">
-                            <a class="home_stc">SCARBOROUGH TOWN CENTRE</a>
+                            <li><a class="home_stc">SCARBOROUGH TOWN CENTRE</a></li>
                         </ul>
                     </div>
                 </div>
