@@ -242,7 +242,9 @@ body{
     border-right: 6px solid transparent; 
     border-bottom: 9px solid #fff; 
     margin: 0 auto;
-    margin-top: -11px;
+    position: absolute;
+    top: -11px;
+    left: 48%;
 }
 
 
