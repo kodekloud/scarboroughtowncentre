@@ -49,7 +49,7 @@
                             <li><a class="menu_link" href="#">TRENDING</a></li>
                             <li class="dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">GUEST SERVICES</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu dd_guest">
                                     <li><a href="#">GUEST SERVICES</a></li>
                                     <li><a href="#">GIFT CARD</a></li>
                                     <li><a href="#">SHARE YOUR THOUGHTS</a></li>
