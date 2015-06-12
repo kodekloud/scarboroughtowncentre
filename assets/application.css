@@ -52,7 +52,7 @@
 }
 
 .menu_home:hover, .menu_home:focus{
-    color: #F15F5C;
+    color: #F15F5C !important;
 }
 
 .menu_search{
