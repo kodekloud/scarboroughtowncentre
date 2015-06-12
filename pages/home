@@ -61,6 +61,12 @@
         <div class="col-md-4 feature_box_2">
             <h4 class="feature_header">TRENDING</h4>
         </div>
+        <div class="col-md-4 feature_box_2">
+            <h4 class="feature_header">TRENDING</h4>
+        </div>
+        <div class="col-md-4 feature_box_2">
+            <h4 class="feature_header">TRENDING</h4>
+        </div>
     </div>
     
 </div>
