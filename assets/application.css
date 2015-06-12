@@ -4,3 +4,5 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+
+.nav>li>a:focus, .nav>li>a:hover
