@@ -128,8 +128,8 @@ body{
 }
 
 .dd_guest a:hover{
-    background:transparent;
-    font-weight:bold;
+    background:transparent !important;
+    font-weight:bold !important;
 }
 
 .menu_home:hover, .menu_home:focus{
