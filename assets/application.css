@@ -196,6 +196,7 @@ body{
     border-right: 6px solid transparent; 
     border-top: 8px solid #000; 
     margin: 0 auto;
+    margin-top: -11px;
 }
 
 
