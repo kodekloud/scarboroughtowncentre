@@ -14,6 +14,7 @@
 }
 .nav>li>a:focus, .nav>li>a:hover{
     background: #fff;
+    color:#ccc;
 }
 
 .menu_link{
