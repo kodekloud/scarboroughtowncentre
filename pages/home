@@ -78,7 +78,9 @@
         </div>
         <div class="col-md-4 feature_box no_margin">
             <h4 class="feature_header">HOURS</h4>
-            <div class="feature_hours"></div>
+            <div class="feature_hours">
+                
+            </div>
             <hr class="chevron_line" />
             <div id="triangle-down"></div>
             <div id="triangle-down-inside"></div>
