@@ -47,11 +47,11 @@
                             <li><a class="menu_link" href="#">TRENDING</a></li>
                             <li><a class="menu_link" href="#">GUEST SERVICES</a></li>
                             <li><a class="menu_link" href="#">SOCIAL NAV</a></li>
-                            <li class="social_nav"><a class="menu_link" href="#">M</a></li>
-                            <li class="social_nav"><a class="menu_link" href="#">M</a></li>
-                            <li class="social_nav"><a class="menu_link" href="#">M</a></li>
-                            <li class="social_nav"><a class="menu_link" href="#">M</a></li>
-                            <li><a class="menu_link" href="#">M</a></li>
+                            <li class="social_nav"><a class="menu_link" href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_instagram.png" class="" alt=""></a></li>
+                            <li class="social_nav"><a class="menu_link" href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_facebook.png" class="" alt=""></a></li>
+                            <li class="social_nav"><a class="menu_link" href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_twitter.png" class="" alt=""></a></li>
+                            <li class="social_nav"><a class="menu_link" href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_pin.png" class="" alt=""></a></li>
+                            <li><a class="menu_link" href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_youtube.png" class="" alt=""></a></li>
                             <li><a class="menu_link" href="#">Media</a></li>
                             <li><a class="menu_link menu_search" href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/btn_search.png" class="icon_search" alt="search"></a></li>
                         </ul>
