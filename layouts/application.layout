@@ -45,12 +45,12 @@
                     </div>
                     <div class="collapse navbar-collapse" id="stc_menu">
                         <ul class="nav navbar-nav">
-                            <li><a class="home_stc" href="#">SCARBOROUGH TOWN CENTRE</a></li>
-                            <li><a class="home_stc" href="#">STORES</a></li>
-                            <li><a class="home_stc" href="#">TRENDING</a></li>
-                            <li><a class="home_stc" href="#">GUEST SERVICES</a></li>
+                            <li><a class="menu_home" href="#">SCARBOROUGH TOWN CENTRE</a></li>
+                            <li><a class="menu_link" href="#">STORES</a></li>
+                            <li><a class="menu_link" href="#">TRENDING</a></li>
+                            <li><a class="menu_link" href="#">GUEST SERVICES</a></li>
                             <li>Social nav</li>
-                            <li><a class="home_stc" href="#">MEDIA</a></li>
+                            <li><a class="menu_link" href="#">MEDIA</a></li>
                             <li>Search</li>
                         </ul>
                     </div>
