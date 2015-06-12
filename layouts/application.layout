@@ -50,9 +50,9 @@
                             <li class="dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">GUEST SERVICES</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Inbox</a></li>
-                                    <li><a href="#">Drafts</a></li>
-                                    <li><a href="#">Sent Items</a></li>
+                                    <li><a href="#">GUEST SERVICES</a></li>
+                                    <li><a href="#">GIFT CARD</a></li>
+                                    <li><a href="#">SHARE YOUR THOUGHTS</a></li>
                                     <li><a href="#">Trash</a></li>
                                 </ul>
                             </li>
