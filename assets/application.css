@@ -30,7 +30,7 @@
 }
 
 .social_nav{
-    border-right:0px;
+    border-right:0px !important;
 }
 
 .stc_nav li{ 
