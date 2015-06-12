@@ -61,12 +61,14 @@
             <div class="content_container">
                 <div class="footer_nav">
                     <ul class="nav navbar-nav">
-                        <li><a class="footer_menu_link" href="#">STORES</a></li>
-                        <li><a class="footer_menu_link" href="#">TRENDING</a></li>
-                        <li><a class="footer_menu_link" href="#">GUEST SERVICES</a></li>
-                        <li><a class="footer_menu_link" href="#">SOCIAL NAV</a></li>
+                        <li><a class="footer_menu_link" href="#">ABOUT US</a></li>
+                        <li><a class="footer_menu_link" href="#">JOBS</a></li>
+                        <li><a class="footer_menu_link" href="#">LEASING</a></li>
+                        <li><a class="footer_menu_link" href="#">EVENTS</a></li>
+                        <li><a class="footer_menu_link" href="#">CONTACT</a></li>
+                        <li><a class="footer_menu_link" href="#">PRIVACY POLICY</a></li>
+                        <li><a class="footer_menu_link" href="#">|</a></li>
                         <li><a class="footer_menu_link" href="#">MEDIA</a></li>
-                        <li><a class="footer_menu_link" href="#">SEARCH</a></li>
                     </ul>
                 </div>
             </div>
