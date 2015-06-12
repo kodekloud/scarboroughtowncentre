@@ -9,10 +9,10 @@
     background: #fff;
 }
 
-.stc_nav:first-child{
+.stc_nav:first-child a{
     padding-left:0px;
 }
 
-.stc_nav:last-child{
+.stc_nav:last-child a{
     padding-right:0px;
 }
