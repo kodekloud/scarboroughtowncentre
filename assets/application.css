@@ -51,6 +51,10 @@
     color: #F15F5C;
 }
 
+.menu_home:hover, .menu_home:focus{
+    color: #F15F5C;
+}
+
 .menu_search{
     padding-right:0px !important;
 }
