@@ -6,7 +6,34 @@
     src: url(http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/ChronicleTextG1-Bold.otf);
 }
 
-
+@font-face{
+    font-family: ChronicleTextG1-Roman;  
+    src: url(http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/ChronicleTextG1-Roman.otf);
+}
+@font-face{
+    font-family: CircularStd-Book;  
+    src: url(http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/CircularStd-Book.otf);
+}
+@font-face{
+    font-family: CircularStd-Bold;  
+    src: url(http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/CircularStd-Bold.otf);
+}
+@font-face{
+    font-family: ChronicleDisplay-LightItalic;  
+    src: url(http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/ChronicleDisplay-LightItalic.otf);
+}
+@font-face{
+    font-family: ChronicleDisplay-Roman;  
+    src: url(http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/ChronicleDisplay-Roman.otf);
+}
+@font-face{
+    font-family: ChronicleDisplay-Light;  
+    src: url(http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/ChronicleDisplay-Light.otf);
+}
+@font-face{
+    font-family: ChronicleDisplay-Bold.;  
+    src: url(http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/ChronicleDisplay-Bold.otf);
+}
 .content_container{
     max-width: 1140px;
     margin: 0 auto;
