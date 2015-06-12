@@ -34,6 +34,11 @@
     font-family: ChronicleDisplay-Bold.;  
     src: url(http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/ChronicleDisplay-Bold.otf);
 }
+
+
+body{
+    font-family: CircularStd-Book;
+}
 .content_container{
     max-width: 1140px;
     margin: 0 auto;
@@ -157,7 +162,6 @@
     color:#606264;
     letter-spacing: 2;
     margin-bottom: 30px;
-    font-family: CircularStd-Book;
 }
 
 .open_now{
