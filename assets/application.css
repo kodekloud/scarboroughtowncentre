@@ -117,6 +117,9 @@ body{
     padding: 10px;
     box-shadow: none;
     top: 70px;
+    position: absolute;
+    top: -10px;
+    left: 48%;
 }    
 
 .dd_guest li{
