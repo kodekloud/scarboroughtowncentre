@@ -54,7 +54,10 @@
                 </div>
             </div>
         </header>
-        {{yield}}
+        <div class="content_container">
+            {{yield}}
+        </div>
+        
         <footer>Footer</footer>
     </body>
 </html>
