@@ -123,6 +123,10 @@
     background: #fff;    
 }
 
+.flex-control-paging li a.flex-active{
+    background:#F15F5C;
+}
+
 .flex-direction-nav a{
     height:43px;
 }
