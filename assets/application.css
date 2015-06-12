@@ -4,7 +4,9 @@
     max-width: 1140px;
     margin: 0 auto;
 }
-
+.stc_navbar{
+    border: none;
+}
 .nav>li>a:focus, .nav>li>a:hover{
     background: #fff;
 }
