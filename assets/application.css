@@ -82,7 +82,9 @@
 .open_now{
     color: #3DC2D1;
 }
-
+.icon_top{
+    width:20px;
+}
 .footer_menu_link{
     font-size: 12px;
     color:#878A8A !important;
