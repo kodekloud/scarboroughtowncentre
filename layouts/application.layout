@@ -34,7 +34,9 @@
     <body>
         <header class="header">
             <div class="content_container">
-                <a class="home_stc">SCARBOROUGH TOWN CENTRE</a>
+                <div>
+                    <a class="home_stc">SCARBOROUGH TOWN CENTRE</a>
+                </div>
             </div>
         </header>
         {{yield}}
