@@ -108,6 +108,10 @@ body{
     color: #F15F5C;
 }
 
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: #fff;
+}
+
 .menu_home:hover, .menu_home:focus{
     color: #F15F5C !important;
 }
