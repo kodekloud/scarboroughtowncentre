@@ -107,7 +107,7 @@
 <script>
     $(document).ready(function(){
         $('#open_search').click(function(){
-            $('#open_search').hide()
+            // $('#open_search').hide()
             $('#search').show('slow')
             $('#search').focus()
         })
