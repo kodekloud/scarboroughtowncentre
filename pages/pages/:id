@@ -16,6 +16,7 @@
         border-bottom:1px solid;
         letter-spacing: 2;
         color: #000;
+        text-decoration: none;
         }
 </style>
 
