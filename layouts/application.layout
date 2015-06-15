@@ -68,7 +68,7 @@
                             <li><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_youtube.png" class="social_img" alt="youtube"></a></li>
                             <li><a class="menu_link" href="#">Media</a></li>
                             <li>
-                                <input type="text" />
+                                <input type="text" class="search_textbox" />
                                 <a class="menu_link menu_search" href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/btn_search.png" class="icon_search" alt="search"></a>
                             </li>
                         </ul>
