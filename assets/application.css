@@ -73,6 +73,8 @@ body{
 .footer p{
     font-size:12px;
     color:#878A8A;
+    position: absolute;
+    bottom:0;
 }
 
 #stc_menu{
