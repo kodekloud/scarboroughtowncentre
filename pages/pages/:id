@@ -1,4 +1,8 @@
 <style>
+    body{
+        font-size:24px;
+        font-family: ChronicleTextG1-Roman;  
+    }
     h1{
         font-family:ChronicleDisplay-Light;
         font-size:48px;
