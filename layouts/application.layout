@@ -110,5 +110,10 @@
             $('#search').show('slow')
             $('#search').focus()
         })
+        $('#close_search').click(function(){
+            $('#search').show('slow')
+            $('#search').focus()
+        })
     })
+    
 </script>
