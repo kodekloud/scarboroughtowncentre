@@ -111,7 +111,7 @@
             $('#search').focus()
         })
         $('#close_search').click(function(){
-            $('#search').show('slow')
+            $('#search').hide('slow')
             $('#search').focus()
         })
     })
