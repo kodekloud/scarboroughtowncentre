@@ -386,7 +386,7 @@ body{
     display:block;
 }
 
-@media(max-width:700px){
+@media(max-width:800px){
     .hidden_phone:{
         display:none;
     }
