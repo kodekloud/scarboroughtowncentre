@@ -363,12 +363,13 @@ body{
 }
 
 .side_nav a:hover{
-    color:#F15F5C !important;
+    color:#F58F8D !important;
     font-weight:bold !important;
 }
 
 .active_side_nav{
     font-weight:bold !important;
+    color: #F15F5C;
 }
 
 
