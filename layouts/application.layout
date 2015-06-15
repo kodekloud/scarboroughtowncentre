@@ -115,6 +115,13 @@
             e.preventDefault()
         })
         
+        $('#open_search').click(function(){
+            $('#open_search').hide()
+            $('#open_search').css('display','inline-block');
+            $('#search').hide('slow')
+            e.preventDefault()
+        })
+        
     })
     
 </script>
