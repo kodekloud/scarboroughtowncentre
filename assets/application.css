@@ -362,6 +362,11 @@ body{
     padding: 0px 0px 10px 0px !important;
 }
 
+.side_nav a:hover{
+    color:#F15F5C;
+    font-weight:bold;
+}
+
 
 
 
