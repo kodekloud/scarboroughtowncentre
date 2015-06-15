@@ -45,6 +45,7 @@ body{
     height: 50px;
     width: 340px;
     padding: 10px;
+    disaply:none;
 }
 .no_margin{
     margin: 0 !important;
