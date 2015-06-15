@@ -105,6 +105,8 @@
 </html>
 <script>
     $(document).ready(function(){
-        $('#icon_search').show()
+        $('#icon_search').click(function(){
+            $('#search').show('slow')
+        })
     })
 </script>
