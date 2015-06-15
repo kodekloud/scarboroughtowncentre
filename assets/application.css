@@ -344,6 +344,9 @@ body{
 .left_page_div{
     padding-right:30px;    
 }
+.left_page_div img{
+    width:100%;
+}
 
 .page_div{
     padding-left:30px;
