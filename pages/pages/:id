@@ -10,6 +10,13 @@
         letter-spacing: 2;
         color: #F15F5C;
     }
+    a{
+        font-family:CircularStd-Book;
+        font-size: 12px;
+        border-bottom:1px solid;
+        letter-spacing: 2;
+        color: #000;
+        }
 </style>
 
 <div class="row">
