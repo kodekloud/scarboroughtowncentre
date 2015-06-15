@@ -3,7 +3,8 @@
 function init(e){
     $('#open_search').click(function(){
         $('#open_search').hide();
-        $('#close_search').css('display','inline-block');
+        $('#close_search').show("slide", { direction: "left" }, 1000); 
+
         $('#search').show('slow');
         $('#search').focus();
         e.preventDefault();
