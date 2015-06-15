@@ -1,3 +1,8 @@
+<div class="content_container">
+    <h4 class="page_heading2" id="page_title"></h4>
+    <div class="page_content" id="mm_page_content">
+    </div>
+</div>
 <script>
     $(document).ready(function() {
         init(e)
@@ -27,3 +32,4 @@
         loadMallData(renderAll); 
 		
     });
+</script>
