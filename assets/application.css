@@ -369,7 +369,7 @@ body{
 
 .active_side_nav{
     font-weight:bold !important;
-    color: #F15F5C;
+    color: #F15F5C !important;
 }
 
 
