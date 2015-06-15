@@ -11,8 +11,8 @@
     </li>
   </ul>
 </div>
-<div class="container-fluid">
-    <div class="section_feature">
+<div class="section_feature">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 feature_box">
                 <h4 class="feature_header">TRENDING</h4>
