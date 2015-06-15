@@ -114,6 +114,7 @@
         })
         $('#close_search').click(function(){
             $('#open_search').show()
+            $('#close_search').hide()
             $('#search').hide('slow')
             $('#search').focus()
         })
