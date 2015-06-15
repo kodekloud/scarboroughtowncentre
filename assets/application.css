@@ -383,7 +383,12 @@ body{
     font-family: ChronicleTextG1-Roman;   
 }
 
-
+@media(max-width:800px){
+    .col-md-6,.col-md-4{
+        padding-right:0px;
+        padding-left:0px;
+    }
+}
 
 
 
