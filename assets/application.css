@@ -390,6 +390,14 @@ body{
     .hidden_phone{
         display:none;
     }
+    .left_page_div{
+        padding-right:0px;    
+    }
+    
+    .page_div{
+        padding-left:0px;
+        border-left: 1px solid #ccc;
+    }
 }
 
 
