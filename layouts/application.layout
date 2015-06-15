@@ -107,10 +107,12 @@
 <script>
     $(document).ready(function(){
         $('#open_search').click(function(){
+            $('#open_search').hide()
             $('#search').show('slow')
             $('#search').focus()
         })
         $('#close_search').click(function(){
+            $('#open_search').show()
             $('#search').hide('slow')
             $('#search').focus()
         })
