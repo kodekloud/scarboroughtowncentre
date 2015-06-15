@@ -92,6 +92,27 @@
             </div>
             {{yield}}
         </div>
-        
+        <!--<footer class="footer">-->
+        <!--    <div class="content_container">-->
+        <!--        <div class="pull-right">-->
+        <!--            <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/footer_oxford_logo.png" class="logo_footer" alt="logo oxford">-->
+        <!--            <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/footer_stc_logo.png" class="logo_footer" alt="logo stc">-->
+        <!--        </div>-->
+        <!--        <div class="footer_nav">-->
+        <!--            <ul class="nav navbar-nav">-->
+        <!--                <li><a class="footer_menu_link" href="#">ABOUT US</a></li>-->
+        <!--                <li><a class="footer_menu_link" href="#">JOBS</a></li>-->
+        <!--                <li><a class="footer_menu_link" href="#">LEASING</a></li>-->
+        <!--                <li><a class="footer_menu_link" href="#">EVENTS</a></li>-->
+        <!--                <li><a class="footer_menu_link" href="#">CONTACT</a></li>-->
+        <!--                <li><a class="footer_menu_link" href="#">PRIVACY POLICY</a></li>-->
+        <!--                <li><a class="footer_menu_link separator" href="#">|</a></li>-->
+        <!--                <li><a class="footer_menu_link" href="#">MEDIA</a></li>-->
+        <!--            </ul>-->
+        <!--            <div class="clearfix"></div>-->
+        <!--            <p>Copyright © 2015 Scarborough Town Centre. All Rights Reserved.</p>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</footer>-->
     </body>
 </html>
