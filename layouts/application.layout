@@ -108,16 +108,10 @@
     $(document).ready(function(){
         $('#open_search').click(function(){
             $('#open_search').hide()
-            $('#close_search').show()
             $('#search').show('slow')
             $('#search').focus()
         })
-        $('#close_search').click(function(){
-            $('#open_search').show()
-            $('#close_search').hide()
-            $('#search').hide('slow')
-            $('#search').focus()
-        })
+        
     })
     
 </script>
