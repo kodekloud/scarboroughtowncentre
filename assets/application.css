@@ -341,6 +341,9 @@ body{
 .feature_box img{
     width:100%;
 }
+.left_page_div{
+    padding-right:30px;    
+}
 
 .page_div{
     padding-left:30px;
