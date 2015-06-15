@@ -109,6 +109,7 @@
     $(document).ready(function(e){
         $('#open_search').click(function(){
             $('#open_search').hide()
+            $('#close_search').show()
             $('#search').show('slow')
             $('#search').focus()
             e.preventDefault()
