@@ -8,7 +8,6 @@ function init(e){
         $('#search').focus()
         e.preventDefault()
     })
-
     $('#close_search').click(function(){
         $('#close_search').hide()
         $('#open_search').css('display','inline-block');
