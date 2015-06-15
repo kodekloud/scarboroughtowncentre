@@ -7,7 +7,6 @@
     $(document).ready(function(e) {
         init(e)
         function renderAll (){
-            init_hours();
             renderpageHTML();
             $(".modal-backdrop").remove();
         }
