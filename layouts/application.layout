@@ -105,6 +105,6 @@
 </html>
 <script>
     $(document).ready(function(){
-        
+        $('#icon_search').show()
     })
 </script>
