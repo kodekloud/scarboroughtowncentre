@@ -341,3 +341,8 @@ body{
 .feature_box img{
     width:100%;
 }
+
+.page_div{
+    padding-left:20px;
+    border-left: 1px solid #ccc;
+}
