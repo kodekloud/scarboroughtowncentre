@@ -66,7 +66,7 @@
                             <li class="social_nav"><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_twitter.png" class="social_img" alt="twitter"></a></li>
                             <li class="social_nav"><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_pin.png" class="social_img" alt="pinterest"></a></li>
                             <li><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_youtube.png" class="social_img" alt="youtube"></a></li>
-                            <li><a class="menu_link" href="#">Media</a></li>
+                            <li><a class="menu_link" href="#">MEDIA</a></li>
                             <li>
                                 <input type="text" class="search_textbox" id="search" placeholder="Type here for search" />
                                 <a class="menu_link menu_search" href="#" id="open_search"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/btn_search.png" class="icon_search" alt="search"></a>
