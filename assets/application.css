@@ -47,6 +47,10 @@ body{
     padding: 10px;
     display:none;
 }
+
+.close_search{
+    display:none;
+}
 .no_margin{
     margin: 0 !important;
 }
