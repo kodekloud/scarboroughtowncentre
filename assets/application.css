@@ -358,12 +358,12 @@ body{
 }
 
 .side_nav a{
-    color: #F15F5C;
+    color: #F58F8D;
     padding: 0px 0px 10px 0px !important;
 }
 
 .side_nav a:hover{
-    color:#F58F8D !important;
+    color:#F15F5C !important;
     font-weight:bold !important;
 }
 
