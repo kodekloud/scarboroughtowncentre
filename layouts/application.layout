@@ -105,11 +105,12 @@
     </body>
 </html>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function(e){
         $('#open_search').click(function(){
             // $('#open_search').hide()
             $('#search').show('slow')
             $('#search').focus()
+            e.preventDefault()
         })
         
     })
