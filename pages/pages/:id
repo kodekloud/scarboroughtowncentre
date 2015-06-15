@@ -6,7 +6,7 @@
     <div class="col-md-4">
         
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 page_div">
         <h4 class="page_heading2" id="page_title"></h4>
         <div class="page_content" id="mm_page_content">
         </div>
