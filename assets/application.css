@@ -372,6 +372,12 @@ body{
     color: #F15F5C !important;
 }
 
+.line{
+    width:100px;
+    height:2px;
+    background: #F15F5C;
+}
+
 
 
 
