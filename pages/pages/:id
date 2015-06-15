@@ -22,6 +22,13 @@
 <div class="row">
     <div class="col-md-4 left_page_div">
         <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/71ba44a20a9b040b3c83820e2b5a21b8/security_img.jpg" class="" alt="">
+        <ul>
+            <li><a href="#">GUEST SERVICES</a></li>
+            <li><a href="#">GIFT CARD</a></li>
+            <li><a href="#">SHARE YOUR THOUGHTS</a></li>
+            <li><a href="#">ACCESSIBILITY</a></li>
+            <li><a href="/pages/stc-security-safety-tips">SECURITY & SAFETY</a></li>
+        </ul>
     </div>
     <div class="col-md-8 page_div">
         <h1 id="page_title"></h1>
