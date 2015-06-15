@@ -4,6 +4,12 @@
         font-size:48px;
         letter-spacing: 1;
     }
+    h2{
+        font-size: 16px;
+        font-family: CircularStd-Bold;
+        letter-spacing: 2;
+        color: #F15F5C;
+    }
 </style>
 
 <div class="row">
