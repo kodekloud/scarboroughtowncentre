@@ -384,9 +384,8 @@ body{
 }
 
 @media(max-width:800px){
-    .col-md-6,.col-md-4{
-        padding-right:0px;
-        padding-left:0px;
+    .content_container{
+        padding:0px 10px;   
     }
 }
 
