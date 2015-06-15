@@ -12,67 +12,7 @@
   </ul>
 </div>
 
-<div class="section_feature">
-    <div class="row">
-        <div class="col-md-6 feature_box">
-            <h4 class="feature_header">TRENDING</h4>
-            <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/feature3.jpg" class="" alt="feat1">
-            <hr class="chevron_line" />
-            <div id="triangle-down"></div>
-            <div id="triangle-down-inside"></div>
-            <h3 class="feature_text">From the Blog:<br />Marciano: Destination Chic</h3>
-            <p class="text-center"><a class="feature_read_more" href="#">READ MORE</a></p>
-        </div>
-        
-        <div class="col-md-6 feature_box">
-            <h4 class="feature_header">FILM</h4>
-            <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/feature4.jpg" class="" alt="feat2">
-            <hr class="chevron_line" />
-            <div id="triangle-down"></div>
-            <div id="triangle-down-inside"></div>
-            <h3 class="feature_text">Experience the <br/>STC Spring Fashion Video</h3>
-            <p class="text-center"><a class="feature_read_more" href="#">WATCH NOW</a></p>
-        </div>
-    </div>
-</div>
 
-<div class="section_feature">
-    <div class="row">
-        <div class="col-md-4 feature_box no_margin">
-            <h4 class="feature_header">NEW STORES</h4>
-            <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/feature1.jpg" class="" alt="">
-            <hr class="chevron_line" />
-            <div id="triangle-down"></div>
-            <div id="triangle-down-inside"></div>
-            <h3 class="feature_text">Gary Weber &<br/>More Now Open</h3>
-            <p class="text-center"><a class="feature_read_more" href="#">READ MORE</a></p>
-        </div>
-        <div class="col-md-4 feature_box no_margin">
-            <h4 class="feature_header">GIFT CARDS</h4>
-            <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/feature2.jpg" class="" alt="">
-            <hr class="chevron_line" />
-            <div id="triangle-down"></div>
-            <div id="triangle-down-inside"></div>
-            <h3 class="feature_text">Give the Gift<br/>of Shopping</h3>
-            <p class="text-center"><a class="feature_read_more" href="#">PURCHASE</a></p>
-        </div>
-        <div class="col-md-4 feature_box no_margin">
-            <h4 class="feature_header">HOURS</h4>
-            <div class="feature_hours">
-                <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/71ba44a20a9b040b3c83820e2b5a21b8/hours.png" class="feature_hours_img" alt="hours">
-                <p>MON - FRI: 10:00 - 9:00</p>
-                <p>SAT: 9:30 - 9:00</p>
-                <p>SUN: 11:00 - 7:00</p>
-            </div>
-            <hr class="chevron_line" />
-            <div id="triangle-down"></div>
-            <div id="triangle-down-inside"></div>
-            <h3 class="feature_text">We're Open More Often Than You Think</h3>
-            <p class="text-center"><a class="feature_read_more" href="#">LEARN MORE</a></p>
-        </div>
-    </div>
-    
-</div>
 <script>
     $(document).ready(function(e){
         init(e);
