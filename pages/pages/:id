@@ -1,5 +1,39 @@
 <script>
-    $(document).ready(function(e){
-        init(e);
-    })
-</script>
+    $(document).ready(function() {
+        init(e)
+        function renderAll (){
+            init_hours();
+            var hours = getPropertyHours();
+            var latest_store_event = getStoreEventsList().reverse()[0];
+            var latest_mall_event = getPropertyEventsList().reverse()[0];
+            if (latest_mall_event){
+                renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event);
+            }
+            if (latest_store_event){
+                renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
+            } 
+            var propertyDetails = getPropertyDetails();
+            renderpageHTML();
+            $(".modal-backdrop").remove();
+        }
+        
+        function renderpageHTML(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix+"/pages/" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                //var pages_data = JSON.parse(data);
+                // console.log(data.body);
+                
+                $("#page_title").html(data.title)
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+        }
+        loadMallData(renderAll); 
+		
+    });
