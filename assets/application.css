@@ -160,6 +160,10 @@ body{
     font-size: 12px;
     color:#878A8A !important;
 }
+
+.footer_nav{
+    position: relative;
+}
 .footer_menu_link:hover, .footer_menu_link:focus{
     background: transparent !important;
     color:inherit !important;
@@ -318,7 +322,7 @@ body{
 
 .feature_hours{
     height:239px;
-    background: #3DC2D1;
+    background: #3fb4c8;
     text-align: center;
 }
 .feature_hours_img{
