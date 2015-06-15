@@ -382,9 +382,14 @@ body{
     font-size:24px;
     font-family: ChronicleTextG1-Roman;   
 }
+.hidden_phone{
+    display:block;
+}
 
 @media(max-width:800px){
-    
+    .hidden_phone:{
+        display:none;
+    }
 }
 
 
