@@ -395,7 +395,7 @@ body{
     }
     
     .page_div{
-        padding:15pxpx;
+        padding-left:15px;
         border-left: px;
     }
 }
