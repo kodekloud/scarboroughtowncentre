@@ -64,11 +64,11 @@
                             <li><a class="menu_link " href="#">SUBSCRIBE</a></li>
                         </ul>
                         <div class="row">
-                            <div class="col-xs-2"></div>
-                            <div class="col-xs-2"></div>
-                            <div class="col-xs-2"></div>
-                            <div class="col-xs-2"></div>
-                            <div class="col-xs-2"></div>
+                            <div class="col-xs-2"><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_instagram.png" class="social_img" alt="insta"></a></div>
+                            <div class="col-xs-2"><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_facebook.png" class="social_img" alt="fb"></a></div>
+                            <div class="col-xs-2"><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_twitter.png" class="social_img" alt="twitter"></a></div>
+                            <div class="col-xs-2"><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_pin.png" class="social_img" alt="pinterest"></a></div>
+                            <div class="col-xs-2"><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_youtube.png" class="social_img" alt="youtube"></a></div>
                             <div class="col-xs-2"></div>
                         </div>
                     </div>
