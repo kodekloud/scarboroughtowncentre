@@ -387,6 +387,9 @@ body{
 }
 
 @media only screen and (max-width: 800px) {  
+    .show_phone{
+        display:block;
+    }
     .feature_box{
         margin-bottom:65px !important;
     }
