@@ -401,7 +401,7 @@ body{
 @media only screen and (max-width: 800px) { 
     .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
         background: #fff;
-        
+        color: #F15F5C;
     }
     .flex-control-nav{
         bottom:-30px;
