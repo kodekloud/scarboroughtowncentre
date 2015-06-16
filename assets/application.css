@@ -399,7 +399,7 @@ body{
 }
 
 @media only screen and (max-width: 800px) { 
-    .mobile_inside_nav:focus, .mobile_inside_nav:hover{
+    .mobile_inside_nav{
         background: #fff;
         color: #F15F5C;
     }
