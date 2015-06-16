@@ -447,7 +447,7 @@ body{
     
     .page_div{
         padding-left:15px;
-        border-left: px;
+        border-left: 0px;
     }
     .mobile_footer_logo{
         width: 140px;
