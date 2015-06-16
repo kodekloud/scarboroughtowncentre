@@ -63,8 +63,13 @@
                             <li><a class="menu_link " href="#">ABOUT US</a></li>
                             <li><a class="menu_link " href="#">SUBSCRIBE</a></li>
                         </ul>
-                        <div>
-                            
+                        <div class="row">
+                            <div class="col-xs-2"></div>
+                            <div class="col-xs-2"></div>
+                            <div class="col-xs-2"></div>
+                            <div class="col-xs-2"></div>
+                            <div class="col-xs-2"></div>
+                            <div class="col-xs-2"></div>
                         </div>
                     </div>
                 </div>
