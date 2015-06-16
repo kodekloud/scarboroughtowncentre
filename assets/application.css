@@ -420,7 +420,7 @@ body{
         padding-left:10px !important;
     }
 }
-@media (max-width: 770px) {
+@media (max-width: 1000px) {
     .navbar-header {
         float: none;
     }
