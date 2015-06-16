@@ -38,21 +38,26 @@
             <div class="mobile_menu show_phone">
                 <div class="navbar">
                     <div class="collapse navbar-collapse">
-                    <ul class="stc_nav nav navbar-nav">
-                        <li><a class="menu_link menu_home" href="/">SCARBOROUGH TOWN CENTRE</a></li>
-                        <li><a class="menu_link" href="#">STORES</a></li>
-                        <li><a class="menu_link" href="#">TRENDING</a></li>
-                        <li class="dropdown menu_link">
-                            <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">GUEST SERVICES+</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">GUEST SERVICES</a></li>
-                                <li><a href="#">GIFT CARD</a></li>
-                                <li><a href="#">SHARE YOUR THOUGHTS</a></li>
-                                <li><a href="#">ACCESSIBILITY</a></li>
-                                <li><a href="/pages/stc-security-safety-tips">SECURITY & SAFETY</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                        <button class="btn btn-default dropdown-toggle" type="button" id="mobile_nav" data-toggle="dropdown" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+                        <ul class="stc_nav nav navbar-nav">
+                            <li><a class="menu_link menu_home" href="/">SCARBOROUGH TOWN CENTRE</a></li>
+                            <li><a class="menu_link" href="#">STORES</a></li>
+                            <li><a class="menu_link" href="#">TRENDING</a></li>
+                            <li class="dropdown menu_link">
+                                <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">GUEST SERVICES+</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">GUEST SERVICES</a></li>
+                                    <li><a href="#">GIFT CARD</a></li>
+                                    <li><a href="#">SHARE YOUR THOUGHTS</a></li>
+                                    <li><a href="#">ACCESSIBILITY</a></li>
+                                    <li><a href="/pages/stc-security-safety-tips">SECURITY & SAFETY</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="content_container hidden_phone">
