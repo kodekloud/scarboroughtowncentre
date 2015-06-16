@@ -47,7 +47,9 @@ body{
     padding: 10px;
     display:none;
 }
-
+.position_relative{
+    position:relative;
+}
 #close_search{
     display:none;
 }
