@@ -400,7 +400,7 @@ body{
 
 @media only screen and (max-width: 800px) { 
     .mobile_inside_nav{
-        color: #F15F5C;
+        color: #F15F5C !important;
     }
     .flex-control-nav{
         bottom:-30px;
