@@ -403,7 +403,7 @@ body{
         color: #F15F5C !important;
     }
     .mobile_inside_nav:hover{
-        background: #fff;
+          background-color: #fff !important;
     }
     
     .flex-control-nav{
