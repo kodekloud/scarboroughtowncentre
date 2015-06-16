@@ -467,6 +467,9 @@ body{
         border:0;
         width:100%;
     }
+    #mobile_search_box:focus{
+        outline:none;
+    }
 }
 
 
