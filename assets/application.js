@@ -14,5 +14,8 @@ function init(e){
         $('#search').hide('slow');
         e.preventDefault();
     });
+    $('#search_mobile').click(function(){
+        
+    });
 
 }
