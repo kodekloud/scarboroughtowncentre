@@ -420,6 +420,11 @@ body{
         padding-left:10px !important;
     }
 }
+@media (min-width: 768px) and (max-width: 1000px) {
+   .collapse {
+       display: none !important;
+   }
+}
 @media only screen and (max-width: 800px) { 
     .mobile_inside_nav{
         color: #F15F5C !important;
