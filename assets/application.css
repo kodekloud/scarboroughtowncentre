@@ -398,6 +398,7 @@ body{
 @media only screen and (max-width: 800px) {  
     .flex-control-nav{
         bottom:-30px;
+        right:5px;
     }
     .show_phone{
         display:block;
