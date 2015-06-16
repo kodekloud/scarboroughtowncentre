@@ -390,6 +390,9 @@ body{
     .feature_box{
         margin-bottom:65px !important;
     }
+    .flexslider{
+        margin-top:20px;
+    }
     .hidden_phone{
         display:none;
     }
