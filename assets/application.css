@@ -416,6 +416,9 @@ body{
     .navbar-nav>li>a{
         padding:15px 10px;
     }
+    .menu_home{
+        padding-left:10px;
+    }
 }
 @media only screen and (max-width: 800px) { 
     .mobile_inside_nav{
