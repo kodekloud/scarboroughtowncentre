@@ -86,6 +86,7 @@
                         SUBSCRIBE
                     </p>
                 </div>
+            </div>
             {{yield}}
         </div>
         <footer class="footer hidden_phone">
