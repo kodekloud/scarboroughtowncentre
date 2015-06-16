@@ -450,6 +450,10 @@ body{
         padding-left:15px;
         border-left: px;
     }
+    .mobile_footer_logo{
+        width:100px;
+        float:left;
+    }
 }
 
 
