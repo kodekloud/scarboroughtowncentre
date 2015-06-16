@@ -45,8 +45,6 @@
                         <li class="dropdown menu_link">
                             <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">GUEST SERVICES</a>
                             <ul class="dropdown-menu dd_guest">
-                                <div id="triangle-up"></div>
-                                <div id="triangle-up-inside"></div>
                                 <li><a href="#">GUEST SERVICES</a></li>
                                 <li><a href="#">GIFT CARD</a></li>
                                 <li><a href="#">SHARE YOUR THOUGHTS</a></li>
