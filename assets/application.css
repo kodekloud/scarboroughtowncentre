@@ -400,6 +400,9 @@ body{
         bottom:-30px;
         right:5px;
     }
+    .flex-control-paging li a{
+        rgba(0, 0, 0, 0.9)
+    }
     .show_phone{
         display:block;
     }
