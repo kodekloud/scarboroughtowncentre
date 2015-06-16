@@ -15,7 +15,7 @@ function init(e){
         e.preventDefault();
     });
     $('#search_mobile').click(function(){
-        
+        $('#search_mobile').show('slow');
     });
 
 }
