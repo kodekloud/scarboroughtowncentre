@@ -182,7 +182,11 @@ body{
     width:160px;
     margin-left: 30px;
 }
-
+.footer_menu_link{
+    font-size: 12px;
+    color:#878A8A !important;
+    padding: 5px 0 !important;
+}
 
 .footer_nav{
     position: relative;
@@ -452,11 +456,6 @@ body{
         margin-top: 30px;
         margin-right: 30px;
     }
-    .footer_menu_link{
-    font-size: 12px;
-    color:#878A8A !important;
-    padding: 5px 0 !important;
-}
 }
 
 
