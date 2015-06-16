@@ -398,7 +398,11 @@ body{
     display: none;
 }
 
-@media only screen and (max-width: 800px) {  
+@media only screen and (max-width: 800px) { 
+    .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+        background: #fff;
+        
+    }
     .flex-control-nav{
         bottom:-30px;
         right:5px;
