@@ -419,8 +419,7 @@ body{
     .menu_home{
         padding-left:10px !important;
     }
-}
-@media (max-width: 1000px) {
+
     .navbar-header {
         float: none;
     }
@@ -455,7 +454,8 @@ body{
     .collapse.in{
   		display:block !important;
 	}
-
+}
+@media only screen and (max-width: 800px) { 
     .mobile_inside_nav{
         color: #F15F5C !important;
     }
