@@ -142,7 +142,7 @@
                 </div>
             </div>
         </footer>
-        <footer class="mobile_footer">
+        <footer class="mobile_footer show_phone">
             <ul class="nav">
                 <li><a class="footer_menu_link" href="#">ABOUT US</a></li>
                 <li><a class="footer_menu_link" href="#">JOBS</a></li>
