@@ -402,6 +402,10 @@ body{
     .mobile_inside_nav{
         color: #F15F5C !important;
     }
+    .mobile_inside_nav:hover{
+        background: #fff;
+    }
+    
     .flex-control-nav{
         bottom:-30px;
         right:5px;
