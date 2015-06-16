@@ -16,6 +16,7 @@ function init(e){
     });
     $('#search_mobile').click(function(){
         $('#mobile_search').show('slow');
+        $('.social_icon_mobile').hide();
     });
 
 }
