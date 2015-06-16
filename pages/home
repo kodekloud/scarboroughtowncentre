@@ -21,7 +21,7 @@
                 <div id="triangle-down"></div>
                 <div id="triangle-down-inside"></div>
                 <h3 class="feature_text">From the Blog:<br />Marciano: Destination Chic</h3>
-                <p class="text-center"><a class="feature_read_more" href="#">READ MORE</a></p>
+                <p class="text-center"><a class="feature_read_more" href="#">MORE</a></p>
             </div>
             
             <div class="col-md-6 feature_box">
@@ -31,7 +31,7 @@
                 <div id="triangle-down"></div>
                 <div id="triangle-down-inside"></div>
                 <h3 class="feature_text">Experience the <br/>STC Spring Fashion Video</h3>
-                <p class="text-center"><a class="feature_read_more" href="#">WATCH NOW</a></p>
+                <p class="text-center"><a class="feature_read_more" href="#">MORE</a></p>
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@
                 <div id="triangle-down"></div>
                 <div id="triangle-down-inside"></div>
                 <h3 class="feature_text">Gary Weber &<br/>More Now Open</h3>
-                <p class="text-center"><a class="feature_read_more" href="#">READ MORE</a></p>
+                <p class="text-center"><a class="feature_read_more" href="#">MORE</a></p>
             </div>
             <div class="col-md-4 feature_box no_margin">
                 <h4 class="feature_header">GIFT CARDS</h4>
@@ -56,7 +56,7 @@
                 <div id="triangle-down"></div>
                 <div id="triangle-down-inside"></div>
                 <h3 class="feature_text">Give the Gift<br/>of Shopping</h3>
-                <p class="text-center"><a class="feature_read_more" href="#">PURCHASE</a></p>
+                <p class="text-center"><a class="feature_read_more" href="#">MORE</a></p>
             </div>
             <div class="col-md-4 feature_box no_margin">
                 <h4 class="feature_header">HOURS</h4>
@@ -70,7 +70,7 @@
                 <div id="triangle-down"></div>
                 <div id="triangle-down-inside"></div>
                 <h3 class="feature_text">We're Open More Often Than You Think</h3>
-                <p class="text-center"><a class="feature_read_more" href="#">LEARN MORE</a></p>
+                <p class="text-center"><a class="feature_read_more" href="#">MORE</a></p>
             </div>
         </div>
     </div>
