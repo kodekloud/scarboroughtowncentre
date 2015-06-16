@@ -37,6 +37,7 @@
         <header class="header">
             <div class="mobile_menu show_phone">
                 <div class="navbar">
+                    <div class="collapse navbar-collapse">
                 </div>
             </div>
             <div class="content_container hidden_phone">
