@@ -15,7 +15,7 @@ function init(e){
         e.preventDefault();
     });
     $('#search_mobile').click(function(){
-        $('#mobile_search').show('slow');
+        $('#mobile_search').show();
         $('.social_icon_mobile').hide();
     });
 
