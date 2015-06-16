@@ -417,7 +417,7 @@ body{
         padding:15px 10px;
     }
     .menu_home{
-        padding-left:10px;
+        padding-left:10px !important;
     }
 }
 @media only screen and (max-width: 800px) { 
