@@ -421,8 +421,8 @@ body{
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-    .hidden-phone{
-        diaply:none
+    .hidden_phone{
+        display:none
     }
     .show_phone{
         display:block;
