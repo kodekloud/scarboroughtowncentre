@@ -185,6 +185,7 @@ body{
 .footer_menu_link{
     font-size: 12px;
     color:#878A8A !important;
+      padding: 5px 0 !important;
 }
 
 .footer_nav{
