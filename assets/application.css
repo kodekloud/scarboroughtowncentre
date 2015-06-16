@@ -459,6 +459,10 @@ body{
     .footer_menu_link{
         padding: 5px 0 !important;
     }
+    .social_mobile{
+        border-top: 1px solid #ccc;
+        padding: 20px;
+    }
 }
 
 
