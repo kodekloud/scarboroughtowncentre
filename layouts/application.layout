@@ -142,5 +142,8 @@
                 </div>
             </div>
         </footer>
+        <footer class="mobile_footer">
+            
+        </footer>
     </body>
 </html>
