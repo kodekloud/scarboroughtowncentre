@@ -143,16 +143,7 @@
             </div>
         </footer>
         <footer class="mobile_footer">
-            <ul class="nav navbar-nav <ul class="nav navbar-nav">
-                        <li><a class="footer_menu_link" href="#">ABOUT US</a></li>
-                        <li><a class="footer_menu_link" href="#">JOBS</a></li>
-                        <li><a class="footer_menu_link" href="#">LEASING</a></li>
-                        <li><a class="footer_menu_link" href="#">EVENTS</a></li>
-                        <li><a class="footer_menu_link" href="#">CONTACT</a></li>
-                        <li><a class="footer_menu_link" href="#">PRIVACY POLICY</a></li>
-                        <li><a class="footer_menu_link separator" href="#">|</a></li>
-                        <li><a class="footer_menu_link" href="#">MEDIA</a></li>
-                    </ul>">
+            <ul class="nav navbar-nav footer_menu">
                         <li><a href="#">ABOUT US</a></li>
                         <li><a href="#">JOBS</a></li>
                         <li><a href="#">LEASING</a></li>
