@@ -442,7 +442,8 @@ body{
         display:none;
     }
     .left_page_div{
-        padding-right:15px;    
+        padding-right:15px; 
+        padding-top:20px;
     }
     
     .page_div{
