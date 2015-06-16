@@ -394,6 +394,9 @@ body{
 .hidden_phone{
     display:block;
 }
+.show_phone{
+    display: none;
+}
 
 @media only screen and (max-width: 800px) {  
     .flex-control-nav{
