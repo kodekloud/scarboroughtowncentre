@@ -144,15 +144,16 @@
         </footer>
         <footer class="mobile_footer">
             <ul class="nav">
-                        <li><a class="footer_menu_link" href="#">ABOUT US</a></li>
-                        <li><a class="footer_menu_link" href="#">JOBS</a></li>
-                        <li><a class="footer_menu_link" href="#">LEASING</a></li>
-                        <li><a class="footer_menu_link" href="#">EVENTS</a></li>
-                        <li><a class="footer_menu_link" href="#">CONTACT</a></li>
-                        <li><a class="footer_menu_link" href="#">PRIVACY POLICY</a></li>
-                        <li><a class="footer_menu_link separator" href="#">-</a></li>
-                        <li><a class="footer_menu_link" href="#">MEDIA</a></li>
-                    </ul>
+                <li><a class="footer_menu_link" href="#">ABOUT US</a></li>
+                <li><a class="footer_menu_link" href="#">JOBS</a></li>
+                <li><a class="footer_menu_link" href="#">LEASING</a></li>
+                <li><a class="footer_menu_link" href="#">EVENTS</a></li>
+                <li><a class="footer_menu_link" href="#">CONTACT</a></li>
+                <li><a class="footer_menu_link" href="#">PRIVACY POLICY</a></li>
+                <li><a class="footer_menu_link separator" href="#"></a></li>
+                <li><a class="footer_menu_link" href="#">MEDIA</a></li>
+            </ul>
+            <p>Copyright © 2015 Scarborough Town Centre. All Rights Reserved.</p>
         </footer>
     </body>
 </html>
