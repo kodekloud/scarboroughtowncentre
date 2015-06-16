@@ -51,7 +51,7 @@
                             <li><a class="menu_link" href="#">STORES</a></li>
                             <li><a class="menu_link" href="#">TRENDING</a></li>
                             <li class="dropdown menu_link">
-                                <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">GUEST SERVICES+</a>
+                                <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">GUEST SERVICES +</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="mobile_inside_nav" href="#">GUEST SERVICES</a></li>
                                     <li><a class="mobile_inside_nav" href="#">GIFT CARD</a></li>
