@@ -38,7 +38,7 @@
             <div class="mobile_menu show_phone">
                 <div class="navbar">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#stc_menu">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile_nav">
                             <i class="fa fa-bars"></i>
                         </button>
                     </div>
