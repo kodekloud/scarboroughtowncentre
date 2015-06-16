@@ -463,8 +463,9 @@ body{
         border-top: 1px solid #ccc;
         padding: 20px;
     }
-    .mobile_search_box{
+    #mobile_search_box{
         border:0;
+        width:100%;
     }
 }
 
