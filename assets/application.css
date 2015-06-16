@@ -404,6 +404,7 @@ body{
     }
     .mobile_inside_nav:hover{
           background-color: #fff !important;
+          font-weight: bold;
     }
     
     .flex-control-nav{
