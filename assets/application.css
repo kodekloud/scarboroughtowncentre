@@ -420,7 +420,9 @@ body{
         padding-left:10px !important;
     }
 }
-
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    
+}
 @media only screen and (max-width: 800px) { 
     .mobile_inside_nav{
         color: #F15F5C !important;
