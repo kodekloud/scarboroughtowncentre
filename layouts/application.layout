@@ -64,8 +64,8 @@
                             <li><a class="menu_link " href="#">SUBSCRIBE</a></li>
                         </ul>
                         <div class="row social_mobile">
-                            <div id="mobile_search" style="disaply:none">
-                                
+                            <div id="mobile_search" style="display:none" class="col-xs-10">
+                                <input type="text" placeholder="Type here for search" / >
                             </div>
                             <div class="social_icon_mobile col-xs-2"><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_instagram.png" class="social_img" alt="insta"></a></div>
                             <div class="social_icon_mobile col-xs-2"><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_facebook.png" class="social_img" alt="fb"></a></div>
