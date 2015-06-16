@@ -39,9 +39,8 @@
                 <div class="navbar">
                     <div class="collapse navbar-collapse">
                         <button class="btn btn-default dropdown-toggle" type="button" id="mobile_nav" data-toggle="dropdown" aria-expanded="true">
-    Dropdown
-    <span class="caret"></span>
-  </button>
+                            Dropdown
+                        </button>
                         <ul class="stc_nav nav navbar-nav">
                             <li><a class="menu_link menu_home" href="/">SCARBOROUGH TOWN CENTRE</a></li>
                             <li><a class="menu_link" href="#">STORES</a></li>
