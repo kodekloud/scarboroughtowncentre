@@ -35,7 +35,7 @@
     </head>
     <body>
         <header class="header">
-            <div class="content_container">
+            <div class="content_container hidden_phone">
                 <div class="navbar stc_navbar">
                     <div class="collapse navbar-collapse" id="stc_menu">
                         <ul class="stc_nav nav navbar-nav">
