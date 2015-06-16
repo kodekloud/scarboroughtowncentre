@@ -35,7 +35,7 @@
     </head>
     <body>
         <header class="header">
-            <div class="mobile_menu">
+            <div class="mobile_menu show-phone">
                 <div class="navbar">
                 </div>
             </div>
