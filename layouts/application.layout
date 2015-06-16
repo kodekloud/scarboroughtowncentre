@@ -150,7 +150,7 @@
                 <li><a class="footer_menu_link" href="#">EVENTS</a></li>
                 <li><a class="footer_menu_link" href="#">CONTACT</a></li>
                 <li><a class="footer_menu_link" href="#">PRIVACY POLICY</a></li>
-                <li><a class="footer_menu_link separator" href="#"><i class="fa fa-bar"></i></a></li>
+                <li><a class="footer_menu_link separator" href="#">-----</a></li>
                 <li><a class="footer_menu_link" href="#">MEDIA</a></li>
             </ul>
             <div class="clearfix"></div>
