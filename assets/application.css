@@ -455,6 +455,9 @@ body{
         margin-top: 30px;
         margin-right: 30px;
     }
+    .footer_menu_link{
+        padding: 5px 0 !important;
+    }
 }
 
 
