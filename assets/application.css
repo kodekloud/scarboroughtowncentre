@@ -412,7 +412,8 @@ body{
 .show_phone{
     display: none;
 }
-
+@media only screen and (max-width: 1030px) { 
+.navbar-nav>li>a
 @media only screen and (max-width: 800px) { 
     .mobile_inside_nav{
         color: #F15F5C !important;
