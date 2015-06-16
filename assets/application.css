@@ -451,8 +451,10 @@ body{
         border-left: px;
     }
     .mobile_footer_logo{
-        width:100px;
-        float:left;
+        width: 140px;
+        float: left;
+        margin-top: 40px;
+        margin-right: 20px;
     }
 }
 
