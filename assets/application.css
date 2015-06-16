@@ -387,6 +387,9 @@ body{
 }
 
 @media only screen and (max-width: 800px) {  
+    .feature_box{
+        margin-bottom:65px;
+    }
     .hidden_phone{
         display:none;
     }
