@@ -173,6 +173,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .dd_guest a{
     color: #F15F5C !important;;
 }
+.site_icons{
+    opcity:.3;
+}
+
+.site_icons:hover{
+    opcity:1;
+}
+
 
 .dd_guest a:hover,.dd_guest a:focus{
     background:transparent !important;
