@@ -20,8 +20,10 @@
     }
     a{
         font-family:CircularStd-Book;
+        letter-spacing: 2;
         color: #000;
         text-decoration: none;
+        padding-bottom:2px;
         }
 </style>
 <div class="container-fluid">
