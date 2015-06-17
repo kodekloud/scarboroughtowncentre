@@ -40,7 +40,7 @@ body{
     font-family: CircularStd-Book;
     padding-top:51px;
 }
-ul.nav li.dropdown:hover > ul.dropdown-menu {
+ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     display: block;    
 }
 .search_textbox{
