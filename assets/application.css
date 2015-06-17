@@ -179,6 +179,11 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
 }
 
 .site_icons:hover{
+    opacity:1;
+    color: #606264;
+}
+
+.site_icons:hover{
     opacity:0.3;
 }
 
