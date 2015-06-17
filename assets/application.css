@@ -422,7 +422,11 @@ body{
 }
 
 .row div:first-child{
-    border:1px solid #000
+    padding-left:0px;
+}
+
+.row div:last-child{
+    padding-right:0px;
 }
 
 @media only screen and (max-width: 1030px) { 
