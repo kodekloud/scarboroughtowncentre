@@ -555,6 +555,9 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     #mobile_search_box:focus{
         outline:none;
     }
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: 100%;
+}
 }
 
 
