@@ -452,8 +452,8 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
 }
 @media(max-width: 1200px){
     .menu_link{
-        padding-left: 15px !important;
-        padding-right: 15px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 }
 @media only screen and (max-width: 1030px) { 
