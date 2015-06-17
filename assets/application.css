@@ -433,7 +433,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     margin: 10px 0px 30px 0px;
 }
 .side_p{
-    font-size:24px;
+    font-size:18px;
+    line-height:1.5;
     font-family: ChronicleTextG1-Roman;   
 }
 .hidden_phone{
