@@ -40,6 +40,9 @@ body{
     font-family: CircularStd-Book;
     padding-top:51px;
 }
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
 .search_textbox{
     position: absolute;
     right: 35px;
