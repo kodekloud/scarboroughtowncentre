@@ -148,6 +148,8 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     color:#000;
     letter-spacing: 2;
     font-size:14px;
+      padding-left: 19px !important;
+  padding-right: 19px !important;
 }
 .menu_home{
     padding-left:0px !important;
