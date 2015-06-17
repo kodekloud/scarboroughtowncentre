@@ -367,7 +367,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     border-bottom:1px solid;
     letter-spacing: 2;
     color: #000;
-      padding-bottom: 2px;
+    padding-bottom: 2px;
 }
 .feature_read_more:hover,.feature_read_more:focus{
     text-decoration: none;
