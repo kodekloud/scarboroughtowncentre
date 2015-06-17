@@ -47,6 +47,9 @@ body{
     padding: 10px;
     display:none;
 }
+.search_textbox:focus{
+    outline:none;
+}
 .position_relative{
     position:relative;
 }
