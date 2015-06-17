@@ -224,6 +224,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     content: '\25B6';
     font-size: 28px;
 }
+.flex-direction-nav a.flex-next:before {
+  content: '\25B6';
+  font-size: 28px;
+}
+
 /*Home Page*/
 .stc_logo{
     height: 90px;
