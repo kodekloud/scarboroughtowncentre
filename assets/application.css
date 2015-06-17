@@ -38,6 +38,7 @@
 
 body{
     font-family: CircularStd-Book;
+    padding-top:51px;
 }
 .search_textbox{
     position: absolute;
