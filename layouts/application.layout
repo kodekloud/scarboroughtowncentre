@@ -117,9 +117,11 @@
                 <div class="text-center">
                     <a href="/"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png" class="stc_logo" alt="logo"></a>
                     <p class="sub_menu">
-                        <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/icon_hour.png" class="icon_top  site_icons" alt="icob hours">
-                        <span class="open_now">OPEN NOW</span> 
-                        UNTIL 9PM
+                        <a href="#" class="site_icons">
+                            <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/icon_hour.png" class="icon_top" alt="icob hours">
+                            <span class="open_now">OPEN NOW</span> 
+                            UNTIL 9PM
+                        </a>
                         <a href="#" class="site_icons">
                             <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/icon_call.png" class="icon_top" alt="icon call">
                             Call US 
