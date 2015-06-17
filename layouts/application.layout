@@ -124,8 +124,10 @@
                         Call US 
                         <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/icon_direction.png" class="icon_top site_icons" alt="icon direction">
                         DIRECTIONS
-                        <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/icon_subscribe.png" class="icon_top site_icons" alt="icon subscribe">
-                        SUBSCRIBE
+                        <a href="#" class="site_icons">
+                            <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/icon_subscribe.png" class="icon_top" alt="icon subscribe">
+                            SUBSCRIBE
+                        </a>
                     </p>
                 </div>
             </div>
