@@ -143,6 +143,7 @@ body{
 .menu_home{
     padding-left:0px !important;
     color: #F15F5C;
+      font-size: 14px;
 }
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
