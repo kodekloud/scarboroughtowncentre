@@ -421,7 +421,10 @@ body{
     display: none;
 }
 
-
+.container-fluid{
+    margin-left:-15px;
+    margin-right:-15px;
+}
 
 @media only screen and (max-width: 1030px) { 
     .navbar-nav>li>a{
