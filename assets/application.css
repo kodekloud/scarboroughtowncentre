@@ -216,6 +216,7 @@ body{
 }
 .flexslider{
     margin-bottom: 50px;
+    border:0;
 }
 .flex-control-nav{
     text-align:right;
