@@ -421,13 +421,7 @@ body{
     display: none;
 }
 
-.row div:first-child{
-    padding-left:0px;
-}
 
-.row div:last-child{
-    padding-right:0px;
-}
 
 @media only screen and (max-width: 1030px) { 
     .navbar-nav>li>a{
