@@ -139,6 +139,7 @@ body{
 .menu_link{
     color:#000;
     letter-spacing: 2;
+    font-size:14px;
 }
 .menu_home{
     padding-left:0px !important;
