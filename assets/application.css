@@ -502,6 +502,9 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     }
 }
 @media only screen and (max-width: 800px) { 
+    .menu_link{
+        padding: 15px 10px;
+    }
     .container-fluid{
         margin-left:auto;
         margin-right:auto;
