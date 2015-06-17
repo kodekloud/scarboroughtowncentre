@@ -221,7 +221,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .flex-direction-nav a:before{
-    content: '\25B6';
+    content: '\25C0';
     font-size: 28px;
 }
 .flex-direction-nav a.flex-next:before {
