@@ -176,7 +176,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .dd_guest a:hover,.dd_guest a:focus{
     background:transparent !important;
-    font-weight:bold !important;
 }
 
 .menu_home:hover, .menu_home:focus{
