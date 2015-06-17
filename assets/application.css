@@ -420,6 +420,11 @@ body{
 .show_phone{
     display: none;
 }
+
+.row div:first-child{
+    border-1px solid #000
+}
+
 @media only screen and (max-width: 1030px) { 
     .navbar-nav>li>a{
         padding:15px 10px;
