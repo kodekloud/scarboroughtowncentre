@@ -198,7 +198,8 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
 .logo_footer{
     width: 112px;
     margin-left: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
+    margin-top: 20px;
 }
 .footer_menu_link{
     font-size: 12px;
