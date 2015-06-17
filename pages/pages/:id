@@ -2,6 +2,7 @@
     .page_div{
         font-size:18px;
         font-family: ChronicleTextG1-Roman;  
+        line-height:1.5;
     }
     h1{
         font-family:ChronicleDisplay-Light;
