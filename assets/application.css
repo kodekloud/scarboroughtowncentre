@@ -45,9 +45,9 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
 }
 .search_textbox{
     position: absolute;
-    right: 35px;
+    right: 51px;
     height: 50px;
-    width: 350px;
+    width: 370px;
     padding: 10px;
     display:none;
 }
