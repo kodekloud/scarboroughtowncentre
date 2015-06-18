@@ -186,7 +186,7 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     text-decoration:none;
 }
 
-.site_open_now .opacity_hover:hover{
+.site_open_now:hover .opacity_hover{
     opacity:0.3;
 }
 
