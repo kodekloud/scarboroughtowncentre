@@ -584,12 +584,6 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
         margin-top: 30px;
         margin-bottom: 25px;
     }
-    .mobile_footer_logo:first-child{
-        margin-right:15px;
-    }
-    .mobile_footer_logo:last-child{
-        margin-left:15px;
-    }
     .footer_menu_link{
         padding: 5px 0 !important;
     }
