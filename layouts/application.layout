@@ -163,7 +163,7 @@
         </footer>
         <footer class="mobile_footer show_phone">
             <ul class="nav">
-                <li><a class="footer_menu_link" href="#">ABOUT US</a></li>
+                <li><a class="footer_menu_link" href="#" style="color:#606264 !important">ABOUT US</a></li>
                 <li><a class="footer_menu_link" href="#">JOBS</a></li>
                 <li><a class="footer_menu_link" href="#">LEASING</a></li>
                 <li><a class="footer_menu_link" href="#">EVENTS</a></li>
