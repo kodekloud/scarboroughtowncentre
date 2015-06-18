@@ -103,10 +103,7 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     color:#878A8A;
 }
 
-.menu_dropdown_parent{
-    padding-left:0 !important;
-    padding-right:0 !important
-}
+
 .footer p{
     font-size:12px;
     color:#878A8A;
