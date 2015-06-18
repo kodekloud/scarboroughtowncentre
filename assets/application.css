@@ -188,6 +188,8 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
 
 .site_open_now:hover .opacity_hover{
     opacity:0.3;
+    color: #606264;
+    text-decoration:none;
 }
 
 
