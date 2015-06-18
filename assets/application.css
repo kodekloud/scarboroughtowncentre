@@ -527,6 +527,10 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     .collapsing {
         overflow: hidden!important;
     }
+    
+    .navbar-fixed-top{
+        position:relative;
+    }
 }
 
 @media only screen and (max-width: 800px) { 
