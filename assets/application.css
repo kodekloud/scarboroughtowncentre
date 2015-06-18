@@ -486,6 +486,10 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     }
 }
 @media only screen and (max-width: 1030px) { 
+    .menu_dropdown_parent{
+    padding-left:0 !important;
+    padding-right:0 !important
+}
     .navbar-nav>li>a{
         padding:15px 10px;
     }
