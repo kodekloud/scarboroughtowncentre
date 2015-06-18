@@ -45,11 +45,12 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
 }
 .search_textbox{
     position: absolute;
-    right: 51px;
+    right: 52px;
     height: 50px;
-    width: 370px;
+    width: 368px;
     padding: 10px;
-    display:none;
+    display: none;
+    border: 0px solid #ccc;
 }
 .search_textbox:focus{
     outline:none;
