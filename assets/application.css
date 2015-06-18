@@ -191,7 +191,10 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     
 }
 
-
+.opacity_hover{
+   color: #606264;
+    text-decoration:none; 
+}
 
 .dd_guest a:hover,.dd_guest a:focus{
     background:transparent !important;
