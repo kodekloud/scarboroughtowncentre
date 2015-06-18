@@ -95,6 +95,7 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     background: #f2f2f2;
     margin-top: 40px;
     padding: 20px 10px;
+    text-align:center;
 }
 .mobile_footer p{
     font-size:12px;
