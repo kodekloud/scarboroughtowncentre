@@ -11,7 +11,7 @@ function init(e){
     $('#close_search').click(function(){
         $('#close_search').hide();
         $('#open_search').css('display','inline-block');
-        $('#search').hide('slow');
+        $('#search').hide();
         e.preventDefault();
     });
     $('#search_mobile').click(function(){
