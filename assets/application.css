@@ -285,8 +285,12 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     color:#606264;
     letter-spacing: 2;
     margin-bottom: 30px;
-    font-size: 14px !important;
+    font-size: 14px;
     text-transform: uppercase;
+}
+
+.sub_menu a{
+    font-size: 14px;
 }
 
 .open_now{
