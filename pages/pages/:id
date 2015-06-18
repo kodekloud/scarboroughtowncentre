@@ -76,6 +76,7 @@
                 // console.log(data.body);
                 
                 $("#page_title").html(data.title)
+                $("#mobile_page_title").html(data.title)
                 $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
