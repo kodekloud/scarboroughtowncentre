@@ -478,14 +478,15 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
 }
 
 @media(min-width:1140px){
-    .menu_dropdown_parent{
-    padding-left:0 !important;
-    padding-right:0 !important
-}
+
     .menu_link {
         padding-left: 15.5px !important;
         padding-right: 15.5px !important;
     }
+        .menu_dropdown_parent{
+    padding-left:0 !important;
+    padding-right:0 !important
+}
 }
 @media only screen and (max-width: 1030px) { 
     .menu_dropdown_parent{
