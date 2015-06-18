@@ -527,7 +527,9 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     .collapsing {
         overflow: hidden!important;
     }
-    
+    body{
+        padding-top:0;
+    }
     .navbar-fixed-top{
         position:relative;
     }
