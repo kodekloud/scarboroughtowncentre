@@ -85,7 +85,7 @@
                             <li><a class="menu_link" href="#">STORES</a></li>
                             <li><a class="menu_link" href="#">TRENDING</a></li>
                             <li class="desktop_menu dropdown menu_link">
-                                <a style="padding-left:0 !important;padding-right:0 !important" href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">GUEST SERVICES</a>
+                                <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">GUEST SERVICES</a>
                                 <ul class="dropdown-menu dd_guest">
                                     <div id="triangle-up"></div>
                                     <div id="triangle-up-inside"></div>
