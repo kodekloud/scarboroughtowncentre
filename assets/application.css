@@ -537,6 +537,7 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     }
     .mobile_inside_nav{
         color: #F15F5C !important;
+          text-align: center;
     }
     .mobile_inside_nav:hover{
           background-color: #fff !important;
