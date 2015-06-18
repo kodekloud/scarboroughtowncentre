@@ -4,7 +4,7 @@ function init(e){
     $('#open_search').click(function(){
         $('#open_search').hide();
         $('#close_search').css('display','inline-block');
-        $('#search').show('slow');
+        $('#search').show();
         $('#search').focus();
         e.preventDefault();
     });
