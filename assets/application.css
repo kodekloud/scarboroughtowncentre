@@ -534,11 +534,7 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     .navbar-fixed-top{
         position:relative;
     }
-}
-
-@media only screen and (max-width: 800px) { 
-    
-    .container-fluid{
+  .container-fluid{
         margin-left:auto;
         margin-right:auto;
     }
