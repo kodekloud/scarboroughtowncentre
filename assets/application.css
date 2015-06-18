@@ -553,7 +553,7 @@ ul.nav li.desktop_menu:hover > ul.dropdown-menu {
     
     .flex-control-nav{
         bottom:-30px;
-        right:5px;
+        right:10px;
     }
     .flex-control-paging li a{
         background: rgba(0, 0, 0, 0.3)
