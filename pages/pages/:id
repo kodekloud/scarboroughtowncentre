@@ -28,6 +28,9 @@
         font-size: 12px;
         }
         
+    .left_page_div h2{
+        font-size:12px;
+    }
 </style>
 <div class="container-fluid" style="margin-top:60px">
     <div class="row">
