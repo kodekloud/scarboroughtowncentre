@@ -53,8 +53,8 @@
         </div>
         <div class="col-md-8 page_div">
             <h1 id="page_title" class="hidden_phone" style="margin-top:0"></h1>
-            <h1 id="mobile_page_title" class="show_phone"></h1>
             <br />
+            <h1 id="mobile_page_title" class="show_phone"></h1>
             <div class="page_content" id="mm_page_content">
             </div>
         </div>
