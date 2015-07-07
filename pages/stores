@@ -7,7 +7,10 @@
             <h1>Stores</h1>
             <div class="line"></div>
             <p class="mini_nav"><a class="active" href="#">STORE LIST</a><a href="#">CENTRE MAP</a><a href="#">NEW STORES</a><a href="#">PROMOTIONS</a></p>
-            <p class="mini_nav_2"><a href="#">ALPHABETICAL</a><a href="#" class="active">CATEGORY</a></p>
+            <p class="mini_nav_2"><a href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">ALPHABETICAL</a><a href="#categories" class="active">CATEGORY</a></p>
+            <div class="store_list_tab">
+                
+            </div>
         </div>
     </div>
 </div>
