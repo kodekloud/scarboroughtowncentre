@@ -538,7 +538,10 @@ h1 {
     top:-51px;
     visibility:hidden;
 }
-
+.store_list_tab_container{
+    height:600px;
+    overflow-x: scroll;
+}
 .store_initial{
     font-size:18px;
     font-weight:bold;
