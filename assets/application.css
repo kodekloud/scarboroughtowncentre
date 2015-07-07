@@ -527,6 +527,7 @@ h1 {
     letter-spacing:5;
     width: 3.35%;
     display: inline-block;
+    text-decoration:none;
 }
 
 @media(min-width:1140px){
