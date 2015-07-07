@@ -129,5 +129,5 @@
             $(container).show();
             $(container).html(item_rendered.join(''));
         };  
-    }
+    })
 </script>
