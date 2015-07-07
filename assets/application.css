@@ -532,8 +532,8 @@ h1 {
     margin-bottom:20px;
 }
 
-.store_details{ position:relative; }
-.store_details span{ position:absolute; top:-51px;}
+.store_initial{ position:relative; }
+.store_initial span{ position:absolute; top:-51px;}
 
 .alpha_list a:hover, .alpha_list a.active, .alpha_list a.focus{
     text-decoration:none;
