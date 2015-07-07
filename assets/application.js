@@ -26,7 +26,6 @@ function init(e){
         return false;
     });
     // $('.scrollTop a').scrollTop();
-
 }
 
 function renderStoreList(container, template, collection, type,starter, breaker){
