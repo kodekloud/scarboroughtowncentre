@@ -505,7 +505,7 @@ h1 {
     font-family: CircularStd-Book;
     font-size: 12px;
     letter-spacing: 2;
-    color: #F15F5C;
+    color: #F58F8D;
     padding-bottom: 2px;
     margin-right: 15px;
 }
@@ -517,7 +517,7 @@ h1 {
 
 .mini_nav_2 a:hover, .mini_nav_2 a.active{
     text-decoration:none;
-    color: #F58F8D;
+    color: #F15F5C;
 }
 
 @media(min-width:1140px){
