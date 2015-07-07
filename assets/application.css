@@ -515,7 +515,7 @@ h1 {
     opacity:1;
 }
 
-.mini_nav_2 a:hover, .mini_nav_2 a.active{
+.mini_nav_2 a:hover, .mini_nav_2 a.active, .mini_nav_2 a.focus{
     text-decoration:none;
     color: #F15F5C;
 }
