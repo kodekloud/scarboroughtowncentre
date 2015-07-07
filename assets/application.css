@@ -503,6 +503,7 @@ h1 {
 
 .mini_nav a:hover{
     text-decoration:none;
+    opacity:1;
 }
 
 @media(min-width:1140px){
