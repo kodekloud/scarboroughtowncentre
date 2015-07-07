@@ -67,8 +67,12 @@
     </div>
 </div>
 <script>
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        $('.mini_nav_2 a').removeClass('active')
-        $(this).addClass('active')
-    })
+    $(document).ready(function() {
+        $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+            $('.mini_nav_2 a').removeClass('active')
+            $(this).addClass('active')
+        })
+        renderPageData('#store_list_container','#store_list_template', stores, "stores", "A", "M");
+        renderPageData('#store_list_container_right','#store_list_template_right', stores, "stores", "M", "Z");
+    }
 </script>
