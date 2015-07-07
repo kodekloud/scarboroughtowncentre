@@ -50,7 +50,7 @@
                                 </script>
                             </div>
                         </div>
-                        <div class="col-md-6" style=" padding-left: 0; ">
+                        <div class="col-md-6" style=" padding-right: 0; ">
                             <div class="store_list" id="store_list_container_right">
                                 <script id="store_list_template_right" type="x-tmpl-mustache/text">
                                     <div class="store_list_content">
