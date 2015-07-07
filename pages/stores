@@ -39,8 +39,12 @@
                         <a href="#z">Z</a>
                     </p>
                     <div class="row">
-                        <div class="col-md-6"></div>
-                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            
+                        </div>
+                        <div class="col-md-6">
+                            
+                        </div>
                     </div>
                 </div>
                 <div role="tabpanel" class="tab-pane" id="categories">.safsd..</div>
