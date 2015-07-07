@@ -8,7 +8,7 @@
             <div class="line"></div>
             <p class="mini_nav"><a class="active" href="#">STORE LIST</a><a href="#">CENTRE MAP</a><a href="#">NEW STORES</a><a href="#">PROMOTIONS</a></p>
             <p class="mini_nav_2"><a class="active" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">ALPHABETICAL</a><a href="#categories" aria-controls="categories" role="tab" data-toggle="tab">CATEGORY</a></p>
-             <div class="tab-content store_list_tab_container">
+             <div class="tab-content ">
                 <div role="tabpanel" class="tab-pane active" id="alphabetical">
                     <p class="alpha_list">
                         <a href="#A">A</a>
@@ -38,7 +38,7 @@
                         <a href="#Y">Y</a>
                         <a href="#Z">Z</a>
                     </p>
-                    <div class="row" style="margin-right:0">
+                    <div class="row store_list_tab_container" style="margin-right:0">
                         <div class="col-md-6">
                             <div class="store_list" id="store_list_container">
                                 <script id="store_list_template" type="x-tmpl-mustache/text">
