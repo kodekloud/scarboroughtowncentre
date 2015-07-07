@@ -17,6 +17,6 @@
 </div>
 <script>
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        $(this).hide()
+        $(this)
     })
 </script>
