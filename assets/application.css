@@ -531,6 +531,13 @@ h1 {
     font-size:18px;
     margin-bottom:20px;
 }
+.store_list_content{
+    position:relative;
+}
+.store_list_content span{
+    position:absolute;
+    top:-51px;
+}
 
 
 
