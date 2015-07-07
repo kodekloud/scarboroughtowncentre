@@ -19,7 +19,7 @@ function init(e){
         $('.social_icon_mobile').hide();
     });
     
-    $('.nav a').click(function(){  
+    $('.alpha_list a').click(function(){  
         $('html, body').stop().animate({
             scrollTop: $( $(this).attr('href') ).offset().top - 160
         }, 400);
