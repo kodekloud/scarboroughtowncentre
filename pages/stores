@@ -17,6 +17,7 @@
 </div>
 <script>
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        $(this)
+        $('#mini_nav_2 a').removeClass('active')
+        $(this).addClass('active')
     })
 </script>
