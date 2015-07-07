@@ -72,9 +72,10 @@
             $('.mini_nav_2 a').removeClass('active')
             $(this).addClass('active')
         })
-        renderPageData('#store_list_container','#store_list_template', stores, "stores", "A", "M");
-        renderPageData('#store_list_container_right','#store_list_template_right', stores, "stores", "M", "Z");
-        
+        function renderAll (){
+            renderPageData('#store_list_container','#store_list_template', stores, "stores", "A", "M");
+            renderPageData('#store_list_container_right','#store_list_template_right', stores, "stores", "M", "Z");
+        }
         
         function renderPageData(container, template, collection, type,starter, breaker){
             var item_list = [];
