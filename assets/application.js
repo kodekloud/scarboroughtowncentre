@@ -21,7 +21,7 @@ function init(e){
     
     $('.alpha_list a').click(function(){  
         $('html, body').stop().animate({
-            scrollTop: $( $(this).attr('href') ).offset().top
+            scrollTop: $( $(this).attr('href') ).offset().top - 51
         }, 400);
         return false;
     });
