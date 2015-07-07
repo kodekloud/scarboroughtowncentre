@@ -559,6 +559,10 @@ h1 {
     font-size:16px;
 }
 
+.store_name a:hover{
+    text-decoration:none;
+}
+
 .alpha_list a:hover, .alpha_list a.active, .alpha_list a.focus{
     text-decoration:none;
 }
