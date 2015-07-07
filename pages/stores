@@ -76,8 +76,8 @@
         })
         function renderAll (){
             var stores = getStoresList();
-            renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
-            renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores", "M", "Z");
+            renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "N");
+            renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores", "N", "Z");
         }
         loadMallData(renderAll); 
     })
