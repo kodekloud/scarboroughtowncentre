@@ -488,6 +488,7 @@ h1 {
 
 .mini_nav{
     border-bottom: 1px solid;
+    padding-bottom: 20px;
 }
 
 .mini_nav a{
