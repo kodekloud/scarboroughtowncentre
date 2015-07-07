@@ -486,7 +486,9 @@ h1 {
     width:90%;
 }
 
-
+.mini_nav{
+    border-bottom: 1px solid;
+}
 
 
 
