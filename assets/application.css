@@ -550,6 +550,7 @@ h1 {
 }
 .store_name{
     border-bottom:2px solid #BFBEBD;
+    padding-bottom:10px;
 }
 
 .alpha_list a:hover, .alpha_list a.active, .alpha_list a.focus{
