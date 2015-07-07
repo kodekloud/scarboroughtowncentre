@@ -69,9 +69,6 @@
                             <div class="store_list_content {{block}}">
                                 <p class="store_initial" style="{{show}}">{{header}}</p>
                                 <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
-                                <img class="promo_img" style="{{promotion_exist}}" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/366c709f0e864b0b8dd5643cf226a4cc/store_icon_promo.jpg" alt="sale">
-                                <p class="now_hiring" style="{{job_exist}}">NOW HIRING</p>
-                                <div class="clearfix"></div>
                             </div>
                         </script>
                     </div>
