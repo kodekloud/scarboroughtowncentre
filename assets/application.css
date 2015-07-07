@@ -521,6 +521,11 @@ h1 {
     color: #F15F5C;
 }
 
+.alpha_list a{
+    color:#000;
+    font-weight:bold;
+}
+
 @media(min-width:1140px){
 
     .menu_link {
