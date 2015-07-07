@@ -525,6 +525,8 @@ h1 {
     color:#000;
     font-weight:bold;
     letter-spacing:5;
+    width: 3.35%;
+    display: inline-block;
 }
 
 @media(min-width:1140px){
