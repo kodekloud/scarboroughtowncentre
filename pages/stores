@@ -38,7 +38,7 @@
                         <a href="#Y">Y</a>
                         <a href="#Z">Z</a>
                     </p>
-                    <div class="row" style="margin-right:0>
+                    <div class="row" style="margin-right:0">
                         <div class="col-md-6">
                             <div class="store_list" id="store_list_container">
                                 <script id="store_list_template" type="x-tmpl-mustache/text">
