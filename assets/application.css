@@ -546,6 +546,7 @@ h1 {
     font-size:18px;
     font-weight:bold;
     border-bottom:2px solid #BFBEBD;
+    padding-bottom: 10px;
 }
 .store_name{
     border-bottom:2px solid #BFBEBD;
