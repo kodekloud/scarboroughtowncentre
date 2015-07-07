@@ -500,6 +500,9 @@ h1 {
     margin-right: 15px;
 }
 
+.mini_nav a:hover{
+    text-decoration:none;
+}
 
 @media(min-width:1140px){
 
