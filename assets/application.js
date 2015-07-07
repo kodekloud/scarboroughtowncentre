@@ -71,4 +71,42 @@ function renderStoreList(container, template, collection, type,starter, breaker)
     
     $(container).show();
     $(container).html(item_rendered.join(''));
-};
+}
+
+function renderStoreListCatetories(container, template, category_list,stores){
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future use
+    var initial_id = 0;
+    var category_index = 0;
+    $.each(category_list , function( key, category ) {
+        var category_id = parseInt(category.id);
+        var category_name = category.name;
+        var current_id = category.id
+        var count = 0;
+        
+        $.each( stores , function( i, store ) {
+            var store_category = store.categories;
+            var a = store.categories.indexOf(category_id);
+            
+            if(a > -1){
+                if (count == 0){
+                    store.show  = "display:block"; 
+                }else{
+                    store.show  = "display:none"; 
+                }
+                store.header = category_name;
+                store.block = category.id;
+                var rendered = Mustache.render(template_html,store);
+                item_rendered.push(rendered);
+                count += 1;
+            }
+            
+        });
+        category_index += 1;
+    
+    });
+     $(container).show();
+    $(container).html(item_rendered.join(''));
+    
+}
