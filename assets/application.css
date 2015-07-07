@@ -486,7 +486,7 @@ h1 {
     width:90%;
 }
 
-.mini_nav{
+.mini_nav, .mini_nav_2{
     border-bottom: 1px solid #BFBEBD;
     padding-bottom: 10px;
 }
