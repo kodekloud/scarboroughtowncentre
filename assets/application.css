@@ -528,6 +528,7 @@ h1 {
     width: 3.35%;
     display: inline-block;
     text-decoration:none;
+    font-size:18px;
 }
 
 .alpha_list a:hover, .alpha_list a.active, .alpha_list a.focus{
