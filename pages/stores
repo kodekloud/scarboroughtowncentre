@@ -129,5 +129,6 @@
             $(container).show();
             $(container).html(item_rendered.join(''));
         };  
+        loadMallData(renderAll); 
     })
 </script>
