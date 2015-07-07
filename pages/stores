@@ -44,7 +44,7 @@
                                 <script id="store_list_template" type="x-tmpl-mustache/text">
                                     <div class="store_list_content">
                                         <span id="{{initial}}">{{initial}}</span>
-                                        <p class="store_initial" style="{{show}}" >{{initial}</p>
+                                        <p class="store_initial" style="{{show}}">{{initial}</p>
                                         <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                                     </div>
                                 </script>
