@@ -6,7 +6,7 @@
         <div class="col-md-8 page_div">
             <h1>Stores</h1>
             <div class="line"></div>
-            <ul class="nav navbar">
+            <ul class="nav navbar-nav">
                 <li>STORE LIST</li>
                 <li>CENTRE MAP</li>
                 <li>NEW STORES</li>
