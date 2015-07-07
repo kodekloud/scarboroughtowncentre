@@ -540,7 +540,7 @@ h1 {
 }
 .store_list_tab_container{
     height:600px;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 .store_initial{
     font-size:18px;
