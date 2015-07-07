@@ -7,10 +7,12 @@
             <h1>Stores</h1>
             <div class="line"></div>
             <p class="mini_nav"><a class="active" href="#">STORE LIST</a><a href="#">CENTRE MAP</a><a href="#">NEW STORES</a><a href="#">PROMOTIONS</a></p>
-            <p class="mini_nav_2"><a href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">ALPHABETICAL</a><a href="#categories" class="active" aria-controls="categories" role="tab" data-toggle="tab">CATEGORY</a></p>
+            <p class="mini_nav_2"><a class="active" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">ALPHABETICAL</a><a href="#categories" aria-controls="categories" role="tab" data-toggle="tab">CATEGORY</a></p>
              <div class="tab-content">
-                <div role="tabpanel" class="tab-pane" id="alphabetical">...</div>
-                <div role="tabpanel" class="tab-pane active" id="categories">.safsd..</div>
+                <div role="tabpanel" class="tab-pane active" id="alphabetical">
+                    
+                </div>
+                <div role="tabpanel" class="tab-pane" id="categories">.safsd..</div>
             </div>
         </div>
     </div>
