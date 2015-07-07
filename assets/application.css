@@ -498,7 +498,7 @@ h1 {
     color: #000;
     padding-bottom: 2px;
     margin-right: 15px;
-    color:#F58F8D;
+    opacity:0.3;
 }
 
 .mini_nav a:hover{
