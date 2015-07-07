@@ -530,6 +530,10 @@ h1 {
     text-decoration:none;
 }
 
+.alpha_list a:hover, .alpha_list a.active, .alpha_list a.focus{
+    text-decoration:none;
+}
+
 @media(min-width:1140px){
 
     .menu_link {
