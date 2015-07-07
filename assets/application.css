@@ -41,6 +41,12 @@ body{
     padding-top:51px;
 }
 
+h1 {
+  font-family: ChronicleDisplay-Light;
+  font-size: 32px;
+  letter-spacing: 0;
+}
+
 .search_textbox{
     position: absolute;
     right: 52px;
