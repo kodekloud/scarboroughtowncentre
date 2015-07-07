@@ -506,6 +506,10 @@ h1 {
     opacity:1;
 }
 
+.mini_nav a:hover, .mini_nav a.active{
+    text-decoration:none;
+}
+
 @media(min-width:1140px){
 
     .menu_link {
