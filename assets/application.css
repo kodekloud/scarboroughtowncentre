@@ -512,7 +512,7 @@ h1 {
 
 .mini_nav a:hover, .mini_nav a.active{
     text-decoration:none;
-    opacity:1;
+    color:#000;
 }
 
 .mini_nav_2 a:hover, .mini_nav_2 a.active, .mini_nav_2 a.focus{
