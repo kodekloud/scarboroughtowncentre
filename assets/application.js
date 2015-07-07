@@ -39,7 +39,7 @@ function renderStoreList(container, template, collection, type,starter, breaker)
         //var categories = getStoreCategories();
         var current_initial = val.name[0];
         
-        if(store_initial == current_initial){
+        if(store_initial.toLowerCase() == current_initial.toLowerCase()){
             val.initial = "";
             val.show = "display:none;"
         }
