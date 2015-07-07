@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <div role="tabpanel" class="tab-pane" id="categories">
-                    <div class="row" style="margin-top:40px;>
+                    <div class="row" style="margin-top:40px;">
                         <div class="col-md-6">
                             <div class="store_list" id="category_list_container">
                                 <script id="category_list_template" type="x-tmpl-mustache/text">
