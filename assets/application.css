@@ -555,6 +555,7 @@ h1 {
 
 .store_name a{
     color:#000;
+      font-family: ChronicleDisplay-Light;
 }
 
 .alpha_list a:hover, .alpha_list a.active, .alpha_list a.focus{
