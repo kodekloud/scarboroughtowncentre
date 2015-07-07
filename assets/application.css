@@ -543,7 +543,10 @@ h1 {
     height:600px;
     overflow: scroll;
 }
-
+.store_inital{
+    font-size:18px;
+    font-weight:bold;
+}
 
 .alpha_list a:hover, .alpha_list a.active, .alpha_list a.focus{
     text-decoration:none;
