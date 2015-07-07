@@ -537,9 +537,12 @@ h1 {
 .store_list_content span{
     position:absolute;
     top:-51px;
-    opacity:0;
+    visibility:hidden;
 }
-
+.store_list_tab_container{
+    height:600px;
+    overflow: scroll;
+}
 
 
 .alpha_list a:hover, .alpha_list a.active, .alpha_list a.focus{
