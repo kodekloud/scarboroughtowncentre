@@ -537,7 +537,7 @@ h1 {
 .store_list_content span{
     position:absolute;
     top:-51px;
-    visibility:none;
+    opacity:0;
 }
 
 
