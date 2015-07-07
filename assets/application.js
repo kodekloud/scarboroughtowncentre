@@ -26,7 +26,7 @@ function init(e){
         }, 400);
         return false;
     });
-    $('.scrollTop a').scrollTop();
+    // $('.scrollTop a').scrollTop();
 
 }
 
