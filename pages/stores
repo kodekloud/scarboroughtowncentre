@@ -50,7 +50,14 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            
+                            <div class="store_list" id="store_list_container_right">
+                                <script id="store_list_template_right" type="x-tmpl-mustache/text">
+                                    <div class="store_list_content">
+                                        <p class="store_initial" style="{{show}}">{{initial}}</p>
+                                        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                                    </div>
+                                </script>
+                            </div>
                         </div>
                     </div>
                 </div>
