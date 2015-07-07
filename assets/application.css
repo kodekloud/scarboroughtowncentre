@@ -491,7 +491,11 @@ h1 {
 }
 
 .mini_nav a{
-    
+    font-family: CircularStd-Book;
+    font-size: 12px;
+    letter-spacing: 2;
+    color: #000;
+    padding-bottom: 2px;
 }
 
 
