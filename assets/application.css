@@ -475,6 +475,14 @@ body{
     margin-right:-15px;
 }
 
+.side_img{
+    width:100%;
+}
+
+
+
+
+
 @media(min-width:1140px){
 
     .menu_link {
