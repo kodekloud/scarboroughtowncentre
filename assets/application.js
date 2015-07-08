@@ -23,7 +23,7 @@ function init(e){
         $('html, body').stop().animate({scrollTop: $( $(this).attr('href') ).offset().top - 60}, 400);
         return false;
     });
-    // $('.scrollTop a').scrollTop();
+    // $('.scrollTop').scrollTop();
 }
 
 function renderStoreList(container, template, collection, type,starter, breaker){
