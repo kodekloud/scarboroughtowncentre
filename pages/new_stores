@@ -21,7 +21,7 @@
                         </div>
                         <div class="col-md-9">
                             <h5 class="new_store_name">{{name}}</h5>
-                            <p>{{description}}</p>
+                            <p class="new_store_desc">{{description}}</p>
                         </div>
                     </div>
                 </script>
