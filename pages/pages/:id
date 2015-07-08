@@ -85,7 +85,7 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
-            $('.yield').fadeIn()
+            show_content();
         }
         loadMallData(renderAll); 
 		
