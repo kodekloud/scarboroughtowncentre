@@ -14,7 +14,12 @@
             </p>
             <h3 class="new_store_subheading">OPENING SOON</h3>
             <div class="new_store_box">
-                
+                <div class="new_store_image">
+                    
+                </div>
+                <div class="new_store_desc">
+                    
+                </div>
             </div>
         </div>
     </div>
