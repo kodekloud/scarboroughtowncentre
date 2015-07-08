@@ -124,7 +124,7 @@ function renderStoreListCatetories(container, template, category_list,stores){
         category_index += 1;
     
     });
-     $(container).show();
+    $(container).show();
     $(container).html(item_rendered.join(''));
 }
 
@@ -136,5 +136,7 @@ function renderNewStoresList(container, template, stores){
     $.each( collection , function( key, val ) {
         var rendered = Mustache.render(template_html,val);
          item_rendered.push(rendered);
-    })
+    });
+    $(container).show();
+    $(container).html(item_rendered.join(''));
 }
