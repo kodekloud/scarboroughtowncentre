@@ -33,6 +33,7 @@
     $(document).ready(function(e) {
         init(e);
         var coming_soon_stores = getComingSoonList();
+        renderNewStoresList("#coming_soon_store_container","#coming_soon_store_template", coming_soon_stores)
         loadMallData(renderAll); 
     }
 </script>
