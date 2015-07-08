@@ -4,13 +4,13 @@
             <img alt="side image" class="side_img" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/7e31c2409d8cd926265d05eedc9715a7/lookbook_banner.jpg" />
         </div>
         <div class="col-md-8 page_div">
-            <h1>Stores</h1>
+            <h1>New Stores</h1>
             <div class="line"></div>
             <p class="mini_nav">
-                <a class="active" href="#">STORE LIST</a>
-                <a href="#">CENTRE MAP</a>
-                <a href="/new_stores">NEW STORES</a>
-                <a href="#">PROMOTIONS</a>
+                <a href="/stores">STORE LIST</a>
+                <a href="/map">CENTRE MAP</a>
+                <a class="active" href="/new_stores">NEW STORES</a>
+                <a href="/promotions">PROMOTIONS</a>
             </p>
             <p class="mini_nav_2">
                 <a class="active" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">ALPHABETICAL</a>
