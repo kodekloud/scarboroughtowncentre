@@ -579,6 +579,13 @@ h1 {
     color:#BFBEBD;
 }
 
+.new_store_subheading{
+    font-family: CircularStd-Book;
+    font-size: 12px;
+    letter-spacing: 2;
+    color: #F58F8D;
+}
+
 .alpha_list a:hover, .alpha_list a.active, .alpha_list a.focus{
     text-decoration:none;
 }
