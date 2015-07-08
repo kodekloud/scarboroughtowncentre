@@ -137,7 +137,9 @@
                     </p>
                 </div>
             </div>
-            {{yield}}
+            <div class="yield">
+                {{yield}}
+            </div>
         </div>
         <footer class="footer hidden_phone">
             <div class="content_container">
