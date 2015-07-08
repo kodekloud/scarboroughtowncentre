@@ -211,6 +211,10 @@ h1 {
 .dd_guest a{
     color: #F15F5C !important;;
 }
+
+.dd_stores{
+    left:-85px;
+}
 .site_icons{
     opacity:1;
     color: #606264;
