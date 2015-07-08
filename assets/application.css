@@ -47,7 +47,9 @@ h1 {
   letter-spacing: 0;
   margin-top:0;
 }
-
+.yield{
+    display:none;
+}
 .scrollToTop{
     position: fixed;
     bottom: 20px;
