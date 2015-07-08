@@ -589,6 +589,7 @@ h1 {
 
 .new_store_box{
     padding: 10px 0;
+    border-bottom:1px solid #BFBEBD;
 }
 .alpha_list a:hover, .alpha_list a.active, .alpha_list a.focus{
     text-decoration:none;
