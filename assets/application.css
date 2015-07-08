@@ -48,7 +48,7 @@ h1 {
   margin-top:0;
 }
 .yield{
-    display:none;
+    visibility:hidden;
 }
 .scrollToTop{
     position: fixed;
