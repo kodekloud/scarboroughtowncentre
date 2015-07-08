@@ -47,9 +47,7 @@ h1 {
   letter-spacing: 0;
   margin-top:0;
 }
-.yield{
-    display:none;
-}
+
 .custom_backdrop{
     opacity:0.5;
     background:#fff;
