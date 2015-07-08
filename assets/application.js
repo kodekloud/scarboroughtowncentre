@@ -19,11 +19,11 @@ function init(e){
         $('.social_icon_mobile').hide();
     });
     
-    $('.alpha_list a').click(function(){  
+    $('.alpha_list a').click(function(e){  
         $('html, body').stop().animate({scrollTop: $( $(this).attr('href') ).offset().top - 60}, 800);
         e.preventDefault();
     });
-    $(window).scroll(function(){
+    $(window).scroll(function(e){
 		if ($(this).scrollTop() > 100) {
 			$('.scrollToTop').fadeIn();
 		} else {
@@ -32,7 +32,7 @@ function init(e){
 	});
 	
 	//Click event to scroll to top
-	$('.scrollToTop').click(function(){
+	$('.scrollToTop').click(function(e){
 		$('html, body').animate({scrollTop : 0},800);
 		e.preventDefault();
 	});
