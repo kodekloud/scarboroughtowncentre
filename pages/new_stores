@@ -20,7 +20,7 @@
                             <img alt="new store" class="new_store_image" src="{{store_front_url_abs}}" />
                         </div>
                         <div class="col-md-9">
-                            <h5>{{name}}</h5>
+                            <h5 class="store_name">{{name}}</h5>
                             <p>{{description}}</p>
                         </div>
                     </div>
