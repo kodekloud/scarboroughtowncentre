@@ -52,10 +52,10 @@ h1 {
     position: fixed;
     bottom: 50px;
     right: 50px;
-    color: rgb(255, 255, 255);
+    color: #fff);
     padding: 20px;
     border-radius: 5px;
-    background: rgb(0, 0, 0);
+    background: #000;
 }
 
 .scrollToTop:hover{
