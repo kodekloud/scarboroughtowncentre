@@ -12,8 +12,8 @@
                 <a href="/new_stores">NEW STORES</a>
                 <a class="active" href="/promotions">PROMOTIONS</a>
             </p>
-            <div id="coming_soon_store_container">
-                <script id="coming_soon_store_template" type="x-tmpl-mustache/text">
+            <div id="promo_container">
+                <script id="promo_template" type="x-tmpl-mustache/text">
                     <div class="row new_store_box">
                         <div class="col-md-3 new_store_img_div text-center">
                             <img alt="new store" class="new_store_image" src="{{store_front_url_abs}}" />
