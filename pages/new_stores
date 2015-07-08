@@ -8,9 +8,9 @@
             <div class="line"></div>
             <p class="mini_nav">
                 <a href="/stores">STORE LIST</a>
-                <a href="#">CENTRE MAP</a>
+                <a href="/map">CENTRE MAP</a>
                 <a class="active" href="/new_stores">NEW STORES</a>
-                <a href="#">PROMOTIONS</a>
+                <a href="/promotions">PROMOTIONS</a>
             </p>
             <h3 class="new_store_subheading">OPENING SOON</h3>
             <div id="coming_soon_store_container">
