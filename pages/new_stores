@@ -12,6 +12,7 @@
                 <a class="active" href="/new_stores">NEW STORES</a>
                 <a href="#">PROMOTIONS</a>
             </p>
+            <h3 class="new_store_subheading">OPENING SOON</h3>
         </div>
     </div>
 </div>
