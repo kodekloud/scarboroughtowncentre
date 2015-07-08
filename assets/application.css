@@ -640,6 +640,10 @@ h1 {
     text-decoration:none;
 }
 
+.yield{
+    display:none;
+}
+
 @media(min-width:1140px){
 
     .menu_link {
