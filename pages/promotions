@@ -34,7 +34,7 @@
         init(e);
         function renderAll (){
             var promos = getPromotionsList();
-            renderGeneral("#new_store_container","#new_store_template", promos)
+            renderGeneral("#promo_container","#promo_template", promos)
         }
         loadMallData(renderAll); 
     })
