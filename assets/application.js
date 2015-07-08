@@ -1,11 +1,5 @@
 /*Created 2015-06-12  by Rajbir Karan Singh*/
 
-//browser window scroll (in pixels) after which the "back to top" link is shown
-var offset = 300,
-	//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
-	offset_opacity = 1200,
-	//duration of the top scrolling animation (in ms)
-	scroll_top_duration = 700;
 function init(e){
     $('#open_search').click(function(){
         $('#open_search').hide();
@@ -29,7 +23,20 @@ function init(e){
         $('html, body').stop().animate({scrollTop: $( $(this).attr('href') ).offset().top - 60}, 400);
         return false;
     });
-    $('.scrollTop').scrollTop();
+    $(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+    
 }
 
 function renderStoreList(container, template, collection, type,starter, breaker){
