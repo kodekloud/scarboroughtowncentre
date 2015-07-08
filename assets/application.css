@@ -39,6 +39,7 @@
 body{
     font-family: CircularStd-Book;
     padding-top:51px;
+    min-height:500px;
 }
 
 h1 {
