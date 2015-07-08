@@ -6,6 +6,12 @@
         <div class="col-md-8 page_div">
             <h1>New Stores</h1>
             <div class="line"></div>
+            <p class="mini_nav">
+                <a href="#">STORE LIST</a>
+                <a href="#">CENTRE MAP</a>
+                <a class="active" href="/new_stores">NEW STORES</a>
+                <a href="#">PROMOTIONS</a>
+            </p>
         </div>
     </div>
 </div>
