@@ -60,6 +60,7 @@ h1 {
 
 .scrollToTop:hover{
     text-decoration:none;
+    color:#fff;
 }
 .search_textbox{
     position: absolute;
