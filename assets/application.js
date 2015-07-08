@@ -126,5 +126,15 @@ function renderStoreListCatetories(container, template, category_list,stores){
     });
      $(container).show();
     $(container).html(item_rendered.join(''));
-    
+}
+
+
+function renderNewStoresList(container, template, stores){
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future use
+    $.each( collection , function( key, val ) {
+        var rendered = Mustache.render(template_html,val);
+         item_rendered.push(rendered);
+    })
 }
