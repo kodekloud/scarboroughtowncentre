@@ -81,6 +81,6 @@
         $('.flexslider').flexslider({
             animation: "slide"
         }); 
-        $('.yield').fadeIn()
+        show_content();
     })
 </script>
