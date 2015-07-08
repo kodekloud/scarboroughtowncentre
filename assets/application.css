@@ -50,6 +50,22 @@ h1 {
 .yield{
     display:none;
 }
+.custom_backdrop{
+    opacity:0.5;
+    background:#fff;
+    text-align:center;
+}
+.custom_backdrop img{
+    width:80px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 .scrollToTop{
     position: fixed;
     bottom: 20px;
