@@ -590,6 +590,7 @@ h1 {
 .new_store_box{
     padding: 10px 0;
     border-bottom:1px solid #BFBEBD;
+    max_height:200px;
 }
 
 .new_store_img_div{
