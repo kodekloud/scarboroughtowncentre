@@ -20,7 +20,7 @@ function init(e){
     });
     
     $('.alpha_list a').click(function(){  
-        $('html, body').stop().animate({scrollTop: $( $(this).attr('href') ).offset().top - 60}, 400);
+        $('html, body').stop().animate({scrollTop: $( $(this).attr('href') ).offset().top - 60}, 800);
         return false;
     });
     $(window).scroll(function(){
