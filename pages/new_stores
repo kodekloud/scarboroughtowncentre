@@ -5,6 +5,7 @@
         </div>
         <div class="col-md-8 page_div">
             <h1>Stores</h1>
+            <div class="line"></div>
         </div>
     </div>
 </div>
