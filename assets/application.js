@@ -21,7 +21,7 @@ function init(e){
     
     $('.alpha_list a').click(function(){  
         $('html, body').stop().animate({scrollTop: $( $(this).attr('href') ).offset().top - 60}, 800);
-        return false;
+        e.preventDefault();
     });
     $(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
@@ -34,7 +34,7 @@ function init(e){
 	//Click event to scroll to top
 	$('.scrollToTop').click(function(){
 		$('html, body').animate({scrollTop : 0},800);
-		return false;
+		e.preventDefault();
 	});
     
 }
