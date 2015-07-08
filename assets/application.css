@@ -598,6 +598,10 @@ h1 {
     font-size:18px;
 }
 
+.new_store_desc{
+    font-family: ChronicleDisplay;
+}
+
 .new_store_img_div{
     height:200px;
     position: relative;
