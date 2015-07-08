@@ -32,7 +32,7 @@
 <script>
     $(document).ready(function(e) {
         init(e);
-        var promos = getPromotionList();
+        var promos = getPromotionsList();
         renderGeneral("#new_store_container","#new_store_template", promos)
         loadMallData(renderAll); 
     })
