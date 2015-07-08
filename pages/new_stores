@@ -32,7 +32,7 @@
 <script>
     $(document).ready(function(e) {
         init(e);
-        
+        var coming_soon_stores = getComingSoonList();
         loadMallData(renderAll); 
     }
 </script>
