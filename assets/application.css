@@ -56,6 +56,7 @@ h1 {
     padding: 20px;
     border-radius: 5px;
     background: #000;
+    display:none;
 }
 
 .scrollToTop:hover{
