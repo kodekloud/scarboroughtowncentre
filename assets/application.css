@@ -552,6 +552,15 @@ h1 {
     border-bottom:2px solid #BFBEBD;
     padding-bottom:10px;
 }
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
 
 .store_name a{
     color:#000;
