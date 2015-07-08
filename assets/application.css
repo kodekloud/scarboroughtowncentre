@@ -593,7 +593,7 @@ h1 {
     max-height:220px;
 }
 .new_store_name{
-    color:#000;
+    font-weight: bol;
     font-family: ChronicleDisplay;
     font-size:18px;
 }
