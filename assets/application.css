@@ -48,7 +48,7 @@ h1 {
   margin-top:0;
 }
 .yield{
-    display:none;
+    display:none !important;
 }
 .custom_backdrop{
     opacity:0.5;
