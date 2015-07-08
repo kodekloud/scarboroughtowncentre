@@ -129,7 +129,7 @@ function renderStoreListCatetories(container, template, category_list,stores){
 }
 
 
-function renderNewStoresList(container, template, stores){
+function renderNewStoresList(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future use
