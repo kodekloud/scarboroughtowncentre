@@ -51,9 +51,6 @@ h1 {
     font-style: italic;
 }
 
-.font_bold{
-    font-family: ChronicleTextG1-Bold !important;
-}
 .custom_backdrop{
     opacity:0.5;
     background:#fff;
