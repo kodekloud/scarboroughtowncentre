@@ -145,8 +145,8 @@ function renderStoreDetails(container, template, collection, slug){
     $.each( hours , function( key, val ) {
         var open_time = new Date (val.open_time)
         var close_time = new Date (val.close_time)
-        val.open_time = convert_hour(open_time);
-        val.close_time = convert_hour(close_time);
+        val.open_time = (open_time);
+        val.close_time = (close_time);
         if (val.day_of_week == n){
             todays_hours = val.open_time + " - " + val.close_time 
         }
