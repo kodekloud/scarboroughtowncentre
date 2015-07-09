@@ -191,4 +191,5 @@ function getImageResolution(url){
      s = {w:this.width, h:this.height};
      alert(s.w+' '+s.h);      
   }); 
+  return s;
 }
