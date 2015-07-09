@@ -218,6 +218,11 @@ function convert_hour(d){
 
 
 function addZero(i) {
+    if (i >= 12) {
+        if ( i != 12) {
+            i = i - 12;    
+        }
+    }
     if (i < 10) {
         i = "0" + i;
     }
