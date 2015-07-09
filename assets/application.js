@@ -152,7 +152,7 @@ function renderStoreDetails(container, template, collection, slug){
         }
         
     })]
-    if (todays_hours.length >= 0){
+    if (todays_hours.length < 1){
         todays_hours = "display:none"
     }
     Mustache.parse(template_html);   // optional, speeds up future uses
