@@ -143,7 +143,7 @@ function renderStoreDetails(container, template, collection, slug){
     $.each( item_list , function( key, val ) {
         val.map_image = map_url;
         
-        if (val.z_coordinate = 1){
+        if (val.z_coordinate == 1){
             val.level = "Lower Level";
         }
         else{
