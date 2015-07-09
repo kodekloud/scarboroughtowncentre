@@ -150,8 +150,6 @@ function renderStoreDetails(container, template, collection, slug){
         if (val.day_of_week == n){
             todays_hours = val.open_time + " - " + val.close_time;
         }
-        console.log(val)
-        renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs);
     });
     if (todays_hours.length < 1){
         todays_hours = "display:none";
@@ -176,7 +174,7 @@ function renderStoreDetails(container, template, collection, slug){
         val.map_x_coordinate = val.x_coordinate - 19;
         val.map_y_coordinate = val.y_coordinate - 58;
         
-        
+        renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs);
         val.todays_hours = todays_hours;
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
