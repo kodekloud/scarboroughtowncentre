@@ -47,7 +47,9 @@ h1 {
   letter-spacing: 0;
   margin-top:0;
 }
-
+.font_italic{
+    font-style: italic;
+}
 .custom_backdrop{
     opacity:0.5;
     background:#fff;
@@ -702,6 +704,7 @@ h1 {
     border: 0;
     border-top: 1px solid #BFBEBD;
 }
+
 
 .description{
     font-size: 18px;
