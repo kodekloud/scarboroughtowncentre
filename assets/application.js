@@ -173,7 +173,6 @@ function renderStoreDetails(container, template, collection, slug){
         val.category_list = getCategoriesNamesByStoreSlug(slug);
         val.map_x_coordinate = val.x_coordinate - 19;
         val.map_y_coordinate = val.y_coordinate - 58;
-        console.log(val)
         renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs);
         val.todays_hours = todays_hours;
         var rendered = Mustache.render(template_html,val);
