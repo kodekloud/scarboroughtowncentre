@@ -150,6 +150,7 @@ function renderStoreDetails(container, template, collection, slug){
         if (val.day_of_week == n){
             todays_hours = val.open_time + " - " + val.close_time;
         }
+        console.log(val.jobs)
         renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs);
     });
     if (todays_hours.length < 1){
