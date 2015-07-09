@@ -215,7 +215,6 @@ function renderStoreExtras(container, template, type, ids){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
-        console.log(val)
         start = new Date (val.start_date);
         end = new Date (val.end_date);
         start.setDate(start.getDate()+1);
