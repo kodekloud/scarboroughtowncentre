@@ -200,7 +200,7 @@ function renderGeneral(container, template, collection){
 }
 
 function renderStoreExtras(container, template, type, ids){
-    var collection = []
+    var collection = [];
     if (ids.length > 0 && type == "promos") {
         $('#promotion_extra').show();
     }
