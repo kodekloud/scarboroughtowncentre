@@ -50,6 +50,10 @@ h1 {
 .font_italic{
     font-style: italic;
 }
+
+.font_bold{
+    font-weight: bold;
+}
 .custom_backdrop{
     opacity:0.5;
     background:#fff;
