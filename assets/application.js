@@ -151,9 +151,8 @@ function renderStoreDetails(container, template, collection, slug){
             todays_hours = val.open_time + " - " + val.close_time 
         }
         
-    })
-    console.log(todays_hours.length)
-    if (todays_hours.length > 0){
+    })]
+    if (todays_hours.length >= 0){
         todays_hours = "display:none"
     }
     Mustache.parse(template_html);   // optional, speeds up future uses
