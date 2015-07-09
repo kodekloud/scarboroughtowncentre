@@ -225,7 +225,6 @@ function renderStoreExtras(container, template, type, ids){
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
         }
         var rendered = Mustache.render(template_html,val);
-        console.log(rendered)
         item_rendered.push(rendered);
     });
     $(container).html(item_rendered.join(''));
