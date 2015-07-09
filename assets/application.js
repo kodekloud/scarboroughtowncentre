@@ -228,6 +228,7 @@ function renderStoreExtras(container, template, type, ids){
         item_rendered.push(rendered);
     });
     $(container).html(item_rendered.join(''));
+    console.log(item_rendered.join(''))
 }
 
 
