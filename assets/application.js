@@ -136,9 +136,13 @@ function renderStoreDetails(container, template, collection, slug){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
+    var prop = getPropertyDetails(getPropertyID());
+    var map_url = prop.mm_host + prop.map_url;
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
+        val.map_image = map_url
+        
         if (val.z_coordinate = 1){
             val.level = "Lower Level";
         }
