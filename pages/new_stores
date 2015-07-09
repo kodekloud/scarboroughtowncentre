@@ -27,7 +27,7 @@
                             <p><a class="feature_read_more" href="{{slug}}">MORE</a></p>
                         </div>
                     </div>
-                    <hr class="separator" />
+                    <hr class="separator2" />
                 </script>
             </div>
             
@@ -46,7 +46,7 @@
                             <p><a class="feature_read_more" href="{{slug}}">MORE</a></p>
                         </div>
                     </div>
-                    <hr class="separator" />
+                    <hr class="separato2r" />
                 </script>
             </div>
             
