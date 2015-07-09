@@ -133,44 +133,44 @@ function renderStoreListCatetories(container, template, category_list,stores){
     $(container).html(item_rendered.join(''));
 }
 function renderStoreDetails(container, template, collection, slug){
-            var item_list = [];
-            var item_rendered = [];
-            var template_html = $(template).html();
-            Mustache.parse(template_html);   // optional, speeds up future uses
-            item_list.push(collection);
-            $.each( item_list , function( key, val ) {
-                if (val.z_coordinate = 1){
-                    val.level = "Lower Level"
-                }
-                else{
-                    val.level = "Upper Level"
-                }
-                if ((val.store_front_url).indexOf('missing.png') > -1){
-                    val.alt_store_front_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"
-                } else {
-                    val.alt_store_front_url = getImageURL(val.store_front_url); 
-                }
-                val.category_list = getCategoriesNamesByStoreSlug(slug)
-                val.map_x_coordinate = val.x_coordinate - 19;
-                val.map_y_coordinate = val.y_coordinate - 58;
-                
-                renderStoreExtras($('#promotions_container'), $('#promotions_template'), "promos", val.promotions)
-                renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs)
-                
-                if (val.website.length > 0){
-                    val.show = "display:block"
-                }
-                else{
-                    val.show = "display:none"
-                }
-                var rendered = Mustache.render(template_html,val);
-                item_rendered.push(rendered);
-            })
-            
-            $(container).show();
-            
-            $(container).html(item_rendered.join(''));
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future uses
+    item_list.push(collection);
+    $.each( item_list , function( key, val ) {
+        if (val.z_coordinate = 1){
+            val.level = "Lower Level"
         }
+        else{
+            val.level = "Upper Level"
+        }
+        if ((val.store_front_url).indexOf('missing.png') > -1){
+            val.alt_store_front_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"
+        } else {
+            val.alt_store_front_url = getImageURL(val.store_front_url); 
+        }
+        val.category_list = getCategoriesNamesByStoreSlug(slug)
+        val.map_x_coordinate = val.x_coordinate - 19;
+        val.map_y_coordinate = val.y_coordinate - 58;
+        
+        renderStoreExtras($('#promotions_container'), $('#promotions_template'), "promos", val.promotions)
+        renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs)
+        
+        if (val.website.length > 0){
+            val.show = "display:block"
+        }
+        else{
+            val.show = "display:none"
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    })
+    
+    $(container).show();
+    
+    $(container).html(item_rendered.join(''));
+}
 
 function renderGeneral(container, template, collection){
     var item_rendered = [];
