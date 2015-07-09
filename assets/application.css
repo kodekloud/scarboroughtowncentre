@@ -652,6 +652,12 @@ h1 {
     margin-right: 30px;
 }
 
+.right_side_stores{
+    float: left;
+    padding-left: 45px;
+    width: 825px;
+}
+
 .yield{
     display:none;
 }
