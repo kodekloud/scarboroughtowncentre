@@ -521,7 +521,9 @@ h1 {
 .side_img{
     width:90%;
 }
-
+.width_100{
+    width:100%;
+}
 .mini_nav, .mini_nav_2{
     border-bottom: 1px solid #BFBEBD;
     padding-bottom: 10px;
