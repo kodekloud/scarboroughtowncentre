@@ -661,6 +661,10 @@ h1 {
     padding-left: 58px;
     width: 812px;
 }
+
+.left_side_details{
+    padding-right:58px;
+}
 .separator{
     margin-top: 0px;
     margin-bottom: 0px;
