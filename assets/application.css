@@ -630,6 +630,11 @@ h1 {
     position: relative;
 }
 
+.new_store_img_parent{
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #BFBEBD;
+}
 .new_store_image{
     max-width: 100%;
     max-height: 100%;
