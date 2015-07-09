@@ -103,6 +103,10 @@ h1 {
 .no_margin{
     margin: 0 !important;
 }
+.margin_15px{
+    margin-top:15px;
+}
+}
 .content_container{
     max-width: 1140px;
     margin: 0 auto;
