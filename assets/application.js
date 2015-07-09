@@ -151,7 +151,7 @@ function renderStoreDetails(container, template, collection, slug){
             todays_hours = val.open_time + " - " + val.close_time 
         }
         
-    })]
+    })
     if (todays_hours.length < 1){
         todays_hours = "display:none"
     }
