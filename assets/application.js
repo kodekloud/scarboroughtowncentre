@@ -138,6 +138,8 @@ function renderStoreDetails(container, template, collection, slug){
     var template_html = $(template).html();
     var prop = getPropertyDetails(getPropertyID());
     var map_url = prop.mm_host + prop.map_url;
+    var d = new Date();
+    var n = d.getDay();
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
