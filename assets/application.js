@@ -49,11 +49,11 @@ function renderStoreList(container, template, collection, type,starter, breaker)
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
-    var store_initial=""
+    var store_initial="";
     $.each( collection , function( key, val ) {
         if (type == "stores" || type == "category_stores"){
             if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
-                val.alt_store_front_url = "http://kodekloud.s3.amazonaws.com/sites/54cfab316e6f6433ad020000/77c900d783abeb362232339ece231335/10dundas_default.jpg"    
+                val.alt_store_front_url = "http://kodekloud.s3.amazonaws.com/sites/54cfab316e6f6433ad020000/77c900d783abeb362232339ece231335/10dundas_default.jpg";
             } else {
                 val.alt_store_front_url = getImageURL(val.store_front_url);    
             }
@@ -64,24 +64,24 @@ function renderStoreList(container, template, collection, type,starter, breaker)
         
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){
             val.initial = "";
-            val.show = "display:none;"
+            val.show = "display:none;";
         }
         else{
             val.initial = current_initial;
             store_initial = current_initial;
-            val.show = "display:block;"
+            val.show = "display:block;";
         }
         if (val.promotions.length > 0){
-            val.promotion_exist = "display:inline-block"
+            val.promotion_exist = "display:inline-block";
         }
         else{
-            val.promotion_exist = "display:none"
+            val.promotion_exist = "display:none";
         }
         if (val.jobs.length > 0){
-            val.job_exist = "display:inline-block"
+            val.job_exist = "display:inline-block";
         }
         else{
-            val.job_exist = "display:none"
+            val.job_exist = "display:none";
         }
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);
@@ -105,7 +105,7 @@ function renderStoreListCatetories(container, template, category_list,stores){
     $.each(category_list , function( key, category ) {
         var category_id = parseInt(category.id);
         var category_name = category.name;
-        var current_id = category.id
+        var current_id = category.id;
         var count = 0;
         
         $.each( stores , function( i, store ) {
@@ -214,6 +214,7 @@ function renderStoreExtras(container, template, type, ids){
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
+    console.log(collection)
     $.each( collection , function( key, val ) {
         start = new Date (val.start_date);
         end = new Date (val.end_date);
