@@ -152,6 +152,7 @@ function renderStoreDetails(container, template, collection, slug){
         }
         
     })
+    console.log(todays_hours)
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
