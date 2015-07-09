@@ -48,7 +48,7 @@ h1 {
   margin-top:0;
 }
 .font_italic{
-    font-family: ChronicleTextG1-Bold;
+    font-family: ChronicleTextG1-Bold !important;
 }
 
 .font_bold{
