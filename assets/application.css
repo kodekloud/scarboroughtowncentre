@@ -52,7 +52,7 @@ h1 {
 }
 
 .font_bold{
-    font-family: ChronicleTextG1-Bold;
+    font-family: ChronicleTextG1-Bold !important;
 }
 .custom_backdrop{
     opacity:0.5;
