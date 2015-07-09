@@ -703,6 +703,12 @@ h1 {
     border-top: 1px solid #BFBEBD;
 }
 
+.description{
+    font-size: 18px;
+    font-family: ChronicleTextG1-Roman;
+    line-height: 1.5;
+}
+
 .yield{
     display:none;
 }
