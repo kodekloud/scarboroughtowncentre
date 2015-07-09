@@ -147,7 +147,9 @@ function renderStoreDetails(container, template, collection, slug){
         var close_time = new Date (val.close_time)
         val.open_time = convert_hour(open_time);
         val.close_time = convert_hour(close_time);
-        console.log(val)
+        if (val.day_of_week == n){
+            todays_hours = val.open_time + " - " + val.close_time 
+        }
         
     })
     Mustache.parse(template_html);   // optional, speeds up future uses
