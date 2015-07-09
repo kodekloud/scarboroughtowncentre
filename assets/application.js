@@ -140,7 +140,7 @@ function renderStoreDetails(container, template, collection, slug){
     var map_url = prop.mm_host + prop.map_url;
     var d = new Date();
     var n = d.getDay();
-    var hours = getHoursForIds(store_details.store_hours)
+    var hours = getHoursForIds(collection.store_hours)
     var todays_hours = ""
     $.each( hours , function( key, val ) {
         var open_time = new Date (val.open_time)
