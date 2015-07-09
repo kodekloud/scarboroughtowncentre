@@ -146,7 +146,7 @@ function renderStoreDetails(container, template, collection, slug){
             val.level = "Upper Level";
         }
         if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png";
+            val.alt_store_front_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
