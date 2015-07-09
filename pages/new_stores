@@ -25,6 +25,7 @@
                             <p><a class="feature_read_more" href="{{slug}}">MORE</a></p>
                         </div>
                     </div>
+                    <hr />
                 </script>
             </div>
             
