@@ -152,6 +152,7 @@ function renderStoreDetails(container, template, collection, slug){
         }
         
     })
+    console.log(todays_hours.length > 0)
     if (todays_hours.length > 0){
         todays_hours = "display:none"
     }
