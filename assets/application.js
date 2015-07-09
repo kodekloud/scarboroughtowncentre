@@ -140,20 +140,20 @@ function renderStoreDetails(container, template, collection, slug){
     var map_url = prop.mm_host + prop.map_url;
     var d = new Date();
     var n = d.getDay();
-    var hours = getHoursForIds(collection.store_hours)
-    var todays_hours = ""
+    var hours = getHoursForIds(collection.store_hours);
+    var todays_hours = "";
     $.each( hours , function( key, val ) {
-        var open_time = new Date (val.open_time)
-        var close_time = new Date (val.close_time)
+        var open_time = new Date (val.open_time);
+        var close_time = new Date (val.close_time);
         val.open_time = convert_hour(open_time);
         val.close_time = convert_hour(close_time);
         if (val.day_of_week == n){
-            todays_hours = val.open_time + " - " + val.close_time 
+            todays_hours = val.open_time + " - " + val.close_time;
         }
         
-    })
+    });
     if (todays_hours.length < 1){
-        todays_hours = "display:none"
+        todays_hours = "display:none";
     }
     renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs);
     Mustache.parse(template_html);   // optional, speeds up future uses
@@ -177,7 +177,7 @@ function renderStoreDetails(container, template, collection, slug){
         val.map_y_coordinate = val.y_coordinate - 58;
         
         
-        val.todays_hours = todays_hours
+        val.todays_hours = todays_hours;
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
