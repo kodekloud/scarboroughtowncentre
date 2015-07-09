@@ -219,7 +219,7 @@ function convert_hour(d){
 
 function addZero(i) {
     if (i < 10) {
-        i = i;
+        i = "0" + i;
     }
     return i;
         }
