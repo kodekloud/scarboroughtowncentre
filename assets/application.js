@@ -200,17 +200,18 @@ function renderGeneral(container, template, collection){
 }
 
 function renderStoreExtras(container, template, type, ids){
+    var collection = []
     if (ids.length > 0 && type == "promos") {
-        $('#promotion_extra').show()
+        $('#promotion_extra').show();
     }
     if (ids.length > 0 && type == "jobs") {
-        $('#employment_extra').show()
+        $('#employment_extra').show();
     }
     if (type == "promos"){
-        var collection = getPromotionsForIds(ids)
+        collection = getPromotionsForIds(ids);
     }
     else if (type =="jobs"){
-        var collection = getJobsForIds(ids)
+        collection = getJobsForIds(ids);
     }
     var item_list = [];
     var item_rendered = [];
