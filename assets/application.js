@@ -143,6 +143,10 @@ function renderStoreDetails(container, template, collection, slug){
     var hours = getHoursForIds(store_details.store_hours)
     var todays_hours = ""
     $.each( hours , function( key, val ) {
+        var open_time = new Date (val.open_time)
+        var close_time = new Date (val.close_time)
+        val.open_time = convert_hour(open_time);
+        val.close_time = convert_hour(close_time);
         
     })
     Mustache.parse(template_html);   // optional, speeds up future uses
@@ -191,3 +195,27 @@ function renderGeneral(container, template, collection){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
+function convert_hour(d){
+    var h = addZero(d.getUTCHours());
+    var m = addZero(d.getUTCMinutes());
+    var s = addZero(d.getUTCSeconds());
+    if (h >= 12) {
+        if ( h != 12) {
+            h = h - 12;    
+        }
+        
+        i = "PM"
+    } else {
+        i = "AM"
+    }
+    return h+":"+m+" "+i;
+}
+
+
+
+function addZero(i) {
+    if (i < 10) {
+        i = "0" + i;
+    }
+    return i;
+        }
