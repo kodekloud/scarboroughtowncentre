@@ -155,6 +155,7 @@ function renderStoreDetails(container, template, collection, slug){
     if (todays_hours.length < 1){
         todays_hours = "display:none"
     }
+    renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs)
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
