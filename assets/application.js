@@ -189,6 +189,6 @@ function renderGeneral(container, template, collection){
 function getImageResolution(url){
   $("<img/>").attr("src", url).load(function(){
      s = {w:this.width, h:this.height};
-     return s   
+     alert(s.w+' '+s.h);      
   }); 
 }
