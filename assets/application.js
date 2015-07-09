@@ -190,7 +190,7 @@ function getImageResolution(url){
     var s = {};
     $("<img/>").attr("src", url).load(function(){
         s['width'] = this.width;
-        s['height']' = this.height;
+        s['height'] = this.height;
        
         }); 
     return s;
