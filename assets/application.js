@@ -184,13 +184,3 @@ function renderGeneral(container, template, collection){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
-
-
-function getImageResolution(url){
-    var s = {};
-    $("<img/>").attr("src", url).load(function(){
-        s.width = this.width;
-        s.height = this.height;
-        return s;
-        }); 
-}
