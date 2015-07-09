@@ -147,7 +147,7 @@ function renderStoreDetails(container, template, collection, slug){
         var close_time = new Date (val.close_time)
         val.open_time = convert_hour(open_time);
         val.close_time = convert_hour(close_time);
-        console.log
+        console.log(val)
         
     })
     Mustache.parse(template_html);   // optional, speeds up future uses
