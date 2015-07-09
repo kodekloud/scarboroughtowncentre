@@ -106,7 +106,7 @@ h1 {
 .margin_15px{
     margin-top:15px;
 }
-}
+
 .content_container{
     max-width: 1140px;
     margin: 0 auto;
@@ -615,6 +615,7 @@ h1 {
     letter-spacing: 2;
     color: #F15F5C;
     margin-top:40px;
+    text-transform:uppercase;
 }
 
 .new_store_box{
