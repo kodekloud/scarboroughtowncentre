@@ -21,7 +21,12 @@
                         <div class="col-md-9">
                             <h5 class="new_store_name">{{store_name}}</h5>
                             <h5 class="promo_name">{{name}}</h5>
-                            <p><a class="feature_read_more" href="#">MORE</a></p>
+                            <a class="feature_read_more more" href="#" data-id = "{{id}}" id="more_{{id}}">MORE</a>
+                            <div class="margin_15px"></div>
+                            <div class="show_accordion" id="show_{{id}}">
+                                <div class="description">{{{description}}}</div>
+                                <a class="feature_read_more less" href="#" id="less_{{id}}" data-id = "{{id}}">LESS</a>
+                            </div>
                         </div>
                     </div>
                     <div class="separator2"></div>
