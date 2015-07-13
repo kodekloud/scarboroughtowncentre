@@ -57,6 +57,6 @@
             show_content();
             more_less(e);
         }
-        loadMallData(renderAll); 
+        loadMallDataCached(renderAll); 
     })
 </script>
