@@ -41,6 +41,14 @@ function init(e){
 		$('html, body').animate({scrollTop : 0},800);
 		e.preventDefault();
 	});
+	
+	
+	//Show more
+	$('.more').click(function(){
+        var id = $(this).attr('data-id');
+        $(this).hide();
+        var 
+	});
     
 }
 
