@@ -267,6 +267,12 @@ function renderGeneral(container, template, collection, type){
             start.setDate(start.getDate()+1);
             end.setDate(end.getDate()+1);
             val.closing_date = (get_month(end.getMonth()))+" "+(end.getDate());  
+            if (val.contact_name == ""){
+                val.contact_name = "N/A"                
+            }
+            if (val.contact_email == ""){
+                val.contact_email = "N/A"                
+            }
         }
         var rendered = Mustache.render(template_html,val);
          item_rendered.push(rendered);
