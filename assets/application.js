@@ -42,10 +42,18 @@ function init(e){
 		e.preventDefault();
 	});
 	
-	
-	//Show more
+
 	
     
+}
+
+function more_less(e){
+    $('.more').click(function(e){
+        var id = $(this).attr('data-id');
+        $(this).hide();
+        $('#show_' + id).show();
+        e.preventDefault();
+    });
 }
 
 function renderStoreList(container, template, collection, type,starter, breaker){
