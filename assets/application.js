@@ -52,6 +52,7 @@ function more_less(e){
         var id = $(this).attr('data-id');
         $(this).hide();
         $('#show_' + id).show();
+        $('#more_' + id).hide();
         e.preventDefault();
     });
     
@@ -59,6 +60,7 @@ function more_less(e){
         var id = $(this).attr('data-id');
         $(this).hide();
         $('#show_' + id).hide();
+        $('#more_' + id).show();
         e.preventDefault();
     });
 }
