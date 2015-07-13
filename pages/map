@@ -9,7 +9,8 @@
         border-radius: 4px;
     }
     .demo_1{
-        height:650px
+        height:650px;
+        width:700px;
     }
 </style>
 <div class="container-fluid" style="margin-top:60px">
