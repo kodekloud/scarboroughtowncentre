@@ -10,7 +10,7 @@
     }
     .demo_1{
         height:650px;
-        width:700px;
+        width:740px;
     }
 </style>
 <div class="container-fluid" style="margin-top:60px">
