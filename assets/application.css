@@ -644,7 +644,11 @@ h1 {
     height:200px;
     position: relative;
 }
-
+.404_heading{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
 .new_store_img_parent{
     height: 200px;
     padding: 10px;
