@@ -449,6 +449,7 @@ h1 {
     letter-spacing: 2;
     color: #000;
     padding-bottom: 2px;
+    margin-right: 10px;
 }
 .feature_read_more:hover,.feature_read_more:focus{
     text-decoration: none;
