@@ -234,10 +234,7 @@ function renderGeneral(container, template, collection, type){
         
             }
             
-            if (val.description.length > 110) {
-               val.description =  val.description.substring(0,100)+'...';
-            } 
-                  
+            
             start = new Date (val.start_date);
             end = new Date (val.end_date);
             start.setDate(start.getDate()+1);
