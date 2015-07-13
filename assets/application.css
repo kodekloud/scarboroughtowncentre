@@ -649,6 +649,12 @@ h1 {
     text-align: center;
     margin-bottom: 0;
 }
+.line2{
+    width: 25px;
+    height: 2px;
+    background: #F15F5C;
+    margin: auto;
+}
 .new_store_img_parent{
     height: 200px;
     padding: 10px;
