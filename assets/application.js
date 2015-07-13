@@ -1,4 +1,13 @@
 /*Created 2015-06-12  by Rajbir Karan Singh*/
+
+//Show more
+	$('.more').click(function(e){
+        alert("yo")
+        e.preventDefault();
+        
+	});
+
+
 function show_content(){
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();
