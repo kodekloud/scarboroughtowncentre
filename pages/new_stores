@@ -31,8 +31,8 @@
                 </script>
             </div>
             
-            <h3 class="new_store_subheading">NOW OPEN</h3>
             <div id="new_store_container">
+                <h3 class="new_store_subheading">NOW OPEN</h3>
                 <script id="new_store_template" type="x-tmpl-mustache/text">
                     <div class="row new_store_box">
                         <div class="col-md-3 new_store_img_div text-center">
