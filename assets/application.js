@@ -43,12 +43,7 @@ function init(e){
 	});
 	
 	
-	//Show more
-	$('.more').click(function(e){
-        alert("yo")
-        e.preventDefault();
-        
-	});
+	
     
 }
 
