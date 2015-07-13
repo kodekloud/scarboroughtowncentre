@@ -71,6 +71,13 @@
             show_content();    
             
         }
+        function renderMarker(collection){
+            $.each(collection, function(i, val){
+                x = val.x_coordinate ;
+                y = val.y_coordinate;
+               $('#map_image').after('<div class="marker" id="store_' + val.id  + '" data-coords="' + x + ', ' + y + '" style="display:none">' + val.name + '</div>')
+            });
+        }
         loadMallDataCached(renderAll); 
     })
 </script>
