@@ -23,7 +23,7 @@
                             <div class="show_accordion" id="show_{{id}}">
                                 <div class="description">{{{description}}}</div>
                                 <p class="new_store_name">Contact Name</p>
-                                <p>class="description">{{{description}}}</p>
+                                <p>class="description">{{{contact_name}}}</p>
                                 <p class="new_store_name">Contact Email</p>
                                 <p>class="description">{{{description}}}</p>
                                 <a class="feature_read_more" href="/stores/{{store_slug}}">VIEW STORE PAGE</a>
