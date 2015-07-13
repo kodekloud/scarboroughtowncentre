@@ -634,7 +634,9 @@ h1 {
 .new_store_desc{
     font-family: ChronicleDisplay;
 }
-
+.promo_name{
+    
+}
 .new_store_img_div{
     height:200px;
     position: relative;
