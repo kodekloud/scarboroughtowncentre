@@ -47,7 +47,7 @@ function init(e){
 	$('.more').click(function(e){
         var id = $(this).attr('data-id');
         $(this).hide();
-        $('show_' + id).show();
+        $('#show_' + id).show();
         e.preventDefault();
         
 	});
