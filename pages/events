@@ -26,7 +26,7 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
-            var all_promos = getEventssList();
+            var all_promos = getEventsList();
             all_promos = all_promos.reverse();
             promo_array = []
             $.each( all_promos , function( key, val ){
