@@ -27,6 +27,38 @@
     </div>
 </div>
 <script>
+    function show_pin(param){
+		store_id = $(param).attr('store_id');
+		if($("#"+store_id).is(":visible")){
+			$("."+store_id).hide();				
+			$("#"+store_id).hide();
+			$("#no_pin_"+store_id).show();
+			$("#show_pin_"+store_id).hide();
+			$("#m_no_pin_"+store_id).show();
+			$("#m_show_pin_"+store_id).hide();
+		}else{
+			$(".marker").hide();
+			$("#"+store_id).show();
+			$("#"+store_id).click();
+			$("#no_pin_"+store_id).hide();
+			$("#show_pin_"+store_id).show();
+			$("#m_no_pin_"+store_id).hide();
+			$("#m_show_pin_"+store_id).show();
+		}
+		$('#store_table').hide()
+		
+		return false;
+    }
+    $(function(){
+        $("#map_button").click(function(){
+            $("#store_table").toggle();
+        });
+        
+    });
+    function hide_table(){
+        $("#store_table").hide();
+        show_table = false;
+    }
     $(document).ready(function(e) {
         init(e);
         
@@ -34,6 +66,15 @@
             var stores = getStoresList();
             renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "Z");
             show_content();    
+            $('.map3').craftmap({
+                image:{
+                    width:1975,
+                    height:1278
+                },
+                map: {
+                    position: '0 190'
+                }
+            });
         }
         loadMallDataCached(renderAll); 
     })
