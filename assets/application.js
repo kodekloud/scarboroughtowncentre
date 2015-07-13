@@ -250,8 +250,6 @@ function renderGeneral(container, template, collection, type){
         if(type == "jobs"){
             val.alt_promo_image_url = (val.promo_image_url_abs);
             if (val.jobable_type == "Store") {
-                var store_details = getStoreDetailsByID(val.promotionable_id);
-                val.store_detail_btn = store_details.slug ;
                 val.store_name = store_details.name;
             }
             else{
