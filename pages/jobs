@@ -1,24 +1,7 @@
-<script src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
-<style>
-    .demo1{
-        height:300px;
-    }
-</style>
 <div class="container-fluid" style="margin-top:60px">
     <div class="row">
         <div class="col-md-4 text-center left_side_details" >
-            <div id="map_container">
-                <script id="map_template" type="x-tmpl-mustache/text">
-                    <div class="store_map" id="store_map">
-                        <div class="demo1">
-                            <img src="http://cdn.mallmaverick.com/system/properties/maps/000/000/001/original/stc_map-small_website_2v2.png?1419362460" class="imgMap" id="map_image" />                
-                        	<div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">
-                        	    {{name}}
-                            </div>
-                        </div>   
-                    </div>
-                </script>
-            </div>
+            <img alt="side image" class="width_100" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/7e31c2409d8cd926265d05eedc9715a7/lookbook_banner.jpg" />
         </div>
         <div class="col-md-8 page_div right_side_details">
             <h3 class="new_store_subheading no_margin">JOB OPPORTUNITIES</h3>
