@@ -1,5 +1,5 @@
 <h1 class="text-center">404</h1>
-<div class="line2"></div>
+<div class="line"></div>
 <script>
     $(document).ready(function(){
         show_content();
