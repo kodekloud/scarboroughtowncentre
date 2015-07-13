@@ -80,14 +80,14 @@
             
         }
         $('.map3').craftmap({
-                image:{
-                    width:1975,
-                    height:1278
-                },
-                map: {
-                    position: '0 190'
-                }
-            });
+            image:{
+                width:1975,
+                height:1278
+            },
+            map: {
+                position: '0 190'
+            }
+        });
         loadMallDataCached(renderAll); 
     })
 </script>
