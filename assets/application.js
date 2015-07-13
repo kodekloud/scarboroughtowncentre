@@ -204,7 +204,7 @@ function renderStoreDetails(container, template, collection, slug){
     $(container).html(item_rendered.join(''));
 }
 
-function renderGeneral(container, template, collection){
+function renderGeneral(container, template, collection, type){
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future use
@@ -215,6 +215,8 @@ function renderGeneral(container, template, collection){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
+
+
 
 function renderStoreExtras(container, template, type, ids){
     var collection = [];
