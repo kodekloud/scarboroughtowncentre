@@ -8,18 +8,7 @@
             <div class="line"></div>
             <div id="jobs_container">
                 <script id="jobs_template" type="x-tmpl-mustache/text">
-                    <p class="description font_italic">{{name}}</p>
-                    <p class="description">Closing Date: <span>{{closing_date}}</span></p>
-                    <p class="new_store_subheading no_margin">{{job_type}}</p>
-                    <div class="margin_15px"></div>
-                    <a class="feature_read_more more" href="#" data-id = "{{id}}" id="more_{{id}}">MORE</a>
-                    <div class="margin_15px"></div>
-                    <div class="show_accordion" id="show_{{id}}">
-                        <div class="description">{{{description}}}</div>
-                        <a class="feature_read_more less" href="#" id="less_{{id}}" data-id = "{{id}}">LESS</a>
-                    </div>
-                    <div class="margin_15px"></div>
-                    <hr class="separator2" />
+                    {{name}}
                 </script>
             </div>
         </div>
