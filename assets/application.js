@@ -249,11 +249,11 @@ function renderGeneral(container, template, collection, type){
         }
         if(type == "jobs"){
             val.alt_promo_image_url = (val.promo_image_url_abs);
-                if (val.promotionable_type == "Store") {
-                    var store_details = getStoreDetailsByID(val.promotionable_id);
-                    val.store_detail_btn = store_details.slug ;
-                    val.store_name = store_details.name;
-                }
+            if (val.promotionable_type == "Store") {
+                var store_details = getStoreDetailsByID(val.promotionable_id);
+                val.store_detail_btn = store_details.slug ;
+                val.store_name = store_details.name;
+            }
             start = new Date (val.start_date);
             end = new Date (val.end_date);
             start.setDate(start.getDate()+1);
