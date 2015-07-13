@@ -290,7 +290,7 @@ function renderStoreExtras(container, template, type, ids){
     });
     $(container).html(item_rendered.join(''));
 }
-function renderStoreExtras(container, template, collection){
+function renderJobsList(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
