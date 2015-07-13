@@ -21,23 +21,6 @@
             </div>
         </div>
         <div class="col-md-8 page_div right_side_details">
-            <div id="store_details_container">
-                <script id="store_details_template" type="x-tmpl-mustache/text">
-                    <h1>{{name}}</h1>
-                    <div class="line"></div>
-                    <p class="description">{{description}}</p>
-                    
-                    <h3 style="{{todays_hours}}" class="new_store_subheading no_margin">HOURS</h3>
-                    <p style="{{todays_hours}}" class="description">{{todays_hours}}</p>
-                    <br />
-                    <h3 class="new_store_subheading no_margin">CONTACT</h3>
-                    <p class="description">{{phone}}</p>
-                    <br />
-                    <h3 class="new_store_subheading no_margin">CATEGORIES</h3>
-                    <p class="description">{{category_list}}</p>
-                </script>
-            </div>
-            <br />
             <h3 class="new_store_subheading no_margin">JOB OPPORTUNITIES</h3>
             <div id="jobs_container">
                 <script id="jobs_template" type="x-tmpl-mustache/text">
