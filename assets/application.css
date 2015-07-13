@@ -623,7 +623,7 @@ h1 {
 
 .new_store_box{
     padding: 10px 0;
-    max-height:220px;
+    min-height:220px;
 }
 .new_store_name{
     font-weight: bold;
