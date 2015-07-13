@@ -85,7 +85,7 @@
                 height:1170
             },
             map: {
-                position: '0 0'
+                position: '0 190'
             }
         });
         loadMallDataCached(renderAll); 
