@@ -25,8 +25,9 @@
                             <div class="show_accordion" id="show_{{id}}">
                                 <div class="new_store_desc">{{{description}}}</div>
                                 <a class="feature_read_more less" href="#" id="less_{{id}}" data-id = "{{id}}">LESS</a>
+                                <div class="margin_15px"></div>
                             </div>
-                            <div class="margin_15px"></div>
+                            
                         </div>
                     </div>
                     <div class="separator2"></div>
