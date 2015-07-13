@@ -635,7 +635,9 @@ h1 {
     font-family: ChronicleDisplay;
 }
 .promo_name{
-    
+    font-weight: bold;
+    font-family: ChronicleDisplay;
+    font-size:18px;
 }
 .new_store_img_div{
     height:200px;
