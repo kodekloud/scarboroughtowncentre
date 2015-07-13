@@ -55,7 +55,7 @@ function more_less(e){
         e.preventDefault();
     });
     
-    $('.more').click(function(e){
+    $('.less').click(function(e){
         var id = $(this).attr('data-id');
         $(this).hide();
         $('#show_' + id).hide();
