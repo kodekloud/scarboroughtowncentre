@@ -45,7 +45,7 @@ function init(e){
 	
 	//Show more
 	$('.more').click(function(e){
-        alert(yo"")
+        alert("yo")
         e.preventDefault();
         
 	});
