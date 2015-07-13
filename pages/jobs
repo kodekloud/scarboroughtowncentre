@@ -1,0 +1,72 @@
+<script src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
+<style>
+    .demo1{
+        height:300px;
+    }
+</style>
+<div class="container-fluid" style="margin-top:60px">
+    <div class="row">
+        <div class="col-md-4 text-center left_side_details" >
+            <div id="map_container">
+                <script id="map_template" type="x-tmpl-mustache/text">
+                    <div class="store_map" id="store_map">
+                        <div class="demo1">
+                            <img src="http://cdn.mallmaverick.com/system/properties/maps/000/000/001/original/stc_map-small_website_2v2.png?1419362460" class="imgMap" id="map_image" />                
+                        	<div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">
+                        	    {{name}}
+                            </div>
+                        </div>   
+                    </div>
+                </script>
+            </div>
+        </div>
+        <div class="col-md-8 page_div right_side_details">
+            <div id="store_details_container">
+                <script id="store_details_template" type="x-tmpl-mustache/text">
+                    <h1>{{name}}</h1>
+                    <div class="line"></div>
+                    <p class="description">{{description}}</p>
+                    
+                    <h3 style="{{todays_hours}}" class="new_store_subheading no_margin">HOURS</h3>
+                    <p style="{{todays_hours}}" class="description">{{todays_hours}}</p>
+                    <br />
+                    <h3 class="new_store_subheading no_margin">CONTACT</h3>
+                    <p class="description">{{phone}}</p>
+                    <br />
+                    <h3 class="new_store_subheading no_margin">CATEGORIES</h3>
+                    <p class="description">{{category_list}}</p>
+                </script>
+            </div>
+            <br />
+            <h3 class="new_store_subheading no_margin">JOB OPPORTUNITIES</h3>
+            <div id="jobs_container">
+                <script id="jobs_template" type="x-tmpl-mustache/text">
+                    <p class="description font_italic">{{name}}</p>
+                    <p class="description">Closing Date: <span>{{closing_date}}</span></p>
+                    <p class="new_store_subheading no_margin">{{job_type}}</p>
+                    <div class="margin_15px"></div>
+                    <a class="feature_read_more more" href="#" data-id = "{{id}}" id="more_{{id}}">MORE</a>
+                    <div class="margin_15px"></div>
+                    <div class="show_accordion" id="show_{{id}}">
+                        <div class="description">{{{description}}}</div>
+                        <a class="feature_read_more less" href="#" id="less_{{id}}" data-id = "{{id}}">LESS</a>
+                    </div>
+                    <div class="margin_15px"></div>
+                    <hr class="separator2" />
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e) {
+        init(e);
+        function renderAll (){
+            renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", store_details.jobs);
+            show_content();
+            more_less(e);
+        }
+        loadMallData(renderAll); 
+    })
+</script>
