@@ -37,7 +37,7 @@
         init(e);
         function renderAll (){
             var jobs = getJobsList();
-            renderJobsList($('#jobs_container'), $('#jobs_template'), jobs);
+            renderGeneral($('#jobs_container'), $('#jobs_template'), jobs);
             show_content();
             more_less(e);
         }
