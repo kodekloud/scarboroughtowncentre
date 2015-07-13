@@ -18,5 +18,6 @@
 <script>
     $(document).ready(function(e) {
         init(e);
+        loadMallDataCached(renderAll); 
     })
 </script>
