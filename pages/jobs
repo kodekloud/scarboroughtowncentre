@@ -63,7 +63,8 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
-            renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", store_details.jobs);
+            var jobs = getJobsList();
+            renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", jobs);
             show_content();
             more_less(e);
         }
