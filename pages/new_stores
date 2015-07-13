@@ -12,8 +12,8 @@
                 <a class="active" href="/new_stores">NEW STORES</a>
                 <a href="/promotions">PROMOTIONS</a>
             </p>
-            <h3 class="new_store_subheading">OPENING SOON</h3>
             <div id="coming_soon_store_container">
+                <h3 class="new_store_subheading">OPENING SOON</h3>
                 <script id="coming_soon_store_template" type="x-tmpl-mustache/text">
                     <div class="row new_store_box">
                         <div class="col-md-3 new_store_img_div text-center">
