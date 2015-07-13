@@ -21,7 +21,7 @@
                             <a class="feature_read_more more" href="#" data-id = "{{id}}" id="more_{{id}}">MORE</a>
                             <div class="margin_15px"></div>
                             <div class="show_accordion" id="show_{{id}}">
-                                <div class="description">{{{description}}}</div>
+                                <div class="description">{{{rich_description}}}</div>
                                 <p class="new_store_name">Contact Name<br /><span class="description">{{contact_name}}</span></p>
                                 <p class="new_store_name">Contact Email<br /><span class="description">{{contact_email}}</span></p>
                                 <a class="feature_read_more" href="/stores/{{store_slug}}">VIEW STORE PAGE</a>
