@@ -257,6 +257,7 @@ function renderGeneral(container, template, collection, type){
                     val.alt_promo_image_url = (store_details.store_front_url_abs);    
                 }
                 val.store_name = store_details.name;
+                val.store_slug = store_details.slug;
             }
             else{
                 val.store_name = "Scarborough Town Centre";
