@@ -20,7 +20,7 @@
         init(e);
         function renderAll (){
             var jobs = getJobsList();
-            renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", jobs);
+            renderJobsList($('#jobs_container'), $('#jobs_template'), "jobs", jobs);
             show_content();
             more_less(e);
         }
