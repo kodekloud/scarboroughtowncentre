@@ -77,7 +77,17 @@
                 y = val.y_coordinate;
                $('#map_image').after('<div class="marker" id="store_' + val.id  + '" data-coords="' + x + ', ' + y + '" style="display:none">' + val.name + '</div>')
             });
+            
         }
+        $('.map3').craftmap({
+                image:{
+                    width:1975,
+                    height:1278
+                },
+                map: {
+                    position: '0 190'
+                }
+            });
         loadMallDataCached(renderAll); 
     })
 </script>
