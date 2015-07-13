@@ -248,6 +248,10 @@ function renderGeneral(container, template, collection, type){
             
         }
         if(type == "jobs"){
+            start = new Date (val.start_date);
+            end = new Date (val.end_date);
+            start.setDate(start.getDate()+1);
+            end.setDate(end.getDate()+1);
             val.closing_date = (get_month(end.getMonth()))+" "+(end.getDate());  
         }
         var rendered = Mustache.render(template_html,val);
