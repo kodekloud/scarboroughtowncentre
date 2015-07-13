@@ -24,6 +24,7 @@
                             <a class="feature_read_more more" href="#" data-id = "{{id}}" id="more_{{id}}">MORE</a>
                             <div class="show_accordion" id="show_{{id}}">
                                 <div class="new_store_desc">{{description}}</div>
+                                <img alt="promo image" src="{{alt_promo_image_url}}" /> 
                                 <div class="margin_15px"></div>
                                 <a class="feature_read_more less" href="#" id="less_{{id}}" data-id = "{{id}}">LESS</a>
                             </div>
