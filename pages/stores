@@ -117,6 +117,6 @@
             renderStoreListCatetories('#category_list_container_right','#category_list_template_right', rightSide, stores);
             show_content();
         }
-        loadMallData(renderAll); 
+        loadMallDataCached(renderAll); 
     })
 </script>
