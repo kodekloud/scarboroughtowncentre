@@ -1,4 +1,4 @@
-<h1 class="404_heading">404</h1>
+<h1 class="heading_404">404</h1>
 <div class="line"></div>
 <script>
     $(document).ready(function(){
