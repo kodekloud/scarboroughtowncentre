@@ -73,8 +73,8 @@
         }
         function renderMarker(collection){
             $.each(collection, function(i, val){
-                x = val.x_coordinate ;
-                y = val.y_coordinate;
+                x = val.x_coordinate - 19;
+                y = val.y_coordinate - 58;
                $('#map_image').after('<div class="marker" id="store_' + val.id  + '" data-coords="' + x + ', ' + y + '" style="display:none">' + val.name + '</div>')
             });
             
