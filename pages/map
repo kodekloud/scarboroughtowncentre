@@ -1,7 +1,12 @@
 <div class="container-fluid" style="margin-top:60px">
     <div class="row">
         <div class="col-md-4 text-center left_side_stores ">
-            <img alt="side image" class="width_100" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/7e31c2409d8cd926265d05eedc9715a7/lookbook_banner.jpg" />
+            <div class="map_store_list" id="store_list_container">
+                <script id="store_list_template" type="x-tmpl-mustache/text">
+                    <p class="store_initial" style="{{show}}">{{initial}}</p>
+                    <a href="#" class="store_name_map" store_id="store_{{id}}" onclick="return show_pin(this)">{{name}}</a>
+                </script>
+            </div>
         </div>
         <div class="col-md-8 page_div right_side_stores">
             <h1>Centre Map</h1>
