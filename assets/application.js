@@ -54,6 +54,13 @@ function more_less(e){
         $('#show_' + id).show();
         e.preventDefault();
     });
+    
+    $('.more').click(function(e){
+        var id = $(this).attr('data-id');
+        $(this).hide();
+        $('#show_' + id).hide();
+        e.preventDefault();
+    });
 }
 
 function renderStoreList(container, template, collection, type,starter, breaker){
