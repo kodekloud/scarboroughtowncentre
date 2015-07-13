@@ -51,6 +51,9 @@ h1 {
     font-style: italic;
 }
 
+.show_accordion{
+    display:none;
+}
 .custom_backdrop{
     opacity:0.5;
     background:#fff;
