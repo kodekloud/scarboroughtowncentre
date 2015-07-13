@@ -1,7 +1,7 @@
 <h1 class="heading_404">404</h1>
 <div class="line2"></div>
 <p class="description text-center">We can't find the page you're looking for.</p>
-<a class="feature_read_more">TAKE ME TO STC HIMEPAGE</a>
+<a class="feature_read_more">TAKE ME TO STC HOMEPAGE</a>
 <script>
     $(document).ready(function(){
         show_content();
