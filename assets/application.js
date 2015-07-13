@@ -254,6 +254,9 @@ function renderGeneral(container, template, collection, type){
                 val.store_detail_btn = store_details.slug ;
                 val.store_name = store_details.name;
             }
+            else{
+                val.store_name = "Scarborough Town Centre";
+            }
             start = new Date (val.start_date);
             end = new Date (val.end_date);
             start.setDate(start.getDate()+1);
