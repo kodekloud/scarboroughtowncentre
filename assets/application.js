@@ -247,6 +247,9 @@ function renderGeneral(container, template, collection, type){
             }
             
         }
+        if(type == "jobs"){
+            val.closing_date = (get_month(end.getMonth()))+" "+(end.getDate());  
+        }
         var rendered = Mustache.render(template_html,val);
          item_rendered.push(rendered);
     });
