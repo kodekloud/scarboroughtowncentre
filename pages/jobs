@@ -15,7 +15,7 @@
                         <div class="col-md-9">
                             <h5 class="new_store_name">{{store_name}}</h5>
                             <p class="description font_italic">{{name}}</p>
-                            <p class="description"><b>Closing Date:</b> <span>{{closing_date}}</span></p>
+                            <p class="new_store_name">Closing Date: <span class="description">{{closing_date}}</span></p>
                             <p class="new_store_subheading no_margin">{{job_type}}</p>
                             <div class="margin_15px"></div>
                             <a class="feature_read_more more" href="#" data-id = "{{id}}" id="more_{{id}}">MORE</a>
