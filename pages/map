@@ -67,15 +67,7 @@
             var stores = getStoresList();
             renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "Z");
             show_content();    
-            $('.map3').craftmap({
-                image:{
-                    width:940,
-                    height:1170
-                },
-                map: {
-                    position: '0 190'
-                }
-            });
+            
         }
         loadMallDataCached(renderAll); 
     })
