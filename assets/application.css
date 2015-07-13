@@ -656,6 +656,12 @@ h1 {
     background: #F15F5C;
     margin: auto;
 }
+
+.map_store_list{
+    max-height:600px;
+    overflow:scroll;
+}
+
 .new_store_img_parent{
     height: 200px;
     padding: 10px;
