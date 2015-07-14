@@ -6,7 +6,7 @@
         <div class="col-md-7 page_div right_side_hours">
             <h1>Hours</h1>
             <div class="line"></div>
-            <p class="new_store_subheading">STC SHOPPING HOURS:</p>
+            <p class="new_store_subheading no_margin">STC SHOPPING HOURS:</p>
             <p class="new_store_name no_margin">Monday – Friday</p>
             <div id="hours_mf_container">
                 <script id="hours_mf_template" type="x-tmpl-mustache/text">
@@ -27,7 +27,7 @@
                     <p class="description no_margin">{{h}}</p>
                 </script>
             </div>
-            <p class="new_store_subheading">IMPORTANT DATES & CLOSURES</p>
+            <p class="new_store_subheading no_margin">IMPORTANT DATES & CLOSURES</p>
         </div>
     </div>
 </div>
