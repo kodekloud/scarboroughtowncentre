@@ -528,5 +528,5 @@ function get_month (id){
 
 
 function verify_captcha(){
-    var g-recaptcha-response = $('#g-recaptcha-response').val()
+    var captcha = $('#g-recaptcha-response').val();
 }
