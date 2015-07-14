@@ -66,6 +66,7 @@
         init(e);
         
         $("#newsletter_form").submit(function(){
+            
             if ($("#email").val() == ""){
                 alert("Please Enter Email");
                 $("#email").focus();
@@ -79,6 +80,10 @@
             //     alert("Please agree to the term and conditions before submitting the contest.");
             //     return false;
             // }
+            else if (verify_captcha == false){
+                alert("Please verify captcha.");
+                return false;
+            }
             else{
                 $('#cm-name').val($('#cm-firstname').val()+ ' ' +$('#cm-lastname').val());
             }
