@@ -32,10 +32,10 @@
             var hours_mf = [];
             var hours_sat = [];
             $.each(hours, function(key, val){
-                if (val.day_of_week == 1 && is_holiday == false){
+                if (val.day_of_week == 1 && val.is_holiday == false){
                     hours_mf.push(val);
                 }
-                if (val.day_of_week == 6 && is_holiday == false){
+                if (val.day_of_week == 6 && val.is_holiday == false){
                     hours_sat.push(val);
                 }
                 
