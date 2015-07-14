@@ -47,6 +47,7 @@
                 <label><input type="checkbox" id="agree_newsletter"> I agree to receive newsletters from Scarborough Town Center</label>
                 <br />
                 <a target="_blank" class="feature_read_more" href="http://cdn.mallmaverick.com/system/site_images/photos/000/009/061/original/TERMS_AND_CONDITIONS(1).pdf?1430846021">Terms and Conditions</a>
+                <div class="margin_30"></div>
             </form>
         </div>
     </div>
