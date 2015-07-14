@@ -7,9 +7,10 @@
         <div class="col-md-6 page_div right_side_newsletter">
             <h1>Newsletter</h1>
             <div class="line"></div>
-            <form accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/yktkih/" enctype="multipart/form-data" method="post">
+            <form id="newsletter_form" accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/yktkih/" enctype="multipart/form-data" method="post">
                 <div class="row">
                     <div class="col-md-6">
+                        <input type="hidden" name="cm-name" id="cm-name" />
                         <label for="first_name">First Name *</label>  
                         <input class="form-control" id="first_name" name="first_name" type="text" required />
                         <div class="margin_30"></div>
@@ -63,7 +64,12 @@
 <script>
     $(document).ready(function(e) {
         init(e);
+        
+        $("#newsletter_form").submit(function(){
+            
+        });
         function renderAll (){
+            
             show_content();
         }
         loadMallDataCached(renderAll); 
