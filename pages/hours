@@ -35,7 +35,7 @@
                 if (val.day_of_week == 1){
                     hours_mf.push(val);
                 }
-                if (val.day_of_week == 5){
+                if (val.day_of_week == 6){
                     hours_sat.push(val);
                 }
                 
