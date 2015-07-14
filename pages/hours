@@ -6,6 +6,7 @@
         <div class="col-md-7 page_div right_side_hours">
             <h1>Hours</h1>
             <div class="line"></div>
+            <p class="new_store_subheading">STC SHOPPING HOURS:</p>
         </div>
     </div>
 </div>
