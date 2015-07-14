@@ -726,6 +726,11 @@ h1 {
     width: 812px;
 }
 
+.right_side_hours{
+    padding-left: 58px;
+    width:702px;
+}
+
 .left_side_details{
     padding-right:58px;
 }
