@@ -10,7 +10,7 @@
             <div id="success_subscribe" style="display:none">
                 <p class="description">Congratulations! You are now subscribed to the STC Newsletter.</p>
             </div>
-            <div class="form_div">
+            <div id="form_div">
                 <form id="newsletter_form" accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/yktkih/" enctype="multipart/form-data" method="post">
                     <input type="hidden" name="cm-name" id="cm-name" />
                     <div class="row">
