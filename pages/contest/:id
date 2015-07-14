@@ -11,68 +11,70 @@
                 <p class="description">Congratulations! You are now subscribed to the STC Newsletter.</p>
             </div>
             <div id="form_div">
-                <form id="newsletter_form" accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/yktkih/" enctype="multipart/form-data" method="post">
-                    <input type="hidden" name="cm-name" id="cm-name" />
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="first_name">First Name *</label>  
-                            <input class="form-control" id="first_name" name="first_name" type="text" required />
+                <script id="contest_template" type="x-tmpl-mustache/text">
+                    <form id="newsletter_form" accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/yktkih/" enctype="multipart/form-data" method="post">
+                        <input type="hidden" name="cm-name" id="cm-name" />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="first_name">First Name *</label>  
+                                <input class="form-control" id="first_name" name="first_name" type="text" required />
+                            </div>
+                            <div class="col-md-6">
+                                <label for="last_name">Last Name *</label>  
+                                <input class="form-control" id="last_name" name="last_name" type="text" required />
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <label for="last_name">Last Name *</label>  
-                            <input class="form-control" id="last_name" name="last_name" type="text" required />
+                        <div class="margin_30"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="email">Email *</label> 
+                                <input class="form-control" id="email" name="cm-yktkih-yktkih" type="email" required />
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone_number">Phone Number</label>  
+                                <input class="form-control" id="phone_number" name="cm-f-muuhr" type="text"  />
+                            </div>
                         </div>
-                    </div>
-                    <div class="margin_30"></div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="email">Email *</label> 
-                            <input class="form-control" id="email" name="cm-yktkih-yktkih" type="email" required />
+                        <div class="margin_30"></div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="postal_code">Postal Code</label> 
+                                <input class="form-control" id="postal_code" name="cm-f-muuhy" type="text"  />
+                            </div>
+                            <div class="col-md-2">
+                                <label for="age">Age</label> 
+                                <input class="form-control" id="age" name="cm-f-muuhj" type="text"  />
+                            </div>
+                            <div class="col-md-6">
+                                <label for="fieldmuuht">Gender</label>  
+                                <select class="form-control" id="fieldmuuht" name="cm-fo-muuht">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <label for="phone_number">Phone Number</label>  
-                            <input class="form-control" id="phone_number" name="cm-f-muuhr" type="text"  />
+                        <div class="margin_30"></div>
+                        <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
+                                <input type="text" id="enterVerify" name="enterVerify" class="form-control" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="margin_30"></div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <label for="postal_code">Postal Code</label> 
-                            <input class="form-control" id="postal_code" name="cm-f-muuhy" type="text"  />
+                        <div class="margin_30"></div>
+                        <label><input type="checkbox" id="agree_newsletter"> I agree to receive newsletters from Scarborough Town Center</label>
+                        <br />
+                        <a target="_blank" class="feature_read_more" href="http://cdn.mallmaverick.com/system/site_images/photos/000/009/061/original/TERMS_AND_CONDITIONS(1).pdf?1430846021">Terms and Conditions</a>
+                        <div class="margin_30"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type = "submit" value="SUBMIT" class="btn_submit_stc "/>
+                            </div>
                         </div>
-                        <div class="col-md-2">
-                            <label for="age">Age</label> 
-                            <input class="form-control" id="age" name="cm-f-muuhj" type="text"  />
-                        </div>
-                        <div class="col-md-6">
-                            <label for="fieldmuuht">Gender</label>  
-                            <select class="form-control" id="fieldmuuht" name="cm-fo-muuht">
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="margin_30"></div>
-                    <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
-                            <input type="text" id="enterVerify" name="enterVerify" class="form-control" />
-                        </div>
-                    </div>
-                    <div class="margin_30"></div>
-                    <label><input type="checkbox" id="agree_newsletter"> I agree to receive newsletters from Scarborough Town Center</label>
-                    <br />
-                    <a target="_blank" class="feature_read_more" href="http://cdn.mallmaverick.com/system/site_images/photos/000/009/061/original/TERMS_AND_CONDITIONS(1).pdf?1430846021">Terms and Conditions</a>
-                    <div class="margin_30"></div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type = "submit" value="SUBMIT" class="btn_submit_stc "/>
-                        </div>
-                    </div>
-                    <div class="margin_30"></div>
-                    <i>Apple is not a sponsor nor is involved in any way. Contest/Sweepstake prizes are not Apple products, using Apple products.</i>
-                </form>
+                        <div class="margin_30"></div>
+                        <i>Apple is not a sponsor nor is involved in any way. Contest/Sweepstake prizes are not Apple products, using Apple products.</i>
+                    </form>
+                </script>
             </div>
         </div>
     </div>
