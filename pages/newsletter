@@ -50,8 +50,7 @@
                             </select>
                         </div>
                     </div>
-                            <div class="g-recaptcha" data-sitekey="6Lc8zAkTAAAAAN3Ndtfar0qlCzxK2MzxyjVtkn3p"></div>
-                    </div>
+                    <div class="g-recaptcha" data-sitekey="6Lc8zAkTAAAAAN3Ndtfar0qlCzxK2MzxyjVtkn3p"></div>
                     <div class="margin_30"></div>
                     <label><input type="checkbox" id="agree_newsletter"> I agree to receive newsletters from Scarborough Town Center</label>
                     <br />
