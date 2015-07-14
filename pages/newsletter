@@ -9,7 +9,8 @@
             <form accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/yktkih/" enctype="multipart/form-data" method="post">
                 <div class="row">
                     <div class="col-md-6">
-                        
+                        <label for="fieldName">Name *</label>  
+                        <input class="form-control" id="fieldName" name="cm-name" type="text" required />
                     </div>
                     <div class="col-md-6">
                         
