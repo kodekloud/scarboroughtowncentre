@@ -12,11 +12,13 @@
             </div>
             <div class="form_div">
                 <form id="newsletter_form" accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/yktkih/" enctype="multipart/form-data" method="post">
+                    <input type="hidden" name="cm-name" id="cm-name" />
                     <div class="row">
                         <div class="col-md-6">
-                            <input type="hidden" name="cm-name" id="cm-name" />
                             <label for="first_name">First Name *</label>  
                             <input class="form-control" id="first_name" name="first_name" type="text" required />
+                        </div>
+                    </div>
                             <div class="margin_30"></div>
                             <label for="email">Email *</label> 
                             <input class="form-control" id="email" name="first_name" type="email" required />
