@@ -524,7 +524,7 @@ function get_month (id){
     }
     return month;
 }
-function contest(container, template, collection, type){
+function renderContest(container, template, collection, type){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
