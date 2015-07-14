@@ -534,3 +534,13 @@ function verify_captcha(){
     data.response = response;
     data.secret = captcha;
 }
+
+
+function randomgen() {
+            var rannumber='';
+            for(ranNum=1; ranNum<=6; ranNum++){
+                rannumber+=Math.floor(Math.random()*10).toString();
+            }
+            $('#verifyNum').html(rannumber);
+            $('#verifyNumHidden').val(rannumber);
+        }
