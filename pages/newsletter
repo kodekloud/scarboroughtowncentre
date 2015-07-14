@@ -107,6 +107,7 @@
                             $('#form_div').hide()
                         }
                 });
+                return false;
 
             }
         });
