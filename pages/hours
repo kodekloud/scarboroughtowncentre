@@ -38,7 +38,8 @@
                     <p class="description no_margin">(STC OPEN {{h}})</p>
                 </script>
             </div>
-            
+            <div class="margin_15px"></div>
+            <p class="new_store_subheading no_margin">STC WILL BE CLOSED ON <br />THE FOLLOWING STATUTORY HOLIDAYS:</p>
         </div>
     </div>
 </div>
