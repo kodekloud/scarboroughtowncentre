@@ -22,6 +22,12 @@
         init(e);
         function renderAll (){
             var hours = getPropertyHours();
+            var hour_mf = [];
+            $.each(hours, function(key, val){
+                if (val.day_of_week == 0){
+                    hour_mf.push(val)
+                }
+            })
             show_content();
         }
         loadMallDataCached(renderAll); 
