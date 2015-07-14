@@ -45,6 +45,7 @@
                 <script id="closed_hours_template" type="x-tmpl-mustache/text">
                     <p class="new_store_name no_margin">{{holiday_name}}</p>
                     <p class="description no_margin">{{formatted_date}}</p>
+                    <div class="margin_15px"></div>
                 </script>
                 
             </div>
