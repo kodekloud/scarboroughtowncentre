@@ -89,7 +89,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var contestDetails = getContestBySlug(slug);
-            renderPageData('#form_div','#contest_template',contestDetails, 'contestDetails')
+            renderContest('#form_div','#contest_template',contestDetails, 'contestDetails')
             show_content();
         }
         loadMallDataCached(renderAll); 
