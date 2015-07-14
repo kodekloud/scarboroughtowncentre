@@ -32,6 +32,9 @@
                         <div class="margin_30"></div>
                         <label for="phone_number">Phone Number</label>  
                         <input class="form-control" id="phone_number" name="cm-f-muuhr" type="text" required />
+                        <div class="margin_30"></div>
+                        <label for="phone_number">Phone Number</label>  
+                        <input class="form-control" id="phone_number" name="cm-f-muuhr" type="text" required />
                     </div>
                 </div>
             </form>
