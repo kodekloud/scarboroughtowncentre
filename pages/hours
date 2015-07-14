@@ -41,6 +41,13 @@
             <div class="margin_15px"></div>
             <p class="new_store_subheading no_margin">STC WILL BE CLOSED ON <br />THE FOLLOWING STATUTORY HOLIDAYS:</p>
             <div class="margin_15px"></div>
+            <div id="closed_hours_container">
+                <script id="closed_hours_template" type="x-tmpl-mustache/text">
+                    <p class="new_store_name no_margin">{{holiday_name}}</p>
+                    <p class="description no_margin">{{formatted_date}}</p>
+                    <p class="description no_margin">(STC OPEN {{h}})</p>
+                </script>
+            </div>
         </div>
     </div>
 </div>
