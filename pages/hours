@@ -30,7 +30,7 @@
         function renderAll (){
             var hours = getPropertyHours();
             var hours_mf = [];
-            var hours = [];
+            var hours_sat = [];
             $.each(hours, function(key, val){
                 if (val.day_of_week == 1){
                     hour_mf.push(val);
