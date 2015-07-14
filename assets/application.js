@@ -544,7 +544,7 @@ function renderContest(container, template, collection, type){
     
     $(container).show();
     $(container).html(item_rendered.join(''));
-};
+}
 
 
 function verify_captcha(){
