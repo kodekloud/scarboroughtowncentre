@@ -17,8 +17,8 @@
                         <div class="margin_30"></div>
                         <div class="row">
                             <div class="col-md-7">
-                                <label for="email">Postal Code</label> 
-                                <input class="form-control" id="email" name="first_name" type="email" required />
+                                <label for="postal_code">Postal Code</label> 
+                                <input class="form-control" id="postal_code" name="cm-f-muuhy" type="email" required />
                                 <div class="margin_30"></div>
                             </div>
                             <div class="col-md-5">
