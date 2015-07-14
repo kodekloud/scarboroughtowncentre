@@ -13,6 +13,7 @@
                     <p class="description no_margin">{{h}}</p>
                 </script>
             </div>
+            <div class="margin_15px;></div>
             <p class="new_store_name no_margin">Monday – Friday</p>
             <div id="hours_mf_container">
                 <script id="hours_mf_template" type="x-tmpl-mustache/text">
