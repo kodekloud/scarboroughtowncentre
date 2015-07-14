@@ -20,7 +20,7 @@
                         </div>
                         <div class="col-md-6">
                             <label for="last_name">Last Name *</label>  
-                            <input class="form-control" id="last_name" name="cm-yktkih-yktkih" type="text" required />
+                            <input class="form-control" id="last_name" name="last_name" type="text" required />
                         </div>
                     </div>
                     <div class="margin_30"></div>
