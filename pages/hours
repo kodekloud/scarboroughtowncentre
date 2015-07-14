@@ -33,7 +33,7 @@
             var hours_sat = [];
             $.each(hours, function(key, val){
                 if (val.day_of_week == 1){
-                    hour_mf.push(val);
+                    hours_mf.push(val);
                 }
                 if (val.day_of_week == 6){
                     hour_sat.push(val);
