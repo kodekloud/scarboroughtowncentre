@@ -1,9 +1,9 @@
 <div class="container-fluid" style="margin-top:60px">
     <div class="row">
-        <div class="col-md-5 text-center left_side_newsletter">
+        <div class="col-md-6 text-center left_side_newsletter">
             <img alt="side image" class="width_100" src="http://placehold.it/300x300" />
         </div>
-        <div class="col-md-7 page_div right_side_newsletter">
+        <div class="col-md-6 page_div right_side_newsletter">
             <h1>Newsletter</h1>
             <div class="line"></div>
         </div>
