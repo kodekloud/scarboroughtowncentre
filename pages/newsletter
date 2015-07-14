@@ -48,7 +48,11 @@
                 <br />
                 <a target="_blank" class="feature_read_more" href="http://cdn.mallmaverick.com/system/site_images/photos/000/009/061/original/TERMS_AND_CONDITIONS(1).pdf?1430846021">Terms and Conditions</a>
                 <div class="margin_30"></div>
-                <input type = "submit" value="SUBMIT" class="btn_submit_stc "/>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type = "submit" value="SUBMIT" class="btn_submit_stc "/>
+                    </div>
+                </div>
             </form>
         </div>
     </div>
