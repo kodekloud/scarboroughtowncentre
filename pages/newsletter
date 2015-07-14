@@ -18,11 +18,21 @@
                             <label for="first_name">First Name *</label>  
                             <input class="form-control" id="first_name" name="first_name" type="text" required />
                         </div>
+                        <div class="col-md-6">
+                            <label for="last_name">Last Name *</label>  
+                            <input class="form-control" id="last_name" name="cm-yktkih-yktkih" type="text" required />
+                        </div>
                     </div>
-                            <div class="margin_30"></div>
+                    <div class="row">
+                        <div class="col-md-6">
                             <label for="email">Email *</label> 
                             <input class="form-control" id="email" name="first_name" type="email" required />
-                            <div class="margin_30"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phone_number">Phone Number</label>  
+                            <input class="form-control" id="phone_number" name="cm-f-muuhr" type="text"  />
+                        </div>
+                    </div>
                             <div class="row">
                                 <div class="col-md-7">
                                     <label for="postal_code">Postal Code</label> 
@@ -36,12 +46,7 @@
                             <div class="margin_30"></div>
                             <div class="g-recaptcha" data-sitekey="6Lc8zAkTAAAAAN3Ndtfar0qlCzxK2MzxyjVtkn3p"></div>
                         </div>
-                        <div class="col-md-6">
-                            <label for="last_name">Last Name *</label>  
-                            <input class="form-control" id="last_name" name="cm-yktkih-yktkih" type="text" required />
-                            <div class="margin_30"></div>
-                            <label for="phone_number">Phone Number</label>  
-                            <input class="form-control" id="phone_number" name="cm-f-muuhr" type="text"  />
+                        
                             <div class="margin_30"></div>
                             <label for="fieldmuuht">Gender</label>  
                             <select class="form-control" id="fieldmuuht" name="cm-fo-muuht">
