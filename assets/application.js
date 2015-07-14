@@ -530,10 +530,10 @@ function renderContest(container, template, collection, type){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     if (type == "contestDetails"){
-        collection.alt_photo_url = getImageURL(collection.photo_url)
+        collection.alt_photo_url = getImageURL(collection.photo_url);
         collection.property_id = getPropertyID();
         item_list.push(collection);
-        collection = []
+        collection = [];
         collection = item_list;
     }
     $.each( collection , function( key, val ) {
