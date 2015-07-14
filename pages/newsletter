@@ -86,6 +86,17 @@
             }
             else{
                 $('#cm-name').val($('#cm-firstname').val()+ ' ' +$('#cm-lastname').val());
+                $.getJSON(
+                this.action + "?callback=?",
+                $(this).serialize(),
+                function (data) {
+                    if (data.Status === 400) {
+                        alert("Please try again later.");
+                    } else { // 200
+                        $("#success_subscribe").fadeIn();
+                    }
+            });
+
             }
         });
         function renderAll (){
