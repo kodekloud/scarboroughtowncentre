@@ -7,7 +7,7 @@
             <h1>Hours</h1>
             <div class="line"></div>
             <p class="new_store_subheading">STC SHOPPING HOURS:</p>
-            <p class="new_store_name">Monday – Friday</p>
+            <p class="new_store_name no_margin">Monday – Friday</p>
             <div id="hours_mf_container">
                 <script id="hours_mf_template" type="x-tmpl-mustache/text">
                     <p class="description">{{h}}</p>
