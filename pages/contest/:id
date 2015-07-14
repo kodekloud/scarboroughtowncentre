@@ -5,7 +5,7 @@
             <img alt="side image" class="width_100" src="http://placehold.it/300x300" />
         </div>
         <div class="col-md-6 page_div right_side_newsletter">
-            <h1>Subscribe to the STC Newsletter</h1>
+            <h1>Contests</h1>
             <div class="line"></div>
             <div id="success_subscribe" style="display:none">
                 <p class="description">Congratulations! You are now subscribed to the STC Newsletter.</p>
@@ -53,7 +53,9 @@
                         </div>
                     </div>
                     <div class="margin_30"></div>
-                    <div class="g-recaptcha" data-sitekey="6Lc8zAkTAAAAAN3Ndtfar0qlCzxK2MzxyjVtkn3p"></div>
+                    <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
+                    <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
+                    <input type="text" id="enterVerify" name="enterVerify" />
                     <div class="margin_30"></div>
                     <label><input type="checkbox" id="agree_newsletter"> I agree to receive newsletters from Scarborough Town Center</label>
                     <br />
@@ -75,7 +77,7 @@
 <script>
     $(document).ready(function(e) {
         init(e);
-        
+        randomgen() 
         $("#newsletter_form").submit(function(){
             
             if ($("#email").val() == ""){
