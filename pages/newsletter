@@ -66,7 +66,22 @@
         init(e);
         
         $("#newsletter_form").submit(function(){
-            
+            if ($("#email").val() == ""){
+                alert("Please Enter Email");
+                $("#email").focus();
+                return false;
+            }
+            else if(!($('#agree_newsletter').is(":checked"))){
+                alert('Please click on "I agree to receive newsletters from The Scarborough Town Center" checkbox.');
+                return false;
+            }
+            else if(!($('#agree_terms').is(":checked"))){
+                alert("Please agree to the term and conditions before submitting the contest.");
+                return false;
+            }
+            else{
+                $('#cm-name').val($('#cm-firstname').val()+ ' ' +$('#cm-lastname').val());
+            }
         });
         function renderAll (){
             
