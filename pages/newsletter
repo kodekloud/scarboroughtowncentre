@@ -34,7 +34,10 @@
                         <input class="form-control" id="phone_number" name="cm-f-muuhr" type="text" required />
                         <div class="margin_30"></div>
                         <label for="gender">Gender</label>  
-                        
+                        <select id="fieldmuuht" name="cm-fo-muuht">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
                     </div>
                 </div>
             </form>
