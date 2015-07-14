@@ -28,7 +28,6 @@
                         </div>
                         <div class="margin_30"></div>
                         <div class="g-recaptcha" data-sitekey="6Lc8zAkTAAAAAN3Ndtfar0qlCzxK2MzxyjVtkn3p"></div>
-                        <label><input type="checkbox" id="agree_newsletter"> I agree to receive newsletters from Scarborough Town Center</label>
                     </div>
                     <div class="col-md-6">
                         <label for="last_name">Last Name *</label>  
@@ -44,6 +43,7 @@
                         </select>
                     </div>
                 </div>
+                <label><input type="checkbox" id="agree_newsletter"> I agree to receive newsletters from Scarborough Town Center</label>
             </form>
         </div>
     </div>
