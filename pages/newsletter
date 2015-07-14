@@ -11,14 +11,14 @@
                     <div class="col-md-6">
                         <label for="first_name">First Name *</label>  
                         <input class="form-control" id="first_name" name="first_name" type="text" required />
-                        <div class="margin_15px"></div>
+                        <div class="margin_30"></div>
                         <label for="email">Email *</label> 
                         <input class="form-control" id="email" name="first_name" type="email" required />
                     </div>
                     <div class="col-md-6">
                         <label for="last_name">Last Name *</label>  
                         <input class="form-control" id="last_name" name="cm-yktkih-yktkih" type="text" required />
-                        <div class="margin_15px"></div>
+                        <div class="margin_30"></div>
                         <label for="phone_number">Phone Number</label>  
                         <input class="form-control" id="phone_number" name="cm-f-muuhr" type="text" required />
                     </div>
