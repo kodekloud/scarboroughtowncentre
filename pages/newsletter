@@ -23,6 +23,7 @@
                             <input class="form-control" id="last_name" name="cm-yktkih-yktkih" type="text" required />
                         </div>
                     </div>
+                    <div class="margin_30"></div>
                     <div class="row">
                         <div class="col-md-6">
                             <label for="email">Email *</label> 
@@ -33,6 +34,7 @@
                             <input class="form-control" id="phone_number" name="cm-f-muuhr" type="text"  />
                         </div>
                     </div>
+                    <div class="margin_30"></div>
                     <div class="row">
                         <div class="col-md-4">
                             <label for="postal_code">Postal Code</label> 
