@@ -45,6 +45,8 @@
                 </div>
                 <div class="margin_30"></div>
                 <label><input type="checkbox" id="agree_newsletter"> I agree to receive newsletters from Scarborough Town Center</label>
+                <div class="margin_30"></div>
+                <a class="feature_read_more">Terms and Conditions</a>
             </form>
         </div>
     </div>
