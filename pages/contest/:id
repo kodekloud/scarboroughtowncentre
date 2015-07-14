@@ -82,42 +82,7 @@
     $(document).ready(function(e) {
         init(e);
         randomgen();
-        $("#newsletter_form").submit(function(){
-            
-            if ($("#email").val() == ""){
-                alert("Please Enter Email");
-                $("#email").focus();
-                return false;
-            }
-            else if(!($('#agree_newsletter').is(":checked"))){
-                alert('Please click on "I agree to receive newsletters from The Scarborough Town Center" checkbox.');
-                return false;
-            }
-            // else if(!($('#agree_terms').is(":checked"))){
-            //     alert("Please agree to the term and conditions before submitting the contest.");
-            //     return false;
-            // }
-            else if (verify_captcha() == false){
-                alert("Please verify captcha.");
-                return false;
-            }
-            else{
-                $('#cm-name').val($('#first_name').val()+ ' ' +$('#last_name').val());
-                $.getJSON(
-                    this.action + "?callback=?",
-                    $(this).serialize(),
-                    function (data) {
-                        if (data.Status === 400) {
-                            alert(data.Message);
-                        } else { // 200
-                            $("#success_subscribe").fadeIn();
-                            $('#form_div').hide()
-                        }
-                });
-                return false;
-
-            }
-        });
+        
         function renderAll (){
             
             show_content();
