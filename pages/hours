@@ -21,6 +21,7 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
+            var hours = getPropertyHours();
             show_content();
         }
         loadMallDataCached(renderAll); 
