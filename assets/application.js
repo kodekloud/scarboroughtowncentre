@@ -524,3 +524,9 @@ function get_month (id){
     }
     return month;
 }
+
+
+
+function verify_captcha(){
+    var value_captcha = $('#g-recaptcha-response').val()
+}
