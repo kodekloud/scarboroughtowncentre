@@ -102,7 +102,7 @@
                     $(this).serialize(),
                     function (data) {
                         if (data.Status === 400) {
-                            console.log(data);
+                            alert(data.Message);
                         } else { // 200
                             $("#success_subscribe").fadeIn();
                             $('#form_div').hide()
