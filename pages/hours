@@ -41,7 +41,7 @@
                 
             });
             renderHours('#hours_mf_container','#hours_mf_template', hours_mf, 'reg_hours')
-            renderHours('#hours_mf_container','#hours_mf_template', hours_sat, 'reg_hours')
+            renderHours('#hours_sat_container','#hours_sat_template', hours_sat, 'reg_hours')
             
             show_content();
         }
