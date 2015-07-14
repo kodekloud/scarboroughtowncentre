@@ -101,7 +101,7 @@
                     $(this).serialize(),
                     function (data) {
                         if (data.Status === 400) {
-                            alert("Please try again later.");
+                            console(data);
                         } else { // 200
                             $("#success_subscribe").fadeIn();
                             $('#form_div').hide()
