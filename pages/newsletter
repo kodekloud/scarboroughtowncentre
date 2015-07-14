@@ -7,7 +7,7 @@
         <div class="col-md-6 page_div right_side_newsletter">
             <h1>Subscribe to the STC Newsletter</h1>
             <div class="line"></div>
-            <div class="success_subscribe" style="display:none">
+            <div id="success_subscribe" style="display:none">
                 <p class="description">Congratulations! You are now subscribed to the STC Newsletter.</p>
             </div>
             <div class="form_div">
