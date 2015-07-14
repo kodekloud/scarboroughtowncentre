@@ -36,7 +36,7 @@
                     hours_mf.push(val);
                 }
                 if (val.day_of_week == 6){
-                    hour_sat.push(val);
+                    hours_sat.push(val);
                 }
                 
             });
