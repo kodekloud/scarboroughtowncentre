@@ -6,14 +6,16 @@
         <div class="col-md-6 page_div right_side_newsletter">
             <h1>Newsletter</h1>
             <div class="line"></div>
-            <div class="row">
-                <div class="col-md-6">
-                    
+            <form accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/yktkih/" enctype="multipart/form-data" method="post">
+                <div class="row">
+                    <div class="col-md-6">
+                        
+                    </div>
+                    <div class="col-md-6">
+                        
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    
-                </div>
-            </div>
+            </form>
         </div>
     </div>
 </div>
