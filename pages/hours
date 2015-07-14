@@ -20,6 +20,13 @@
                     <p class="description no_margin">{{h}}</p>
                 </script>
             </div>
+            <div class="margin_15px"></div>
+            <p class="new_store_name no_margin">Sunday</p>
+            <div id="hours_sun_container">
+                <script id="hours_sun_template" type="x-tmpl-mustache/text">
+                    <p class="description no_margin">{{h}}</p>
+                </script>
+            </div>
         </div>
     </div>
 </div>
