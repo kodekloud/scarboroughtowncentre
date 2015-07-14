@@ -25,9 +25,11 @@
             var hour_mf = [];
             $.each(hours, function(key, val){
                 if (val.day_of_week == 0){
-                    hour_mf.push(val)
+                    hour_mf.push(val);
                 }
-            })
+            });
+            renderHours('#hours_mf_container','#hours_mf_template', hour_mf, 'reg_hours')
+            
             show_content();
         }
         loadMallDataCached(renderAll); 
