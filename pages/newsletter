@@ -80,7 +80,7 @@
             //     alert("Please agree to the term and conditions before submitting the contest.");
             //     return false;
             // }
-            else if (verify_captcha == false){
+            else if (verify_captcha() == false){
                 alert("Please verify captcha.");
                 return false;
             }
