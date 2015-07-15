@@ -5,7 +5,8 @@
             <div id="contest_image_container">
                 <script id="contest_image_template" type="x-tmpl-mustache/text">
                     <img alt="contest side image" class="width_100" src="{{alt_photo_url}}" />
-                    <p class="description">{{{description}}}</p>
+                    <div class="margin_15px"></div>
+                    <p class="description text-left">{{{description}}}</p>
                 </script>
             </div>
         </div>
