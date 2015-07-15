@@ -121,7 +121,7 @@
                                     var email = $("#email").val();
                                     $('input[name="cm-tkyhii-tkyhii"]').attr('value',email);
                                      $.getJSON(
-                                        "http://mobilefringe.createsend.com/t/d/s/tkyhii/?callback=?",
+                                        "http://mobilefringe.createsend.com/t/d/s/yktkih/?callback=?",
                                       $("#subForm").serialize(),
                                         function (data) {
                                             if (data.Status === 400) {
