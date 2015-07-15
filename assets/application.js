@@ -631,8 +631,6 @@ function renderBanner(banner_template,home_banner,banners){
         item_rendered.push(repo_rendered);
        
     });
-    
-    $(home_banner).show();
     $(home_banner).html(item_rendered.join(''));
     $('.item').first().addClass('active');
     $('.flexslider').flexslider({
