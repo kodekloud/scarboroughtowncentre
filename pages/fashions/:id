@@ -4,8 +4,8 @@
             <h1>{{name}}</h1>
             <div class="line"></div>
             <div class="flexslider">
-                <ul class="slides" id="home_banner">
-                    <script id="banner_template" type="x-tmpl-mustache/text">
+                <ul class="slides" id="fashion_slider">
+                    <script id="fashion_slider_template" type="x-tmpl-mustache/text">
                         <li>
                             <img alt="fashion" src="{{image_url}}"/>
                         </li>
