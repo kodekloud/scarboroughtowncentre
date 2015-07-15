@@ -16,7 +16,7 @@
             </div>
             <div id="fashion_desc_container">
                 <script id="fashion_desc_template" type="x-tmpl-mustache/text">
-                    <p class="description">{{name}}</p>
+                    <p class="description">{{descriptino}}</p>
                 </script>
             </div>
         </div>
