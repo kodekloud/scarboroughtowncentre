@@ -34,6 +34,7 @@
             var fashion = getFashionBySlug(slug);
             var fashion_images = fashion.fashion_images;
             renderFashion("#fashion_container", "#fashion_template", fashion);
+            renderFashion("#fashion_desc_container", "#fashion_desc_template", fashion);
             show_content();
             $('.flexslider').flexslider({
                 animation: "slide",
