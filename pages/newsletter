@@ -98,7 +98,8 @@
             //     return false;
             // }
             else if ($('#enterVerify').val() == $('#verifyNumHidden').val()){
-                alert("Please verify captcha.");
+                alert("Please Enter Correct Verification Number");
+                            randomgen();
                 return false;
             }
             else{
