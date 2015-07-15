@@ -576,7 +576,8 @@ function submit_contest(data) {
         type: "POST",
         data: data,
         success: function(data) {
-            window.location.href="/contest_thank_you";
+            $("#success_subscribe").fadeIn();
+            $('#form_div').hide();
         },
         error: function(data){
             alert("There was an issue with submitting the contest entry. Please try again at a later time.");
