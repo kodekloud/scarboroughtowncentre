@@ -125,7 +125,6 @@
                                       $("#subForm").serialize(),
                                         function (data) {
                                             if (data.Status === 400) {
-                                                e.preventDefault();
                                                 alert("Please try again later.");
                                             } else { // 200
                                                 data = $("#contest_form").serialize();
