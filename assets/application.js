@@ -653,7 +653,7 @@ function renderFashionImages(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
-        val.image_url = getPropertyDetails().mm_host + val.photo_url
+        val.image_url = getPropertyDetails().mm_host + val.photo_url;
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
