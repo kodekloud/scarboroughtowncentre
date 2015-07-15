@@ -7,13 +7,13 @@
                 </script>
             </div>
             <div class="line"></div>
-            <div class="flexslider">
+            <!--<div class="flexslider">-->
                 <ul class="slides" id="fashion_images_container">
                     <script id="fashion_images_template" type="x-tmpl-mustache/text">
                        {{photo_url}}
                     </script>
                 </ul>
-            </div>
+            <!--</div>-->
             <div id="fashion_desc_container">
                 <script id="fashion_desc_template" type="x-tmpl-mustache/text">
                     <p class="description">{{description}}</p>
