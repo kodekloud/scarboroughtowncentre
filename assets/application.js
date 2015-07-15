@@ -652,7 +652,8 @@ function renderFashionImages(container, template, collection){
     var item_rendered = [];
     var template_html = $(container).html();
     Mustache.parse(container);   // optional, speeds up future uses
-    
+        var rendered = Mustache.render(template_html,collection);
+        item_rendered.push(rendered);
     $(container).html(item_rendered.join(''));
 }
 
