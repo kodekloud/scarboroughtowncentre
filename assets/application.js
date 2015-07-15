@@ -646,7 +646,7 @@ function renderFashionImages(container, template, collection){
         item_rendered.push(rendered);
 
     });
-    console.log(item_rendered)
+    console.log(item_rendered.join(''))
     $(container).html(item_rendered.join(''));
 }
 
