@@ -1,15 +1,11 @@
 <div class="flexslider">
-  <ul class="slides">
-    <li>
-      <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/71ba44a20a9b040b3c83820e2b5a21b8/Carousel-2-1.png" class="" alt="banner">
-    </li>
-    <li>
-      <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/banner_main1.jpg" class="" alt="banner">
-    </li>
-    <li>
-        <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/banner_main2.jpg" class="" alt="banner">
-    </li>
-  </ul>
+    <ul class="slides" id="home_banner">
+        <script id="banner_template" type="x-tmpl-mustache/text">
+            <li class="item">
+                <img src="{{image_url}}"/>
+            </li>
+        </script>
+    </ul>
 </div>
 <div class="section_feature">
     <div class="container-fluid">
@@ -79,6 +75,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            
             $('.flexslider').flexslider({
                 animation: "slide"
             }); 
