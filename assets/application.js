@@ -564,3 +564,25 @@ function randomgen() {
     $('#verifyNum').html(rannumber);
     $('#verifyNumHidden').val(rannumber);
 }
+
+
+function submit_contest(data) {
+    var propertyDetails = getPropertyDetails();
+    var host = propertyDetails.mm_host;
+    var email = $("#email").val();
+    var name = $("#first_name").val() + " " + $("#last_name").val();
+    $.ajax({
+        url: host+"/newsletter_no_captcha",
+        type: "POST",
+        data: data,
+        success: function(data) {
+            window.location.href="/contest_thank_you";
+        },
+        error: function(data){
+            alert("There was an issue with submitting the contest entry. Please try again at a later time.");
+        }
+    });
+}
+
+
+
