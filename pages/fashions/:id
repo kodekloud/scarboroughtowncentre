@@ -8,7 +8,7 @@
             </div>
             <div class="line"></div>
             <div class="flexslider">
-                <ul class="slides"  id="fashion_images_container">
+                <ul class="slides" id="fashion_images_container">
                     <script id="fashion_images_template" type="x-tmpl-mustache/text">
                        <li><img src="{{image_url}}" alt="fashion" /></li>
                     </script>
