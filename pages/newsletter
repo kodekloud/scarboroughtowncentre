@@ -53,7 +53,13 @@
                         </div>
                     </div>
                     <div class="margin_30"></div>
-                    <div class="g-recaptcha" data-sitekey="6Lc8zAkTAAAAAN3Ndtfar0qlCzxK2MzxyjVtkn3p"></div>
+                    <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
+                            <input type="text" id="enterVerify" name="enterVerify" class="form-control" />
+                        </div>
+                    </div>
                     <div class="margin_30"></div>
                     <label><input type="checkbox" id="agree_newsletter"> I agree to receive newsletters from Scarborough Town Center</label>
                     <br />
