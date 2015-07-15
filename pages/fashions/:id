@@ -30,7 +30,7 @@
                 <a href="http://www.facebook.com/sharer.php?u=http://scarboroughtowncentre.com/fashion/{{slug}}">
                     <img class="share_img site_icons" alt="fb share" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_facebook.png" />
                 </a>
-                <a href="">
+                <a href="http://twitter.com/share?url=http://scarboroughtowncentre.com/fashion/{{slug}}">
                     <img class="share_img site_icons" alt="twitter share" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_twitter.png" />
                 </a>
                 <a href="http://pinterest.com/pin/create/button/?url=http://scarboroughtowncentre.com/fashion/{{slug}}" count-layout="horizontal">
