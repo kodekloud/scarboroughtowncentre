@@ -26,7 +26,7 @@
             var slug = pathArray[pathArray.length-1];
             var fashion = getFashionBySlug(slug);
             var fashion_images = fashion.fashion_images;
-            renderFashionImages("#fashion_slider", "#fashion_slider_template", fashion_images, )
+            renderFashionImages("#fashion_slider", "#fashion_slider_template", fashion_images)
             show_content();
         }
         loadMallDataCached(renderAll); 
