@@ -85,7 +85,6 @@
 <script>
     $(document).ready(function(e) {
         init(e);
-        randomgen();
         
         function renderAll (){
             var pathArray = window.location.pathname.split( '/' );
@@ -93,6 +92,7 @@
             var contestDetails = getContestBySlug(slug);
             renderContest('#form_div','#contest_template',contestDetails, 'contestDetails')
             show_content();
+            randomgen();
         }
         loadMallDataCached(renderAll); 
     })
