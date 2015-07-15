@@ -97,7 +97,7 @@
             //     alert("Please agree to the term and conditions before submitting the contest.");
             //     return false;
             // }
-            else if (verify_captcha() == false){
+            else if ($('#enterVerify').val() == $('#verifyNumHidden').val()){
                 alert("Please verify captcha.");
                 return false;
             }
