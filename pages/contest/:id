@@ -116,7 +116,7 @@
                         var e = verify_required_fields();
                         if (e == true){
                             if ($("#newsletter_signup").prop("checked") == true){
-                                var s = check_email();
+                                var s = validateEmail($("#email").val());
                                 if (s == true){
                                     var email = $("#email").val();
                                     $('input[name="cm-tkyhii-tkyhii"]').attr('value',email);
