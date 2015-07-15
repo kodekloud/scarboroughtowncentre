@@ -148,7 +148,7 @@
                         
                         
                     } else {
-                        alert("Please agree to the terms and conditions before submitting!")
+                        alert("Please agree to the STC Privacy Policy")
                     }
                 }
                 else
