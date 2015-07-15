@@ -112,7 +112,7 @@
                             alert(data.Message);
                         } else { // 200
                             $("#success_subscribe").fadeIn();
-                            $('#form_div').hide()
+                            $('#form_div').hide();
                         }
                 });
                 return false;
