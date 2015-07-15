@@ -78,10 +78,12 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        $('.flexslider').flexslider({
-            animation: "slide"
-        }); 
-        show_content();
+        function renderAll(){
+            $('.flexslider').flexslider({
+                animation: "slide"
+            }); 
+            show_content();
+        }
         loadMallDataCached(renderAll); 
     })
 </script>
