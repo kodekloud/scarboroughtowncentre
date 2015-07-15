@@ -28,7 +28,7 @@
             var slug = pathArray[pathArray.length-1];
             var fashion = getFashionBySlug(slug);
             var fashion_images = fashion.fashion_images;
-            renderGeneral("#fashion_container", "#fashion_template", fashion, "fashion");
+            renderFashion("#fashion_container", "#fashion_template", fashion, "fashion");
             show_content();
             $('.flexslider').flexslider({
                 animation: "slide",
