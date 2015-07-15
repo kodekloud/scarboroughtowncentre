@@ -15,7 +15,7 @@
             <h1>Contests</h1>
             <div class="line"></div>
             <div id="success_subscribe" style="display:none">
-                <p class="description">Congratulations! You are now subscribed to the STC Newsletter.</p>
+                <p class="description">Thank you for your entry. Good luck!</p>
             </div>
             <div id="form_div">
                 <script id="contest_template" type="x-tmpl-mustache/text">
