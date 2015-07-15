@@ -6,9 +6,7 @@
             <div class="flexslider">
                 <ul class="slides" id="fashion_slider">
                     <script id="fashion_slider_template" type="x-tmpl-mustache/text">
-                        <li>
-                            <img alt="fashion" src="{{photo_url}}"/>
-                        </li>
+                       {{photo_url}}
                     </script>
                 </ul>
             </div>
