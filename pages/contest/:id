@@ -93,6 +93,54 @@
             renderContest('#form_div','#contest_template',contestDetails, 'contestDetails')
             show_content();
             randomgen();
+            $('#contest_form').submit(function (e) {
+                if($('#enterVerify').val() == $('#verifyNumHidden').val() ) {
+                    if ($("#agree_terms").prop("checked") == true){
+                        var e = verify_required_fields();
+                        if (e == true){
+                            if ($("#newsletter_signup").prop("checked") == true){
+                                var s = check_email();
+                                if (s == true){
+                                    var email = $("#email").val();
+                                    $('input[name="cm-tkyhii-tkyhii"]').attr('value',email);
+                                     $.getJSON(
+                                        "http://mobilefringe.createsend.com/t/d/s/tkyhii/?callback=?",
+                                      $("#subForm").serialize(),
+                                        function (data) {
+                                            if (data.Status === 400) {
+                                                e.preventDefault();
+                                                alert("Please try again later.");
+                                            } else { // 200
+                                                data = $("#contest_form").serialize();
+                                                submit_contest(data);
+                                                  
+                                            }
+                                    });  
+                                } else {
+        
+                                    alert("Invaid E-mail address.")
+                                }
+                                
+                            } else {
+                                data = $(this).serialize();
+                                submit_contest(data);
+                            }    
+                        } else {
+                            alert("One or more required fields are blank! please fill in all fields marked with * and try again.")
+                        }
+                        
+                        
+                    } else {
+                        alert("Please agree to the terms and conditions before submitting!")
+                    }
+                }
+                else
+                {
+                    alert("Please Enter Correct Verification Number");
+                    randomgen();
+                }
+            
+            });
         }
         loadMallDataCached(renderAll); 
     })
