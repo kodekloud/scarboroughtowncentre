@@ -82,5 +82,6 @@
             animation: "slide"
         }); 
         show_content();
+        loadMallDataCached(renderAll); 
     })
 </script>
