@@ -65,7 +65,7 @@
                         <div class="margin_30"></div>
                         <div class="row">
                             <div class="col-md-6">
-                                <label for="vendor_info" style="display:none"><input class="info_check" id="vendor_info" type="checkbox" name="contest[get_vendor_info]" /> Get More Info from This Retailer</label>
+                                <label for="vendor_info"><input class="info_check" id="vendor_info" type="checkbox" name="contest[get_vendor_info]" /> Get More Info from This Retailer</label>
                             </div>
                         </div>
                         <div class="margin_30"></div>
