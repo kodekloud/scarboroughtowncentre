@@ -41,7 +41,7 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <label for="postal_code">Postal Code</label> 
-                                <input class="form-control" id="postal_code" name="cm-f-muuhy" type="text"  />
+                                <input class="form-control" id="postal_code" name="contest[postal_code]" type="text"  />
                             </div>
                             <div class="col-md-2">
                                 <label for="age">Age</label> 
