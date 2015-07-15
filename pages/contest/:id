@@ -119,10 +119,11 @@
                                 var s = validateEmail($("#email").val());
                                 if (s == true){
                                     var email = $("#email").val();
-                                    data['cm-yktkih-yktkih'] = email;
-                                     $.getJSON(
+                                    var n_data = {};
+                                    n_data['cm-yktkih-yktkih'] = email;
+                                    $.getJSON(
                                         "http://mobilefringe.createsend.com/t/d/s/yktkih/?callback=?",
-                                        data,
+                                        n_data,
                                         function (data) {
                                             if (data.Status === 400) {
                                                 alert("Please try again later.");
