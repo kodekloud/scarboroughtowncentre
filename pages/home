@@ -75,7 +75,8 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            renderBanner()
+            var banners = getBanners();
+            renderBanner('#banner_template','#home_banner',banners);
             
             show_content();
         }
