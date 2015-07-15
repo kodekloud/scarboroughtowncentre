@@ -81,7 +81,7 @@
 <script>
     $(document).ready(function(e) {
         init(e);
-        
+        randomgen();
         $("#newsletter_form").submit(function(){
             
             if ($("#email").val() == ""){
