@@ -12,7 +12,7 @@
                     <script id="fashion_images_template" type="x-tmpl-mustache/text">
                        <li><img src="{{image_url}}" alt="fashion" /></li>
                     </script>
-                </div>
+                </ul>
             <!--</div>-->
             <div id="fashion_desc_container">
                 <script id="fashion_desc_template" type="x-tmpl-mustache/text">
