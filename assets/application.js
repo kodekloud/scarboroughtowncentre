@@ -634,10 +634,6 @@ function renderBanner(banner_template,home_banner,banners){
     $(home_banner).html(item_rendered.join(''));
     $('.flexslider').flexslider({
         animation: "slide",
-        controlNav: true,
-        directionNav: true,        
-        prevText: "",
-        nextText: ""
     });
 }
 
