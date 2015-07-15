@@ -28,6 +28,9 @@
             var fashion_images = fashion.fashion_images;
             renderFashionImages("#fashion_slider", "#fashion_slider_template", fashion_images)
             show_content();
+            $('.flexslider').flexslider({
+                animation: "slide",
+            });
         }
         loadMallDataCached(renderAll); 
     })
