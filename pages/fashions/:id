@@ -10,7 +10,7 @@
             <!--<div class="flexslider">-->
                 <div id="fashion_images_container">
                     <script id="fashion_images_template" type="x-tmpl-mustache/text">
-                       {{id}}
+                       {{photo_url}}
                     </script>
                 </div>
             <!--</div>-->
