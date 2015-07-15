@@ -640,7 +640,7 @@ function renderFashion(container, template, collection){
     var template_html = $(template).html();
     item_list.push(collection)
     Mustache.parse(template_html);   // optional, speeds up future uses
-    $.each( collection , function( key, val ) {
+    $.each( item_list , function( key, val ) {
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
