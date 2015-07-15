@@ -144,5 +144,12 @@
             });
         }
         loadMallDataCached(renderAll); 
+        function verify_required_fields (){
+            if ($("#first_name").val() != "" && $("#last_name").val() != "" && $("#email").val() != "" && $("#phone_number").val() != "" && $("#postal_code").val() != "" && $("#age").val() != "") {
+                return true;
+            } else {
+                return false;
+            }
+        }
     })
 </script>
