@@ -1,7 +1,11 @@
 <div class="container-fluid" style="margin-top:60px">
     <div class="row">
         <div class="col-md-7 left_side_blog">
-            <h1>{{name}}</h1>
+            <div id="fashion_container">
+                <script>
+                    <h1>{{name}}</h1>
+                </script>
+            </div>
             <div class="line"></div>
             <div class="flexslider">
                 <ul class="slides" id="fashion_slider">
