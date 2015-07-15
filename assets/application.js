@@ -636,3 +636,7 @@ function renderBanner(banner_template,home_banner,banners){
 }
 
 
+function renderFashionImages(container, template, collection){
+    
+}
+
