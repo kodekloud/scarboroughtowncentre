@@ -99,7 +99,7 @@
             // }
             else if ($('#enterVerify').val() == $('#verifyNumHidden').val()){
                 alert("Please Enter Correct Verification Number");
-                            randomgen();
+                randomgen();
                 return false;
             }
             else{
