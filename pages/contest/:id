@@ -4,7 +4,7 @@
         <div class="col-md-6 text-center left_side_newsletter">
             <div class="contest_image_container">
                 <script id="contest_image_template" type="x-tmpl-mustache/text">
-                    <img alt="side image" class="width_100" src="{{alt_photo_url}}" />
+                    <img alt="contest side image" class="width_100" src="{{alt_photo_url}}" />
                 </script>
             </div>
         </div>
