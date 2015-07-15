@@ -27,7 +27,15 @@
             <p class="text-center new_store_subheading no_margin">SHARE</p>
             <div class="margin_15px"></div>
             <p class="text-center">
-                
+                <a href="">
+                    <img alt=" share" src="" />
+                </a>
+                <a href="">
+                    <img alt=" share" src="" />
+                </a>
+                <a href="">
+                    <img alt=" share" src="" />
+                </a>
             </p>
         </div>
         <div class="col-md-5 page_div right_side_blog">
