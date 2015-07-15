@@ -119,7 +119,7 @@
                                 var s = validateEmail($("#email").val());
                                 if (s == true){
                                     var email = $("#email").val();
-                                    $('input[name="cm-tkyhii-tkyhii"]').attr('value',email);
+                                    $('input[name="cm-yktkih-yktkih"]').attr('value',email);
                                      $.getJSON(
                                         "http://mobilefringe.createsend.com/t/d/s/yktkih/?callback=?",
                                       $("#subForm").serialize(),
