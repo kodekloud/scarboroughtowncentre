@@ -32,7 +32,7 @@
             </p>
             <div class="controls">
             	<div class="dropdown custom_dropdown">                          
-                    <a class="btn-prime"  id="map_button">
+                    <a class="btn-prime" id="map_button">
                         Select a Store <span style="margin-top:3px;" class="fa fa-caret-down pull-right"></span>
                     </a>		    
                 </div>            
