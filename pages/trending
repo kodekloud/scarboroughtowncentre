@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col-md-7 left_side_blog">
             <div class="blog_parent" id="blog_container">
-                <script>
+                <script id="blog_template" type="x-tmpl-mustache/text">
                     
                 </script>
             </div>
