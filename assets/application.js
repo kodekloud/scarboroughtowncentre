@@ -66,6 +66,7 @@ function init_home_hours(){
             hours_today.push(val)
         } 
     });
+    var today = hours_today[0];
 }
 
 function more_less(e){
