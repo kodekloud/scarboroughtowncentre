@@ -2,15 +2,10 @@
 <div class="container-fluid" style="margin-top:60px">
     <h1>Trending</h1>
     <div class="line"></div>
-    <div class="row">
+    <div class="row" id="trending_container">
+        <script id="trending_template" type="x-tmpl-mustache/text">
         <div class="col-md-4">
             a
-        </div>
-        <div class="col-md-4">
-            b
-        </div>
-        <div class="col-md-4">
-            c
         </div>
     </div>
     <div class="margin_30"></div>
