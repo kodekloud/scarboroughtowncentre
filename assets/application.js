@@ -75,7 +75,7 @@ function init_home_hours(){
         
         val.open = new Date (val.open_time);
         val.close = new Date (val.open_time);
-        console.log(open)
+        console.log(va.open)
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
