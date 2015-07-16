@@ -956,6 +956,10 @@ h1 {
     .alpha_list a{
         width:22px;   
     }
+    
+    .left_side_details{
+        padding:0 15px;
+    }
 }
 
 
