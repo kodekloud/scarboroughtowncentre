@@ -491,8 +491,10 @@ function renderHours(container, template, collection, type){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
-        
-    
+
+function check_open_time(d){
+    console.log(d)    
+}
 
 
 function convert_hour(d){
