@@ -70,7 +70,7 @@ function init_home_hours(){
     var template_html = $('#home_hours_template').html();
     Mustache.parse(template_html);
     $.each(hours_today, function(key, val){
-       val.open = val.close_time 
+       val.open = val.open_time;
        var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
