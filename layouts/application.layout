@@ -48,7 +48,6 @@
                             <li><a class="menu_link " href="/hours">HOURS</a></li>
                             <li><a class="menu_link " href="#">DIRECTIONS</a></li>
                             <li><a class="menu_link " href="#">CALL US</a></li>
-                            <li><a class="menu_link" href="/stores">STORES</a></li>
                             <li class="dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">STORES +</a>
                                 <ul class="dropdown-menu">
