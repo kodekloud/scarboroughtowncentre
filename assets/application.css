@@ -822,6 +822,9 @@ h1 {
 }
 
 @media only screen and (max-width: 1030px) { 
+    .right_side_newsletter{
+        width:500px;
+    }
     .right_side_stores{
         width:650px;
     }
