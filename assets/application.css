@@ -976,6 +976,9 @@ h1 {
         width:100%;
         margin-bottom: 20px;
     }
+    .flex-control-nav li{
+        margin:0 5px;
+    }
 }
 
 
