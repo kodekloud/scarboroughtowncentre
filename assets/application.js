@@ -74,6 +74,8 @@ function init_home_hours(){
        var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
+    $(container).show();
+    $(container).html(item_rendered.join(''));
 }
 
 function more_less(e){
