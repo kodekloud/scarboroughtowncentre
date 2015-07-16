@@ -49,18 +49,7 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
-            var fashion = getFashionBySlug(slug);
-            var fashion_images = fashion.fashion_images;
-            renderFashion("#fashion_container", "#fashion_template", fashion);
-            renderFashion("#share_container", "#share_template", fashion);
-            renderFashion("#fashion_desc_container", "#fashion_desc_template", fashion);
-            renderFashionImages("#fashion_images_container", "#fashion_images_template", fashion_images)
-            show_content();
-            $('.flexslider').flexslider({
-                animation: "slide",
-            });
+            
         }
         loadMallDataCached(renderAll); 
     })
