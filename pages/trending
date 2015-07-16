@@ -1,7 +1,7 @@
 <script src="http://snapwidget.com/js/snapwidget.js"></script>
 <div class="container-fluid" style="margin-top:60px">
     <h1>Trending</h1>
-            <div class="line"></div>
+    <div class="line"></div>
     <div class="row">
         <div>
             
