@@ -50,9 +50,6 @@ function init(e){
 		$('html, body').animate({scrollTop : 0},800);
 		e.preventDefault();
 	});
-	
-
-	init_home_hours();
     
 }
 
