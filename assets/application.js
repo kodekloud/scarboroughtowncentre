@@ -87,7 +87,9 @@ function check_open_time(d){
     var date = new Date();
     var current_time = date.gethours();
     var open = d.getUTCHours();
-    if (current_time)
+    if (current_time >= open ){
+        time = "OPEN NOW";
+    }
 }
 function more_less(e){
     $('.more').click(function(e){
