@@ -58,6 +58,8 @@ function init(e){
 
 function init_home_hours(){
     var hours = getPropertyHours();
+    var d = new Date();
+    var n = d.getDay();
     
 }
 
