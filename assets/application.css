@@ -967,6 +967,10 @@ h1 {
     .new_store_box {
         margin: 20px 0;
     }
+    .right_side_hours{
+        padding:0 15px;
+        width:100%;
+    }
 }
 
 
