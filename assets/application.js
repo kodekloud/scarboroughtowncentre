@@ -69,7 +69,6 @@ function init_home_hours(){
     
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( hours_today , function( key, val ) {
-        console.log("here")
         var open_time = new Date (val.open_time);
         var close_time = new Date (val.close_time);
         val.open = check_open_time(open_time);
