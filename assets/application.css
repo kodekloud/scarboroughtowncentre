@@ -822,7 +822,7 @@ h1 {
 }
 
 @media only screen and (max-width: 1030px) { 
-    .menu_dropdown_parent{
+    .m_dropdown{
         left: 50%;
         -webkit-transform: translateX(-50%);
         -moz-transform: translateX(-50%);
