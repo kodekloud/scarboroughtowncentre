@@ -6,7 +6,7 @@
         <script id="trending_template" type="x-tmpl-mustache/text">
             <div class="col-md-4">
                 <img class="width_100" src="{{post_image}}" />
-                {{post_title}}
+                <p><span class="description">{{post_title}}</span></p>
             </div>
         </script>
     </div>
