@@ -5,7 +5,7 @@
     <div class="row" id="trending_container">
         <script id="trending_template" type="x-tmpl-mustache/text">
             <div class="col-md-4">
-                <img class="width_100" src="{{post_image}}" />
+                <img class="trending_image" src="{{post_image}}" />
                 <p><span class="new_store_subheading">{{name}}</span> <span class="description">{{post_title}}</span></p>
             </div>
         </script>
