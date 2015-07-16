@@ -54,7 +54,6 @@ function init(e){
 }
 
 function init_home_hours(){
-    console.log("called")
     var hours = getPropertyHours();
     var d = new Date();
     var n = d.getDay();
