@@ -84,7 +84,7 @@ function init_home_hours(){
 }
 function check_open_time(d){
     var date = new Date();
-    var current_time = d.getTime()getUTCHours();
+    var current_time = d.getTime().getUTCHours();
     console.log(d)
     console.log(d.getUTCHours())    
 }
