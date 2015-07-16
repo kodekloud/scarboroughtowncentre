@@ -904,7 +904,9 @@ h1 {
     .stc_nav li{
         border:0;
     }
-    
+    .navbar-collapse.in{
+        overflow:visible !important;
+    }
     .container-fluid{
         margin-left:auto;
         margin-right:auto;
