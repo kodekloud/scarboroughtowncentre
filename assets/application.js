@@ -83,8 +83,8 @@ function init_home_hours(){
     $('#home_hours_container').html(item_rendered.join(''));
 }
 function check_open_time(d){
-    var d = new Date();
-var n = d.getTime();
+    var date = new Date();
+    var current_time = d.getTime();
     console.log(d)
     console.log(d.getUTCHours())    
 }
