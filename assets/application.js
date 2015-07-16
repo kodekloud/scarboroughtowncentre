@@ -83,7 +83,7 @@ function init_home_hours(){
     $('#home_hours_container').html(item_rendered.join(''));
 }
 function check_open_time(d){
-    console.log(d)    
+    console.log(d.getUTCHours)    
 }
 function more_less(e){
     $('.more').click(function(e){
