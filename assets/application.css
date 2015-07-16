@@ -822,9 +822,12 @@ h1 {
 }
 
 @media only screen and (max-width: 1030px) { 
+    .right_side_stores{
+        width:650px;
+    }
     
     .search_textbox {
-  width: 346px;
+        width: 346px;
     }
     .menu_dropdown_parent{
         padding-left:10px !important;
