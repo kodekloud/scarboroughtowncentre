@@ -1,0 +1,67 @@
+<script src="http://snapwidget.com/js/snapwidget.js"></script>
+<div class="container-fluid" style="margin-top:60px">
+    <div class="row">
+        <div class="col-md-7 left_side_blog">
+            <div id="fashion_container">
+                <script id="fashion_template" type="x-tmpl-mustache/text">
+                    <h1>{{name}}</h1>
+                </script>
+            </div>
+            <div class="line"></div>
+            <div class="flexslider">
+                <ul class="slides" id="fashion_images_container">
+                    <script id="fashion_images_template" type="x-tmpl-mustache/text">
+                       <li><img src="{{image_url}}" alt="fashion" /></li>
+                    </script>
+                </ul>
+            </div>
+            <div id="fashion_desc_container">
+                <script id="fashion_desc_template" type="x-tmpl-mustache/text">
+                    <p class="description">{{description}}</p>
+                </script>
+            </div>
+            <hr class="chevron_line" />
+            <div id="triangle-down"></div>
+            <div id="triangle-down-inside"></div>
+            <div class="margin_15px"></div>
+            <p class="text-center new_store_subheading no_margin">SHARE</p>
+            <div class="margin_15px"></div>
+            <p class="text-center" id="share_container">
+                <script id="share_template" type="x-tmpl-mustache/text">
+                    <a class="share_link" target="_blank" href="http://www.facebook.com/sharer.php?u=http://scarboroughtowncentre.com/fashion/{{slug}}">
+                        <img class="share_img site_icons" alt="fb share" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_facebook.png" />
+                    </a>
+                    <a class="share_link" target="_blank" href="http://twitter.com/share?url=http://scarboroughtowncentre.com/fashion/{{slug}}">
+                        <img class="share_img site_icons" alt="twitter share" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_twitter.png" />
+                    </a>
+                    <a class="share_link" target="_blank" href="http://pinterest.com/pin/create/button/?url=http://scarboroughtowncentre.com/fashion/{{slug}}" count-layout="horizontal">
+                        <img class="share_img site_icons" alt="pinterest share" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_pin.png" />
+                    </a>
+                </script>
+            </p>
+        </div>
+        <div class="col-md-5 page_div right_side_blog">
+            <iframe title="instagram feed" src="http://snapwidget.com/in/?u=c2hvcHN0Y3xpbnwxMjV8Mnw0fHxub3wyMHxub25lfG9uU3RhcnR8bm98eWVz&ve=150715" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e) {
+        init(e);
+        function renderAll (){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            var fashion = getFashionBySlug(slug);
+            var fashion_images = fashion.fashion_images;
+            renderFashion("#fashion_container", "#fashion_template", fashion);
+            renderFashion("#share_container", "#share_template", fashion);
+            renderFashion("#fashion_desc_container", "#fashion_desc_template", fashion);
+            renderFashionImages("#fashion_images_container", "#fashion_images_template", fashion_images)
+            show_content();
+            $('.flexslider').flexslider({
+                animation: "slide",
+            });
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
