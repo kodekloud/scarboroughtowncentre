@@ -716,6 +716,7 @@ function renderTrending(container, template, collection){
         var post = val.posts[0];
         val.post_title = post.title;
         console.log(post)
+        if (post.image_url)
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
