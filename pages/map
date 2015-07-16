@@ -4,6 +4,12 @@
         height:650px;
         width:740px;
     }
+    @media only screen and (max-width: 800px) { 
+        .demo_1{
+            height:400px;
+            width:100%;
+        }
+    }
 </style>
 <div class="container-fluid" style="margin-top:60px">
     <div class="row">
