@@ -61,7 +61,7 @@
                             <li class="dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">GUEST SERVICES +</a>
                                 <ul class="dropdown-menu ">
-                                    <li><a class="mobile_inside_nav" href="#">GUEST SERVICES</a></li>
+                                    <li><a class="mobile_inside_nav" href="/pages/stc-guest-services">GUEST SERVICES</a></li>
                                     <li><a class="mobile_inside_nav" href="#">GIFT CARD</a></li>
                                     <li><a class="mobile_inside_nav" href="#">SHARE YOUR THOUGHTS</a></li>
                                     <li><a class="mobile_inside_nav" href="#">ACCESSIBILITY</a></li>
@@ -108,8 +108,8 @@
                                 <ul class="dropdown-menu dd_guest">
                                     <div id="triangle-up"></div>
                                     <div id="triangle-up-inside"></div>
-                                    <li><a href="#">GUEST SERVICES</a></li>
-                                    <li><a href="#">GIFT CARD</a></li>
+                                    <li><a href="/pages/stc-guest-services">GUEST SERVICES</a></li>
+                                    <li><a href="/pages/stc-gift-cards">GIFT CARD</a></li>
                                     <li><a href="#">SHARE YOUR THOUGHTS</a></li>
                                     <li><a href="#">ACCESSIBILITY</a></li>
                                     <li><a href="/pages/stc-security-safety-tips">SECURITY & SAFETY</a></li>
