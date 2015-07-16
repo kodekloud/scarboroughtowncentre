@@ -52,7 +52,7 @@ function init(e){
 	});
 	
 
-	
+	init_home_hours();
     
 }
 
