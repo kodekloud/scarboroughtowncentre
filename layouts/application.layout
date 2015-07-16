@@ -50,7 +50,7 @@
                             <li><a class="menu_link " href="#">CALL US</a></li>
                             <li class="dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">STORES +</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu m_dropdown">
                                     <li><a class="mobile_inside_nav" href="/stores">STORE LIST</a></li>
                                     <li><a class="mobile_inside_nav" href="/map">CENTRE MAP</a></li>
                                     <li><a class="mobile_inside_nav" href="/new_stores">NEW STORES</a></li>
@@ -60,7 +60,7 @@
                             <li><a class="menu_link" href="#">TRENDING</a></li>
                             <li class="dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">GUEST SERVICES +</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu m_dropdown">
                                     <li><a class="mobile_inside_nav" href="#">GUEST SERVICES</a></li>
                                     <li><a class="mobile_inside_nav" href="#">GIFT CARD</a></li>
                                     <li><a class="mobile_inside_nav" href="#">SHARE YOUR THOUGHTS</a></li>
