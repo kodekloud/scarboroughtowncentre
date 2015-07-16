@@ -4,6 +4,9 @@
         height:650px;
         width:740px;
     }
+    @media only screen and (max-width: 1030px) {
+        width:650px;
+    }
     @media only screen and (max-width: 800px) { 
         .demo_1{
             height:400px;
