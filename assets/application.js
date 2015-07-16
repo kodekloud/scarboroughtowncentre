@@ -56,6 +56,10 @@ function init(e){
     
 }
 
+function init_home_hours(){
+    
+}
+
 function more_less(e){
     $('.more').click(function(e){
         var id = $(this).attr('data-id');
