@@ -72,8 +72,8 @@ function init_home_hours(){
     
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( hours_today , function( key, val ) {
-        var open = new Date (val.open_time);
-        var close = new Date (val.open_time);
+        var val.open = new Date (val.open_time);
+        var val.close = new Date (val.open_time);
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
