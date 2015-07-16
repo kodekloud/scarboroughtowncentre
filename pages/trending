@@ -35,6 +35,9 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
+            var blog_beauty = getBlogByName('Beauty');
+            var blog_beauty = getBlogByName('Beauty');
+            var blog_beauty = getBlogByName('Beauty');
             init_home_hours();
             show_content();
         }
