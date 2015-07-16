@@ -883,6 +883,10 @@ h1 {
         margin-left:auto;
         margin-right:auto;
     }
+    .right_side_stores{
+        padding: 0 15px;
+        width: 100%;
+    }
     .mobile_inside_nav{
         color: #F15F5C !important;
         text-align: center;
