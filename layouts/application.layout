@@ -169,9 +169,9 @@
                 <div class="footer_nav">
                     <ul class="nav navbar-nav">
                         <li><a class="footer_menu_link" href="#"  style="color:#606264 !important">ABOUT US</a></li>
-                        <li><a class="footer_menu_link" href="#">JOBS</a></li>
-                        <li><a class="footer_menu_link" href="#">LEASING</a></li>
-                        <li><a class="footer_menu_link" href="#">EVENTS</a></li>
+                        <li><a class="footer_menu_link" href="/jobs">JOBS</a></li>
+                        <li><a class="footer_menu_link" href="/pages/stc-leasing--2">LEASING</a></li>
+                        <li><a class="footer_menu_link" href="/events">EVENTS</a></li>
                         <li><a class="footer_menu_link" href="#">CONTACT</a></li>
                         <li><a class="footer_menu_link" href="#">PRIVACY POLICY</a></li>
                         <li><a class="footer_menu_link separator" href="#">|</a></li>
