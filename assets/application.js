@@ -74,9 +74,7 @@ function init_home_hours(){
     $.each( hours_today , function( key, val ) {
         var open_time = new Date (val.open_time);
         var close_time = new Date (val.close_time);
-        
-        
-        val.open = convert_hour(open_time);
+        val.open = check_open_time(open_time);
         val.close = convert_hour(close_time);
         
         var rendered = Mustache.render(template_html,val);
@@ -206,7 +204,7 @@ function renderStoreDetails(container, template, collection, slug){
     $.each( hours , function( key, val ) {
         var open_time = new Date (val.open_time);
         var close_time = new Date (val.close_time);
-        val.open_time = check_open_time(open_time);
+        val.open_time = convert_hour(open_time);
         val.close_time = convert_hour(close_time);
         if (val.day_of_week == n){
             todays_hours = val.open_time + " - " + val.close_time;
@@ -493,8 +491,8 @@ function renderHours(container, template, collection, type){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
-
-
+        
+    
 
 
 function convert_hour(d){
