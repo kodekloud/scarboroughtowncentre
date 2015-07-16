@@ -54,6 +54,7 @@
                                 <option value="male">Male</option>
                                 <option value="female">Female</option>
                             </select>
+                            <div class="margin_30"></div>
                         </div>
                     </div>
                     <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
