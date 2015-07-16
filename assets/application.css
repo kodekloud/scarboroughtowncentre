@@ -876,6 +876,16 @@ h1 {
     .collapsing {
         overflow: hidden!important;
     }
+    
+    .dropdown_menu{
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    
     body{
         padding-top:0;
     }
