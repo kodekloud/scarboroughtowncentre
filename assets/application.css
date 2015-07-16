@@ -967,6 +967,7 @@ h1 {
     #mobile_search_box{
         border:0;
         width:100%;
+        padding: 0;
     }
     #mobile_search_box:focus{
         outline:none;
