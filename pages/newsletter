@@ -29,13 +29,14 @@
                         <div class="col-md-6">
                             <label for="email">Email *</label> 
                             <input class="form-control" id="email" name="cm-yktkih-yktkih" type="email" required />
+                            <div class="margin_30"></div>
                         </div>
                         <div class="col-md-6">
                             <label for="phone_number">Phone Number</label>  
                             <input class="form-control" id="phone_number" name="cm-f-muuhr" type="text"  />
+                            <div class="margin_30"></div>
                         </div>
                     </div>
-                    <div class="margin_30"></div>
                     <div class="row">
                         <div class="col-md-4">
                             <label for="postal_code">Postal Code</label> 
@@ -53,7 +54,6 @@
                             </select>
                         </div>
                     </div>
-                    <div class="margin_30"></div>
                     <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
                     <div class="row">
                         <div class="col-md-6">
