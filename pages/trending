@@ -38,7 +38,7 @@
             top_blogs.push(blog_beauty);
             top_blogs.push(blog_lifestyle);
             top_blogs.push(blog_mens);
-            
+            renderTrending("#trending_container", "#trending_template", top_blogs);
             init_home_hours();
             show_content();
         }
