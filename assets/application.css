@@ -442,7 +442,9 @@ h1 {
     -o-transform:translate(-50%,0);
     transform:translate(-50%,0);
 }
-
+.line_top{
+    border-top:1px solid #ccc;
+}
 
 .chevron_line{
     margin-bottom: 0;
