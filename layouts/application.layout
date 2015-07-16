@@ -140,8 +140,8 @@
                             <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/icon_hour.png" class="icon_top opacity_hover" alt="icob hours">
                             <span id="home_hours_container">
                                 <script id="home_hours_template" type="x-tmpl-mustache/text">
-                                    <span class="open_now">{{id}}</span> 
-                                    <span class="opacity_hover">UNTIL {{close}}PM</span>
+                                    <span class="open_now">{% raw %}{{id}}{% endraw %}</span> 
+                                    <span class="opacity_hover">UNTIL {% raw %}{{close}}PM{% endraw %}</span>
                                 </script>
                             </span>
                         </a>
