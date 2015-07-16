@@ -974,6 +974,7 @@ h1 {
     .right_side_blog, .left_side_blog{
         padding:0 15px;
         width:100%;
+        margin-bottom: 20px;
     }
 }
 
