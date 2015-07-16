@@ -57,7 +57,7 @@
                                     <li><a class="mobile_inside_nav" href="/promotions">PROMOTIONS</a></li>
                                 </ul>
                             </li>
-                            <li><a class="menu_link" href="#">TRENDING</a></li>
+                            <li><a class="menu_link" href="/trending">TRENDING</a></li>
                             <li class="dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">GUEST SERVICES +</a>
                                 <ul class="dropdown-menu ">
@@ -102,7 +102,7 @@
                                     <li><a href="/promotions">PROMOTIONS</a></li>
                                 </ul>
                             </li>
-                            <li><a class="menu_link" href="#">TRENDING</a></li>
+                            <li><a class="menu_link" href="/trending">TRENDING</a></li>
                             <li class="desktop_menu dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">GUEST SERVICES</a>
                                 <ul class="dropdown-menu dd_guest">
