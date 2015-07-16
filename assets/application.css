@@ -995,10 +995,10 @@ h1 {
     .dropdown-menu{
         left: 50%;
         -webkit-transform: initial;
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-        transform: translateX(-50%);
+        -moz-transform: initial;
+        -ms-transform: initial;
+        -o-transform: initial;
+        transform: initial;
     }
 }
 
