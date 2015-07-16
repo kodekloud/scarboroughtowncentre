@@ -37,6 +37,6 @@
         function renderAll (){
             show_content()
         }
-        loadMallDataCached(renderAll); 
+        loadMallData(renderAll); 
     })
 </script>
