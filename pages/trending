@@ -36,9 +36,12 @@
         init(e);
         function renderAll (){
             var blog_beauty = getBlogByName('Beauty');
-            var blog_beauty = getBlogByName('Lifestyle');
-            var blog_beauty = getBlogByName("Men's Style");
-            var top_blogs
+            var blog_lifestyle = getBlogByName('Lifestyle');
+            var blog_mens = getBlogByName("Men's Style");
+            var top_blogs = [];
+            top_blogs.push(blog_beauty);
+            top_blogs.push(blog_lifestyle);
+            top_blogs.push(blog_mens);
             init_home_hours();
             show_content();
         }
