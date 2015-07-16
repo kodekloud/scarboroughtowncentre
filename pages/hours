@@ -28,7 +28,7 @@
                     <p class="description no_margin">{{h}}</p>
                 </script>
             </div>
-            <div class="margin_15px"></div>
+            <div class="margin_30"></div>
             <p class="new_store_subheading no_margin">IMPORTANT DATES & CLOSURES</p>
             <div class="margin_15px"></div>
             <div id="holiday_hours_container">
