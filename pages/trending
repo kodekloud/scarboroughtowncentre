@@ -38,6 +38,7 @@
             var blog_beauty = getBlogByName('Beauty');
             var blog_beauty = getBlogByName('Lifestyle');
             var blog_beauty = getBlogByName("Men's Style");
+            var top_blogs
             init_home_hours();
             show_content();
         }
