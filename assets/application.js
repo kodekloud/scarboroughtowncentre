@@ -69,7 +69,7 @@ function init_home_hours(){
     var template_html = $('#home_hours_template').html();
     Mustache.parse(template_html);
     $.each(hours_today, function(key, val){
-       val.open = close_time 
+       val.open = val.close_time 
     });
 }
 
