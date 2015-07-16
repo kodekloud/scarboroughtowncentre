@@ -22,6 +22,8 @@ function init(e){
     $('#search_mobile').click(function(){
         $('#mobile_search').show();
         $('.social_icon_mobile').hide();
+        $('#m_search').hide();
+        $('#m_search_close').show();
     });
     
     $('.alpha_list a').click(function(e){  
