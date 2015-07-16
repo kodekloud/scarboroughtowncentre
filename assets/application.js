@@ -72,7 +72,7 @@ function init_home_hours(){
     
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(hours_today);
-    $.each( hours , function( key, val ) {
+    $.each( hours_today , function( key, val ) {
         var open_time = new Date (val.open_time);
         var close_time = new Date (val.close_time);
         val.open_time = convert_hour(open_time);
