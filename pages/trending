@@ -37,7 +37,7 @@
         function renderAll (){
             var blog_beauty = getBlogByName('Beauty');
             var blog_beauty = getBlogByName('Lifestyle');
-            var blog_beauty = getBlogByName('Men's Style);
+            var blog_beauty = getBlogByName("Men's Style");
             init_home_hours();
             show_content();
         }
