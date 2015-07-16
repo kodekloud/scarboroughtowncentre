@@ -52,7 +52,7 @@
                             <li class="dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">STORES +</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="mobile_inside_nav" href="#">STORE LISTa></li>
+                                    <li><a class="mobile_inside_nav" href="#">STORE LIST</a></li>
                                     <li><a class="mobile_inside_nav" href="#">CENTRE MAP</a></li>
                                     <li><a class="mobile_inside_nav" href="#">NEW STORES</a></li>
                                     <li><a class="mobile_inside_nav" href="#">PROMOTIONS</a></li>
