@@ -15,7 +15,7 @@
     <div class="margin_30"></div>
     <div class="row">
         <div class="col-md-7 left_side_blog">
-            <div>
+            <div class="blog_parent">
                 
             </div>
             <hr class="chevron_line" />
