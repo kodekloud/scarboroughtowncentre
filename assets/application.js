@@ -66,16 +66,7 @@ function init_home_hours(){
             hours_today.push(val);
         } 
     });
-    var item_rendered = [];
-    var template_html = $('#home_hours_template').html();
-    Mustache.parse(template_html);
-    $.each(hours_today, function(key, val){
-       val.open = val.open_time;
-       var rendered = Mustache.render(template_html,val);
-        item_rendered.push(rendered);
-    });
-    $('#home_hours_container').show();
-    $('#home_hours_container').html(item_rendered.join(''));
+    renderHours('#home_hours_container','#home_hours_template', hours_mf, 'reg_hours');
 }
 
 function more_less(e){
