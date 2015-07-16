@@ -93,6 +93,7 @@ function check_open_time(d){
     else{
         time = convert_hour(d);
     }
+    return time;
 }
 function more_less(e){
     $('.more').click(function(e){
