@@ -984,6 +984,14 @@ h1 {
         max-height: 190px;
         margin-top: 30px;
     }
+    .dropdown-menu{
+        left: 50% important;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
 }
 
 
