@@ -7,7 +7,7 @@
             <h1>New Stores</h1>
             <div class="line"></div>
             <p class="mini_nav">
-                <a class="active" href="/stores">STORE LIST</a>
+                <a class="active" href="/stores">LIST</a>
                 <a href="/map">CENTRE MAP</a>
                 <a href="/new_stores">NEW STORES</a>
                 <a href="/promotions">PROMOTIONS</a>
