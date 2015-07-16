@@ -899,6 +899,9 @@ h1 {
     .dropdown-menu{
         position:absolute !important;
     }
+    .stc_nav li{
+        border:0;
+    }
     
     .container-fluid{
         margin-left:auto;
