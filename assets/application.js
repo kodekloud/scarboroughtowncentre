@@ -85,9 +85,7 @@ function init_home_hours(){
 function check_open_time(d){
     var date = new Date();
     var current_time = date.gethours();
-    console.log(d)
-    console.log(current_time)
-    console.log(d.getUTCHours())    
+    var open = d.getUTCHours();
 }
 function more_less(e){
     $('.more').click(function(e){
