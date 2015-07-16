@@ -58,6 +58,7 @@ function init(e){
 
 function init_home_hours(){
     var hours = getPropertyHours();
+    
 }
 
 function more_less(e){
