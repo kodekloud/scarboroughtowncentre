@@ -715,7 +715,7 @@ function renderTrending(container, template, collection){
     $.each( collection , function( key, val ) {
         var rendered = Mustache.render(template_html,val);
         var post = val.posts[0];
-        console.log(post)
+        val.post_title = post.title;
         item_rendered.push(rendered);
     });
     
