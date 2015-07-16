@@ -68,6 +68,7 @@ function init_home_hours(){
     });
     var today = hours_today[0];
     var template_html = $('#home_hours_template').html();
+    
 }
 
 function more_less(e){
