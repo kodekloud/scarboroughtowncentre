@@ -877,7 +877,7 @@ h1 {
         overflow: hidden!important;
     }
     
-    .dropdown_menu{
+    .dropdown-menu{
         left: 50%;
         -webkit-transform: translateX(-50%);
         -moz-transform: translateX(-50%);
