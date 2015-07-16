@@ -717,9 +717,9 @@ function renderTrending(container, template, collection){
         val.post_title = post.title;
         console.log(post)
         if (post.image_url.indexOf('missing.png') > -1) {
-            val.alt_promo_image_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png"
+            val.post_image = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png"
         } else {
-            val.alt_promo_image_url = (post.image_url);    
+            val.post_image = (post.image_url);    
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
