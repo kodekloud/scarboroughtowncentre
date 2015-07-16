@@ -72,7 +72,7 @@
                 renderGeneral("#new_store_container","#new_store_template", new_stores);
             }
             else{
-                $('#no_opening_soon').fadeIn();
+                $('#no_now_open').fadeIn();
             }
             show_content();
         }
