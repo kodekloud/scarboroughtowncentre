@@ -4,9 +4,10 @@
     <div class="line"></div>
     <div class="row" id="trending_container">
         <script id="trending_template" type="x-tmpl-mustache/text">
-        <div class="col-md-4">
-            a
-        </div>
+            <div class="col-md-4">
+                a
+            </div>
+        </script>
     </div>
     <div class="margin_30"></div>
     <hr />
