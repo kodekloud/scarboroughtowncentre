@@ -47,6 +47,10 @@ h1 {
   letter-spacing: 0;
   margin-top:0;
 }
+
+.hidden_now{
+    display:none;
+}
 .font_italic{
     font-style: italic;
 }
@@ -59,6 +63,7 @@ h1 {
     background:#fff;
     text-align:center;
 }
+
 .custom_backdrop img{
     width:80px;
     position: absolute;
