@@ -80,6 +80,7 @@
             var banners = getBanners();
             renderBanner('#banner_template','#home_banner',banners);
             show_content();
+            init_home_hours();
             $('.flexslider').flexslider({
                 animation: "slide",
             });
