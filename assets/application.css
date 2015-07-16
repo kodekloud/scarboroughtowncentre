@@ -946,6 +946,10 @@ h1 {
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
         max-height: 100%;
     }
+    
+    .alpha_list a{
+        width:22px;   
+    }
 }
 
 
