@@ -3,7 +3,13 @@
     <h1>Trending</h1>
     <div class="line"></div>
     <div class="row">
-        <div>
+        <div class="col-md-4">
+            
+        </div>
+        <div class="col-md-4">
+            
+        </div>
+        <div class="col-md-4">
             
         </div>
     </div>
