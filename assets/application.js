@@ -90,6 +90,9 @@ function check_open_time(d){
     if (current_time >= open ){
         time = "OPEN NOW";
     }
+    else{
+        
+    }
 }
 function more_less(e){
     $('.more').click(function(e){
