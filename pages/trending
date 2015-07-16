@@ -31,9 +31,9 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
-            var blog_beauty = getBlogDataBySlug('Beauty');
-            var blog_lifestyle = getBlogDataBySlug('Lifestyle');
-            var blog_mens = getBlogDataBySlug("Men's Style");
+            var blog_beauty = getBlogDataBySlug('stc-eauty');
+            var blog_lifestyle = getBlogDataBySlug('stc-lifestyle');
+            var blog_mens = getBlogDataBySlug("stc-men-s-style");
             var top_blogs = [];
             top_blogs.push(blog_beauty);
             top_blogs.push(blog_lifestyle);
