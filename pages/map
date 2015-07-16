@@ -14,7 +14,7 @@
 <div class="container-fluid" style="margin-top:60px">
     <div class="row">
         <div class="col-md-4 left_side_stores">
-            <div class="hidden_phone">
+            <div class="show_phone">
                 <h1>Centre Map</h1>
                 <div class="line"></div>
                 <p class="mini_nav">
