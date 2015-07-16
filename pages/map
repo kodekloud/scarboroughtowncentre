@@ -7,7 +7,7 @@
 </style>
 <div class="container-fluid" style="margin-top:60px">
     <div class="row">
-        <div class="col-md-4 left_side_stores ">
+        <div class="col-md-4 left_side_stores hidden_phone">
             <div class="map_store_list" id="store_list_container">
                 <script id="store_list_template" type="x-tmpl-mustache/text">
                     <p class="store_initial" style="{{show}}" id="{{initial}}">{{initial}}</p>
