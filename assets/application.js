@@ -68,7 +68,7 @@ function init_home_hours(){
     });
     var item_list = [];
     var item_rendered = [];
-    var template_html = $(template).html();
+    var template_html = $('#home_hours_template').html();
     
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
