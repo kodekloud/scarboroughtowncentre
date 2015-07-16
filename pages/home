@@ -78,9 +78,9 @@
         init(e);
         function renderAll(){
             var banners = getBanners();
+            init_home_hours();
             renderBanner('#banner_template','#home_banner',banners);
             show_content();
-            init_home_hours();
             $('.flexslider').flexslider({
                 animation: "slide",
             });
