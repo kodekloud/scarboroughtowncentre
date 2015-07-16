@@ -57,7 +57,16 @@ function init(e){
 }
 
 function init_home_hours(){
-   
+    var hours = getPropertyHours();
+    var d = new Date();
+    var n = d.getDay();
+    var hours_today = [];
+    $.each(hours, function(key, val){
+        if (val.day_of_week == n && val.is_closed == false && val.is_holiday == false){
+            hours_today.push(val);
+        } 
+    });
+    renderHours('#home_hours_container','#home_hours_template', hours_today, 'reg_hours');
 }
 
 function more_less(e){
