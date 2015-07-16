@@ -2,9 +2,7 @@
 <div class="container-fluid" style="margin-top:60px">
     <div class="row">
         <div class="col-md-7 left_side_blog">
-            <div id="fashion_container">
-                <h1>Trending</h1>
-            </div>
+            <h1>Trending</h1>
             <div class="line"></div>
             
             <hr class="chevron_line" />
