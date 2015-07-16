@@ -91,7 +91,7 @@ function check_open_time(d){
         time = "OPEN NOW";
     }
     else{
-        
+        time = convert_hour(d);
     }
 }
 function more_less(e){
