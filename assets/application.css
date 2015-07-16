@@ -595,6 +595,7 @@ h1 {
     text-decoration:none;
     font-size:16px;
     margin-bottom:20px;
+    text-align: center;
 }
 .store_list_content{
     position:relative;
