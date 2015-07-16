@@ -898,8 +898,8 @@ h1 {
     
     .dropdown-menu{
         position:absolute !important;
-        border: 1px solid #BFBEBD;
-        background: #fff;
+        border: 1px solid #BFBEBD !important;
+        background: #fff !important;
     }
     .stc_nav li{
         border:0;
