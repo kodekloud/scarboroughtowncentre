@@ -68,7 +68,12 @@
             else{
                 $('#no_opening_soon').fadeIn();
             }
-            renderGeneral("#new_store_container","#new_store_template", new_stores);
+            if (coming_soon_stores.length > 0){
+                renderGeneral("#new_store_container","#new_store_template", new_stores);
+            }
+            else{
+                $('#no_opening_soon').fadeIn();
+            }
             show_content();
         }
         loadMallDataCached(renderAll); 
