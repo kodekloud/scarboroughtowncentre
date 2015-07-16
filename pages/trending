@@ -3,9 +3,7 @@
     <div class="row">
         <div class="col-md-7 left_side_blog">
             <div id="fashion_container">
-                <script id="fashion_template" type="x-tmpl-mustache/text">
-                    <h1>Trending</h1>
-                </script>
+                <h1>Trending</h1>
             </div>
             <div class="line"></div>
             
