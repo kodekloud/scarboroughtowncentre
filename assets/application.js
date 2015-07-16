@@ -72,6 +72,7 @@ function init_home_hours(){
     $.each(hours_today, function(key, val){
        val.open = val.open_time;
        var rendered = Mustache.render(template_html, val);
+       console.log(rendered)
         item_rendered.push(rendered);
     });
     $('#home_hours_container').show();
