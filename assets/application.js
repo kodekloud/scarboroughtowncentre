@@ -74,8 +74,8 @@ function init_home_hours(){
     $.each( hours_today , function( key, val ) {
         
         val.open = new Date (val.open_time);
-        val.close = new Date (val.close_time);
-        
+        var close_time = new Date (val.close_time);
+        val.close = convert_hour(close_time)
         console.log(val.open_time)
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
