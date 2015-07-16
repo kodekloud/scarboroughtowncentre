@@ -61,7 +61,9 @@
         function renderAll (){
             var coming_soon_stores = getComingSoonList();
             var new_stores = getNewStoresList();
-            renderGeneral("#coming_soon_store_container","#coming_soon_store_template", coming_soon_stores)
+            if (coming_soon_stores.length > 0){
+                renderGeneral("#coming_soon_store_container","#coming_soon_store_template", coming_soon_stores)
+            }
             renderGeneral("#new_store_container","#new_store_template", new_stores);
             show_content();
         }
