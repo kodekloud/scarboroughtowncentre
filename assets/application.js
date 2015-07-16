@@ -66,7 +66,7 @@ function init_home_hours(){
             hours_today.push(val);
         } 
     });
-    renderHours('#home_hours_container','#home_hours_template', hours_mf, 'reg_hours');
+    renderHours('#home_hours_container','#home_hours_template', hours_today, 'reg_hours');
 }
 
 function more_less(e){
