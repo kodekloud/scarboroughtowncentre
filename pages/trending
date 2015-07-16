@@ -35,7 +35,8 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
-            show_content()
+            init_home_hours();
+            show_content();
         }
         loadMallDataCached(renderAll); 
     })
