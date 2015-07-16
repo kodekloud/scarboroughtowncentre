@@ -189,9 +189,9 @@
                 <li><a class="footer_menu_link" href="#">LEASING</a></li>
                 <li><a class="footer_menu_link" href="#">EVENTS</a></li>
                 <li><a class="footer_menu_link" href="#">CONTACT</a></li>
-                <li><a class="footer_menu_link" href="#">PRIVACY POLICY</a></li>
+                <li><a class="footer_menu_link" href="pages/stc-privacy">PRIVACY POLICY</a></li>
                 <li><a class="footer_menu_link separator" href="#">-----</a></li>
-                <li><a class="footer_menu_link" href="#">MEDIA</a></li>
+                <li><a class="footer_menu_link" href="/pages/stc-media-centre">MEDIA</a></li>
             </ul>
             <div class="clearfix"></div>
             <br />
