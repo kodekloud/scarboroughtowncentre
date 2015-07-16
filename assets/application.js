@@ -27,10 +27,10 @@ function init(e){
     });
     
     $('#close_search_mobile').click(function(){
-        $('#mobile_search').show();
-        $('.social_icon_mobile').hide();
-        $('#m_search').hide();
-        $('#m_search_close').show();
+        $('#mobile_search').hide();
+        $('.social_icon_mobile').show();
+        $('#m_search').show();
+        $('#m_search_close').hide();
     });
     
     $('.alpha_list a').click(function(e){  
