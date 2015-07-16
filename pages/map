@@ -22,14 +22,16 @@
             </div>
         </div>
         <div class="col-md-8 page_div right_side_stores">
-            <h1>Centre Map</h1>
-            <div class="line"></div>
-            <p class="mini_nav">
-                <a href="/stores">STORE LIST</a>
-                <a class="active" href="/map">CENTRE MAP</a>
-                <a href="/new_stores">NEW STORES</a>
-                <a href="/promotions">PROMOTIONS</a>
-            </p>
+            <div class="hidden_phone">
+                <h1>Centre Map</h1>
+                <div class="line"></div>
+                <p class="mini_nav">
+                    <a href="/stores">STORE LIST</a>
+                    <a class="active" href="/map">CENTRE MAP</a>
+                    <a href="/new_stores">NEW STORES</a>
+                    <a href="/promotions">PROMOTIONS</a>
+                </p>
+            </div>
             <div class="map">
                 <div class="demo_1 map3" style="">            
                     <img alt="map_image" id="map_image" src="http://cdn.mallmaverick.com/system/properties/maps/000/000/001/original/stc_map-small_website_2v2.png?1419362460" />   
