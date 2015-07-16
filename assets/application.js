@@ -26,6 +26,13 @@ function init(e){
         $('#m_search_close').show();
     });
     
+    $('#search_mobile').click(function(){
+        $('#mobile_search').show();
+        $('.social_icon_mobile').hide();
+        $('#m_search').hide();
+        $('#m_search_close').show();
+    });
+    
     $('.alpha_list a').click(function(e){  
         $('html, body').stop().animate({scrollTop: $( $(this).attr('href') ).offset().top - 60}, 800);
         e.preventDefault();
