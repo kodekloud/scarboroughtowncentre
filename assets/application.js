@@ -717,7 +717,7 @@ function renderTrending(container, template, collection){
         val.post_title = post.title;
         console.log(post)
         if (post.image_url.indexOf('missing.png') > -1) {
-            val.post_image = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png"
+            val.post_image = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
         } else {
             val.post_image = (post.image_url);    
         }
