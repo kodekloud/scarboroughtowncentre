@@ -899,6 +899,7 @@ h1 {
     .dropdown-menu{
         position:absolute !important;
         border: 1px solid #BFBEBD;
+        background: #fff;
     }
     .stc_nav li{
         border:0;
