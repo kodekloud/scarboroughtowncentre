@@ -78,7 +78,6 @@
         init(e);
         function renderAll(){
             var banners = getBanners();
-            init_home_hours();
             renderBanner('#banner_template','#home_banner',banners);
             show_content();
             $('.flexslider').flexslider({
