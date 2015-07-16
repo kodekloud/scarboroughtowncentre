@@ -66,9 +66,11 @@ function init_home_hours(){
             hours_today.push(val);
         } 
     });
-    var today = hours_today[0];
     var template_html = $('#home_hours_template').html();
-    
+    Mustache.parse(template_html);
+    $.each(hours_today, function(key, val){
+       val.open = close_time 
+    });
 }
 
 function more_less(e){
