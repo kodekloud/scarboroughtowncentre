@@ -904,6 +904,9 @@ h1 {
 }
 
 @media only screen and (max-width: 800px) { 
+    .new_store_img_parent{
+        border:0;
+    }
     
     .dropdown-menu{
         position:absolute !important;
