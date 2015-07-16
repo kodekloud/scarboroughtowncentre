@@ -35,7 +35,6 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
-            console.log("hereh")
             init_home_hours();
             show_content();
         }
