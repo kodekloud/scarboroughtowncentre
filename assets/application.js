@@ -85,7 +85,7 @@ function init_home_hours(){
 function check_open_time(d){
     var time = "";
     var date = new Date();
-    var current_time = date.gethours();
+    var current_time = date.getHours();
     var open = d.getUTCHours();
     if (current_time >= open ){
         time = "OPEN NOW";
