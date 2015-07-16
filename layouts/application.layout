@@ -69,7 +69,7 @@
                                 </ul>
                             </li>
                             <li><a class="menu_link " href="#" >ABOUT US</a></li>
-                            <li><a class="menu_link " href="#">SUBSCRIBE</a></li>
+                            <li><a class="menu_link " href="/newsletter">SUBSCRIBE</a></li>
                         </ul>
                         <div class="row social_mobile">
                             <div id="mobile_search" style="display:none" class="col-xs-10">
