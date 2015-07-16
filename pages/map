@@ -30,6 +30,25 @@
                 <a href="/new_stores">NEW STORES</a>
                 <a href="/promotions">PROMOTIONS</a>
             </p>
+            <div class="controls">
+            	<div class="dropdown custom_dropdown">                          
+                    <a class="btn-prime"  id="map_button">
+                        Select a Store <span style="margin-top:3px;" class="fa fa-caret-down pull-right"></span>
+                    </a>		    
+                </div>            
+            </div> 
+            <div class="dropdown-menu bottom" id="store_table" style="top:50px">          		
+                <div style="height:500px;overflow-y:scroll;overflow-x:hidden;">                                        
+                    <div class="map_table">            			                        
+                        <div  id="store_list_container">
+                            <script id="store_list_template" type="x-tmpl-mustache/text">
+                                <p class="store_initial" style="{{show}}">{{initial}}</p>
+                                <a href="#" class="store_name_map" store_id="store_{{id}}" onclick="return show_pin(this)">{{name}}</a>
+                            </script>
+                        </div>
+                    </div>          
+                </div>                
+            </div>
             <div class="map">
                 <div class="demo_1 map3" style="">            
                     <img alt="map_image" id="map_image" src="http://cdn.mallmaverick.com/system/properties/maps/000/000/001/original/stc_map-small_website_2v2.png?1419362460" />   
