@@ -753,6 +753,7 @@ function renderPosts(container, template, collection){
         console.log(val);
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
+        counter = counter+1;
     });
     
     $(container).show();
