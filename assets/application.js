@@ -760,6 +760,7 @@ function renderPosts(container, template, collection){
 }
 
 function load_more(num){
+    console.log(num)
     for(i=num; i < num+2; i++){
         
         var id = i.toString();
