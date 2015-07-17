@@ -651,7 +651,6 @@ function renderPostDetails(container, template, collection){
             val.next_post_show = "display:none";
         }
         else{
-            console.log(next_p.slug)
             val.next_post = next_p.title;
             val.next_slug = next_p.slug;
             val.next_post_show = "display:inline-block";
