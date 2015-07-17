@@ -24,7 +24,7 @@
                         <div id="triangle-down-inside"></div>
                         <h3 class="feature_text">{{title}}</h3>
                         <p class="blog_description description">{{description_short}}</p>
-                        published_on
+                        {{published_on}}
                     </div>
                 </script>
             </div>
