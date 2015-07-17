@@ -841,6 +841,10 @@ h1 {
     text-align:center;
 }
 
+.description_blog_nav{
+    color: #BFBEBD;
+}
+
 @media(min-width:1140px){
 
     .menu_link {
