@@ -491,23 +491,8 @@ function renderContest(container, template, collection, type){
 }
 
 
-function verify_captcha(){
-    var captcha = $('#g-recaptcha-response').val();
-    var response = "6Lc8zAkTAAAAAGxiXiJaFYJnkGDY-bIb0TnDidny";
-    data = {};
-    data.response = response;
-    data.secret = captcha;
-}
 
 
-function randomgen() {
-    var rannumber='';
-    for(ranNum=1; ranNum<=6; ranNum++){
-        rannumber+=Math.floor(Math.random()*10).toString();
-    }
-    $('#verifyNum').html(rannumber);
-    $('#verifyNumHidden').val(rannumber);
-}
 
 
 function submit_contest(data) {
