@@ -68,7 +68,6 @@ $('#mobile_search_box').on('input', function() {
     if($('#mobile_search_box').val().length == 0){
         var search_results = getSearchResults('xxxxxxxxxxxxxxxx',0,0);
         renderSearchResultsTemplate('#search_results_mobile_container','#search_results_mobile_template',search_results);
-        $(document).i18n();
         $('#search_results_mobile').hide();
     }else{
         var search_results = getSearchResults($('#mobile_search_box').val(),10,100);
