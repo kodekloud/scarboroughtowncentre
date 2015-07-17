@@ -759,3 +759,5 @@ function renderPosts(container, template, collection){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
+
+function load_more(i)
