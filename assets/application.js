@@ -664,7 +664,7 @@ function renderPostDetails(container, template, collection){
             val.prev_post_show = "display:inline-block";
         }
         
-        val.tag_list = val.tags.join(',')
+        val.tag_list = val.tags.join(',');
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
