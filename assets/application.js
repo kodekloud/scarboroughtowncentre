@@ -653,7 +653,7 @@ function renderPostDetails(container, template, collection){
         else{
             val.next_post = next_p.title;
         }
-        if (prev_p == 'undefined'){
+        if (prev_p == undefined){
             val.prev_post_show = "display:none";
         }
         else{
