@@ -844,6 +844,11 @@ h1 {
     color: #BFBEBD;
     text-transform: capitalize;
 }
+.trending_side_link{
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
 
 @media(min-width:1140px){
 
