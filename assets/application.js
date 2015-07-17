@@ -677,6 +677,7 @@ function renderPostDetails(container, template, collection){
 }
 
 function renderBlogs(container, template, collection){
+    console.log(collection)
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
