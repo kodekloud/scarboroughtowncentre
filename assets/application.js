@@ -74,7 +74,7 @@ $('#mobile_search_box').on('input', function() {
         var search_results = getSearchResults($('#mobile_search_box').val(),10,100);
         $('.search-results-count').html(search_results.summary.count);
         //console.log('--------');
-        renderSearchResultsTemplate('#search_results_template','#search_results_items_mobile',search_results);
+        renderSearchResultsTemplate('#search_results_mobile_container','#search_results_items_mobile',search_results);
         //console.log(getSearchResults($('#search_input').val(),100));
     }
 });
