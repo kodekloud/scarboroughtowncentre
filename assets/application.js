@@ -632,7 +632,7 @@ function renderPostDetails(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
     item_list.push(collection);
-    console.log(collection)
+    console.log(item_list)
     $.each( collection , function( key, val ) {
         
         if (val.image_url.indexOf('missing.png') > -1) {
