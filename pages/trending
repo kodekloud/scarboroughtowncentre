@@ -18,7 +18,7 @@
             <div class="blog_parent" id="blog_container">
                 <script id="blog_template" type="x-tmpl-mustache/text">
                     <div class="blog_box">
-                        <img class="trending_image" src="{{post_image}}" />
+                        <img class="width_100" src="{{post_image}}" />
                         <hr class="chevron_line" />
                         <div id="triangle-down"></div>
                         <div id="triangle-down-inside"></div>
