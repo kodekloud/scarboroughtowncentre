@@ -30,6 +30,7 @@
                 </script>
             </div>
             <div class="margin_15px"></div>
+            <input type="hidden" value="2" id="num_loaded"
             <p class="text-center new_store_subheading" id="load_more_posts">
                 LOAD MORE POSTS
                 <br/><br/>
