@@ -491,10 +491,6 @@ function renderContest(container, template, collection, type){
 }
 
 
-
-
-
-
 function submit_contest(data) {
     var propertyDetails = getPropertyDetails();
     var host = propertyDetails.mm_host;
