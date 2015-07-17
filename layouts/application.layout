@@ -123,7 +123,81 @@
                             <li style=" padding-right: 10px; "><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_youtube.png" class="social_img site_icons" alt="youtube"></a></li>
                             <li><a class="menu_link" href="/pages/stc-media-centre">MEDIA</a></li>
                             <li>
-                                <input type="text" class="search_textbox" id="search" placeholder="Type here for search" />
+                                <div style="height:30px;position:relative">
+                                    <input type="text" class="search_textbox" id="search" placeholder="Type here for search" />
+                                    <div class="search-results" id="search_results" style="display:none">
+                                        <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
+                                        <script id="search_results_template" type="x-tmpl-mustache/text">{% raw %}
+                                        <small><h4 class="list-group-item search-results-count" id="store_results_header" style="display:none;color:gray;margin-top:2px;font-size:14px" data-i18n="nav.stores" onclick="javascript:show_results('store')"></h4></small>
+                                        <div class="results_div" id="store_results">
+                                        {{#stores}}
+                                            <a href="/stores/{{slug}}" class="list-group-item">
+                                                <div class="name">{{name}}</div>
+                                                <div class="description">{{description_trim}}</div>
+                                                <div class="phone">{{phone}}</div>
+                                            </a>
+                                        {{/stores}}
+                                        </div>
+                                        <h4 class="list-group-item search-results-count" id="promotions_results_header" style="display:none;color:gray;margin-top:2px;font-size:14px" data-i18n="nav.promotions" onclick="javascript:show_results('promo')"></h4>
+                                        <div class="results_div" id="promo_results">
+                                        {{#promotions}}
+                                            <a href="/promotions/{{slug}}" class="list-group-item">
+                                                <div class="name">{{name}}</div>
+                                                <div class="description">{{description_trim}}</div>
+                                            </a>
+                                        {{/promotions}}
+                                        </div>
+                                        <h4 class="list-group-item search-results-count" id="events_results_header" style="display:none;color:gray;margin-top:2px;font-size:14px" data-i18n="nav.events" onclick="javascript:show_results('event')"></h4>
+                                        <div class="results_div" id="event_results">
+                                        {{#events}}
+                                            <a href="/events/{{slug}}" class="list-group-item">
+                                                <div class="name">{{name}}</div>
+                                                <div class="description">{{description_trim}}</div>
+                                            </a>
+                                        {{/events}}
+                                        </div>
+                                        </script>{% endraw %}
+                                    
+                                        <ul class="list-group" >
+                                            
+                                            <li>
+                                            <a  class="close-search list-group-item" style="color:black;font-weight:bold">
+                                                <small>
+                                                    <span class="search-results-count">{{count}} results found.</span>&nbsp;<span data-i18n="general.results"></span> 
+                                                </small>
+                                            </a>
+                                            </li>
+                                            <li>
+                                            <div id="search_results_items" class="search-results-items" style="">
+                                            <!--RENDERED BY renderSearchResultsTemplate(..) -->
+                                            </div>
+                                            </li>
+                                            <li>
+                                            <a  class="close-search list-group-item" style="">
+                                                <small>
+                                                    <span>Today's Hours </span>
+                                                </small>
+                                                <small class="pull-right" id="todays-hours-search">
+                                                
+                                                </small>
+                                                <script id="todays_hours_search_template" type="x-tmpl-mustache/text">{% raw %}
+                                                    <span style="{{is_open_css}};">
+                                                        {{open_time_localized}} - {{close_time_localized}}
+                                                    </span>
+                                                    <span style="{{is_closed_css}};">
+                                                        Closed
+                                                    </span>
+                                                </script>{% endraw %}
+                                            </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                
+                                
                                 <a class="menu_link menu_search" href="#" id="open_search"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/btn_search.png" class="icon_search" alt="search"></a>
                                 <a class="menu_link menu_search" href="#" id="close_search"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/f6d4ad056723ddc3166d15bebf043d67/btn_close.png" class="icon_search" alt="search"></a>
                             </li>
