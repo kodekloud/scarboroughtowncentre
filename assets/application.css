@@ -843,6 +843,7 @@ h1 {
 
 .description_blog_nav{
     color: #BFBEBD;
+    text-transform: capitalize;
 }
 
 @media(min-width:1140px){
