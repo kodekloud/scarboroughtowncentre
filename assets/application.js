@@ -653,7 +653,12 @@ function renderPostDetails(container, template, collection){
         else{
             val.next_post = next_p.title;
         }
-        val.prev_post = prev_p.title;
+        if (prev_p == 'undefined'){
+            val.prev_post_show = "display:hidden";
+        }
+        else{
+            val.prev_post = prev_p.title;
+        }
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
