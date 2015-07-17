@@ -22,6 +22,7 @@ function init(e){
         $('.social_icon_mobile').hide();
         $('#m_search').hide();
         $('#m_search_close').show();
+        e.preventDefault();
     });
     
     $('#close_search_mobile').click(function(e){
@@ -29,6 +30,7 @@ function init(e){
         $('.social_icon_mobile').show();
         $('#m_search').show();
         $('#m_search_close').hide();
+        e.preventDefault();
     });
     
     $('.alpha_list a').click(function(e){  
