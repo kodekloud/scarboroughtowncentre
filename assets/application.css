@@ -878,7 +878,7 @@ h1 {
 }
 .results_div{
     display:none;
-    height: 500px;
+    max-height: 500px;
     overflow: scroll;
     border-bottom: 1px solid #ccc;
 }
