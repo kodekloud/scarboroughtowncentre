@@ -648,7 +648,7 @@ function renderPostDetails(container, template, collection){
         var next_p = getNextPublishedPostBySlug(val.slug);
         var prev_p = getPrevPublishedPostBySlug(val.slug);
         if (next_p == 'undefined'){
-            val.next_post_show = "display:hidden"
+            val.next_post_show = "display:hidden";
         }
         val.next_post = next_p.title;
         val.prev_post = prev_p.title;
