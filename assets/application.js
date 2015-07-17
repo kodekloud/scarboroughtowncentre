@@ -760,4 +760,6 @@ function renderPosts(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function load_more(i)
+function load_more(i){
+    
+}
