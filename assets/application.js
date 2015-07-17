@@ -2,27 +2,27 @@
 
 function init(e){
     $('<div class="modal-backdrop custom_backdrop"><img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
-    $('#open_search').click(function(){
+    $('#open_search').click(function(e){
         $('#open_search').hide();
         $('#close_search').css('display','inline-block');
         $('#search').show();
         $('#search').focus();
         e.preventDefault();
     });
-    $('#close_search').click(function(){
+    $('#close_search').click(function(e){
         $('#close_search').hide();
         $('#open_search').css('display','inline-block');
         $('#search').hide();
         e.preventDefault();
     });
-    $('#search_mobile').click(function(){
+    $('#search_mobile').click(function(e){
         $('#mobile_search').show();
         $('.social_icon_mobile').hide();
         $('#m_search').hide();
         $('#m_search_close').show();
     });
     
-    $('#close_search_mobile').click(function(){
+    $('#close_search_mobile').click(function(e){
         $('#mobile_search').hide();
         $('.social_icon_mobile').show();
         $('#m_search').show();
