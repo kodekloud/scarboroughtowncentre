@@ -725,7 +725,7 @@ h1 {
 }
 .blog_description{
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto !important;
     text-align: center;
 }
 .left_side_hours{
