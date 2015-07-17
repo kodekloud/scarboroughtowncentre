@@ -48,6 +48,7 @@
             
             <div id="side_links_container">
                 <script id="side_links_template" type="x-tmpl-mustache/text">
+                
                 </script>
             </div>
         </div>
