@@ -680,7 +680,6 @@ function renderBlogs(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
-    var counter = 1;
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
         if (val.image_url.indexOf('missing.png') > -1) {
