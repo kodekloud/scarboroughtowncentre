@@ -652,7 +652,6 @@ function renderPostDetails(container, template, collection){
         item_rendered.push(rendered);
     });
     
-    $(container).show();
     $(container).html(item_rendered.join(''));
 }
 
