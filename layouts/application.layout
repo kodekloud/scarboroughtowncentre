@@ -158,7 +158,7 @@
                                         </div>
                                         </script>{% endraw %}
                                     
-                                        <ul class="list-group" >
+                                        <ul class="list-group search_list" >
                                             
                                             <li>
                                             <a  class="close-search list-group-item" style="color:black;font-weight:bold">
