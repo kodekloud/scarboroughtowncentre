@@ -743,7 +743,7 @@ function renderPosts(container, template, collection){
             val.descrition_short = val.body.substring(0,100) + "...";
         }
         else{
-            val.description_short = val.body
+            val.description_short = val.body;
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
