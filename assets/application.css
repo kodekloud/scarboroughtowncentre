@@ -723,7 +723,11 @@ h1 {
     padding-right:58px;
     border-right: 1px solid #ccc;
 }
-
+.blog_description{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
 .left_side_hours{
     width:438px;
     padding-right:58px;
