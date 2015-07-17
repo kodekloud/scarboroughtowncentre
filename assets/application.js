@@ -764,7 +764,12 @@ function load_more(num){
         var id = i.toString();
         $('#show_' + id ).show();
     }
-    $('#num_loaded').val(i)
+    $('#num_loaded').val(i);
 }
+
+$('#load_more_posts').click(function(){
+    var i = $('#num_loaded').val();
+    load_more(i)
+});
 
 
