@@ -68,7 +68,7 @@
             var posts = getAllPublishedPosts();
             var published_posts = posts.sortBy(function(o){ return o.publish_date });
             renderTrending("#trending_container", "#trending_template", top_blogs);
-            renderPosts("#blog_container", "#blog_template", published_posts.reverse());
+            renderPosts("#blog_container", "#blog_template", published_posts);
             renderPosts("#side_links_container", "#side_links_template", published_posts)
             init_home_hours();
             show_content();
