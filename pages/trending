@@ -18,6 +18,7 @@
             <div class="blog_parent" id="blog_container">
                 <script id="blog_template" type="x-tmpl-mustache/text">
                     <div class="blog_box">
+                        {{id}}
                         <hr class="chevron_line" />
                         <div id="triangle-down"></div>
                         <div id="triangle-down-inside"></div>
