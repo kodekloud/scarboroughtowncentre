@@ -141,15 +141,15 @@ function load_more(num){
 
 
 $('#search_input').keyup(function(e){
-    showSearchResults();
+    showSearchResults(e);
 });
 
-$('#search_input').on('input', function() {
-    showSearchResults();
+$('#search_input').on('input', function(e) {
+    showSearchResults(e);
 });
             
             
-function showSearchResults(){
+function showSearchResults(e){
     $('#search_results').show();
     if($('#search_input').val().length == 0){
         $('#search_results').hide();
