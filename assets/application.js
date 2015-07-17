@@ -746,6 +746,9 @@ function renderPosts(container, template, collection){
             val.description_short = val.body;
         }
         
+        var date_blog = new Date(publish_date);
+        val.published_on = date_blog.getMonth() + " " + date_blog.getDate() + ", " + date_blog.getYear();
+        
         console.log(val);
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
