@@ -113,6 +113,10 @@ h1 {
 .search_list{
     list-style:none;
 }
+
+.search_list a{
+    border:0;
+}
 .search_textbox:focus{
     outline:none;
 }
