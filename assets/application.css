@@ -854,7 +854,7 @@ h1 {
     color:#000;
 }
 .results_div{
-    disply:none
+    display:none
 }
 
 @media(min-width:1140px){
