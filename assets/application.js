@@ -666,7 +666,7 @@ function renderPostDetails(container, template, collection){
         
         console.log(val)
         if (val.tag != undefined){
-            val.tag_list = val.tags.join(', ');
+            val.tag_list = val.tag.join(', ');
         }
         
         var rendered = Mustache.render(template_html,val);
