@@ -44,8 +44,8 @@
                 </script>
             </div>
             <p class="new_store_subheading">CATEGORIES</p>
-            <div id="side_links_container">
-                <script id="side_links_template" type="x-tmpl-mustache/text">
+            <div id="blog_links_container">
+                <script id="blog_links_template" type="x-tmpl-mustache/text">
                     <p><a href="/trending/{{slug}}" class="trending_side_link">{{title}}</a></p>
                 </script>
             </div>
