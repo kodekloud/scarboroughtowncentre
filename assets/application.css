@@ -651,7 +651,7 @@ h1 {
     text-transform:uppercase;
 }
 
-.new_store_subheading:hover{
+.new_store_subheading:hover, .new_store_subheading:active{
     color: #F15F5C;
     text-decoration:none;
 }
