@@ -853,7 +853,9 @@ h1 {
     text-decoration: none;
     color:#000;
 }
-
+.results_div{
+    disply:none
+}
 
 @media(min-width:1140px){
 
