@@ -808,6 +808,12 @@ h1 {
     display:none;
 }
 
+.blog_box{
+    padding-top: 10px;
+    border-top: 1px solid #BFBEBD;
+    margin-bottom: 60px;
+}
+
 @media(min-width:1140px){
 
     .menu_link {
