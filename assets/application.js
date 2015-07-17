@@ -767,9 +767,5 @@ function load_more(num){
     $('#num_loaded').val(i);
 }
 
-$('#load_more_posts').click(function(){
-    var i = $('#num_loaded').val();
-    load_more(i);
-});
 
 
