@@ -32,7 +32,7 @@
             <div class="margin_15px"></div>
             <p class="text-center new_store_subheading" id="load_more_posts">
                 LOAD MORE POSTS
-                < br/>
+                <br/>
                 <i class="fa fa-arrow-down"></i>    
             </p>
         </div>
