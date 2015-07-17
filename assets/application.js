@@ -636,19 +636,7 @@ function renderPosts(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function load_more(num){
-    var n = parseInt(num);
-    for(i=n; i < n+2; i++){
-        
-        var id = i.toString();
-        $('#show_' + id ).fadeIn();
-    }
-    if(i >= getAllPublishedPosts().length+1){
-        $('#loaded_posts').hide();
-        $('#all_loaded').show();
-    }
-    $('#num_loaded').val(i);
-}
+
 
 
 
