@@ -765,7 +765,6 @@ function load_more(num){
         
         var id = i.toString();
         $('#show_' + id ).fadeIn();
-        console.log(id)
     }
     $('#num_loaded').val(i);
 }
