@@ -25,7 +25,7 @@
                         <h3 class="feature_text">{{title}}</h3>
                         <p class="blog_description description">{{description_short}}</p>
                         <p class=""publish_date">{{published_on}}</p>
-                        <a class="feature_read_more" href="/trending/{{slug}}">
+                        <a class="feature_read_more" href="/trending/{{slug}}">READ MORE</a>
                     </div>
                 </script>
             </div>
