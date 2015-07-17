@@ -61,7 +61,7 @@
             renderPosts("#blog_container", "#blog_template", published_posts);
             init_home_hours();
             show_content();
-            load_more("0);
+            load_more("0");
         }
         loadMallDataCached(renderAll); 
     })
