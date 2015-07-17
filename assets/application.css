@@ -651,6 +651,11 @@ h1 {
     text-transform:uppercase;
 }
 
+.new_store_subheading:hover{
+    color: #F15F5C;
+    text-decoration:none;
+}
+
 .new_store_box{
     padding: 10px 0;
     min-height:220px;
