@@ -83,7 +83,6 @@ $('#mobile_search_box').on('input', function() {
 $('.close-search-mobile').click(function(){
     var search_results = getSearchResults('xxxxxxxxxxxxxxxx',0,0);
     renderSearchResultsTemplate('#search_results_template','#search_results_items_mobile',search_results);
-    $(document).i18n();
     $('#mobile_search_box').val('');
 });
 }
