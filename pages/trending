@@ -19,10 +19,10 @@
                 <script id="blog_template" type="x-tmpl-mustache/text">
                     <div class="blog_box">
                         <img class="width_100" src="{{post_image}}" />
-                        <h3 class="feature_text">{{title}}</h3>
                         <hr class="chevron_line" />
                         <div id="triangle-down"></div>
                         <div id="triangle-down-inside"></div>
+                        <h3 class="feature_text">{{title}}</h3>
                     </div>
                 </script>
             </div>
