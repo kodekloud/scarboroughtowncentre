@@ -47,6 +47,13 @@ function init(e){
 		e.preventDefault();
 	});
     
+    $('#search_input').keyup(function(e){
+        showSearchResults();
+    });
+    
+    $('#search_input').on('input', function() {
+        showSearchResults();
+    });
 }
 
 function init_home_hours(){
