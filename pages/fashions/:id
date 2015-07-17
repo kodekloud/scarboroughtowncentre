@@ -45,6 +45,18 @@
             <span class="new_store_subheading">@SHOPSTC</span>
             <div class="margin_15px"></div>
             <iframe title="instagram feed" src="http://snapwidget.com/in/?u=c2hvcHN0Y3xpbnwxMjV8Mnw0fHxub3wyMHxub25lfG9uU3RhcnR8bm98eWVz&ve=150715" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+            <p class="new_store_subheading">RECENT POSTS</p>
+            <div id="side_links_container">
+                <script id="side_links_template" type="x-tmpl-mustache/text">
+                    <p><a href="/trending/{{slug}}" class="trending_side_link">{{title}}</a></p>
+                </script>
+            </div>
+            <p class="new_store_subheading">CATEGORIES</p>
+            <div id="blog_links_container">
+                <script id="blog_links_template" type="x-tmpl-mustache/text">
+                    <p><a href="/trending_categories/{{slug}}" class="trending_side_link">{{name}}</a></p>
+                </script>
+            </div>
         </div>
     </div>
 </div>
