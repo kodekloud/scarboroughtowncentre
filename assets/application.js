@@ -745,6 +745,8 @@ function renderPosts(container, template, collection){
         else{
             val.description_short = val.body;
         }
+        
+        console.log(val);
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
