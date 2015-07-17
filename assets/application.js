@@ -665,7 +665,7 @@ function renderPostDetails(container, template, collection){
         }
         
         console.log(val)
-        if (val.tags != undefined){
+        if (val.tag != undefined){
             val.tag_list = val.tags.join(', ');
         }
         
