@@ -849,6 +849,11 @@ h1 {
     border-bottom: 1px solid #000;
 }
 
+.trending_side_link:hover{
+    text-decoration: none;
+    color:#000;
+}
+
 
 @media(min-width:1140px){
 
