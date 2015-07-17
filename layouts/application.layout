@@ -123,7 +123,7 @@
                             <li style=" padding-right: 10px; "><a class="menu_link " href="#"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_youtube.png" class="social_img site_icons" alt="youtube"></a></li>
                             <li><a class="menu_link" href="/pages/stc-media-centre">MEDIA</a></li>
                             <li>
-                                <div style="position:relative">
+                                <div style="position:absolute">
                                     <input type="text" class="search_textbox" id="search_input" placeholder="Type here for search" />
                                     <div class="search-results" id="search_results" style="display:none">
                                         <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
