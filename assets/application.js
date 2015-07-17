@@ -67,7 +67,7 @@ $('#mobile_search_box').on('input', function() {
     $('#search_results_mobile').show();
     if($('#mobile_search_box').val().length == 0){
         var search_results = getSearchResults('xxxxxxxxxxxxxxxx',0,0);
-        renderSearchResultsTemplate('#search_results_template','#search_results_items_mobile',search_results);
+        renderSearchResultsTemplate('#search_results_mobile_container','#search_results_items_mobile',search_results);
         $(document).i18n();
         $('#search_results_mobile').hide();
     }else{
@@ -81,7 +81,7 @@ $('#mobile_search_box').on('input', function() {
             
 $('.close-search-mobile').click(function(){
     var search_results = getSearchResults('xxxxxxxxxxxxxxxx',0,0);
-    renderSearchResultsTemplate('#search_results_template','#search_results_items_mobile',search_results);
+    renderSearchResultsTemplate('#search_results_mobile_container','#search_results_items_mobile',search_results);
     $('#mobile_search_box').val('');
 });
 }
