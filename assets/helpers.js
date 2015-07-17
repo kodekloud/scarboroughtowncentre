@@ -141,11 +141,11 @@ function load_more(num){
 
 
 $('#search_input').keyup(function(e){
-    alert("ASD")
+    showSearchResults();
 });
 
 $('#search_input').on('input', function() {
-    alert("ASD")
+    showSearchResults();
 });
             
             
