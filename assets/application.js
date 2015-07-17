@@ -740,7 +740,10 @@ function renderPosts(container, template, collection){
             val.post_image = "http://stc.mallmaverickstaging.com/" + val.image_url;
         }
         if(val.body.length > 100){
-            val.descrition_short = val.body.substring(0,100) + "..."
+            val.descrition_short = val.body.substring(0,100) + "...";
+        }
+        else{
+            val.description_short = val.body
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
