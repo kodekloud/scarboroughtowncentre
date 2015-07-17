@@ -734,7 +734,6 @@ function renderPosts(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
-        var post = val.posts[0];
         val.post_title = post.title;
         if (post.image_url.indexOf('missing.png') > -1) {
             val.post_image = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
