@@ -13,6 +13,7 @@ function init(e){
         $('#close_search').hide();
         $('#open_search').css('display','inline-block');
         $('#search_input').hide();
+        $('#search-results').hide();
         e.preventDefault();
     });
     $('#search_mobile').click(function(e){
