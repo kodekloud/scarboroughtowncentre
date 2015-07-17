@@ -652,6 +652,7 @@ function renderPostDetails(container, template, collection){
         }
         else{
             val.next_post = next_p.title;
+            val.next_slug = next_p.slug;
             val.next_post_show = "display:inline-block";
         }
         if (prev_p == undefined){
@@ -659,6 +660,7 @@ function renderPostDetails(container, template, collection){
         }
         else{
             val.prev_post = prev_p.title;
+            val.prev_slug = prev_p.slug;
             val.prev_post_show = "display:inline-block";
         }
         
