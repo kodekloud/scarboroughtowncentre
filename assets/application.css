@@ -115,7 +115,7 @@ h1 {
 }
 
 .search_list li{
-    border:0;
+    border:0 !important;
 }
 .search_textbox:focus{
     outline:none;
