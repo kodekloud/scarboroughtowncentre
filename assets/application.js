@@ -664,7 +664,8 @@ function renderPostDetails(container, template, collection){
             val.prev_post_show = "display:inline-block";
         }
         
-        if (val.tag_list != undefined){
+        console.log(val.tags)
+        if (val.tags != undefined){
             val.tag_list = val.tags.join(', ');
         }
         
