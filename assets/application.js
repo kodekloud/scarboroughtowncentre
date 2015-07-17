@@ -663,7 +663,8 @@ function renderPostDetails(container, template, collection){
             val.prev_slug = prev_p.slug;
             val.prev_post_show = "display:inline-block";
         }
-        if (val.tag_lis != undefined){
+        
+        if (val.tag_list != undefined){
             val.tag_list = val.tags.join(', ');
         }
         
