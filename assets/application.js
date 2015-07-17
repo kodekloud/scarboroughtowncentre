@@ -6,13 +6,13 @@ function init(e){
         $('#open_search').hide();
         $('#close_search').css('display','inline-block');
         $('#search_input').show();
-        $('#search').focus();
+        $('#search_input').focus();
         e.preventDefault();
     });
     $('#close_search').click(function(e){
         $('#close_search').hide();
         $('#open_search').css('display','inline-block');
-        $('#search').hide();
+        $('#search_input').hide();
         e.preventDefault();
     });
     $('#search_mobile').click(function(e){
