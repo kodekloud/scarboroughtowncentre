@@ -34,3 +34,72 @@ function more_less(e){
         e.preventDefault();
     });
 }
+
+
+function convert_hour(d){
+    var h = addZero(d.getUTCHours());
+    var m = addZero(d.getUTCMinutes());
+    var s = addZero(d.getUTCSeconds());
+    if (h >= 12) {
+        if ( h != 12) {
+            h = h - 12;    
+        }
+        
+        i = "PM"
+    } else {
+        i = "AM"
+    }
+    return h+":"+m+" "+i;
+}
+
+
+
+function addZero(i) {
+    if (i < 10) {
+        i = "0" + i;
+    }
+    return i;
+}
+
+function get_month (id){
+    switch(id) {
+        case 0:
+            month = "Jan";
+            break;
+        case 1:
+            month = "Feb";
+            break;
+        case 2:
+            month = "Mar";
+            break;
+        case 3:
+            month = "Apr";
+            break;
+        case 4:
+            month = "May";
+            break;
+        case 5:
+            month = "June";
+            break;
+        case 6:
+            month = "July";
+            break;
+        case 7:
+            month = "Aug";
+            break;
+        case 8:
+            month = "Sep";
+            break;
+        case 9:
+            month = "Oct";
+            break;
+        case 10:
+            month = "Nov";
+            break;
+        case 11:
+            month = "Dec";
+            break;
+            
+    }
+    return month;
+}
