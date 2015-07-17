@@ -652,12 +652,14 @@ function renderPostDetails(container, template, collection){
         }
         else{
             val.next_post = next_p.title;
+            val.next_post_show = "display:inline-block";
         }
         if (prev_p == undefined){
             val.prev_post_show = "display:none";
         }
         else{
             val.prev_post = prev_p.title;
+            val.prev_post_show = "display:inline-block";
         }
         
         var rendered = Mustache.render(template_html,val);
