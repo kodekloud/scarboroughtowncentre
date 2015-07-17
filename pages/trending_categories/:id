@@ -44,7 +44,6 @@
                 </script>
             </div>
             <p class="new_store_subheading">CATEGORIES</p>
-            <p class="new_store_subheading">CATEGORIES</p>
             <div id="blog_links_container">
                 <script id="blog_links_template" type="x-tmpl-mustache/text">
                     <p><a href="/trending_categories/{{slug}}" class="trending_side_link">{{name}}</a></p>
