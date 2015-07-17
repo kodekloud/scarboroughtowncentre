@@ -48,6 +48,7 @@
             top_blogs.push(blog_mens);
             var published_posts = getAllPublishedPosts();
             renderTrending("#trending_container", "#trending_template", top_blogs);
+            renderPosts("#blog_container", "#blog_template", published_posts)
             init_home_hours();
             show_content();
         }
