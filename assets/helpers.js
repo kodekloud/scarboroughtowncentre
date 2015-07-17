@@ -208,3 +208,20 @@ $('.close-search-mobile').click(function(){
     $(document).i18n();
     $('#search_input_mobile').val('');
 });
+
+function show_results(id){
+        
+        if ( $("#"+id+"_results").is(":visible")){
+            $("#"+id+"_results").slideUp();
+            $("#"+id+"_arrow").removeClass("fa-chevron-down", 1000);
+            $("#"+id+"_arrow").addClass("fa-chevron-right", 1000);
+        } else {
+            $(".results_div").slideUp();
+            $(".fa").removeClass("fa-chevron-down", 1000);
+            $(".fa").addClass("fa-chevron-right", 1000);
+            $("#"+id+"_results").slideDown();   
+            $("#"+id+"_arrow").removeClass("fa-chevron-right", 1000);
+            $("#"+id+"_arrow").addClass("fa-chevron-down", 1000);
+        }
+        
+    }
