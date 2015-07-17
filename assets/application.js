@@ -734,11 +734,10 @@ function renderPosts(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
-        val.post_title = post.title;
-        if (post.image_url.indexOf('missing.png') > -1) {
+        if (val.image_url.indexOf('missing.png') > -1) {
             val.post_image = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
         } else {
-            val.post_image = "http://stc.mallmaverickstaging.com/" + post.image_url;
+            val.post_image = "http://stc.mallmaverickstaging.com/" + val.image_url;
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
