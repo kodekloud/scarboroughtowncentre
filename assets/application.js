@@ -646,6 +646,9 @@ function renderPostDetails(container, template, collection){
         var date_blog = new Date(val.publish_date);
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
         
+        val.next_post = getNextPublishedPostBySlug('slug').title;
+        val.prev_post = getPrevPublishedPostBySlug('slug').title;
+        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
