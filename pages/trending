@@ -48,7 +48,7 @@
             <p class="new_store_subheading">RECENT POSTS</p>
             <div id="side_links_container">
                 <script id="side_links_template" type="x-tmpl-mustache/text">
-                    <a href="/trending/{{slug}}" class="trending_side_link">{{title}}</a>
+                    <p><a href="/trending/{{slug}}" class="trending_side_link">{{title}}</a></p>
                 </script>
             </div>
         </div>
