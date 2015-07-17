@@ -728,6 +728,12 @@ h1 {
     margin: 0 auto !important;
     text-align: center;
 }
+
+.publish_date{
+    text-align:center;
+}
+
+
 .left_side_hours{
     width:438px;
     padding-right:58px;
