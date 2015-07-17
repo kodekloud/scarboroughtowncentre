@@ -124,7 +124,7 @@
                             <li><a class="menu_link" href="/pages/stc-media-centre">MEDIA</a></li>
                             <li>
                                 <div style="position:relative">
-                                    <input type="text" class="search_textbox" id="search" placeholder="Type here for search" />
+                                    <input type="text" class="search_textbox" id="search_input" placeholder="Type here for search" />
                                     <div class="search-results" id="search_results" style="display:none">
                                         <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
                                         <script id="search_results_template" type="x-tmpl-mustache/text">{% raw %}
