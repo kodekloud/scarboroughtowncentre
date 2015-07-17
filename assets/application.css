@@ -839,6 +839,7 @@ h1 {
 .blog_nav{
     width:100px;
     text-align:center;
+    padding:0 70px;
 }
 
 @media(min-width:1140px){
