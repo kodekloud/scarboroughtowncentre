@@ -110,6 +110,15 @@ h1 {
     top: 52px;
 }
 
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px !important;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0 !important;
+}
 .search_list{
     list-style:none;
 }
