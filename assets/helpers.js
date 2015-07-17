@@ -177,7 +177,7 @@ function showSearchResults(){
         }
         if (search_results["events"]){
             if (search_results["events"].length > 0) {
-                $("#events_results_header").html(search_results["events"].length+" Events <i id='event_arrow' class='fa fa-chevron-right pull-right'></i>")    
+                $("#events_results_header").html(search_results["events"].length+" Events <i id='event_arrow' class='fa fa-chevron-right pull-right'></i>")
                 $("#events_results_header").show();
             }
             
