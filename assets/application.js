@@ -645,7 +645,7 @@ function renderPostDetails(container, template, collection){
         }
         var date_blog = new Date(val.publish_date);
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
-        
+        console.log(val.slug)
         var next_p = getNextPublishedPostBySlug(val.slug)
         var prev_p = getPrevPublishedPostBySlug(val.slug)
         
