@@ -645,8 +645,8 @@ function renderPostDetails(container, template, collection){
         }
         var date_blog = new Date(val.publish_date);
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
-        var next_p = getNextPublishedPostBySlug(val.slug)
-        var prev_p = getPrevPublishedPostBySlug(val.slug)
+        var next_p = getNextPublishedPostBySlug(val.slug);
+        var prev_p = getPrevPublishedPostBySlug(val.slug);
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
