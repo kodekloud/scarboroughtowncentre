@@ -31,6 +31,7 @@
             </div>
             <div class="margin_15px"></div>
             <input type="hidden" value="1" id="num_loaded" />
+            <p class="new_store_subheading"></p>
             <p class="text-center">
                 <a href="#" class="new_store_subheading" id="load_more_posts">
                     LOAD MORE POSTS
