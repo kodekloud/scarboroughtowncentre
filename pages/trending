@@ -64,6 +64,7 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
+            var blogs = getBlogList();
             var blog_beauty = getBlogDataBySlug('stc-beauty');
             var blog_lifestyle = getBlogDataBySlug('stc-lifestyle');
             var blog_mens = getBlogDataBySlug("stc-men-s-style");
@@ -76,7 +77,7 @@
             renderTrending("#trending_container", "#trending_template", top_blogs);
             renderPosts("#blog_container", "#blog_template", published_posts);
             renderPosts("#side_links_container", "#side_links_template", published_posts.slice(0,3));
-            renderBlogs("#side_links_container", "#side_links_template", published_posts.slice(0,3));
+            renderBlogs("#blog_links_container", "#blog_links_template", published_posts.slice(0,3));
             init_home_hours();
             show_content();
             load_more(1);
