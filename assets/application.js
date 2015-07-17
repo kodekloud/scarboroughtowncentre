@@ -650,7 +650,9 @@ function renderPostDetails(container, template, collection){
         if (next_p == 'undefined'){
             val.next_post_show = "display:hidden";
         }
-        val.next_post = next_p.title;
+        else{
+            val.next_post = next_p.title;
+        }
         val.prev_post = prev_p.title;
         
         var rendered = Mustache.render(template_html,val);
