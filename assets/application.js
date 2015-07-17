@@ -767,7 +767,7 @@ function load_more(num){
         $('#show_' + id ).fadeIn();
     }
     if(i => getAllPublishedPosts().length){
-        $('#num_loaded').hide();
+        $('#loaded_posts').hide();
         $('#all_loaded').show();
     }
     $('#num_loaded').val(i);
