@@ -774,5 +774,9 @@ function load_more(num){
     $('#num_loaded').val(i);
 }
 
+function custom_sort(a, b) {
+    return new Date(a.lastUpdated).getTime() - new Date(b.lastUpdated).getTime();
+}
+
 
 
