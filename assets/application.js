@@ -746,7 +746,7 @@ function renderPosts(container, template, collection){
             val.description_short = val.body;
         }
         
-        var date_blog = new Date(publish_date);
+        var date_blog = new Date(val.publish_date);
         val.published_on = date_blog.getMonth() + " " + date_blog.getDate() + ", " + date_blog.getYear();
         
         console.log(val);
