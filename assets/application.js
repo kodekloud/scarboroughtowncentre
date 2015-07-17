@@ -764,6 +764,7 @@ function load_more(num){
         var id = i.toString();
         $('#show_' + id ).show();
     }
+    console.log(i)
 }
 
 
