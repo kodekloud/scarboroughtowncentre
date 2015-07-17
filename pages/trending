@@ -52,8 +52,8 @@
                 </script>
             </div>
             <p class="new_store_subheading">CATEGORIES</p>
-            <div id="side_links_container">
-                <script id="side_links_template" type="x-tmpl-mustache/text">
+            <div id="blog_links_container">
+                <script id="blog_links_template" type="x-tmpl-mustache/text">
                     <p><a href="/trending/{{slug}}" class="trending_side_link">{{title}}</a></p>
                 </script>
             </div>
@@ -76,6 +76,7 @@
             renderTrending("#trending_container", "#trending_template", top_blogs);
             renderPosts("#blog_container", "#blog_template", published_posts);
             renderPosts("#side_links_container", "#side_links_template", published_posts.slice(0,3));
+            renderBlogs()
             init_home_hours();
             show_content();
             load_more(1);
