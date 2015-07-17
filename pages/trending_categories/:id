@@ -58,7 +58,7 @@
         function renderAll (){
             var blogs = getBlogList();
             var slug = pathArray[pathArray.length-1];
-            var posts = getPublishedPostDetailsBySlug(slug);
+            var posts = getBlogDataBySlug(slug);
             var published_posts = posts.sortBy(function(o){ return o.publish_date }).reverse();
             renderPosts("#blog_container", "#blog_template", published_posts);
             renderPosts("#side_links_container", "#side_links_template", published_posts.slice(0,3));
