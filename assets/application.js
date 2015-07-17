@@ -739,6 +739,7 @@ function renderPosts(container, template, collection){
         } else {
             val.post_image = "http://stc.mallmaverickstaging.com/" + val.image_url;
         }
+        console.log(val.body.lenght)
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
