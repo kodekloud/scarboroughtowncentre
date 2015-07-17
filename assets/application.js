@@ -762,6 +762,6 @@ function renderPosts(container, template, collection){
 function load_more(num){
     for(i=num; i < num+2; i++){
         var id = i.toString();
-        console.log($('#show_' + 'id' ));
+        console.log($('#show_' + id ));
     }
 }
