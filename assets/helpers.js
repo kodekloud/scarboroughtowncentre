@@ -145,7 +145,7 @@ $('#search_input').keyup(function(e){
 });
 
 $('#search_input').on('input', function() {
-    showSearchResults();
+    alert("ASD")
 });
             
             
