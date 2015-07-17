@@ -693,7 +693,6 @@ function renderBlogs(container, template, collection){
         else{
             val.description_short = val.body;
         }
-        val.counter = counter;
         var date_blog = new Date(val.publish_date + " 05:00:00");
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
         
