@@ -10,13 +10,13 @@
                 </script>
             </div>
             
-            <h4 id="promotions_header">Promotions</h4>
+            <h4 class="new_store_subheading" id="promotions_header">Promotions</h4>
             <div id="search_container_promotions">
                 <script id="search_template_promotions" type="x-tmpl-mustache/text">
                 </script>
             </div>
             
-            <h4 id="events_header">Events</h4>
+            <h4 class="new_store_subheading" id="events_header">Events</h4>
             <div id="search_container_events">
                 <script id="search_template_events" type="x-tmpl-mustache/text">
                 </script>
