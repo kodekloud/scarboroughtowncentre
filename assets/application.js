@@ -36,6 +36,7 @@ function init(e){
     
     $('#mobile_search').submit(function(e){
         e.preventDefault();
+        window.location.href = "http://stackoverflow.com";
     });
     
     $('.alpha_list a').click(function(e){  
