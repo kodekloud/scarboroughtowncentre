@@ -8,6 +8,18 @@
                 <script id="search_template_stores" type="x-tmpl-mustache/text">
                 </script>
             </div>
+            
+            <h4 id="store_header">Stores</h4>
+            <div id="search_container_stores">
+                <script id="search_template_stores" type="x-tmpl-mustache/text">
+                </script>
+            </div>
+            
+            <h4 id="store_header">Stores</h4>
+            <div id="search_container_stores">
+                <script id="search_template_stores" type="x-tmpl-mustache/text">
+                </script>
+            </div>
         </div>
     </div>
 </div>
