@@ -15,7 +15,7 @@
                 </script>
             </div>
             
-            <h4 id="event_header">Events</h4>
+            <h4 id="events_header">Events</h4>
             <div id="search_container_events">
                 <script id="search_template_events" type="x-tmpl-mustache/text">
                 </script>
