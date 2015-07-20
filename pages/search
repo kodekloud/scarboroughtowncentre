@@ -44,13 +44,13 @@
                 renderGeneral('#search_container_promotions','#search_template_promotions', search_results.promotions);
             }
             else{
-                $('').hide()
+                $('#promotions_header').hide()
             }
             if (search_results.events.length > 0){
                 renderGeneral('#search_container_events','#search_template_events', search_results.events);
             }
             else{
-                $('').hide()
+                $('#events_header').hide()
             }
             show_content();
         }
