@@ -7,8 +7,8 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var params = getRequestParam('query')
             init_home_hours();
+            var params = getRequestParam('query')
             show_content();
         }
         loadMallDataCached(renderAll); 
