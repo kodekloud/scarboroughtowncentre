@@ -4,7 +4,7 @@
         <h1 class="text-center">Search Results</h1>
         <div id="search_container">
             <script id="search_template" type="x-tmpl-mustache/text">
-                {{}}
+                {{promotions_header_style}}
             </script>
         </div>
     </div>
