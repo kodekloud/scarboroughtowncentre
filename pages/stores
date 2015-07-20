@@ -105,6 +105,7 @@
             $(this).addClass('active')
         })
         function renderAll (){
+            init_home_hours();
             var stores = getStoresList();
             var categories = getStoreCategories();
             var half = Math.ceil(categories.length / 2)
