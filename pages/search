@@ -7,7 +7,7 @@
             <h4 class="new_store_subheading no_margin" id="stores_header">Stores</h4>
             <div id="search_container_stores">
                 <script id="search_template_stores" type="x-tmpl-mustache/text">
-                    <p class="description">{{name}}</p>
+                    <p class="description"><a href="/stores/{{slug}}">{{name}}</a></p>
                 </script>
             </div>
             <div class="margin_30"></div>
