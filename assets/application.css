@@ -911,6 +911,9 @@ h1 {
     .right_side_stores{
         width:650px;
     }
+    .search-results{
+        width:300px;
+    }
     
     
     .menu_dropdown_parent{
