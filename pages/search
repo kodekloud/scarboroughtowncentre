@@ -4,7 +4,7 @@
         <h1 class="text-center">Search Results</h1>
         <div id="search_container_stores">
             <script id="search_template_stores" type="x-tmpl-mustache/text">
-                {{}}
+                {{id}}
             </script>
         </div>
     </div>
