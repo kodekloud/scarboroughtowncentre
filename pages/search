@@ -1,0 +1,15 @@
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            init_home_hours();
+            var banners = getBanners();
+            renderBanner('#banner_template','#home_banner',banners);
+            show_content();
+            $('.flexslider').flexslider({
+                animation: "slide",
+            });
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
