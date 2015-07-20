@@ -27,6 +27,7 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
+            init_home_hours();
             var all_promos = getEventsList();
             all_promos = all_promos.reverse();
             promo_array = []
