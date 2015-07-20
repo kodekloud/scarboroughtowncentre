@@ -40,11 +40,18 @@
             else{
                 $('').hide()
             }
-            if (search_results.stores.length > 0){
-            renderGeneral('#search_container_promotions','#search_template_promotions', search_results.promotions);
-            
-            if (search_results.stores.length > 0){
-            renderGeneral('#search_container_events','#search_template_events', search_results.events);
+            if (search_results.promotions.length > 0){
+                renderGeneral('#search_container_promotions','#search_template_promotions', search_results.promotions);
+            }
+            else{
+                $('').hide()
+            }
+            if (search_results.events.length > 0){
+                renderGeneral('#search_container_events','#search_template_events', search_results.events);
+            }
+            else{
+                $('').hide()
+            }
             show_content();
         }
         loadMallDataCached(renderAll); 
