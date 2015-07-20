@@ -43,6 +43,7 @@
             var jobs = getJobsList();
             renderGeneral($('#jobs_container'), $('#jobs_template'), jobs, "jobs");
             show_content();
+            init_home_hours();
             more_less(e);
         }
         loadMallDataCached(renderAll); 
