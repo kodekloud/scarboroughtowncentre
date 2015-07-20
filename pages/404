@@ -4,6 +4,7 @@
 <p class="text-center"><a href="/" class="feature_read_more">TAKE ME TO STC HOMEPAGE</a></p>
 <script>
     $(document).ready(function(){
+        init_home_hours();
         show_content();
     })
 </script>
