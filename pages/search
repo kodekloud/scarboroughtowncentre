@@ -15,8 +15,8 @@
                 </script>
             </div>
             
-            <h4 id="store_header">Events</h4>
-            <div id="search_container_stores">
+            <h4 id="event_header">Events</h4>
+            <div id="search_container_events">
                 <script id="search_template_stores" type="x-tmpl-mustache/text">
                 </script>
             </div>
