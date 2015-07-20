@@ -16,7 +16,7 @@
             init_home_hours();
             var params = getRequestParam('query');
             var search_results = getSearchResults(params,10,100);
-            renderSearchResultsTemplate('#search_container_stores','#search_template', search_results.stores);
+            renderSearchResultsTemplate('#search_container_stores','#search_template_stores', search_results.stores);
             show_content();
         }
         loadMallDataCached(renderAll); 
