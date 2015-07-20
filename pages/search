@@ -21,7 +21,7 @@
             <h4 class="new_store_subheading no_margin" id="events_header">Events</h4>
             <div id="search_container_events">
                 <script id="search_template_events" type="x-tmpl-mustache/text">
-                    <p><a target="_blank" href="/events/{{slug}}">{{name}}</a></p>
+                    <p><a class="description" target="_blank" href="/events/{{slug}}">{{name}}</a></p>
                 </script>
             </div>
         </div>
