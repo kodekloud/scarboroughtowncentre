@@ -988,6 +988,9 @@ h1 {
 }
 
 @media only screen and (max-width: 800px) { 
+    .content_container{
+        padding:0;
+    }
     .new_store_img_parent{
         border:0;
     }
