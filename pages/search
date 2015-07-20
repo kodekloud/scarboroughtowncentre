@@ -2,6 +2,10 @@
     <div class="col-md-12">
         <div class="margin_15px"></div>
         <h1 class="text-center">Search Results</h1>
+        <div class="search-results" id="search_results" style="display:none">
+            <script id="search_results_template" type="x-tmpl-mustache/text">
+            </script>
+        </div>
     </div>
 </div>
 <script>
