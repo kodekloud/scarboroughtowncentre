@@ -918,6 +918,9 @@ h1 {
         padding:0 10px;
     }
     
+    .right_side_hours{
+        width:500px;    
+    }
     
     .menu_dropdown_parent{
         padding-left:10px !important;
