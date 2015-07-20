@@ -16,7 +16,7 @@
             init_home_hours();
             var params = getRequestParam('query');
             var search_results = getSearchResults(params,10,100);
-            renderSearchResultsTemplate('#search_results_template','#search_results_items',search_results);
+            renderSearchResultsTemplate('#search_container','#search_template',search_results);
             console.log(search_results)
             show_content();
         }
