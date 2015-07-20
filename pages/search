@@ -10,7 +10,7 @@
             </div>
             
             <h4 id="promotion_header">Promotions</h4>
-            <div id="search_container_stores">
+            <div id="search_container_promotions">
                 <script id="search_template_stores" type="x-tmpl-mustache/text">
                 </script>
             </div>
