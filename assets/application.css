@@ -118,6 +118,7 @@ h1 {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 0 !important;
+  cursor:pointer;
 }
 .search_list{
     list-style:none;
