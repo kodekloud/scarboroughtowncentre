@@ -8,5 +8,6 @@
             init_home_hours();
             show_content();
         }
+        loadMallDataCached(renderAll); 
     })
 </script>
