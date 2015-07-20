@@ -160,13 +160,7 @@
                                     
                                         <ul class="list-group search_list" >
                                             
-                                            <li>
-                                            <a  class="close-search list-group-item" style="color:black;font-weight:bold">
-                                                <small>
-                                                    <span class="search-results-count">{{count}} results found.</span>&nbsp;<span data-i18n="general.results"></span> 
-                                                </small>
-                                            </a>
-                                            </li>
+                                            
                                             <li>
                                             <div id="search_results_items" class="search-results-items" style="">
                                             <!--RENDERED BY renderSearchResultsTemplate(..) -->
