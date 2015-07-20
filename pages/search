@@ -36,6 +36,7 @@
             var search_results = getSearchResults(params,10,100);
             
             renderGeneral('#search_container_stores','#search_template_stores', search_results.stores);
+            renderGeneral('#search_container_stores','#search_template_stores', search_results.promotions);
             show_content();
         }
         loadMallDataCached(renderAll); 
