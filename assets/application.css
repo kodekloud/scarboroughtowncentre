@@ -921,6 +921,9 @@ h1 {
     .right_side_hours{
         width:500px;    
     }
+    .left_side_blog{
+        width:60%;
+    }
     
     .menu_dropdown_parent{
         padding-left:10px !important;
