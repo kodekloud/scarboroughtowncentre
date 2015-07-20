@@ -37,7 +37,7 @@
             
             renderGeneral('#search_container_stores','#search_template_stores', search_results.stores);
             renderGeneral('#search_container_promotions','#search_template_promotions', search_results.promotions);
-            renderGeneral('#search_container_promotions','#search_template_promotions', search_results.promotions);
+            renderGeneral('#search_container_promotions','#search_template_promotions', search_results.events);
             show_content();
         }
         loadMallDataCached(renderAll); 
