@@ -914,6 +914,9 @@ h1 {
     .search-results{
         width:300px;
     }
+    .content_container{
+        padding:0 10px;
+    }
     
     
     .menu_dropdown_parent{
