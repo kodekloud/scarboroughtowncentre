@@ -3,7 +3,7 @@
         <div class="margin_15px"></div>
         <h1 class="text-center">Search Results</h1>
         <div id="search_container_stores">
-            <script id="search_template" type="x-tmpl-mustache/text">
+            <script id="search_template_stores" type="x-tmpl-mustache/text">
                 {{}}
             </script>
         </div>
