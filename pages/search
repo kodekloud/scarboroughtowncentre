@@ -38,7 +38,7 @@
                 renderGeneral('#search_container_stores','#search_template_stores', search_results.stores);
             }
             else{
-                $('').hide()
+                $('stores_header').hide()
             }
             if (search_results.promotions.length > 0){
                 renderGeneral('#search_container_promotions','#search_template_promotions', search_results.promotions);
