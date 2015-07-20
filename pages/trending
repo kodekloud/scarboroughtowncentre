@@ -64,7 +64,6 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
-            init_home_hours();
             var blogs = getBlogList();
             var blog_beauty = getBlogDataBySlug('stc-beauty');
             var blog_lifestyle = getBlogDataBySlug('stc-lifestyle');
