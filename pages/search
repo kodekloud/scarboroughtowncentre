@@ -10,7 +10,7 @@
         function renderAll(){
             init_home_hours();
             var params = getRequestParam('query');
-            
+            var search_results = getSearchResults(params,10,100);
             show_content();
         }
         loadMallDataCached(renderAll); 
