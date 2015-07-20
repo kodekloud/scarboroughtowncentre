@@ -17,7 +17,6 @@
             var params = getRequestParam('query');
             var search_results = getSearchResults(params,10,100);
             renderSearchResultsTemplate('#search_container','#search_template',search_results);
-            console.log(search_results)
             show_content();
         }
         loadMallDataCached(renderAll); 
