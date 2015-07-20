@@ -22,6 +22,7 @@ function init(e){
         $('.social_icon_mobile').hide();
         $('#m_search').hide();
         $('#m_search_close').show();
+        $('#m_search_close').focus();
         e.preventDefault();
     });
     
