@@ -899,7 +899,7 @@ h1 {
 
 @media only screen and (max-width: 1030px) { 
     .search_textbox {
-        width: 346px;
+        width: 300px;
     }
     .map_store_list{
         padding-left:10px;
