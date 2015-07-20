@@ -7,6 +7,6 @@
         function renderAll{
             init_home_hours();
             show_content();
-            \}
+        }
     })
 </script>
