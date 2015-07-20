@@ -3,6 +3,7 @@
         <div class="col-md-12">
             <div class="margin_15px"></div>
             <h1 class="text-center">Search Results</h1>
+            <div class="margin_30"></div>
             <h4 class="new_store_subheading no_margin" id="stores_header">Stores</h4>
             <div id="search_container_stores">
                 <script id="search_template_stores" type="x-tmpl-mustache/text">
