@@ -34,6 +34,10 @@ function init(e){
         e.preventDefault();
     });
     
+    $('#mobile_search').submit(function(e){
+        e.preventDefault();
+    });
+    
     $('.alpha_list a').click(function(e){  
         $('html, body').stop().animate({scrollTop: $( $(this).attr('href') ).offset().top - 60}, 800);
         e.preventDefault();
