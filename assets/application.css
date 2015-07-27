@@ -723,7 +723,7 @@ h1 {
 .new_store_img_parent{
     height: 200px;
     padding: 10px;
-    border: 1px solid #BFBEBD;
+    /*border: 1px solid #BFBEBD;*/
 }
 .new_store_image{
     max-width: 100%;
