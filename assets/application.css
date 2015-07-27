@@ -64,6 +64,10 @@ h1 {
     text-align:center;
 }
 
+.scrolloff {
+    pointer-events: none;
+}
+
 .custom_backdrop img{
     width:80px;
     position: absolute;
