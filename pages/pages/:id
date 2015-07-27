@@ -31,6 +31,9 @@
     .left_page_div h2{
         font-size:12px;
     }
+    img{
+        width:100%;
+    }
 </style>
 <div class="container-fluid" style="margin-top:60px">
     <!--<h1 id="mobile_page_title" class="show_phone"></h1>-->
