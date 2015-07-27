@@ -34,23 +34,23 @@
                         <div class="col-md-6">
                             <label for="first_name">First Name</label>
                             <input name="feedback[first_name]" type="text" class="form-control" id="first_name" />
+                            <div class="margin_30"></div>
                         </div>
                         <div class="col-md-6">
                             <label for="last_name">Last Name</label>
                             <input name="feedback[last_name]" type="text" class="form-control" id="last_name" />
+                            <div class="margin_30"></div>
                         </div>
-                        <div class="clearfix"></div>
-                        <div class="margin_30"></div>
                         <div class="col-md-6">
                             <label for="email">Email*</label>
                             <input name="feedback[email]" type="text" class="form-control" id="email" required/>
+                            <div class="margin_30"></div>
                         </div>
                         <div class="col-md-6">
                             <label for="phone">Phone Number</label>
                             <input name="feedback[phone]" type="text" class="form-control" id="phone" />
+                            <div class="margin_30"></div>
                         </div>
-                        <div class="clearfix"></div>
-                        <div class="margin_30"></div>
                         <div class="col-md-12">
                             <label for="comments">Phone Number</label>
                             <textarea name="feedback[comment]" id="comments" class="form-control" style="height:200px; resize:none"></textarea>
