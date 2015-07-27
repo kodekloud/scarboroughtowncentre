@@ -47,8 +47,8 @@
                     </div>
                     <div class="clearfix"></div>
                     <div class="margin_30"></div>
-                    <div class="cold-md-12>
-                        
+                    <div class="cold-md-12">
+                        <textarea id="comments"></textarea>
                     </div>
                 </form>
             </div>
