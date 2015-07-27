@@ -80,6 +80,9 @@
                     $("#success_subscribe").fadeIn();
                     $('#form_div').hide();
                 }
+                else{
+                    alert("Unable to process your request. Please try again later.")
+                }
             });
         })
         loadMallDataCached(renderAll); 
