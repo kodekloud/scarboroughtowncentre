@@ -12,49 +12,54 @@
             <div class="line"></div>
         </div>
         <div class="col-md-8 page_div">
-            <h1>Share your thoughts with us</h1>
-            <div class="description">
-                <p>Your feedback really matter.</p>
-                <p>It's how we know we're making your experience at STC the best it can be.</p>
-                <p>So please tell us:</p>
-                <ul>
-                    <li>what's working</li>
-                    <li>if there's anything we could be doing better</li>
-                    <li>or if you'd like to recognize someone for providing exceptinal customer service</li>
-                </ul>
-                <p>We welcome your comments and suggestions as much as we welcome your next visit.</p>
+            <div id="success_subscribe" style="display:none">
+                <p class="description">Congratulations! You are now subscribed to the STC Newsletter.</p>
             </div>
-            <div class="margin_30"></div>
-            <div class="row">
-                <form id="feedback_form">
-                    <div class="col-md-6">
-                        <label for="first_name">First Name</label>
-                        <input name="feedback[first_name]" type="text" class="form-control" id="first_name" />
-                    </div>
-                    <div class="col-md-6">
-                        <label for="last_name">Last Name</label>
-                        <input name="feedback[last_name]" type="text" class="form-control" id="last_name" />
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="margin_30"></div>
-                    <div class="col-md-6">
-                        <label for="email">Email*</label>
-                        <input name="feedback[email]" type="text" class="form-control" id="email" required/>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="phone">Phone Number</label>
-                        <input name="feedback[phone]" type="text" class="form-control" id="phone" />
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="margin_30"></div>
-                    <div class="col-md-12">
-                        <label for="comments">Phone Number</label>
-                        <textarea name="feedback[comment]" id="comments" class="form-control" style="height:200px; resize:none"></textarea>
-                        <div class="margin_30"></div>    
-                        <input type="submit" value="Submit" class="btn btn-success pull-right" />
-                    </div>
-                    
-                </form>
+            <div>
+                <h1>Share your thoughts with us</h1>
+                <div class="description">
+                    <p>Your feedback really matter.</p>
+                    <p>It's how we know we're making your experience at STC the best it can be.</p>
+                    <p>So please tell us:</p>
+                    <ul>
+                        <li>what's working</li>
+                        <li>if there's anything we could be doing better</li>
+                        <li>or if you'd like to recognize someone for providing exceptinal customer service</li>
+                    </ul>
+                    <p>We welcome your comments and suggestions as much as we welcome your next visit.</p>
+                </div>
+                <div class="margin_30"></div>
+                <div class="row">
+                    <form id="feedback_form">
+                        <div class="col-md-6">
+                            <label for="first_name">First Name</label>
+                            <input name="feedback[first_name]" type="text" class="form-control" id="first_name" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="last_name">Last Name</label>
+                            <input name="feedback[last_name]" type="text" class="form-control" id="last_name" />
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="margin_30"></div>
+                        <div class="col-md-6">
+                            <label for="email">Email*</label>
+                            <input name="feedback[email]" type="text" class="form-control" id="email" required/>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phone">Phone Number</label>
+                            <input name="feedback[phone]" type="text" class="form-control" id="phone" />
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="margin_30"></div>
+                        <div class="col-md-12">
+                            <label for="comments">Phone Number</label>
+                            <textarea name="feedback[comment]" id="comments" class="form-control" style="height:200px; resize:none"></textarea>
+                            <div class="margin_30"></div>    
+                            <input type="submit" value="Submit" class="btn btn-success pull-right" />
+                        </div>
+                        
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -71,7 +76,9 @@
         $('#feedback_form').submit(function(e){
             e.preventDefault();
             $.post("http://stc.mallmaverickstaging.com/email_feedback", $(this).serialize(), function(data, status, xhr){
-                console.log(status)
+                if(status == "success"){
+                    
+                }
             });
         })
         loadMallDataCached(renderAll); 
