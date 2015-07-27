@@ -2,7 +2,7 @@
     <ul class="slides" id="home_banner">
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li>
-                <a target="_blank" href="{{url}}" {{css}} onclick="{{noLink}}">
+                <a href="{{url}}" {{css}} onclick="{{noLink}}">
                     <img alt="banner" src="{{image_url}}"/>
                 </a>
             </li>
