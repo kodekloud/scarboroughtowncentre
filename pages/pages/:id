@@ -86,7 +86,7 @@
                     $('iframe').removeClass('scrolloff');
                 });
                 $("iframe").mouseleave(function () {
-                    $('#footer_map').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
+                    $(this).addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
                 });
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
