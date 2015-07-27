@@ -29,27 +29,27 @@
                 <form>
                     <div class="col-md-6">
                         <label for="first_name">First Name</label>
-                        <input type="text" class="form-control" id="first_name" />
+                        <input name="first_name" type="text" class="form-control" id="first_name" />
                     </div>
                     <div class="col-md-6">
                         <label for="last_name">Last Name</label>
-                        <input type="text" class="form-control" id="last_name" />
+                        <input name="last_name" type="text" class="form-control" id="last_name" />
                     </div>
                     <div class="clearfix"></div>
                     <div class="margin_30"></div>
                     <div class="col-md-6">
                         <label for="email">Email*</label>
-                        <input type="text" class="form-control" id="email" required/>
+                        <input name="email" type="text" class="form-control" id="email" required/>
                     </div>
                     <div class="col-md-6">
                         <label for="phone">Phone Number</label>
-                        <input type="text" class="form-control" id="phone" />
+                        <input name="phone" type="text" class="form-control" id="phone" />
                     </div>
                     <div class="clearfix"></div>
                     <div class="margin_30"></div>
                     <div class="cold-md-12">
                         <label for="comments">Phone Number</label>
-                        <textarea id="comments"></textarea>
+                        <textarea name="comments" id="comments"></textarea>
                     </div>
                 </form>
             </div>
