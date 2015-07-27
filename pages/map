@@ -18,7 +18,7 @@
     @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
         .demo_1{
             height:300px;
-            width:280px;
+            width:3000px;
         }
     }
 </style>
