@@ -35,7 +35,7 @@
                         <label for="last_name">Last Name</label>
                         <input type="text" class="form-control" id="last_name" />
                     </div>
-                    <div class="margin_30"></div>
+                    <div class="clearfix margin_30"></div>
                     <div class="col-md-6">
                         <label for="email">Email*</label>
                         <input type="text" class="form-control" id="email" required/>
