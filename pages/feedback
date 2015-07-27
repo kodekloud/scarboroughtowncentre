@@ -24,6 +24,16 @@
                 </ul>
                 <p>We welcome your comments and suggestions as much as we welcome your next visit.</p>
             </div>
+            <div class="row">
+                <form>
+                    <div class="col-md-6">
+                        
+                    </div>
+                    <div class="col-md-6">
+                        
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>
