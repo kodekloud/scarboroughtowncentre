@@ -45,6 +45,8 @@
                         <label for="last_name">Last Name</label>
                         <input type="text" class="form-control" id="last_name" />
                     </div>
+                    <div class="clearfix"></div>
+                    <div class="margin_30"></div>
                 </form>
             </div>
         </div>
