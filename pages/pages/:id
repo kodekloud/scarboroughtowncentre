@@ -82,7 +82,7 @@
                 $("#mobile_page_title").html(data.title)
                 $('#mm_page_content').html(data.body);
                 $('iframe').addClass('scrolloff')
-                $('iframe').on('click', function () {
+                $('td').on('click', function () {
                     $('iframe').removeClass('scrolloff'); // set the pointer events true on click
                 });
             }).fail(function(jqXHR) {
