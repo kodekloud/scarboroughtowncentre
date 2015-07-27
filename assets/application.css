@@ -312,6 +312,9 @@ h1 {
 .trending_link{
     color:#000;
 }
+.trending_link:hover{
+    text-decoration:none;
+}
 .dd_guest a:hover,.dd_guest a:focus{
     background:transparent !important;
 }
