@@ -31,7 +31,7 @@
     .left_page_div h2{
         font-size:12px;
     }
-    img{
+    .page_div img{
         width:100%;
     }
 </style>
