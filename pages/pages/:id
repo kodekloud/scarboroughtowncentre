@@ -87,7 +87,7 @@
                 }
             }); 
             show_content();
-            $('iframe').addClass('scrolloff')
+            
         }
         loadMallDataCached(renderAll); 
 		
