@@ -309,7 +309,9 @@ h1 {
    color: #606264;
     text-decoration:none; 
 }
-
+.trending_link{
+    color:#000;
+}
 .dd_guest a:hover,.dd_guest a:focus{
     background:transparent !important;
 }
