@@ -70,7 +70,9 @@
         }
         $('#feedback_form').submit(function(e){
             e.preventDefault();
-            $.post("http://stc.mallmaverickstaging.com/email_feedback", $(this).serialize());
+            $.post("http://stc.mallmaverickstaging.com/email_feedback", $(this).serialize(), function(result){
+                console.log(result)
+            });
         })
         loadMallDataCached(renderAll); 
     })
