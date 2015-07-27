@@ -49,7 +49,7 @@
                     <div class="margin_30"></div>
                     <div class="cold-md-12">
                         <label for="comments">Phone Number</label>
-                        <textarea name="comments" id="comments" class="form-control"></textarea>
+                        <textarea name="comments" id="comments" class="form-control" style="height:200px; resize:none"></textarea>
                     </div>
                 </form>
             </div>
