@@ -13,7 +13,7 @@
         </div>
         <div class="col-md-8 page_div">
             <div id="success_subscribe" style="display:none">
-                <p class="description">Congratulations! You are now subscribed to the STC Newsletter.</p>
+                <p class="description">Thank you for your feedback.</p>
             </div>
             <div id="form_div">
                 <h1>Share your thoughts with us</h1>
