@@ -15,7 +15,7 @@
             width:280px;
         }
     }
-    @media only screen and (max--device-width: 800px) { 
+    @media only screen and (max-device-width: 800px) { 
         .demo_1{
             height:400px;
             width:340px;
