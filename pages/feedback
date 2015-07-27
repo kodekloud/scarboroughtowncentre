@@ -1,15 +1,38 @@
-<h1>Share your thoughts with us</h1>
-<div class="description">
-    <p>Your feedback really matter.</p>
-    <p>It's how we know we're making your experience at STC the best it can be.</p>
-    <p>So please tell us:</p>
-    <ul>
-        <li>what's working</li>
-        <li>if there's anything we could be doing better</li>
-        <li>or if you'd like to recognize someone for providing exceptinal customer service</li>
-    </ul>
-    <p>We welcome your comments and suggestions as much as we welcome your next visit.</p>
+<div class="container-fluid" style="margin-top:60px">
+    <div class="row">
+        <div class="col-md-4 left_page_div">
+            <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/71ba44a20a9b040b3c83820e2b5a21b8/security_img.jpg" class="" alt="">
+            <ul class="nav side_nav">
+                <li><a href="#">GUEST SERVICES</a></li>
+                <li><a href="#">GIFT CARD</a></li>
+                <li><a href="#">SHARE YOUR THOUGHTS</a></li>
+                <li><a href="#">ACCESSIBILITY</a></li>
+                <li><a href="/pages/stc-security-safety-tips" >SECURITY & SAFETY</a></li>
+            </ul>
+            <div class="line"></div>
+            <div>
+                <h2>CONTACT SECURITY</h2>
+                <p class="side_p">If you see any suspicious activity and/or people, please notify a Scarborough Town Security Officer or Guest Service representative immediately</p>
+                <p class="side_p">To contact by phone, call Security at 416-296-4777 or Guest Services at 416-296-0296.</p>
+            </div>
+        </div>
+        <div class="col-md-8 page_div">
+            <h1>Share your thoughts with us</h1>
+            <div class="description">
+                <p>Your feedback really matter.</p>
+                <p>It's how we know we're making your experience at STC the best it can be.</p>
+                <p>So please tell us:</p>
+                <ul>
+                    <li>what's working</li>
+                    <li>if there's anything we could be doing better</li>
+                    <li>or if you'd like to recognize someone for providing exceptinal customer service</li>
+                </ul>
+                <p>We welcome your comments and suggestions as much as we welcome your next visit.</p>
+            </div>
+        </div>
+    </div>
 </div>
+
 <script>
     $(document).ready(function(e) {
         init(e);
