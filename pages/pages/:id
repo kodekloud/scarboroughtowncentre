@@ -83,7 +83,7 @@
                 $('#mm_page_content').html(data.body);
                 $('iframe').addClass('scrolloff')
                 $('#mm_page_content').on('click', function () {
-                    $('iframe').removeClass('scrolloff'); // set the pointer events true on click
+                    $('iframe').removeClass('scrolloff');
                 });
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
