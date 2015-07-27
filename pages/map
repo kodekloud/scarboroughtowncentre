@@ -3,6 +3,7 @@
     .demo_1{
         height:650px;
         width:740px;
+        margin: 0 auto;
     }
     @media only screen and (max-width: 1030px) {
         .demo_1{
