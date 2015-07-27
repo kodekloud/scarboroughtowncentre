@@ -1,4 +1,13 @@
 <h1>Share your thoughts with us</h1>
+<p>Your feedback really matter.</p>
+<p>It's how we know we're making your experience at STC the best it can be.</p>
+<p>So please tell us:</p>
+<ul>
+    <li>what's working</li>
+    <li>if there's anything we could be doing better</li>
+    <li>or if you'd like to recognize someone for providing exceptinal customer service</li>
+</ul>
+<p>We welcome your comments and suggestions as much as we welcome your next visit.</p>
 <script>
     $(document).ready(function(e) {
         init(e);
