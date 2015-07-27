@@ -15,7 +15,7 @@
             <div id="success_subscribe" style="display:none">
                 <p class="description">Congratulations! You are now subscribed to the STC Newsletter.</p>
             </div>
-            <div>
+            <div id="form_div">
                 <h1>Share your thoughts with us</h1>
                 <div class="description">
                     <p>Your feedback really matter.</p>
