@@ -8,6 +8,7 @@
         <div class="col-md-8 page_div right_side_stores">
             <h1>Events</h1>
             <div class="line"></div>
+            <p class="description hidden_now" id="no_opening_soon" >No new opening stores at the moment. Please check back later.</p>
             <div id="promo_container">
                 <script id="promo_template" type="x-tmpl-mustache/text">
                     <h5 class="new_store_name">{{name}}</h5>
