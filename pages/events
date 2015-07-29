@@ -42,7 +42,12 @@
                 } 
             });
             all_promos = promo_array;
-            renderGeneral("#promo_container","#promo_template", all_promos, "events");
+            if (all_promos.length >0 ){
+                renderGeneral("#promo_container","#promo_template", all_promos, "events");
+            }
+            else{
+                $('#no_events').fadeIn()
+            }
             show_content();
             more_less(e);
         }
