@@ -282,7 +282,7 @@ function renderGeneral(container, template, collection, type){
                     var store_details = getStoreDetailsByID(val.promotionable_id);
                     val.store_detail_btn = store_details.slug;
                     val.store_name = store_details.name;
-                    val.store_image = store_front_url_abs
+                    val.store_image = store_details.store_front_url_abs
                 }
         
             }
