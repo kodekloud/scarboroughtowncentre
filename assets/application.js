@@ -269,7 +269,8 @@ function renderGeneral(container, template, collection, type){
                         val.alt_promo_image_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
                         val.store_image = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
                     } else {
-                        val.alt_promo_image_url = (store_details.store_front_url_abs);    
+                        val.alt_promo_image_url = (store_details.store_front_url_abs); 
+                        val.store_image = store_details.store_front_url_abs
                     }
                     
                     val.store_name = store_details.name;
