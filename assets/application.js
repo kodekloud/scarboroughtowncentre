@@ -272,6 +272,7 @@ function renderGeneral(container, template, collection, type){
                     }
                     
                     val.store_name = store_details.name
+                    console.log(val)
                 } else {
                     val.alt_promo_image_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png"
                 }
