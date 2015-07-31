@@ -266,23 +266,23 @@ function renderGeneral(container, template, collection, type){
                 if (val.promotionable_type == "Store") {
                     var store_details = getStoreDetailsByID(val.promotionable_id);
                     if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
-                        val.alt_promo_image_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png"
+                        val.alt_promo_image_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
                     } else {
                         val.alt_promo_image_url = (store_details.store_front_url_abs);    
                     }
                     
-                    val.store_name = store_details.name
+                    val.store_name = store_details.name;
                     console.log(val)
                 } else {
-                    val.alt_promo_image_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png"
+                    val.alt_promo_image_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
                 }
                 
             } else {
                 val.alt_promo_image_url = (val.promo_image_url_abs);
                 if (val.promotionable_type == "Store") {
                     var store_details = getStoreDetailsByID(val.promotionable_id);
-                    val.store_detail_btn = store_details.slug 
-                    val.store_name = store_details.name
+                    val.store_detail_btn = store_details.slug;
+                    val.store_name = store_details.name;
                 }
         
             }
