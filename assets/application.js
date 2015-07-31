@@ -126,7 +126,7 @@ function renderStoreList(container, template, collection, type,starter, breaker)
     $.each( collection , function( key, val ) {
         if (type == "stores" || type == "category_stores"){
             if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
-                val.alt_store_front_url = "http://kodekloud.s3.amazonaws.com/sites/54cfab316e6f6433ad020000/77c900d783abeb362232339ece231335/10dundas_default.jpg";
+                val.alt_store_front_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
             } else {
                 val.alt_store_front_url = getImageURL(val.store_front_url);    
             }
