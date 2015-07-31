@@ -277,12 +277,12 @@ function renderGeneral(container, template, collection, type){
                 }
                 
             } else {
-                 console.log(val)
                 val.alt_promo_image_url = (val.promo_image_url_abs);
                 if (val.promotionable_type == "Store") {
                     var store_details = getStoreDetailsByID(val.promotionable_id);
                     val.store_detail_btn = store_details.slug;
                     val.store_name = store_details.name;
+                    val.store_image = store_front_url_abs
                 }
         
             }
