@@ -257,6 +257,7 @@ function renderStoreDetails(container, template, collection, slug){
 }
 
 function renderGeneral(container, template, collection, type){
+    alert("d")
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future use
