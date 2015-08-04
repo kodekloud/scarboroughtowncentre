@@ -1,18 +1,13 @@
 <div class="flexslider">
     <ul class="slides" id="home_banner">
-        <li>
-             <img alt="banner" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/banner_main1.jpg"/>
-        </li>
-        <li>
-             <img alt="banner" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/banner_main1.jpg"/>
-        </li>
-        <li>
-             <img alt="banner" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/banner_main1.jpg"/>
-        </li>
-        <li>
-             <img alt="banner" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/banner_main1.jpg"/>
-        </li>
         
+        <script id="banner_template" type="x-tmpl-mustache/text">
+            <li>
+                <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                    <img alt="banner" src="{{image_url}}"/>
+                </a>
+            </li>
+        </script>
     </ul>
 </div>
 <div class="section_feature">
