@@ -1,15 +1,9 @@
 <div class="flexslider">
     <ul class="slides" id="home_banner">
         <li>
-            
+             <img alt="banner" src="{{image_url}}"/>
         </li>
-        <script id="banner_template" type="x-tmpl-mustache/text">
-            <li>
-                <a href="{{url}}" {{css}} onclick="{{noLink}}">
-                    <img alt="banner" src="{{image_url}}"/>
-                </a>
-            </li>
-        </script>
+        
     </ul>
 </div>
 <div class="section_feature">
