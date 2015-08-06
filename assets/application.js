@@ -633,6 +633,7 @@ function renderTrending(container, template, collection){
         } else {
             val.post_image = post.image_url;
         }
+        console.log(val)
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
