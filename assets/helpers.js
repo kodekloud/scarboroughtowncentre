@@ -138,7 +138,7 @@ function load_more(num){
     $('#num_loaded').val(i);
 }
 
-function load_more(num){
+function load_more_2(num){
     var n = parseInt(num);
     for(i=n; i < n+2; i++){
         
