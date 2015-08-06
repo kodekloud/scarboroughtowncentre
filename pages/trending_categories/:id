@@ -66,6 +66,7 @@
             renderBlogs("#blog_links_container", "#blog_links_template", blogs);
             init_home_hours();
             show_content();
+            console.log(published_posts.length)
             load_more(1);
             
             $('#load_more_posts').click(function(e){
