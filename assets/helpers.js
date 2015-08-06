@@ -145,7 +145,7 @@ function load_more_2(num){
         var id = i.toString();
         $('#show_' + id ).fadeIn();
     }
-    if(i >= getAllPublishedPosts().length+1){
+    if(i >= l+1){
         $('#loaded_posts').hide();
         $('#all_loaded').show();
     }
