@@ -70,7 +70,8 @@
                 load_more(1);
             }
             else{
-                
+                $('#loaded_posts').hide();
+                $('#all_loaded').show();
             }
             
             $('#load_more_posts').click(function(e){
