@@ -54,6 +54,9 @@
                 <p class="side_p">To contact by phone, call Security at 416-296-4777 or Guest Services at 416-296-0296.</p>
             </div>
         </div>
+        <div class="col-md-1 hidden_phone">
+            <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>
+        </div>
         <div class="col-md-8 page_div">
             <h1 id="page_title" class="hidden_phone" style="margin-top:0; margin-bottom: 28px; "></h1>
             <br class="show_phone" />
