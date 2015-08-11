@@ -5,6 +5,9 @@
                 <img alt="side image" class="width_100" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/7e31c2409d8cd926265d05eedc9715a7/lookbook_banner.jpg" />
             </a>
         </div>
+        <div class="col-md-1 hidden_phone">
+            <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>
+        </div>
         <div class="col-md-8">
             <h1>Jobs</h1>
             <div class="line"></div>
