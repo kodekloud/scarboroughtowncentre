@@ -16,7 +16,7 @@
     <div class="line_top"></div>
     <div class="margin_30"></div>
     <div class="row">
-        <div class="col-md-7 left_side_blog">
+        <div class="col-md-7">
             <div class="blog_parent" id="blog_container">
                 <script id="blog_template" type="x-tmpl-mustache/text">
                     <div class="blog_box hidden_now" id="show_{{counter}}">
