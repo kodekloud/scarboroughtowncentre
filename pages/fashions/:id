@@ -1,7 +1,7 @@
 <script src="http://snapwidget.com/js/snapwidget.js"></script>
 <div class="container-fluid" style="margin-top:60px">
     <div class="row">
-        <div class="col-md-7 left_side_blog">
+        <div class="col-md-8">
             <div id="fashion_container">
                 <script id="fashion_template" type="x-tmpl-mustache/text">
                     <h1>{{name}}</h1>
