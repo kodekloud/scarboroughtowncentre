@@ -76,7 +76,15 @@ h1 {
 .scrolloff {
     pointer-events: none;
 }
+.row {
+    display: table;
+}
 
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
 
 .row-height {
     display: table;
