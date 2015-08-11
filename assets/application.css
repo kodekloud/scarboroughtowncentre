@@ -76,28 +76,6 @@ h1 {
 .scrolloff {
     pointer-events: none;
 }
-.row {
-    display: table;
-}
-
-[class*="col-"] {
-    float: none;
-    display: table-cell;
-    vertical-align: top;
-}
-
-.row-height {
-    display: table;
-    table-layout: fixed;
-    height: 100%;
-    width: 100%;
-}
-
-.col-sm-height {
-    display: table-cell;
-    float: none;
-    height: 100%;
-}
 
 .custom_backdrop img{
     width:80px;
