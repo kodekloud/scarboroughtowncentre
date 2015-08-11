@@ -48,6 +48,11 @@ h1 {
   margin-top:0;
 }
 
+.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
 .hidden_now{
     display:none;
 }
