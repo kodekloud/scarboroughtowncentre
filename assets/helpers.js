@@ -61,8 +61,8 @@ function addZero(i) {
     return i;
 }
 
-function get_month (id){;
-    var month = ""
+function get_month (id){
+    var month = "";
     switch(id) {
         case 0:
             month = "Jan";
