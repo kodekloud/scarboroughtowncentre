@@ -38,7 +38,7 @@
 <div class="container-fluid" style="margin-top:60px">
     <!--<h1 id="mobile_page_title" class="show_phone"></h1>-->
     <div class="row">
-        <div class="row">    
+        <div class="row-height">    
             <div class="col-md-4 col-sm-height">
                 <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/71ba44a20a9b040b3c83820e2b5a21b8/security_img.jpg" class="" alt="">
                 <ul class="nav side_nav">
