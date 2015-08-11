@@ -46,7 +46,7 @@
         <div class="col-md-1 hidden_phone">
             <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>
         </div>
-        <div class="col-md-8 page_div right_side_stores">
+        <div class="col-md-8">
             <div class="hidden_phone">
                 <h1>Centre Map</h1>
                 <div class="line"></div>
