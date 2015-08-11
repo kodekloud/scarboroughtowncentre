@@ -77,6 +77,20 @@ h1 {
     pointer-events: none;
 }
 
+
+.row-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.col-sm-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+}
+
 .custom_backdrop img{
     width:80px;
     position: absolute;
