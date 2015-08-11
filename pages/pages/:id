@@ -57,7 +57,7 @@
         <div class="col-md-1 hidden_phone col-sm-height">
             <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7 col-sm-height">
             <h1 id="page_title" class="hidden_phone" style="margin-top:0; margin-bottom: 28px; "></h1>
             <br class="show_phone" />
             <h1 id="mobile_page_title" class="show_phone" style=" margin-bottom: 20px; "></h1>
