@@ -75,7 +75,7 @@
             top_blogs.push(blog_lifestyle);
             top_blogs.push(blog_mens);
             var posts = getAllPublishedPosts();
-            var published_posts = posts.sortBy(function(o){ return o.publish_date });
+            var published_posts = posts.sortBy(function(o){ return o.publish_date }).reverse();
             renderTrending("#trending_container", "#trending_template", top_blogs);
             renderPosts("#blog_container", "#blog_template", published_posts);
             renderPosts("#side_links_container", "#side_links_template", published_posts.slice(0,3));
