@@ -8,7 +8,7 @@
         <div class="col-md-1">
             <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>
         </div>
-        <div class="col-md-8 page_div right_side_stores">
+        <div class="col-md-8">
             <h1>Events</h1>
             <div class="line"></div>
             <p class="description hidden_now" id="no_events" >No new opening stores at the moment. Please check back later.</p>
