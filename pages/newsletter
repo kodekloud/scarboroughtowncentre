@@ -4,6 +4,9 @@
         <div class="col-md-5 text-center">
             <img alt="side image" class="width_100" src="http://placehold.it/300x300" />
         </div>
+        <div class="col-md-1 hidden_phone">
+            <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>
+        </div>
         <div class="col-md-6 page_div right_side_newsletter">
             <h1>Subscribe to the STC Newsletter</h1>
             <div class="line"></div>
