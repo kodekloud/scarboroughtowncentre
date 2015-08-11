@@ -1,7 +1,7 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <div class="container-fluid" style="margin-top:60px">
     <div class="row">
-        <div class="col-md-6 text-center left_side_newsletter">
+        <div class="col-md-5 text-center">
             <div id="contest_image_container">
                 <script id="contest_image_template" type="x-tmpl-mustache/text">
                     <img alt="contest side image" class="width_100" src="{{alt_photo_url}}" />
