@@ -1,6 +1,6 @@
 <div class="container-fluid" style="margin-top:60px">
     <div class="row">
-        <div class="col-md-5 text-center left_side_hours hidden_phone">
+        <div class="col-md-5 text-center hidden_phone">
             <img alt="side image" class="width_100" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/71ba44a20a9b040b3c83820e2b5a21b8/security_img.jpg" />
         </div>
         <div class="col-md-7 page_div right_side_hours">
