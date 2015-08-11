@@ -7,7 +7,7 @@
         <div class="col-md-1 hidden_phone">
             <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>
         </div>
-        <div class="col-md-6 page_div right_side_newsletter">
+        <div class="col-md-6">
             <h1>Subscribe to the STC Newsletter</h1>
             <div class="line"></div>
             <div id="success_subscribe" style="display:none">
