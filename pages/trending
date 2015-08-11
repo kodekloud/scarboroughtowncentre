@@ -65,6 +65,12 @@
 <script>
     $(document).ready(function(e) {
         init(e);
+        function sortByKey(array, key) {
+            return array.sort(function(a, b) {
+                var x = a[key]; var y = b[key];
+                return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+            });
+        }
         function renderAll (){
             var blogs = getBlogList();
             var blog_beauty = getBlogDataBySlug('stc-beauty');
@@ -75,7 +81,8 @@
             top_blogs.push(blog_lifestyle);
             top_blogs.push(blog_mens);
             var posts = getAllPublishedPosts();
-            var published_posts = posts.sortBy(function(o){ return o.publish_date }).reverse();
+            //var published_posts = posts.sortBy(function(o){ return o.publish_date }).reverse();
+            var published_posts = sortByKey(posts, 'publish_date');
             renderTrending("#trending_container", "#trending_template", top_blogs);
             renderPosts("#blog_container", "#blog_template", published_posts);
             renderPosts("#side_links_container", "#side_links_template", published_posts.slice(0,3));
@@ -92,4 +99,5 @@
         }
         loadMallDataCached(renderAll); 
     })
+    
 </script>
