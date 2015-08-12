@@ -44,6 +44,7 @@
             </script>
         </div>
         <div class="margin_30"></div>
+        
     </div>
 </div>
 <script>
@@ -67,6 +68,8 @@
                 }
             });
             renderHours('#hours_mf_container','#hours_mf_template', hours_mf, 'reg_hours');
+            renderHours('#hours_sat_container','#hours_sat_template', hours_sat, 'reg_hours');
+            renderHours('#hours_sun_container','#hours_sun_template', hours_sun, 'reg_hours');
             show_content();
         }
          $('#mm_page_content').on('click', function () {
