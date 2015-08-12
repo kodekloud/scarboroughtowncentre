@@ -736,7 +736,7 @@ h1 {
 }
 
 .new_store_box{
-    padding-top: 10px;
+    padding: 10px 0;
 }
 .new_store_name{
     font-weight: bold;
