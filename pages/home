@@ -1,6 +1,6 @@
 <div class="popup_home hidden_now">
     <img src="https://placehold.it/750x500" />
-    <i class="fa fa-remove close_popup" onclick="close_popup()"></i>
+    <i class="fa fa-remove close_popup"></i>
 </div>
 <div class="flexslider">
     <ul class="slides" id="home_banner">
