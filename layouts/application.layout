@@ -97,15 +97,16 @@
                             <li><a class="menu_link menu_home" href="/">SCARBOROUGH TOWN CENTRE</a></li>
                             <li class="desktop_menu dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">STORES</a>
-                                <div class="dropdown-menu invisible_dropdown_div">
-                                    <ul class="dropdown-menu dd_stores">
-                                    <div id="triangle-up"></div>
-                                    <div id="triangle-up-inside"></div>
-                                    <li><a href="/stores">STORE LIST</a></li>
-                                    <li><a href="/map">CENTRE MAP</a></li>
-                                    <li><a href="/new_stores">NEW STORES</a></li>
-                                    <li><a href="/promotions">PROMOTIONS</a></li>
-                                </ul>
+                                <div class="dropdown-menu invisible_dropdown_div">  
+                                    <ul class="dd_guest dd_stores">
+                                        <div id="triangle-up"></div>
+                                        <div id="triangle-up-inside"></div>
+                                        <li><a href="/stores">STORE LIST</a></li>
+                                        <li><a href="/map">CENTRE MAP</a></li>
+                                        <li><a href="/new_stores">NEW STORES</a></li>
+                                        <li><a href="/promotions">PROMOTIONS</a></li>
+                                    </ul>
+                                </div>
                             </li>
                             <li><a class="menu_link" href="/trending">TRENDING</a></li>
                             <li class="desktop_menu dropdown menu_link">
