@@ -57,14 +57,14 @@
 <div class="row">
     <div class="col-md-9">
         <p class="mini_nav_2">
-                <a class="active" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">DIRECTIONS BY CAR</a>
-                <a href="#categories" aria-controls="categories" role="tab" data-toggle="tab">DIRECTIONS BY PUBLIC TRANSIT</a>
+                <a class="active" href="#car" aria-controls="car" role="tab" data-toggle="tab">DIRECTIONS BY CAR</a>
+                <a href="#categories" aria-controls="transit" role="tab" data-toggle="tab">DIRECTIONS BY PUBLIC TRANSIT</a>
             </p>
         <div class="tab-content ">
-            <div role="tabpanel" class="tab-pane active" id="alphabetical">
+            <div role="tabpanel" class="tab-pane active" id="car">
                 a
             </div>
-            <div role="tabpanel" class="tab-pane" id="categories">
+            <div role="tabpanel" class="tab-pane" id="transit">
                 b
             </div>
         </div>
