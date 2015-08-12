@@ -36,6 +36,22 @@
         init(e);
         function renderAll (){
             init_home_hours();
+            var hours = getPropertyHours();
+            var hours_mf = [];
+            var hours_sat = [];
+            var hours_sun = [];
+            $.each(hours, function(key, val){
+                if (val.day_of_week == 1 && val.is_holiday == false){
+                    hours_mf.push(val);
+                }
+                if (val.day_of_week == 6 && val.is_holiday == false){
+                    hours_sat.push(val);
+                }
+                if (val.day_of_week == 0 && val.is_holiday == false){
+                    hours_sun.push(val);
+                }
+            });
+            renderHours('#hours_mf_container','#hours_mf_template', hours_mf, 'reg_hours');
             show_content();
         }
          $('#mm_page_content').on('click', function () {
