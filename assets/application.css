@@ -450,6 +450,9 @@ h1 {
     color: #3DC2D1;
     font-family:CircularStd-Book;
 }
+.open_now:hover{
+    color:#80c9d1;
+}
 .icon_top{
     width: 20px;
     margin-left: 10px;
