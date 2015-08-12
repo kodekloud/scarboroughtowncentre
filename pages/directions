@@ -13,6 +13,12 @@
             init_home_hours();
             show_content();
         }
+         $('#mm_page_content').on('click', function () {
+            $('iframe').removeClass('scrolloff');
+        });
+        $("iframe").mouseleave(function () {
+            $(this).addClass('scrolloff');
+        });
         loadMallDataCached(renderAll); 
     })
 </script>
