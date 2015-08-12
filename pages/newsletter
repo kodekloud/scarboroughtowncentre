@@ -60,7 +60,7 @@
                             <div class="margin_30"></div>
                         </div>
                     </div>
-                    <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
+                    <label for="enterVerify">Enter the following number below to proceed: <h2 id="verifyNum"></h2></label><br>
                     <div class="row">
                         <div class="col-md-6">
                             <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
