@@ -99,6 +99,9 @@
                 $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
                 $('.popup_home').show()
             }
+            function close_popup(){
+                
+            }
         }
         loadMallDataCached(renderAll); 
     })
