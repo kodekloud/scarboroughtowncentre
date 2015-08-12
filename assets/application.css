@@ -88,6 +88,14 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.close_popup{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 25px;
+}
+
 .custom_backdrop img{
     width:80px;
     position: absolute;
