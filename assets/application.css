@@ -310,6 +310,8 @@ h1 {
     box-shadow: none;
     top: 70px;
     width: 265px;
+    border: 1px solid #ccc;
+    list-style: none;
 }    
 
 .dd_guest li{
