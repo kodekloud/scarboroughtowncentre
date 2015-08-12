@@ -73,7 +73,7 @@
                         hours_today.push(val);
                         var open_time = new Date (val.open_time);
                         var close_time = new Date (val.close_time);
-                        console.log(convert_hour(open_time) + " – " +convert_hour(close_time));
+                        $('#hours_today').text(convert_hour(open_time) + " – " +convert_hour(close_time));
                     }
                     
                 }
