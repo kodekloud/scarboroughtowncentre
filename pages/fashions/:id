@@ -27,7 +27,7 @@
             <div id="triangle-down-inside"></div>
             <div class="margin_15px"></div>
             <p class="text-center new_store_subheading no_margin">SHARE</p>
-            <div class="margin_15px"></div>
+            <div class="margin_30"></div>
             <p class="text-center" id="share_container">
                 <script id="share_template" type="x-tmpl-mustache/text">
                     <a class="share_link" target="_blank" href="http://www.facebook.com/sharer.php?u=http://scarboroughtowncentre.com/fashion/{{slug}}">
