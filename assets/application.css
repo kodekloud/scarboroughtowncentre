@@ -516,7 +516,7 @@ h1 {
     border-bottom: 9px solid #fff; 
     margin: 0 auto;
     position: absolute;
-    top: -9px;
+    top: 12px;
     left: 50%;
     -webkit-transform: translate(-50%,0);
     -ms-transform: translate(-50%,0);
