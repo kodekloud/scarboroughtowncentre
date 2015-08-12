@@ -52,6 +52,7 @@
         </div>
         <div class="margin_30"></div>
     </div>
+    <div class="clearfix"></div>
     <div>
         <p class="mini_nav_2">
                 <a class="active" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">ALPHABETICAL</a>
