@@ -31,6 +31,7 @@
                                 <p class="new_store_name">Contact Email<br /><span class="description">{{contact_email}}</span></p>
                                 <a class="feature_read_more" href="/stores/{{store_slug}}">VIEW STORE PAGE</a>
                                 <a class="feature_read_more less" href="#" id="less_{{id}}" data-id = "{{id}}">LESS</a>
+                                <div class="margin_20"></div>
                             </div>
                         </div>
                     </div>
