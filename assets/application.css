@@ -785,6 +785,8 @@ ul.nav li.dropdown:hover > .dropdown-menu {
     border: none;
     box-shadow: none;
     margin-top: 1px;
+    border: 1px solid #ccc;
+    list-style: none;
 }
 .new_store_img_parent{
     /*height: 200px;*/
