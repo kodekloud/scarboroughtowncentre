@@ -135,6 +135,7 @@ h1 {
     padding: 10px;
     display: none;
     border: 0px solid #ccc;
+    padding-left:15px;
 }
 .search-results{
     position: absolute;
