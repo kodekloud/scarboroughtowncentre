@@ -781,6 +781,9 @@ ul.nav li.dropdown:hover > .dropdown-menu {
     display: block;    
 }
 
+.dd_guest a:hover{
+    text-decoration:none;
+}
 .invisible_dropdown_div{
     left: -48px;
     padding-top: 20px;
