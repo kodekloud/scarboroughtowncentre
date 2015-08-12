@@ -258,6 +258,10 @@ h1 {
 .social_link{
  padding:15px 10px !important;   
 }
+
+.stc_nav{
+    margin-left: 15px;
+}
 .stc_nav li{ 
     border-right:1px solid #BFBEBD;
 }
