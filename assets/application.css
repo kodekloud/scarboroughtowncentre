@@ -774,7 +774,7 @@ h1 {
     max-height:770px;
     overflow:scroll;
 }
-ul.nav li.dropdown:hover > ul.dropdown-menu {
+ul.nav li.dropdown:hover > .dropdown-menu {
     display: block;    
 }
 
