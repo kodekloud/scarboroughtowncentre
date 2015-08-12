@@ -67,7 +67,7 @@
             $.each(hours, function(key, val){
                 if(val.day_of_week == n){
                     if (val.is_closed == true ||val.is_holiday == true){
-                        
+                        $('#open_today').text("CLOSE TODAY")
                     }
                     else{
                         hours_today.push(val);}
