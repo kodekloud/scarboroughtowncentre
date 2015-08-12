@@ -750,6 +750,8 @@ h1 {
     font-style: italic;
     font-family: ChronicleDisplay;
     font-size:16px;
+    font-size: 18px;
+    line-height: 27px;
 }
 .new_store_img_div{
     height:200px;
