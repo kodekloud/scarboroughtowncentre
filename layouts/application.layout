@@ -109,15 +109,17 @@
                             <li><a class="menu_link" href="/trending">TRENDING</a></li>
                             <li class="desktop_menu dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">GUEST SERVICES</a>
-                                <ul class="dd_guest">
-                                    <div id="triangle-up"></div>
-                                    <div id="triangle-up-inside"></div>
-                                    <li><a href="/pages/stc-guest-services">GUEST SERVICES</a></li>
-                                    <li><a href="/pages/stc-gift-cards">GIFT CARD</a></li>
-                                    <li><a href="/feedback">SHARE YOUR THOUGHTS</a></li>
-                                    <li><a href="/pages/stc-accessibility">ACCESSIBILITY</a></li>
-                                    <li><a href="/pages/stc-security-safety-tips">SECURITY & SAFETY</a></li>
-                                </ul>
+                                <div class="dropdown-menu"></div>
+                                    <ul class="dd_guest">
+                                        <div id="triangle-up"></div>
+                                        <div id="triangle-up-inside"></div>
+                                        <li><a href="/pages/stc-guest-services">GUEST SERVICES</a></li>
+                                        <li><a href="/pages/stc-gift-cards">GIFT CARD</a></li>
+                                        <li><a href="/feedback">SHARE YOUR THOUGHTS</a></li>
+                                        <li><a href="/pages/stc-accessibility">ACCESSIBILITY</a></li>
+                                        <li><a href="/pages/stc-security-safety-tips">SECURITY & SAFETY</a></li>
+                                    </ul>
+                                </div>
                             </li>
                             <li class="social_nav" style=" padding-left: 10px; "><a target="_blank" class="menu_link " href="http://instagram.com/shopstc"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_instagram.png" class="social_img site_icons" alt="insta"></a></li>
                             <li class="social_nav"><a target="_blank" class="menu_link " href="https://www.facebook.com/ShopSTC"><img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_facebook.png" class="social_img site_icons" alt="fb"></a></li>
