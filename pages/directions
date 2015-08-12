@@ -70,7 +70,9 @@
                         $('#open_today').text("CLOSE TODAY")
                     }
                     else{
-                        hours_today.push(val);}
+                        hours_today.push(val);
+                        console.log(val)
+                    }
                     
                 }
                 if (val.day_of_week == 1 && val.is_holiday == false){
