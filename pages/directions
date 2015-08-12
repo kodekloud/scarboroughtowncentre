@@ -66,8 +66,11 @@
             var n = d.getDay();
             $.each(hours, function(key, val){
                 if(val.day_of_week == n){
-                    if (val.is_closed == true ||val.is_holiday == true)
-                    hours_today.push(val);
+                    if (val.is_closed == true ||val.is_holiday == true){
+                        
+                    }
+                    else{
+                        hours_today.push(val);}
                     
                 }
                 if (val.day_of_week == 1 && val.is_holiday == false){
