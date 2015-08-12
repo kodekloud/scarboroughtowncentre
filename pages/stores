@@ -76,7 +76,7 @@
                 </div>
                 <div role="tabpanel" class="tab-pane" id="categories">
                     <p class="alpha_list">
-                        <a href="#A">A</a>
+                        <a href="#A" style="visibility:hidden">A</a>
                     </p>
                     <div class="row">
                         <div class="col-md-6">
