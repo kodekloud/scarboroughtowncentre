@@ -78,7 +78,7 @@
                     <p class="alpha_list">
                         <a href="#A">A</a>
                     </p>
-                    <div class="row" ">
+                    <div class="row>
                         <div class="col-md-6">
                             <div class="store_list" id="category_list_container">
                                 <script id="category_list_template" type="x-tmpl-mustache/text">
