@@ -1,5 +1,5 @@
 <div class="popup">
-    <img src="https://placehold.it/750x500"
+    <img src="https://placehold.it/750x500" />
 </div>
 <div class="flexslider">
     <ul class="slides" id="home_banner">
