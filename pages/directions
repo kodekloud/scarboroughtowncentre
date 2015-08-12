@@ -26,7 +26,7 @@
         <div class="margin_15px"></div>
         <h2 class="new_store_subheading no_margin" id="open_today">OPEN TODAY</h2>
         <div class="margin_15px"></div>
-        <p class="new_store_name no_margin" id="hours_today"></p>
+        <p class="description no_margin" id="hours_today"></p>
         <div class="margin_30"></div>
         <h2 class="new_store_subheading no_margin">STC SHOPPING HOURS:</h2>
         <div class="margin_15px"></div>
