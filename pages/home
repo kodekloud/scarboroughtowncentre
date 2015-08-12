@@ -1,4 +1,4 @@
-<div class="popup_home">
+<div class="popup_home hidden_now">
     <img src="https://placehold.it/750x500" />
 </div>
 <div class="flexslider">
@@ -96,6 +96,7 @@
             if($.cookie("popup_viewed") != true){
                 $.cookie("popup_viewed", true);
                 $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
+                
             }
             else{
                 
