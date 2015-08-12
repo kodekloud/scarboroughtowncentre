@@ -323,7 +323,7 @@ h1 {
 }
 
 .dd_stores{
-    left:-85px;
+    left:-85px !important;
 }
 .site_icons{
     opacity:1;
