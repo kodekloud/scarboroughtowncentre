@@ -1,3 +1,8 @@
+<style>
+    .new_store_subheading {
+        font-size: 16px;
+    }
+</style>
 <h1>Directions</h1>
 <div class="line"></div>
 <div class="row">
