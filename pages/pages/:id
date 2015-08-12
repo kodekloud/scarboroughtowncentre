@@ -99,7 +99,7 @@
             }); 
             show_content();
             if($.cookie("popup_viewed") != true){
-                $.cookie("test", 1);
+                $.cookie("popup_viewed", true);
             }
             else{
                 
