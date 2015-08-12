@@ -920,6 +920,9 @@ h1 {
 .description_blog_nav{
     color: #BFBEBD;
     text-transform: capitalize;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: ChronicleTextG1-Roman;
 }
 .trending_side_link{
     color: #000;
