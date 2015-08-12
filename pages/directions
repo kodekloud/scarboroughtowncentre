@@ -56,6 +56,8 @@
         <div class="tab-content ">
             <div role="tabpanel" class="tab-pane active" id="alphabetical">
             </div>
+            <div role="tabpanel" class="tab-pane" id="categories">
+            </div>
         </div>    
                 
                 
