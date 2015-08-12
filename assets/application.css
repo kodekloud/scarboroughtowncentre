@@ -1111,7 +1111,8 @@ h1 {
         width:345px;
     }
     .new_store_box {
-        margin: 20px 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .right_side_hours{
         padding:0 15px;
