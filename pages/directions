@@ -65,7 +65,9 @@
             var d = new Date();
             var n = d.getDay();
             $.each(hours, function(key, val){
-                
+                if(val.day_of_week == n){
+                    hours_mf.push(val);
+                }
                 if (val.day_of_week == 1 && val.is_holiday == false){
                     hours_mf.push(val);
                 }
