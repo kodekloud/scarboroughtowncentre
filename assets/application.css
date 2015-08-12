@@ -774,6 +774,9 @@ h1 {
     max-height:770px;
     overflow:scroll;
 }
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
 
 .new_store_img_parent{
     /*height: 200px;*/
