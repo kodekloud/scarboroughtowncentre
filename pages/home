@@ -100,7 +100,8 @@
                 $('.popup_home').show()
             }
             function close_popup(){
-                
+                $(".modal-backdrop").remove();
+		        $(".popup_home").remove();
             }
         }
         loadMallDataCached(renderAll); 
