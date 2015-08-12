@@ -24,12 +24,26 @@
         <h2 class="new_store_subheading no_margin">STC SHOPPING HOURS:</h2>
         <div class="margin_15px"></div>
         <p class="new_store_name no_margin">Monday – Friday</p>
-            <div id="hours_mf_container">
-                <script id="hours_mf_template" type="x-tmpl-mustache/text">
-                    <p class="description no_margin">{{h}}</p>
-                </script>
-            </div>
-            <div class="margin_15px"></div>
+        <div id="hours_mf_container">
+            <script id="hours_mf_template" type="x-tmpl-mustache/text">
+                <p class="description no_margin">{{h}}</p>
+            </script>
+        </div>
+        <div class="margin_15px"></div>
+        <p class="new_store_name no_margin">Saturday</p>
+        <div id="hours_sat_container">
+            <script id="hours_sat_template" type="x-tmpl-mustache/text">
+                <p class="description no_margin">{{h}}</p>
+            </script>
+        </div>
+        <div class="margin_15px"></div>
+        <p class="new_store_name no_margin">Sunday</p>
+        <div id="hours_sun_container">
+            <script id="hours_sun_template" type="x-tmpl-mustache/text">
+                <p class="description no_margin">{{h}}</p>
+            </script>
+        </div>
+        <div class="margin_30"></div>
     </div>
 </div>
 <script>
