@@ -739,7 +739,8 @@ h1 {
 .new_store_name{
     font-weight: bold;
     font-family: ChronicleDisplay;
-    font-size:16px;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 .new_store_desc{
