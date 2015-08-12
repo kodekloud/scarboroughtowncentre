@@ -53,19 +53,18 @@
         <div class="margin_30"></div>
     </div>
 </div>
-    <div class="row">
-        <div class="col-md-9">
-            <p class="mini_nav_2">
-                    <a class="active" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">ALPHABETICAL</a>
-                    <a href="#categories" aria-controls="categories" role="tab" data-toggle="tab">CATEGORY</a>
-                </p>
-            <div class="tab-content ">
-                <div role="tabpanel" class="tab-pane active" id="alphabetical">
-                    a
-                </div>
-                <div role="tabpanel" class="tab-pane" id="categories">
-                b
-                </div>
+<div class="row">
+    <div class="col-md-9">
+        <p class="mini_nav_2">
+                <a class="active" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">ALPHABETICAL</a>
+                <a href="#categories" aria-controls="categories" role="tab" data-toggle="tab">CATEGORY</a>
+            </p>
+        <div class="tab-content ">
+            <div role="tabpanel" class="tab-pane active" id="alphabetical">
+                a
+            </div>
+            <div role="tabpanel" class="tab-pane" id="categories">
+            b
             </div>
         </div>
     </div>
