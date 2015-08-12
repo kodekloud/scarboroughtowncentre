@@ -783,7 +783,7 @@ ul.nav li.dropdown:hover > .dropdown-menu {
 
 .invisible_dropdown_div{
     left: -48px;
-    padding-top: 10px;
+    padding-top: 20px;
     border: none;
     box-shadow: none;
     margin-top: 1px !important;
