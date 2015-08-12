@@ -71,7 +71,10 @@
                     }
                     else{
                         hours_today.push(val);
-                        console.log(val)
+                        var open_time = new Date (val.open_time);
+        var close_time = new Date (val.close_time);
+        val.open = check_open_time(open_time);
+        val.close = convert_hour(close_time);
                     }
                     
                 }
