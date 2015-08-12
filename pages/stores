@@ -75,6 +75,9 @@
                     </div>
                 </div>
                 <div role="tabpanel" class="tab-pane" id="categories">
+                    <p class="alpha_list">
+                        <a href="#A">A</a>
+                    </p>
                     <div class="row" style="margin-top:40px;">
                         <div class="col-md-6">
                             <div class="store_list" id="category_list_container">
