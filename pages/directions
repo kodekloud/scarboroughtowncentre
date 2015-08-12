@@ -65,7 +65,7 @@
                 a
             </div>
             <div role="tabpanel" class="tab-pane" id="categories">
-            b
+                b
             </div>
         </div>
     </div>
