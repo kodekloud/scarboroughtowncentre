@@ -275,6 +275,12 @@ h1 {
     color:#BFBEBD;
 }
 
+.name{
+    font-family: CircularStd-Bold; 
+    font-weight: 500;
+    line-height: 1.1;
+    text-transform:uppercase;
+}
 .menu_link{
     color:#000;
     letter-spacing: 2;
