@@ -56,7 +56,7 @@
 <div class="margin_30"></div>
 <div class="row">
     <div class="col-md-9">
-        <p class="mini_nav_2">
+        <p class="mini_nav_2 no_padding">
                 <a style="margin-right:20px" class="active directions_toggler" href="#car" aria-controls="car" role="tab" data-toggle="tab">DIRECTIONS BY CAR</a>
                 |
                 <a style="margin-left:20px" class="directions_toggler" href="#transit" aria-controls="transit" role="tab" data-toggle="tab">DIRECTIONS BY PUBLIC TRANSIT</a>
