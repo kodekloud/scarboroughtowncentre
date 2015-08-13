@@ -11,10 +11,7 @@
                 </script>
             </div>
         </div>
-        <div class="col-md-1 hidden_phone">
-            <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-6 left_pad">
             <h1>Contest</h1>
             <div class="line"></div>
             <div id="success_subscribe" style="display:none">
