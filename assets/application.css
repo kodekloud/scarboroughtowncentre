@@ -927,7 +927,7 @@ ul.nav li.dropdown:hover > .dropdown-menu {
 }
 
 .directions_toggler{
-    color:#000;
+    color:#000 !important;
 }
 
 .blog_box{
