@@ -986,7 +986,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         padding-right:0 !important
     }
 }
-@media only screen and (min-width: 1030px) { 
+@media only screen and (min-width: 800px) { 
     .left_pad{
         padding-left: 58px;
         margin-left: 47px;
