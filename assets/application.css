@@ -1091,7 +1091,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     .left_pad{
         padding-left: 0;
         margin-left: 0;
-        border-left: 0 solid #ccc;;
+        border-left: 0 ;
     }
     
     .yield{
