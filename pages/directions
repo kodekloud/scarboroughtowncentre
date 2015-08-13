@@ -64,7 +64,7 @@
         <div class="tab-content ">
             <div role="tabpanel" class="tab-pane active" id="car">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-10">
                         <p class="description">
                             STC is located in the east end of Toronto, directly off of HWY. 401, between Mccowan Road and Brimley Road.
                         </p>
