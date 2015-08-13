@@ -52,7 +52,7 @@
                             <li><a class="menu_link " href="tel:(416) 296-0296">CALL US</a></li>
                             <li class="dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">STORES +</a>
-                                <ul class="dropdown-menu ">
+                                <ul class=">
                                     <li><a class="mobile_inside_nav" href="/stores">STORE LIST</a></li>
                                     <li><a class="mobile_inside_nav" href="/map">CENTRE MAP</a></li>
                                     <li><a class="mobile_inside_nav" href="/new_stores">NEW STORES</a></li>
