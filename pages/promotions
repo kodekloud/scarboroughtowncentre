@@ -6,9 +6,9 @@
             </a>
         </div>
         <div class="col-md-1 hidden_phone">
-            <div style="width:50%;border-right:1px solid #ccc;height:100%"  id="mid_div"></div>
+            <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>
         </div>
-        <div class="col-md-8"  id="mid_div_height">
+        <div class="col-md-8">
             <h1>Promotions</h1>
             <div class="line"></div>
             <p class="mini_nav">
@@ -62,11 +62,8 @@
             });
             all_promos = promo_array;
             renderGeneral("#promo_container","#promo_template", all_promos, "promos");
-            
             show_content();
-            
             more_less(e);
-            console.log($('#mid_div_height').height());
         }
         loadMallDataCached(renderAll); 
     })
