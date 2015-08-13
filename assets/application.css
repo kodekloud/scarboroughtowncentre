@@ -992,6 +992,12 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         margin-left: 47px;
         border-left: 1px solid #ccc;
     }
+    
+    .right_pad{
+        padding-right: 58px;
+        margin-right: 47px;
+        border-right: 1px solid #ccc;
+    }
 }
 @media only screen and (max-width: 1030px) { 
     .search_textbox {
