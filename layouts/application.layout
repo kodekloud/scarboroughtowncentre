@@ -48,7 +48,7 @@
                     <div class="collapse navbar-collapse" id="mobile_nav">
                         <ul class="stc_nav nav navbar-nav" >
                             <li><a class="menu_link " href="/hours">HOURS</a></li>
-                            <li><a class="menu_link " href="/pages/stc-directions">DIRECTIONS</a></li>
+                            <li><a class="menu_link " href="/directions">DIRECTIONS</a></li>
                             <li><a class="menu_link " href="tel:(416) 296-0296">CALL US</a></li>
                             <li class="dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">STORES +</a>
