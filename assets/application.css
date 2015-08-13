@@ -1074,10 +1074,7 @@ ul.nav li.dropdown:hover > .dropdown-menu {
         -o-transform: translateX(-50%);
         transform: translateX(-50%);
     }
-    ul.nav li.dropdown:hover > .dropdown-menu {
-        display: none;    
-    }
-    
+       
     body{
         padding-top:50px;
     }
