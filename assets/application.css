@@ -933,6 +933,9 @@ ul.nav li.dropdown:hover > .dropdown-menu {
    color: #BFBEBD !important;
 }
 
+.active.directions_toggler{
+    color: #000 !important;
+}
 
 .blog_box{
     padding-top: 10px;
