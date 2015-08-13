@@ -63,7 +63,9 @@
                         <div class="col-md-12">
                             <label for="comments">Phone Number</label>
                             <textarea name="feedback[comment]" id="comments" class="form-control" style="height:200px; resize:none"></textarea>
-                            <div class="margin_30"></div>    
+                            <div class="margin_30"></div> 
+                        </div>
+                        <div class="col-md-6">
                             <input type = "submit" value="SUBMIT" class="btn_submit_stc "/>
                         </div>
                         
