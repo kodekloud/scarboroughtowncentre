@@ -34,7 +34,7 @@
                 </div>
                 <div class="margin_30"></div>
                 <div class="row">
-                    <form id="feedback_form" class="description>
+                    <form id="feedback_form" class="description">
                         <div class="col-md-6">
                             <label for="first_name">First Name</label>
                             <input name="feedback[first_name]" type="text" class="form-control" id="first_name" />
