@@ -65,7 +65,7 @@
             show_content();
             more_less(e);
         }
-        $('#mid_div').height($('#mid_div_height').height());
+        
         loadMallDataCached(renderAll); 
     })
 </script>
