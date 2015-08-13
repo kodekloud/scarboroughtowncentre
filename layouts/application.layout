@@ -73,7 +73,7 @@
                             <li>
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle">ABOUT US +</a>
                                 <ul class="dropdown-menu ">
-                                    <li><a class="mobile_inside_nav" href="/pages/stc-guest-services">JOBS</a></li>
+                                    <li><a class="mobile_inside_nav" href="/JOBS">JOBS</a></li>
                                     <li><a class="mobile_inside_nav" href="/pages/stc-gift-cards">GIFT CARD</a></li>
                                     <li><a class="mobile_inside_nav" href="/feedback">SHARE YOUR THOUGHTS</a></li>
                                     <li><a class="mobile_inside_nav" href="/pages/stc-accessibility">ACCESSIBILITY</a></li>
