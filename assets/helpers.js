@@ -1,7 +1,7 @@
 function show_content(){
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();
-    $('#mid_div').height($('#mid_div_height').height());
+    
 }
 
 function check_open_time(d){
