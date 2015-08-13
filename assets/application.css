@@ -173,7 +173,7 @@ h1 {
     margin: 0 !important;
 }
 .no_padding{
-    margin: 0 !important;
+    padding: 0 !important;
 }
 .margin_15px{
     margin-top:15px;
