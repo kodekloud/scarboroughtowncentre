@@ -1,5 +1,5 @@
 <style>
-    p {
+    p, .page_div ul {
         font-size: 18px;
         line-height: 27px;
         font-family: ChronicleTextG1-Roman;
