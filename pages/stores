@@ -6,7 +6,7 @@
             </a>
         </div>
         <div class="col-md-1 hidden_phone">
-            <div style="width:50%;border-right:1px solid #ccc;height:100%" id="mid-div"></div>
+            <div style="width:50%;border-right:1px solid #ccc;height:100%" id="mid_div"></div>
         </div>
         <div class="col-md-8" id="mid_div_height">
             <h1>Stores</h1>
