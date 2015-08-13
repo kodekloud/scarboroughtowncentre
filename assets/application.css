@@ -1095,6 +1095,11 @@ ul.nav li.dropdown:hover > .dropdown-menu {
         /*position:absolute !important;*/
         /*border: 1px solid #BFBEBD !important;*/
         /*background: #fff !important;*/
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
     }
     .stc_nav li{
         border:0;
