@@ -1075,7 +1075,7 @@ ul.nav li.dropdown:hover > .dropdown-menu {
         transform: translateX(-50%);
     }
     ul.nav li.dropdown:hover > .dropdown-menu {
-        display: none;    
+        display: nonee;    
     }
     
     body{
