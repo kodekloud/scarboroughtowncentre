@@ -62,6 +62,7 @@
             });
             all_promos = promo_array;
             renderGeneral("#promo_container","#promo_template", all_promos, "promos");
+            console.log($('#mid_div_height').height());
             show_content();
             more_less(e);
         }
