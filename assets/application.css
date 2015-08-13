@@ -1092,9 +1092,9 @@ ul.nav li.dropdown:hover > .dropdown-menu {
     }
     
     .dropdown-menu{
-        position:absolute !important;
-        border: 1px solid #BFBEBD !important;
-        background: #fff !important;
+        /*position:absolute !important;*/
+        /*border: 1px solid #BFBEBD !important;*/
+        /*background: #fff !important;*/
     }
     .stc_nav li{
         border:0;
