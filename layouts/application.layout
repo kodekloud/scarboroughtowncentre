@@ -108,7 +108,7 @@
                             <li><a class="menu_link menu_home" href="/">SCARBOROUGH TOWN CENTRE</a></li>
                             <li class="desktop_menu dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">STORES</a>
-                                <div class="dropdown-menu invisible_dropdown_div dd_stores">
+                                <div class="dropdown-menu invisible_dropdown_div dd_stores dropdown-menu-hover">
                                     <ul class="dd_guest">
                                         <div id="triangle-up"></div>
                                         <div id="triangle-up-inside"></div>
@@ -122,7 +122,7 @@
                             <li><a class="menu_link" href="/trending">TRENDING</a></li>
                             <li class="desktop_menu dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">GUEST SERVICES</a>
-                                <div class="dropdown-menu invisible_dropdown_div">
+                                <div class="dropdown-menu invisible_dropdown_div dropdown-menu-hover">
                                     <ul class="dd_guest">
                                         <div id="triangle-up"></div>
                                         <div id="triangle-up-inside"></div>
