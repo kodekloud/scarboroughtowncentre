@@ -71,6 +71,7 @@
                         <a class="feature_read_more" href="#">CLICK HERE TO PLAN YOUR ROUTE ON GOOGLE MAPS</a>
                     </div>
                 </div>
+            </div>
             <div role="tabpanel" class="tab-pane" id="transit">
                 b
             </div>
