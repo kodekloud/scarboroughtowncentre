@@ -3,10 +3,10 @@
         <div class="col-md-4 text-center hidden_phone">
             <img alt="side image" class="width_100" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/71ba44a20a9b040b3c83820e2b5a21b8/security_img.jpg" />
         </div>
-        <div class="col-md-1 hidden_phone">
-            <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>
-        </div>
-        <div class="col-md-7">
+        <!--<div class="col-md-1 hidden_phone">-->
+        <!--    <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>-->
+        <!--</div>-->
+        <div class="col-md-7 right_pad">
             <h1>Hours</h1>
             <div class="line"></div>
             <p class="new_store_subheading no_margin">STC SHOPPING HOURS:</p>
