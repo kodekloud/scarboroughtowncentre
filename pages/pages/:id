@@ -25,7 +25,7 @@
     h3{
         font-family: CircularStd-Book;
     }
-    a{
+    .page_div a{
         font-family:CircularStd-Book;
         letter-spacing: 2;
         color: #000;
