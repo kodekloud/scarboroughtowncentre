@@ -1,6 +1,9 @@
 <style>
     p {
-        margin: 0 0 12px;
+        font-size: 18px;
+        line-height: 27px;
+        font-family: ChronicleTextG1-Roman;
+        margin: 10px 0;
     }
     .page_div{
         font-size:18px;
