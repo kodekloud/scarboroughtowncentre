@@ -17,6 +17,7 @@
         font-family: CircularStd-Book;
         letter-spacing: 2;
         color: #F15F5C;
+        text-transform:uppercase;
     }
     a{
         font-family:CircularStd-Book;
