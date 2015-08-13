@@ -64,8 +64,8 @@
             renderGeneral("#promo_container","#promo_template", all_promos, "promos");
             show_content();
             more_less(e);
+            
         }
-        
         loadMallDataCached(renderAll); 
     })
 </script>
