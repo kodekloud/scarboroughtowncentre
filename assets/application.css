@@ -802,11 +802,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     /*padding: 10px;*/
     /*border: 1px solid #BFBEBD;*/
 }
-.left_pad{
-    padding-left: 58px;
-    margin-left: 47px;
-    border-left: 1px solid #ccc;
-}
+
 .new_store_image{
     max-width: 100%;
     max-height: 100%;
@@ -1087,13 +1083,6 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
 }
 
 @media only screen and (max-width: 800px) { 
-    
-    .left_pad{
-        padding-left: 0;
-        margin-left: 0;
-        border-left: 0 ;
-    }
-    
     .yield{
         margin-top: -30px;
 
