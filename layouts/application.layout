@@ -252,7 +252,7 @@
                 <li><a class="footer_menu_link" href="/events">EVENTS</a></li>
                 <li><a class="footer_menu_link" href="/feedback">CONTACT</a></li>
                 <li><a class="footer_menu_link" href="pages/stc-privacy">PRIVACY POLICY</a></li>
-                <li><a class="footer_menu_link separator" href="#" style=" text-decoration: line-through; ">&nbsp;</a></li>
+                <li><a class="footer_menu_link separator" href="#" style=" text-decoration: line-through; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
                 <li><a class="footer_menu_link" href="/pages/stc-media-centre">MEDIA</a></li>
             </ul>
             <div class="clearfix"></div>
