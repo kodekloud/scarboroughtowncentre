@@ -1062,8 +1062,21 @@ ul.nav li.dropdown:hover > .dropdown-menu {
     .navbar-collapse.collapse.in { 
         display: block!important;
     }
+    .collapsing {
+        overflow: hidden!important;
+    }
     
-    
+    .dropdown-menu{
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    ul.nav li.dropdown:hover > .dropdown-menu {
+    display: block;    
+}
     
     body{
         padding-top:50px;
