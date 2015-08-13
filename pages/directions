@@ -57,9 +57,10 @@
 <div class="row">
     <div class="col-md-9">
         <p class="mini_nav_2 ">
-                <a style="padding-right: 20px;border-right: 1px solid #BFBEBD;padding-bottom: 13px !important;margin-right: 0;" class="active directions_toggler" href="#car" aria-controls="car" role="tab" data-toggle="tab">DIRECTIONS BY CAR</a>
-                <a style="margin-left:20px;padding-bottom:20px" class="directions_toggler" href="#transit" aria-controls="transit" role="tab" data-toggle="tab">DIRECTIONS BY PUBLIC TRANSIT</a>
-            </p>
+            <a style="padding-right: 20px;border-right: 1px solid #BFBEBD;padding-bottom: 13px !important;margin-right: 0;" class="active directions_toggler" href="#car" aria-controls="car" role="tab" data-toggle="tab">DIRECTIONS BY CAR</a>
+            <a style="margin-left:20px;padding-bottom:20px" class="directions_toggler" href="#transit" aria-controls="transit" role="tab" data-toggle="tab">DIRECTIONS BY PUBLIC TRANSIT</a>
+        </p>
+        <div class="margin_15px"></div>
         <div class="tab-content ">
             <div role="tabpanel" class="tab-pane active" id="car">
                 <p class="description">
