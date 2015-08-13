@@ -782,7 +782,7 @@ h1 {
     overflow:scroll;
 }
 
-ul.nav li.dropdown:hover > .dropdown-menu {
+ul.nav li.dropdown:hover > .dropdown-menu-hover {
     display: block;    
 }
 
