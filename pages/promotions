@@ -64,8 +64,9 @@
             renderGeneral("#promo_container","#promo_template", all_promos, "promos");
             
             show_content();
-            console.log($('#mid_div_height').height());
+            
             more_less(e);
+            console.log($('#mid_div_height').height());
         }
         loadMallDataCached(renderAll); 
     })
