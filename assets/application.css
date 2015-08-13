@@ -782,9 +782,7 @@ h1 {
     overflow:scroll;
 }
 
-ul.nav li.dropdown:hover > .dropdown-menu {
-    display: block;    
-}
+
 
 .dd_guest a:hover{
     text-decoration:none;
