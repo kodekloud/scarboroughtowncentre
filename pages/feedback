@@ -20,6 +20,7 @@
             </div>
             <div id="form_div">
                 <h1>Share your thoughts with us</h1>
+                <div class="line"></div>
                 <div class="description">
                     <p>Your feedback really matter.</p>
                     <p>It's how we know we're making your experience at STC the best it can be.</p>
