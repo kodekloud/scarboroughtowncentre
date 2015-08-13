@@ -1,11 +1,11 @@
 <style>
-    p, .mm_page_content ul {
+    p, #mm_page_content ul {
         font-size: 18px;
         line-height: 27px;
         font-family: ChronicleTextG1-Roman;
         margin: 10px 0;
     }
-    .mm_page_content{
+    #mm_page_content{
         font-size:18px;
         font-family: ChronicleTextG1-Roman;  
         line-height:1.5;
@@ -25,7 +25,7 @@
     h3{
         font-family: CircularStd-Book;
     }
-    .mm_page_content a{
+    #mm_page_content a{
         font-family:CircularStd-Book;
         letter-spacing: 2;
         color: #000;
@@ -38,7 +38,7 @@
     .left_page_div h2{
         font-size:12px;
     }
-    .mm_page_content img{
+    #mm_page_content img{
         width:100%;
     }
 </style>
