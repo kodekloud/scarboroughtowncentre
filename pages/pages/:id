@@ -22,6 +22,9 @@
         color: #F15F5C;
         text-transform:uppercase;
     }
+    h3{
+        font-family: CircularStd-Book;
+    }
     a{
         font-family:CircularStd-Book;
         letter-spacing: 2;
