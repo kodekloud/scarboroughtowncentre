@@ -11,10 +11,10 @@
             </ul>
             <div class="line"></div>
         </div>
-        <div class="col-md-1 hidden_phone">
-            <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>
-        </div>
-        <div class="col-md-7">
+        <!--<div class="col-md-1 hidden_phone">-->
+        <!--    <div style="width:50%;border-right:1px solid #ccc;height:100%"></div>-->
+        <!--</div>-->
+        <div class="col-md-7 left_pad">
             <div id="success_subscribe" style="display:none">
                 <p class="description">Thank you for your feedback.</p>
             </div>
