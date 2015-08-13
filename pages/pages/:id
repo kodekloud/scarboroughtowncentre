@@ -1,5 +1,5 @@
 <style>
-    #mm_page_contentp, #mm_page_content ul {
+    #mm_page_content p, #mm_page_content ul {
         font-size: 18px;
         line-height: 27px;
         font-family: ChronicleTextG1-Roman;
