@@ -50,7 +50,7 @@
                         <div class="col-md-8">
                             <h5 class="new_store_name">{{name}}</h5>
                             <p class="description">{{description}}</p>
-                            <p><a class="feature_read_more" href="/stores/{{slug}}">MORE</a></p>
+                            <a class="feature_read_more" href="/stores/{{slug}}">MORE</a>
                         </div>
                     </div>
                     <hr class="separato2r" />
