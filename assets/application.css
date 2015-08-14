@@ -1104,6 +1104,9 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
 }
 
 @media only screen and (max-width: 800px) { 
+    .left_pad{
+        margin-top:30px;
+    }
     .new_store_img_div{
         float:none;
     }
