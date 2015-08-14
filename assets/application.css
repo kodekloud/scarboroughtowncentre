@@ -1113,6 +1113,9 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         display: block;
         border-bottom: 1px solid #BFBEBD;
     }
+    .mini_nav {
+        border-bottom: 0;
+    }
     .container_60 {
         margin-top: 20px;
     }
