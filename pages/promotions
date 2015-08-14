@@ -31,7 +31,7 @@
                                 <img class="width_100" alt="promo image" src="{{alt_promo_image_url}}" /> 
                                 <div class="margin_15px"></div>
                                 <a class="feature_read_more less" href="#" id="less_{{id}}" data-id = "{{id}}">LESS</a>
-                                <div class="margin_20"></div>
+                                
                             </div>
                             
                         </div>
