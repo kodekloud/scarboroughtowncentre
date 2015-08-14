@@ -1121,9 +1121,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         float:none;
         margin-bottom:10px;
     }
-    .alpha_list{
-        display:none;
-    }
+    
     .mini_nav a {
         margin-right:0;
         padding:10px 0;
