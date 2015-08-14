@@ -17,7 +17,7 @@
                         <div class="col-md-3 new_store_img_div text-center">
                             <img alt="new store" class="new_store_image" src="{{alt_promo_image_url}}" />
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-md-8">
                             <h5 class="new_store_name">{{store_name}}</h5>
                             <p class="description font_italic">{{name}}</p>
                             <p class="new_store_name">Closing Date: <span class="description">{{closing_date}}</span></p>
