@@ -53,7 +53,7 @@
                             <a class="feature_read_more" href="/stores/{{slug}}">MORE</a>
                         </div>
                     </div>
-                    <hr class="separato2r" />
+                    <hr class="separator2" />
                 </script>
             </div>
             
