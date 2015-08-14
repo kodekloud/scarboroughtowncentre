@@ -13,8 +13,8 @@
         </script>
     </div>
     <div class="margin_30 hidden_phone"></div>
-    <div class="line_top hidden_phone"></div>
-    <div class="margin_30 hidden_phone"></div>
+    <div class="line_top "></div>
+    <div class="margin_30 "></div>
     <div class="row">
         <div class="col-md-8 right_pad">
             <div class="blog_parent" id="blog_container">
