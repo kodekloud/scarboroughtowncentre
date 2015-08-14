@@ -1104,6 +1104,9 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
 }
 
 @media only screen and (max-width: 800px) { 
+    .right_pad{
+        margin-bottom:30px;
+    }
     .left_pad{
         margin-top:30px;
     }
