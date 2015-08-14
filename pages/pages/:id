@@ -3,7 +3,8 @@
         font-size: 18px;
         line-height: 27px;
         font-family: ChronicleTextG1-Roman;
-        margin: 10px 0;
+        margin-top: 10px;
+        margin-bottom:0;
     }
     #mm_page_content{
         font-size:18px;
