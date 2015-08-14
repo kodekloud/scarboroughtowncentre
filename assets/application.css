@@ -1118,6 +1118,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     }
     .new_store_img_div{
         float:none;
+        margin-bottom:10px;
     }
     .alpha_list{
         display:none;
