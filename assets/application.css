@@ -1111,7 +1111,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         margin-right:0;
         padding:10px 0;
         display: block;
-        border-bottom: 1px solid #BFBEBD;
+        border-bottom: 2px solid #BFBEBD;
     }
     .mini_nav {
         border-bottom: 0;
