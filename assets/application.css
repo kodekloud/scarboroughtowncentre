@@ -1104,6 +1104,9 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
 }
 
 @media only screen and (max-width: 800px) { 
+    .alpha_list{
+        display:none;
+    }
     .container_60 {
         margin-top: 20px;
     }
