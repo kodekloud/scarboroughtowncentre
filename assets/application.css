@@ -73,6 +73,10 @@ h1 {
     text-align:center;
 }
 
+.container_60{
+    margin-top:60px;
+}
+
 .scrolloff {
     pointer-events: none;
 }
