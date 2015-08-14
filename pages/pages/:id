@@ -53,7 +53,7 @@
         padding-bottom: 2px;
     }
 </style>
-<div class="container-fluid" style="margin-top:60px">
+<div class="container-fluid container_60">
     <!--<h1 id="mobile_page_title" class="show_phone"></h1>-->
     <div class="row">
         <div class="col-md-4">
