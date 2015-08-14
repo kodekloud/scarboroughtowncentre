@@ -64,6 +64,7 @@
                     <p><a href="/trending_categories/{{slug}}" class="trending_side_link">{{name}}</a></p>
                 </script>
             </div>
+            <hr class="separator2 show_phone"/>
         </div>
     </div>
 </div>
