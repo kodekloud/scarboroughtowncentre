@@ -29,7 +29,7 @@
                         </div>
                         <div class="col-md-9">
                             <h5 class="new_store_name">{{name}}</h5>
-                            <p class="new_store_desc">{{description}}</p>
+                            <p class="description">{{description}}</p>
                             <p><a class="feature_read_more" href="/stores/{{slug}}">MORE</a></p>
                         </div>
                     </div>
