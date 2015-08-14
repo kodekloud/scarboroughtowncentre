@@ -1107,6 +1107,10 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     .alpha_list{
         display:none;
     }
+    .mini_nav a {
+        margin-right:0;
+        padding:10px 0;
+    }
     .container_60 {
         margin-top: 20px;
     }
