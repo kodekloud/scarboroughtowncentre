@@ -1,5 +1,5 @@
 <script src="http://snapwidget.com/js/snapwidget.js"></script>
-<div class="container-fluid" style="margin-top:60px">
+<div class="container-fluid container_60">
     <div class="row">
         <div class="col-md-8 right_pad">
             <div id="fashion_container">
