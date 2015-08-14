@@ -1101,7 +1101,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
 
 @media only screen and (max-width: 800px) { 
     body{
-        padding-top:50px;
+        padding-top:80px;
     }
     .yield{
         margin-top: -30px;
