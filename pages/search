@@ -1,5 +1,5 @@
 <style>
-    . search_container_storesa{
+    .search_container_stores a{
         color:#000; 
         border-bottom:1px solid #000;
     }
