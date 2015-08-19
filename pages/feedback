@@ -81,7 +81,6 @@
         init(e);
         function renderAll (){
             init_home_hours();
-            
             show_content();
         }
         $('#feedback_form').submit(function(e){
