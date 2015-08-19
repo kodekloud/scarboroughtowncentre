@@ -298,7 +298,7 @@ h1 {
     line-height: 1.1;
     text-transform:uppercase;
     font-size:14px;
-    color: #F15F5C;
+    color: #E65400;
 }
 .menu_link{
     color:#000;
@@ -307,7 +307,7 @@ h1 {
 }
 .menu_home{
     padding-left:0px !important;
-    color: #F15F5C;
+    color: #E65400;
       font-size: 14px;
 }
 
@@ -332,7 +332,7 @@ h1 {
 }
 
 .dd_guest a{
-    color: #F15F5C !important;;
+    color: #E65400 !important;;
 }
 
 .dd_stores{
@@ -379,7 +379,7 @@ h1 {
 }
 
 .menu_home:hover, .menu_home:focus{
-    color: #F15F5C !important;
+    color: #E65400 !important;
 }
 
 .menu_search{
@@ -445,7 +445,7 @@ h1 {
 }
 
 .flex-control-paging li a.flex-active{
-    background:#F15F5C;
+    background:#E65400;
 }
 
 .flex-direction-nav a{
@@ -553,7 +553,7 @@ h1 {
     font-family: CircularStd-Bold;
     letter-spacing: 2;
     text-align: center;
-    color: #F15F5C;
+    color: #E65400;
     padding: 14.5px 0px;
     margin: 0px 0px 10px 0px;
 }
@@ -619,19 +619,19 @@ h1 {
 }
 
 .side_nav a:hover{
-    color:#F15F5C !important;
+    color:#E65400 !important;
     font-weight:bold !important;
 }
 
 .active_side_nav{
     font-weight:bold !important;
-    color: #F15F5C !important;
+    color: #E65400 !important;
 }
 
 .line{
     width:38px;
     height:2px;
-    background: #F15F5C;
+    background: #E65400;
     margin: 10px 0px 30px 0px;
 }
 .side_p{
@@ -688,7 +688,7 @@ h1 {
 
 .mini_nav_2 a:hover, .mini_nav_2 a.active, .mini_nav_2 a.focus{
     text-decoration:none;
-    color: #F15F5C;
+    color: #E65400;
 }
 
 .alpha_list a{
@@ -719,7 +719,7 @@ h1 {
     font-weight:bold;
     border-bottom:2px solid #BFBEBD;
     padding-bottom: 10px;
-    color: #F15F5C;
+    color: #E65400;
 }
 .store_name{
     border-bottom:2px solid #BFBEBD;
@@ -741,13 +741,13 @@ h1 {
     font-family: CircularStd-Book;
     font-size: 14px;
     letter-spacing: 2;
-    color: #F15F5C;
+    color: #E65400;
     margin-top:40px;
     text-transform:uppercase;
 }
 
 .new_store_subheading:hover, .new_store_subheading:active, .new_store_subheading:focus{
-    color: #F15F5C;
+    color: #E65400;
     text-decoration:none;
 }
 
@@ -786,7 +786,7 @@ h1 {
 .line2{
     width: 30px;
     height: 2px;
-    background: #F15F5C;
+    background: #E65400;
     margin: auto;
 }
 
@@ -1173,7 +1173,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         width: 100%;
     }
     .mobile_inside_nav{
-        color: #F15F5C !important;
+        color: #E65400 !important;
         text-align: center;
     }
     .mobile_inside_nav:hover{
