@@ -20,7 +20,7 @@
         font-size: 14px;
         font-family: CircularStd-Book;
         letter-spacing: 2;
-        color: #F15F5C;
+        color: #E65400;
         text-transform:uppercase;
     }
     #mm_page_content h3{
