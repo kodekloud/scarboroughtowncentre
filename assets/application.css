@@ -984,8 +984,9 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
 .results_div{
     display:none;
     max-height: 500px;
-    overflow: scroll;
+    overflow-y: scroll;
     border-bottom: 1px solid #ccc;
+    overflow-x: hidden;
 }
 
 @media(min-width:1140px){
