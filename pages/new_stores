@@ -67,7 +67,7 @@
         function renderAll (){
             init_home_hours();
             var coming_soon_stores = getComingSoonList();
-            var new_stores = getNewStoresList();
+            var new_stores = coming_soon_stores.concat(getNewStoresList());
             if (new_stores.length > 0){
                 renderGeneral("#new_store_container","#new_store_template", new_stores);
             }
