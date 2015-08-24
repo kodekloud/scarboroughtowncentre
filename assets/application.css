@@ -35,7 +35,9 @@
     src: url(http://cdn.mallmaverick.com/system/site_images/photos/000/010/024/original/ChronicleDisplay-Bold.otf?1434473499);
 }
 
-
+.separator2:last-child{
+    border:0;
+}
 body{
     font-family: CircularStd-Book;
     padding-top:51px;
