@@ -37,25 +37,25 @@
                 </script>
             </div>
             
-            <h3 class="new_store_subheading">NOW OPEN</h3>
-            <p class="description hidden_now" id="no_now_open" >No new opened stores at the moment. Please check back later.</p>
-            <div id="new_store_container">
-                <script id="new_store_template" type="x-tmpl-mustache/text">
-                    <div class="row new_store_box">
-                        <div class="col-md-3 new_store_img_div text-center">
-                            <div class="new_store_img_parent">
-                                <img alt="new store" class="new_store_image" src="{{store_front_url_abs}}" />
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <h5 class="new_store_name">{{name}}</h5>
-                            <p class="description">{{description}}</p>
-                            <a class="feature_read_more" href="/stores/{{slug}}">MORE</a>
-                        </div>
-                    </div>
-                    <hr class="separator2" />
-                </script>
-            </div>
+            <!--<h3 class="new_store_subheading">NOW OPEN</h3>-->
+            <!--<p class="description hidden_now" id="no_now_open" >No new opened stores at the moment. Please check back later.</p>-->
+            <!--<div id="new_store_container">-->
+            <!--    <script id="new_store_template" type="x-tmpl-mustache/text">-->
+            <!--        <div class="row new_store_box">-->
+            <!--            <div class="col-md-3 new_store_img_div text-center">-->
+            <!--                <div class="new_store_img_parent">-->
+            <!--                    <img alt="new store" class="new_store_image" src="{{store_front_url_abs}}" />-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--            <div class="col-md-8">-->
+            <!--                <h5 class="new_store_name">{{name}}</h5>-->
+            <!--                <p class="description">{{description}}</p>-->
+            <!--                <a class="feature_read_more" href="/stores/{{slug}}">MORE</a>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--        <hr class="separator2" />-->
+            <!--    </script>-->
+            <!--</div>-->
             
         </div>
     </div>
