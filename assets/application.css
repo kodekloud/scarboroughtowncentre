@@ -750,7 +750,7 @@ h1 {
 }
 
 ..new_store_subheading i{
-    margin-top"36px"
+    margin-top:36px
 }
 .new_store_subheading:hover, .new_store_subheading:active, .new_store_subheading:focus{
     color: #E65400;
