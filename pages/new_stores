@@ -68,12 +68,12 @@
             init_home_hours();
             var coming_soon_stores = getComingSoonList();
             var new_stores = getNewStoresList();
-            if (coming_soon_stores.length > 0){
-                renderGeneral("#coming_soon_store_container","#coming_soon_store_template", coming_soon_stores)
-            }
-            else{
-                $('#no_opening_soon').fadeIn();
-            }
+            // if (coming_soon_stores.length > 0){
+            //     renderGeneral("#coming_soon_store_container","#coming_soon_store_template", coming_soon_stores)
+            // }
+            // else{
+            //     $('#no_opening_soon').fadeIn();
+            // }
             if (new_stores.length > 0){
                 renderGeneral("#new_store_container","#new_store_template", new_stores);
             }
