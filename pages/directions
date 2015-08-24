@@ -10,7 +10,6 @@
         <div class="col-md-9">
             <div id="mm_page_content">
                 <iframe frameborder="0" height="500" scrolling="no" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Scarborough+Town+Centre+,+Borough+Drive,+Toronto,+ON&amp;aq=t&amp;sll=43.781753,-79.278374&amp;sspn=0.141039,0.249252&amp;ie=UTF8&amp;hq=Scarborough+Town+Centre+,+Borough+Drive,+Toronto,+ON&amp;t=m&amp;ll=43.776548,-79.254642&amp;spn=0.010845,0.018239&amp;z=15&amp;iwloc=A&amp;output=embed" title="Location of mall on Google maps" width="100%" class="scrolloff">Location of mall on Google maps</iframe>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.8479796521947!2d-79.25978190000001!3d43.77601440000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d1a63c9c28db%3A0xd147ec9870be00a3!2sScarborough+Town+Centre!5e0!3m2!1sen!2sus!4v1440442276184" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
         <div class="col-md-3">
