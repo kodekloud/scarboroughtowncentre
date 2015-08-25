@@ -112,7 +112,6 @@
             
         }
         function renderMarker(collection){
-            console.log(getPropertyDetails().mm_host + getPropertyDetails().map_url)
             $.each(collection, function(i, val){
                 x = val.x_coordinate - 19;
                 y = val.y_coordinate - 58;
