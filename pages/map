@@ -105,7 +105,6 @@
             init_home_hours();
             var stores = getStoresList();
             renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "Z");
-            renderMarker(stores);
             show_content();    
         }
         function renderMarker(collection){
