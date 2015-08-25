@@ -105,7 +105,8 @@
             init_home_hours();
             var stores = getStoresList();
             renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "Z");
-            show_content();    
+            show_content();   
+            
             $.each(stores, function(i, val){
                 x = val.x_coordinate - 19;
                 y = val.y_coordinate - 58;
