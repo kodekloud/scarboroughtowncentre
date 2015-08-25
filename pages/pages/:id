@@ -117,7 +117,7 @@
                 }
             }); 
             show_content();
-            var collapse_centre_info = ["/pages/stc-guest-services", "/pages/stc-", "/pages/stc-", "/pages/stc-", "/pages/stc-"]
+            var collapse_centre_info = ["/pages/stc-guest-services", "/pages/stc-gift-cards", "/pages/stc-", "/pages/stc-accessibility", "/pages/stc-security-safety-tips"]
     var path = window.location.pathname
     
     if ($.inArray(path, collapse_shopping) >= 0){
