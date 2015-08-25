@@ -59,7 +59,7 @@
             </div>
             <div class="map">
                 <div class="demo_1 map3" style="">            
-                    <img alt="map_image" id="map_image" src="http://cdn.mallmaverick.com/system/properties/maps/000/000/001/original/stc_map-small_website_2v2.png?1419362460" />   
+                    <img alt="map_image" id="map_image" src="" />   
                     	
         		</div>
             </div>
@@ -108,6 +108,7 @@
             var stores = getStoresList();
             renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "Z");
             show_content();    
+            
             
         }
         function renderMarker(collection){
