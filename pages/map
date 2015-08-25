@@ -101,8 +101,6 @@
     }
     $(document).ready(function(e) {
         init(e);
-        var stores = getStoresList();
-        renderMarker(stores);
         function renderAll(){
             init_home_hours();
             var stores = getStoresList();
