@@ -59,7 +59,7 @@
             </div>
             <div class="map">
                 <div class="demo_1 map3" style="">            
-                    <img alt="map_image" id="map_image" src="http://stc.mallmaverick.com/system/properties/maps/000/000/001/original/stc_map_2015_(1).jpg?1440428507" />   
+                    <img alt="map_image" id="map_image" src="http://cdn.mallmaverick.com/system/properties/maps/000/000/001/original/stc_map-small_website_2v2.png?1419362460" />   
                     	
         		</div>
             </div>
@@ -101,18 +101,23 @@
     }
     $(document).ready(function(e) {
         init(e);
+        var stores = getStoresList();
+        renderMarker(stores);
         function renderAll(){
             init_home_hours();
             var stores = getStoresList();
             renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "Z");
             show_content();    
-        
-            $.each(stores, function(i, val){
+            
+        }
+        function renderMarker(collection){
+            $.each(collection, function(i, val){
                 x = val.x_coordinate - 19;
                 y = val.y_coordinate - 58;
                $('#map_image').after('<div class="marker" id="store_' + val.id  + '" data-coords="' + x + ', ' + y + '" style="display:none">' + val.name + '</div>')
             });
-
+            
+        }
         $('.map3').craftmap({
             image:{
                 width:940,
