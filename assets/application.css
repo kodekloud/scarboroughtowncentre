@@ -94,6 +94,10 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.blog_title_link{
+    
+}
+
 .close_popup{
     position: absolute;
     top: 0;
