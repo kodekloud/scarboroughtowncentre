@@ -112,7 +112,7 @@
             
         }
         function renderMarker(collection){
-            getPropertyDetails()
+            console.log(getPropertyDetails())
             $.each(collection, function(i, val){
                 x = val.x_coordinate - 19;
                 y = val.y_coordinate - 58;
