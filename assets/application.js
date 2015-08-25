@@ -1,9 +1,14 @@
 /*Created 2015-06-12  by Rajbir Karan Singh*/
-
-function init(e){
-    function pinIt(){
-        alert("yo")
+function pinIt(){
+        var e = document.createElement('script');
+        e.setAttribute('type','text/javascript');
+        e.setAttribute('charset','UTF-8');
+        e.setAttribute('src','https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);
+        document.body.appendChild(e);
+        return false;
     }
+function init(e){
+    
     $('<div class="modal-backdrop custom_backdrop"><img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
     $('#open_search').click(function(e){
         $('#open_search').hide();
