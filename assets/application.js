@@ -1,23 +1,5 @@
 /*Created 2015-06-12  by Rajbir Karan Singh*/
 
-function renderMarker(collection){
-    $.each(collection, function(i, val){
-        x = val.x_coordinate - 19;
-        y = val.y_coordinate - 58;
-       $('#map_image').after('<div class="marker" id="store_' + val.id  + '" data-coords="' + x + ', ' + y + '" style="display:none">' + val.name + '</div>')
-    });
-    
-}
-$('.map3').craftmap({
-    image:{
-        width:940,
-        height:1170
-    },
-    map: {
-        position: '0 190'
-    }
-});
-
 function init(e){
     
     $('<div class="modal-backdrop custom_backdrop"><img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
