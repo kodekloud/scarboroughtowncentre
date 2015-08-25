@@ -107,8 +107,7 @@
             renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "Z");
             show_content();    
             
-        }
-        function renderMarker(collection){
+        renderMarker(collection){
             $.each(collection, function(i, val){
                 x = val.x_coordinate - 19;
                 y = val.y_coordinate - 58;
