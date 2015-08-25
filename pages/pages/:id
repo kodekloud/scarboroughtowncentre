@@ -117,6 +117,12 @@
                 }
             }); 
             show_content();
+            var collapse_centre_info = ["/pages/erinmills-contact-us", "/pages/erinmills-being-green-environmental-initiatives","/pages/erinmills-pr-releases","/pages/erinmills-leasing-information","/pages/erinmills-community-partners"];
+    var path = window.location.pathname
+    
+    if ($.inArray(path, collapse_shopping) >= 0){
+        $('#collapse_shopping').collapse('toggle')
+    }
             
             
         }
