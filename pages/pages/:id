@@ -1,4 +1,7 @@
 <style>
+    #pages_side_nav{
+        display:none;
+    }
     #mm_page_content p, #mm_page_content ul {
         font-size: 18px;
         line-height: 27px;
