@@ -7,7 +7,7 @@
             <div class="col-md-4 trending_box">
                 <a href="/trending_categories/{{slug}}" class="trending_link">
                     <img class="trending_image" src="{{post_image}}" />
-                    <p class="no_margin"><span class="new_store_subheading">{{name}}</span> <span class="description"><a href="/trending/{{slug}}">{{post_title}}</a></span></p>
+                    <p class="no_margin"><span class="new_store_subheading">{{name}}</span> <span class="description">{{post_title}}</span></p>
                 </a>
             </div>
         </script>
