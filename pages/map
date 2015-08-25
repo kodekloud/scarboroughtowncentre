@@ -108,7 +108,6 @@
             show_content(); 
             renderMarker(stores);
         }
-        
         loadMallDataCached(renderAll); 
     })
 </script>
