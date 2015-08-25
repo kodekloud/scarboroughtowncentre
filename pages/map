@@ -104,7 +104,6 @@
         function renderAll(){
             init_home_hours();
             var stores = getStoresList();
-            var stores = getStoresList();
         renderMarker(stores);
             renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "Z");
             show_content();    
