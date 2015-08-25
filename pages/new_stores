@@ -65,7 +65,7 @@
         function sortByKey(array, key) {
             return array.sort(function(a, b) {
                 var x = a[key]; var y = b[key];
-                return ((Date(x < y)) ? -1 : (Date((x > y)) ? 1 : 0));
+                return ((x < y) ? -1 : ((x > y) ? 1 : 0));
             });
         }
         init(e);
@@ -75,7 +75,7 @@
             var new_stores = coming_soon_stores.concat(getNewStoresList());
             var nnew_stores = sortByKey(new_stores, 'new_store_open_date').reverse();
             if (new_stores.length > 0){
-                renderGeneral("#new_store_container","#new_store_template", new_stores);
+                renderGeneral("#new_store_container","#new_store_template", nnew_stores);
             }
             else{
                 $('#no_now_open').fadeIn();
