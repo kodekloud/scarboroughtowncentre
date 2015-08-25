@@ -2,7 +2,7 @@
 
 function init(e){
     function pinIt(){
-        
+        alert("yo")
     }
     $('<div class="modal-backdrop custom_backdrop"><img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
     $('#open_search').click(function(e){
