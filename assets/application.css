@@ -94,8 +94,9 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.blog_title_link{
-    
+.feature_text a{
+    color:#000;
+    text-decoration:none;
 }
 
 .close_popup{
