@@ -75,7 +75,7 @@
             var new_stores = coming_soon_stores.concat(getNewStoresList());
             var nnew_stores = sortByKey(new_stores, 'new_store_open_date').reverse();
             if (new_stores.length > 0){
-                renderGeneral("#new_store_container","#new_store_template", new_stores;
+                renderGeneral("#new_store_container","#new_store_template", new_stores);
             }
             else{
                 $('#no_now_open').fadeIn();
