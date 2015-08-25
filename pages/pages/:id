@@ -117,7 +117,7 @@
                 }
             }); 
             show_content();
-            var collapse_centre_info = ["/pages/erinmills-contact-us", "/pages/erinmills-being-green-environmental-initiatives","/pages/erinmills-pr-releases","/pages/erinmills-leasing-information","/pages/erinmills-community-partners"];
+            var collapse_centre_info = ["/pages/stc-guest-services", "/pages/stc-", "/pages/stc-", "/pages/stc-", "/pages/stc-"]
     var path = window.location.pathname
     
     if ($.inArray(path, collapse_shopping) >= 0){
