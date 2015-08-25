@@ -13,7 +13,6 @@ function pinIt(){
     return false;
 }
 
-
 function check_open_time(d){
     var time = "";
     var date = new Date();
