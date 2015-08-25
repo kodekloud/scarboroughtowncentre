@@ -120,6 +120,7 @@
                     position: '0 190'
                 }
             });
+        }
         loadMallDataCached(renderAll); 
     })
 </script>
