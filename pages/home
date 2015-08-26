@@ -44,7 +44,7 @@
                         <hr class="chevron_line" />
                         <div id="triangle-down"></div>
                         <div id="triangle-down-inside"></div>
-                        <h3 class="feature_text">Gary Weber &<br/>More Now Open</h3>
+                        <h3 class="feature_text">{{description}}</h3>
                         <p class="text-center"><a class="feature_read_more" href="#">MORE</a></p>
                     </div>
                 </script>
