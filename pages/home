@@ -78,6 +78,8 @@
             init_home_hours();
             var banners = getBanners();
             renderBanner('#banner_template','#home_banner',banners);
+            var featureList = getFeatureList();
+            renderFeatureItems('#feature_template', '#feature_items', featureList)
             show_content();
             $('.flexslider').flexslider({
                 animation: "slide",
