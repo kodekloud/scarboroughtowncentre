@@ -116,7 +116,7 @@ function init_home_hours(){
             });
         } 
         else{
-            var val = {};
+            val = {};
             val.open = "closed";
             val.close = "closed"
             
