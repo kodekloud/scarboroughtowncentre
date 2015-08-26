@@ -102,6 +102,9 @@ function init_home_hours(){
         if (val.day_of_week == n && val.is_closed == false && val.is_holiday == false){
             hours_today.push(val);
         } 
+        else if(val.day_of_week == n && (val.is_closed == true || val.is_holiday == true)){
+            
+        }
     });
     var item_list = [];
     var item_rendered = [];
