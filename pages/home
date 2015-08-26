@@ -19,7 +19,7 @@
             <div id="feature_items">
                 <script id="feature_template" type="x-tmpl-mustache/text">
                     <div class="col-md-6 feature_box">
-                        <h4 class="feature_header">TRENDING</h4>
+                        <h4 class="feature_header">{{name}}</h4>
                         <img src="{{image_url}}" class="" alt="feat1">
                         <hr class="chevron_line" />
                         <div id="triangle-down"></div>
