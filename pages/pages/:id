@@ -128,6 +128,7 @@
             if ($.inArray(path, side) >= 0){
                 $('#pages_side_nav').show()
             }
+            console.log(path)
             switch(path){
                 case "/pages/stc-gift-cards":
                     $('#side_img').attr('src', 'http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/feature2.jpg');
