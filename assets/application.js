@@ -661,7 +661,6 @@ function renderPosts(container, template, collection){
         else{
             val.description_short = val.body;
         }
-        console.log(val.slug)
         var lb = getBlogDataBySlug("stc-lookbook");
         var contest = getBlogDataBySlug("stc-contest");
         var out_blog = lb.posts.concat(contest.posts);
@@ -670,6 +669,7 @@ function renderPosts(container, template, collection){
         if(result.length > 0){
             val.slug = val.video_link;
         }
+        console.log(val.slug)
         val.counter = counter;
         var date_blog = new Date((val.publish_date + " 05:00:00").replace(/-/g,"/"));
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
