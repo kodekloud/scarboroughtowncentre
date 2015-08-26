@@ -747,27 +747,27 @@ function renderBlogs(container, template, collection){
 }
 
 function renderFeatureItems(feature_template,feature_items,featureList){
-            var item_list = [];
-            var item_rendered = [];
-            var feature_template_html = $(feature_template).html();
-            Mustache.parse(feature_template_html);   // optional, speeds up future uses
-            count = 0
-            $.each( featureList , function( key, val ) {
-                if (count < 2){
-                val.alt_url = val.image_url;
-                var featureitem_rendered = Mustache.render(feature_template_html,val);
-                item_rendered.push(featureitem_rendered);
-                count = count + 1    
-                }
-               
-            });
-            
-           
-            $(feature_items).show();
-            $(feature_items).html(item_rendered.join(''));
-            $(".modal-backdrop").remove();
-            
+    var item_list = [];
+    var item_rendered = [];
+    var feature_template_html = $(feature_template).html();
+    Mustache.parse(feature_template_html);   // optional, speeds up future uses
+    count = 0
+    $.each( featureList , function( key, val ) {
+        if (count < 2){
+        val.alt_url = val.image_url;
+        var featureitem_rendered = Mustache.render(feature_template_html,val);
+        item_rendered.push(featureitem_rendered);
+        count = count + 1    
         }
+       
+    });
+    
+   
+    $(feature_items).show();
+    $(feature_items).html(item_rendered.join(''));
+    $(".modal-backdrop").remove();
+    
+}
 
 
 
