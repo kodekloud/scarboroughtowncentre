@@ -117,7 +117,7 @@ function init_home_hours(){
         } 
         else{
             var val = {};
-            val.open = check_open_time(open_time);
+            val.open = "closed";
             val.close = convert_hour(close_time);
             
             var rendered = Mustache.render(template_html,val);
