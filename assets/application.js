@@ -661,6 +661,7 @@ function renderPosts(container, template, collection){
         else{
             val.description_short = val.body;
         }
+        val.slug = "trending/" +val.slug
         var lb = getBlogDataBySlug("stc-lookbook");
         var id = val.id;
         var result = $.grep(lb.posts, function(e){ return e.id == id; });
