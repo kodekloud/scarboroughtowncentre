@@ -753,11 +753,9 @@ function renderFeatureItems(feature_template,feature_items,featureList){
     Mustache.parse(feature_template_html);   // optional, speeds up future uses
     count = 0
     $.each( featureList , function( key, val ) {
-        if (count < 2){
         val.alt_url = val.image_url;
         var featureitem_rendered = Mustache.render(feature_template_html,val);
         item_rendered.push(featureitem_rendered);
-        count = count + 1    
         }
        
     });
