@@ -1002,7 +1002,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
 
 
 #post_container img{
-    width:100%;
+    max-width:100%;
 }
 
 @media(min-width:1140px){
