@@ -27,16 +27,6 @@
                         <h3 class="feature_text">{{name}}</h3>
                         <p class="text-center"><a class="feature_read_more" href="#">MORE</a></p>
                     </div>
-                    
-                    <div class="col-md-6 feature_box">
-                        <h4 class="feature_header">FILM</h4>
-                        <img src="{{image_url}}" class="" alt="feat2">
-                        <hr class="chevron_line" />
-                        <div id="triangle-down"></div>
-                        <div id="triangle-down-inside"></div>
-                        <h3 class="feature_text">Experience the <br/>STC Spring Fashion Video</h3>
-                        <p class="text-center"><a class="feature_read_more" href="#">MORE</a></p>
-                    </div>
                 </script>
             </div>
         </div>
