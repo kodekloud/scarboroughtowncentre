@@ -661,7 +661,6 @@ function renderPosts(container, template, collection){
         else{
             val.description_short = val.body;
         }
-        val.slug = "/trending/" +val.slug;
         var lb = getBlogDataBySlug("stc-lookbook");
         var contest = getBlogDataBySlug("stc-contest");
         var out_blog = lb.posts.concat(contest.posts);
