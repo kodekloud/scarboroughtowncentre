@@ -99,7 +99,7 @@ function init_home_hours(){
     var n = d.getDay();
     var hours_today = [];
     $.each(hours, function(key, val){
-        console.log(new Date(val.holiday_date) == d)
+        console.log(new Date(val.holiday_date))
         if (val.day_of_week == n && val.is_closed == false && val.is_holiday == false){
             hours_today.push(val);
         } 
