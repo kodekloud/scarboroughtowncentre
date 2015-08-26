@@ -103,7 +103,7 @@ function init_home_hours(){
             hours_today.push(val);
         } 
         else if(val.day_of_week == n && (val.is_closed == true || val.is_holiday == true)){
-            
+            console.log(val)
         }
     });
     var item_list = [];
