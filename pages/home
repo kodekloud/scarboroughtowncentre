@@ -40,7 +40,7 @@
                 <script id="feature_template2" type="x-tmpl-mustache/text">
                     <div class="col-md-4 feature_box no_margin">
                         <h4 class="feature_header">NEW STORES</h4>
-                        <img src="{{image_url}}" class="" alt="">
+                        <img src="{{image_url}}" class="" alt="feature ">
                         <hr class="chevron_line" />
                         <div id="triangle-down"></div>
                         <div id="triangle-down-inside"></div>
