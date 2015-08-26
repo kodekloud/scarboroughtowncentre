@@ -94,10 +94,6 @@ $('.close-search-mobile').click(function(){
 }
 
 function init_home_hours(){
-    var item_list = [];
-    var item_rendered = [];
-    var template_html = $('#home_hours_template').html();
-    Mustache.parse(template_html);   // optional, speeds up future uses
     var hours = getPropertyHours();
     var d = new Date();
     var n = d.getDay();
@@ -105,26 +101,21 @@ function init_home_hours(){
     $.each(hours, function(key, val){
         if (val.day_of_week == n && val.is_closed == false && val.is_holiday == false){
             hours_today.push(val);
-            $.each( hours_today , function( key, val ) {
-                var open_time = new Date (val.open_time);
-                var close_time = new Date (val.close_time);
-                val.open = check_open_time(open_time);
-                val.close = convert_hour(close_time);
-                
-                var rendered = Mustache.render(template_html,val);
-                item_rendered.push(rendered);
-            });
         } 
-        else if(val.is_closed == true || val.is_holiday == true){
-            val = {};
-            val.open = "closed";
-            val.close = "closed";
-            
-            var rendered = Mustache.render(template_html,val);
-            item_rendered.push(rendered);
-        }
     });
-    
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $('#home_hours_template').html();
+    Mustache.parse(template_html);   // optional, speeds up future uses
+    $.each( hours_today , function( key, val ) {
+        var open_time = new Date (val.open_time);
+        var close_time = new Date (val.close_time);
+        val.open = check_open_time(open_time);
+        val.close = convert_hour(close_time);
+        
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
     $('#home_hours_container').html(item_rendered.join(''));
 }
 
