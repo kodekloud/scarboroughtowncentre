@@ -115,7 +115,7 @@ function init_home_hours(){
                 item_rendered.push(rendered);
             });
         } 
-        else(val.day_of_week == n && val.is_closed == true && val.is_holiday == true){
+        else if(val.day_of_week == n && val.is_closed == true && val.is_holiday == true){
             val = {};
             val.open = "closed";
             val.close = "closed";
