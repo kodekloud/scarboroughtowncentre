@@ -128,7 +128,9 @@
             if ($.inArray(path, side) >= 0){
                 $('#pages_side_nav').show()
             }
-            
+            if(path == "/pages/stc-gift-cards"){
+                
+            }
             
         }
         loadMallDataCached(renderAll); 
