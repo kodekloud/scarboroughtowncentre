@@ -751,12 +751,10 @@ function renderFeatureItems(feature_template,feature_items,featureList){
     var item_rendered = [];
     var feature_template_html = $(feature_template).html();
     Mustache.parse(feature_template_html);   // optional, speeds up future uses
-    count = 0
     $.each( featureList , function( key, val ) {
         val.alt_url = val.image_url;
         var featureitem_rendered = Mustache.render(feature_template_html,val);
         item_rendered.push(featureitem_rendered);
-        }
        
     });
     
