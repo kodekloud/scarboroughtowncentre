@@ -94,23 +94,19 @@ $('.close-search-mobile').click(function(){
 }
 
 function init_home_hours(){
-    var item_list = [];
-    var item_rendered = [];
-    var template_html = $('#home_hours_template').html();
-    Mustache.parse(template_html);   // optional, speeds up future uses
     var hours = getPropertyHours();
     var d = new Date();
     var n = d.getDay();
     var hours_today = [];
     $.each(hours, function(key, val){
-        console.log(new Date(val.holiday_date + " 05:00:00"))
         if (val.day_of_week == n && val.is_closed == false && val.is_holiday == false){
             hours_today.push(val);
         } 
-        else if(val.day_of_week == n && (val.is_closed == true || val.is_holiday == true)){
-            console.log(val)
-        }
     });
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $('#home_hours_template').html();
+    Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( hours_today , function( key, val ) {
         var open_time = new Date (val.open_time);
         var close_time = new Date (val.close_time);
