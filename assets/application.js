@@ -115,6 +115,9 @@ function init_home_hours(){
                 item_rendered.push(rendered);
             });
         } 
+        else{
+            
+        }
     });
     
     $('#home_hours_container').html(item_rendered.join(''));
