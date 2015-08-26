@@ -1000,6 +1000,11 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     overflow-x: hidden;
 }
 
+
+#post_container img{
+    width:100%;
+}
+
 @media(min-width:1140px){
 
     .menu_link {
