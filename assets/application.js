@@ -665,7 +665,7 @@ function renderPosts(container, template, collection){
         var id = val.id;
         var result = $.grep(lb.posts, function(e){ return e.id == id; });
         if(result.length > 0){
-            val.slug = val.video_link
+            val.slug = val.video_link;
         }
         val.counter = counter;
         var date_blog = new Date((val.publish_date + " 05:00:00").replace(/-/g,"/"));
