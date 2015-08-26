@@ -79,7 +79,7 @@
             var banners = getBanners();
             renderBanner('#banner_template','#home_banner',banners);
             var featureList = getFeatureList();
-            renderFeatureItems('#feature_template', '#feature_items', featureList)
+            renderFeatureItems('#feature_template', '#feature_items', featureList2)
             show_content();
             $('.flexslider').flexslider({
                 animation: "slide",
