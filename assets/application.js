@@ -116,7 +116,11 @@ function init_home_hours(){
             });
         } 
         else{
-            
+            val.open = check_open_time(open_time);
+                val.close = convert_hour(close_time);
+                
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
         }
     });
     
