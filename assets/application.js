@@ -662,7 +662,7 @@ function renderPosts(container, template, collection){
             val.description_short = val.body;
         }
         var lb = getBlogDataBySlug("stc-lookbook");
-        id = p.id
+        var id = val.id
         val.counter = counter;
         var date_blog = new Date((val.publish_date + " 05:00:00").replace(/-/g,"/"));
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
