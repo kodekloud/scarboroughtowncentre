@@ -85,7 +85,7 @@
                             <li><a class="menu_link " href="/newsletter">SUBSCRIBE</a></li>
                         </ul>
                         <div class="row social_mobile">
-                            <div id="mobile_search_div" style="display:none" class="col-xs-10">
+                            <div id="mobile_search" style="display:none" class="col-xs-10">
                                 <form id="mobile_search_form" class="no_margin">
                                     <input id="mobile_search_box" type="text" placeholder="Type here to search" title="search" />
                                 </form>
