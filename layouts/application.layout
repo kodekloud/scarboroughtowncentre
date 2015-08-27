@@ -110,8 +110,8 @@
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">STORES</a>
                                 <div class="dropdown-menu invisible_dropdown_div dd_stores dropdown-menu-hover">
                                     <ul class="dd_guest">
-                                        <div id="triangle-up"></div>
-                                        <div id="triangle-up-inside"></div>
+                                        <div class="triangle-up"></div>
+                                        <div class="triangle-up-inside"></div>
                                         <li><a href="/stores">STORE LIST</a></li>
                                         <li><a href="/map">CENTRE MAP</a></li>
                                         <li><a href="/new_stores">NEW STORES</a></li>
@@ -124,8 +124,8 @@
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">GUEST SERVICES</a>
                                 <div class="dropdown-menu invisible_dropdown_div dropdown-menu-hover">
                                     <ul class="dd_guest">
-                                        <div id="triangle-up"></div>
-                                        <div id="triangle-up-inside"></div>
+                                        <div class="triangle-up"></div>
+                                        <div class="triangle-up-inside"></div>
                                         <li><a href="/pages/stc-guest-services">GUEST SERVICES</a></li>
                                         <li><a href="/pages/stc-gift-cards">GIFT CARD</a></li>
                                         <li><a href="/feedback">SHARE YOUR THOUGHTS</a></li>
