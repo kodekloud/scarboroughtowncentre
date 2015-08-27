@@ -146,7 +146,7 @@
                                     <div class="search-results" id="search_results" style="display:none">
                                         <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
                                         <script id="search_results_template" type="x-tmpl-mustache/text">{% raw %}
-                                        <small><h4 class="list-group-item search-results-count" id="store_results_header" style="display:none;color:gray;margin-top:-2px;font-size:14px" data-i18n="nav.stores" onkeypress="javascript:show_results('store')" onclick="javascript:show_results('store')"></h4></small>
+                                        <small><h4 class="list-group-item search-results-count" id="store_results_header" style="display:none;color:gray;margin-top:-2px;font-size:14px" data-i18n="nav.stores" tabindex="10" onkeypress="javascript:show_results('store')" onclick="javascript:show_results('store')"></h4></small>
                                         <div class="results_div" id="store_results">
                                         {{#stores}}
                                             <a href="/stores/{{slug}}" class="list-group-item">
@@ -156,7 +156,7 @@
                                             </a>
                                         {{/stores}}
                                         </div>
-                                        <h4 class="list-group-item search-results-count" id="promotions_results_header" style="display:none;color:gray;margin-top:-2px;font-size:14px" data-i18n="nav.promotions" onclick="javascript:show_results('promo')"></h4>
+                                        <h4 class="list-group-item search-results-count" id="promotions_results_header" style="display:none;color:gray;margin-top:-2px;font-size:14px" data-i18n="nav.promotions" tabindex="10" onkeypress="javascript:show_results('promo')" onclick="javascript:show_results('promo')"></h4>
                                         <div class="results_div" id="promo_results">
                                         {{#promotions}}
                                             <a href="/promotions/{{slug}}" class="list-group-item">
@@ -165,7 +165,7 @@
                                             </a>
                                         {{/promotions}}
                                         </div>
-                                        <h4 class="list-group-item search-results-count" id="events_results_header" style="display:none;color:gray;margin-top:-2px;font-size:14px" data-i18n="nav.events" onclick="javascript:show_results('event')"></h4>
+                                        <h4 class="list-group-item search-results-count" id="events_results_header" style="display:none;color:gray;margin-top:-2px;font-size:14px" data-i18n="nav.events" tabindex="10" onkeypress="javascript:show_results('event')" onclick="javascript:show_results('event')"></h4>
                                         <div class="results_div" id="event_results">
                                         {{#events}}
                                             <a href="/events/{{slug}}" class="list-group-item">
