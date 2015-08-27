@@ -511,7 +511,7 @@ h1 {
 }
 
 
-#triangle-up { 
+.triangle-up { 
     width: 0; 
     height: 0; 
     border-left: 7px solid transparent; 
@@ -528,7 +528,7 @@ h1 {
     transform:translate(-50%,0);
 }
 
-#triangle-up-inside { 
+.triangle-up-inside { 
     width: 0; 
     height: 0; 
     border-left: 6px solid transparent; 
