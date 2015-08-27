@@ -33,7 +33,7 @@ function init(e){
         e.preventDefault();
     });
     
-    $('#mobile_search').submit(function(e){
+    $('#mobile_search_form').submit(function(e){
         e.preventDefault();
         window.location.href = "/search?query=" + $('#mobile_search_box').val();
     });
