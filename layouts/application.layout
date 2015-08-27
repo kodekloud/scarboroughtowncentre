@@ -86,7 +86,7 @@
                         </ul>
                         <div class="row social_mobile">
                             <div id="mobile_search_div" style="display:none" class="col-xs-10">
-                                <form id="mobile_search" class="no_margin">
+                                <form id="mobile_search_form" class="no_margin">
                                     <input id="mobile_search_box" type="text" placeholder="Type here to search" title="search" />
                                 </form>
                             </div>
