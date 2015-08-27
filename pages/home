@@ -22,8 +22,8 @@
                         <h4 class="feature_header">{{name}}</h4>
                         <img src="{{image_url}}" class="" alt="feat1">
                         <hr class="chevron_line" />
-                        <div id="triangle-down"></div>
-                        <div id="triangle-down-inside"></div>
+                        <div class="triangle-down"></div>
+                        <div class="triangle-down-inside"></div>
                         <h3 class="feature_text">{{description}}</h3>
                         <p class="text-center"><a class="feature_read_more" href="{{url}}">MORE</a></p>
                     </div>
@@ -42,8 +42,8 @@
                         <h4 class="feature_header">{{name}}</h4>
                         <img src="{{image_url}}" class="" alt="feature ">
                         <hr class="chevron_line" />
-                        <div id="triangle-down"></div>
-                        <div id="triangle-down-inside"></div>
+                        <div class="triangle-down"></div>
+                        <div class="triangle-down-inside"></div>
                         <h3 class="feature_text">{{description}}</h3>
                         <p class="text-center"><a class="feature_read_more" href="{{url}}">MORE</a></p>
                     </div>
