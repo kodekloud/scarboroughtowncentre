@@ -17,7 +17,7 @@ function init(e){
         e.preventDefault();
     });
     $('#search_mobile').click(function(e){
-        $('#mobile_search').show();
+        $('#mobile_search_div').show();
         $('.social_icon_mobile').hide();
         $('#m_search').hide();
         $('#m_search_close').show();
@@ -26,7 +26,7 @@ function init(e){
     });
     
     $('#close_search_mobile').click(function(e){
-        $('#mobile_search').hide();
+        $('#mobile_search_div').hide();
         $('.social_icon_mobile').show();
         $('#m_search').show();
         $('#m_search_close').hide();
