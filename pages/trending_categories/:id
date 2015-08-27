@@ -12,8 +12,8 @@
                     <div class="blog_box hidden_now" id="show_{{counter}}">
                         <img class="width_100" src="{{post_image}}" />
                         <hr class="chevron_line" />
-                        <div id="triangle-down"></div>
-                        <div id="triangle-down-inside"></div>
+                        <div class="triangle-down"></div>
+                        <div class="triangle-down-inside"></div>
                         <h3 class="feature_text">{{title}}</h3>
                         <p class="blog_description description">{{description_short}}</p>
                         <p class="publish_date text-center">{{published_on}}</p>
