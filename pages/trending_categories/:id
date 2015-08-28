@@ -59,7 +59,7 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
-            var blogs = getBlogList();
+            var blogs = getBlogList().sortBy(function(o){ return o.name });
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var posts = getBlogDataBySlug(slug).posts;
