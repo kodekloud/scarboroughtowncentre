@@ -10,7 +10,7 @@
             <div class="blog_parent" id="blog_container">
                 <script id="blog_template" type="x-tmpl-mustache/text">
                     <div class="blog_box hidden_now" id="show_{{counter}}">
-                        <img class="width_100" src="{{post_image}}" />
+                        <a href="/{{slug}}"><img class="width_100" src="{{post_image}}" /></a>
                         <hr class="chevron_line" />
                         <div class="triangle-down"></div>
                         <div class="triangle-down-inside"></div>
