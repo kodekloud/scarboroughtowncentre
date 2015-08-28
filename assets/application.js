@@ -702,7 +702,7 @@ function renderPosts2(container, template, collection){
             val.description_short = val.body;
         }
         
-        console.log(val.slug)
+        console.log(val)
         val.counter = counter;
         var date_blog = new Date((val.publish_date + " 05:00:00").replace(/-/g,"/"));
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
