@@ -24,7 +24,7 @@
                         <hr class="chevron_line" />
                         <div class="triangle-down"></div>
                         <div class="triangle-down-inside"></div>
-                        <h3 class="feature_text">{{description}}</h3>
+                        <h3 class="feature_text"><a class="inherit_a" href="{{url}}">{{description}}</a></h3>
                         <p class="text-center"><a class="feature_read_more" href="{{url}}">MORE</a></p>
                     </div>
                 </script>
