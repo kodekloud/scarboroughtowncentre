@@ -64,7 +64,7 @@
         
         function renderAll (){
             init_home_hours();
-            var blogs = getBlogList();
+            var blogs = getBlogList().sortBy(function(o){ return o.name });
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var fashion = getFashionBySlug(slug);
