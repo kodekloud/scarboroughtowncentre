@@ -690,6 +690,7 @@ function renderPosts2(container, template, collection){
     var counter = 1;
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
+        console.log(val)
         if (val.image_url.indexOf('missing.png') > -1) {
             val.post_image = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/8145457936ef8cb613a266a0fefedb69/STC%20Newsletter.jpg";
         } else {
@@ -702,7 +703,7 @@ function renderPosts2(container, template, collection){
             val.description_short = val.body;
         }
         
-        console.log(val)
+        
         val.counter = counter;
         var date_blog = new Date((val.publish_date + " 05:00:00").replace(/-/g,"/"));
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
