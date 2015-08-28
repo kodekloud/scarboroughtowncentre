@@ -40,7 +40,7 @@
                 <script id="feature_template2" type="x-tmpl-mustache/text">
                     <div class="col-md-4 feature_box no_margin">
                         <h4 class="feature_header"><a class="inherit_a" href="{{url}}">{{name}}</a></h4>
-                        <img src="{{image_url}}" class="" alt="feature ">
+                        <a class="inherit_a" href="{{url}}"><img src="{{image_url}}" class="" alt="feature "></a>
                         <hr class="chevron_line" />
                         <div class="triangle-down"></div>
                         <div class="triangle-down-inside"></div>
