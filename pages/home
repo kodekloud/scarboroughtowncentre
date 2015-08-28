@@ -19,7 +19,7 @@
             <div id="feature_items">
                 <script id="feature_template" type="x-tmpl-mustache/text">
                     <div class="col-md-6 feature_box">
-                        <h4 class="feature_header"><a href="{{url}}">{{name}}</a></h4>
+                        <h4 class="feature_header"><a class="inherit_a" href="{{url}}">{{name}}</a></h4>
                         <a href="{{url}}"><img src="{{image_url}}" class="" alt="feat1"></a>
                         <hr class="chevron_line" />
                         <div class="triangle-down"></div>
