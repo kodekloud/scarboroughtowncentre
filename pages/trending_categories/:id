@@ -14,7 +14,7 @@
                         <hr class="chevron_line" />
                         <div class="triangle-down"></div>
                         <div class="triangle-down-inside"></div>
-                        <a href="/{{slug}}"><h3 class="feature_text">{{title}}</h3></a>
+                        <h3 class="feature_text"><a href="/{{slug}}">{{title}}</a></h3>
                         <p class="blog_description description">{{description_short}}</p>
                         <p class="publish_date text-center">{{published_on}}</p>
                         <p class="text-center"><a class="feature_read_more text-center" href="/{{slug}}">READ MORE</a></p>
