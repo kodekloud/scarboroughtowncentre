@@ -569,6 +569,7 @@ h1 {
     padding: 14.5px 0px;
     margin: 0px 0px 10px 0px;
     font-weight: 400;
+        text-transform: uppercase;
 }
 
 .feature_text{
