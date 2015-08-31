@@ -106,11 +106,12 @@ h1 {
 
 .close_popup{
     position: absolute;
-    top: 0;
-    right: 0;
-    padding: 10px;
+    top: 5px;
+    right: 5px;
+    padding: 2px;
     font-size: 25px;
-    cursor:pointer;
+    cursor: pointer;
+    background-color: #fff;
 }
 
 .custom_backdrop img{
