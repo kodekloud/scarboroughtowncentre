@@ -1,7 +1,7 @@
-<!--<div class="popup_home hidden_now">-->
-<!--    <img src="https://placehold.it/750x500" />-->
-<!--    <i class="fa fa-remove close_popup"></i>-->
-<!--</div>-->
+<div class="popup_home hidden_now">
+    <img src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/304bed60a1b35abe8be1cec63fdb80de/STC_Pop-Up 750x750.png" />
+    <i class="fa fa-remove close_popup"></i>
+</div>
 <div class="flexslider">
     <ul class="slides" id="home_banner">
         <script id="banner_template" type="x-tmpl-mustache/text">
@@ -67,15 +67,15 @@
             $('.flexslider').flexslider({
                 animation: "slide",
             });
-        //     if($.cookie("popup_viewed") != "true"){
-        //         $.cookie("popup_viewed", "true");
-        //         $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
-        //         $('.popup_home').show()
-        //     }
-        //     $('.close_popup').click(function(){
-        //         $(".modal-backdrop").remove();
-		      //  $(".popup_home").remove();
-        //     })
+            if($.cookie("popup_viewed") != "true"){
+                $.cookie("popup_viewed", "true");
+                $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
+                $('.popup_home').show()
+            }
+            $('.close_popup').click(function(){
+                $(".modal-backdrop").remove();
+		        $(".popup_home").remove();
+            })
         }
         loadMallDataCached(renderAll); 
     })
