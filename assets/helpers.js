@@ -232,7 +232,7 @@ function validateEmail($email) {
 
 function load_more(num){
     var n = parseInt(num);
-    for(i=n; i < n+2; i++){
+    for(i=n; i < n+5; i++){
         
         var id = i.toString();
         $('#show_' + id ).fadeIn();
