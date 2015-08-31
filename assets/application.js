@@ -630,6 +630,7 @@ function renderTrending(container, template, collection){
     $.each( collection , function( key, val ) {
         var post = val.posts[0];
         val.post_title = post.title;
+        val.post_slug = post.slug
         if (post.image_url.indexOf('missing.png') > -1) {
             val.post_image = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/8145457936ef8cb613a266a0fefedb69/STC%20Newsletter.jpg";
         } else {
