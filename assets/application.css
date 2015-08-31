@@ -1136,6 +1136,9 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
 }
 
 @media only screen and (max-width: 800px) { 
+    .popup_home{
+        width:90%;
+    }
     .map_store_list{
         padding-left:0;
     }
