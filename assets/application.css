@@ -108,7 +108,7 @@ h1 {
     position: absolute;
     top: 5px;
     right: 5px;
-    padding: 2px;
+    padding: 2px 5px;
     font-size: 25px;
     cursor: pointer;
     background-color: #fff;
