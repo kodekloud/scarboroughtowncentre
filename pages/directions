@@ -13,9 +13,9 @@
             </div>
         </div>
         <div class="col-md-3">
+        <h2 class="new_store_subheading no_margin" id="address">Address</h2>
             <p class="description" style="margin-top:0">
-                Address
-                <br />
+                
                 300 Borough Drive
                 <br />
                 Scarborough, Ontario
