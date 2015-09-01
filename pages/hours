@@ -9,7 +9,7 @@
         <div class="col-md-7 left_pad">
             <h1>Hours</h1>
             <div class="line"></div>
-            <p class="new_store_subheading no_margin">STC SHOPPING HOURS:</p>
+            <p class="new_store_subheading no_margin">STC SHOPPING HOURS</p>
             <div class="margin_15px"></div>
             <p class="new_store_name no_margin">Monday – Friday</p>
             <div id="hours_mf_container">
@@ -42,7 +42,7 @@
                 </script>
             </div>
             <div class="margin_30"></div>
-            <p class="new_store_subheading no_margin">STC WILL BE CLOSED ON <br />THE FOLLOWING STATUTORY HOLIDAYS:</p>
+            <p class="new_store_subheading no_margin">STC WILL BE CLOSED ON <br />THE FOLLOWING STATUTORY HOLIDAYS</p>
             <div class="margin_15px"></div>
             <div id="closed_hours_container">
                 <script id="closed_hours_template" type="x-tmpl-mustache/text">
