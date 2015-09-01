@@ -35,7 +35,7 @@
         font-size:18px;
         font-family: ChronicleTextG1-Roman;  
         line-height:1.5;
-        
+        text-decoration:none;
     }
     
         
@@ -51,7 +51,7 @@
         font-family: ChronicleTextG1-Roman;  
         line-height:1.5;
         border-bottom: 1px solid;
-        
+        text-decoration:none;
         
     }
 </style>
