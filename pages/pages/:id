@@ -46,11 +46,12 @@
         width:100%;
     }
     #mm_page_content p a{
-        color: #000;
-        font-size:18px;
-        font-family: ChronicleTextG1-Roman;  
-        line-height:1.5;
+        font-family: CircularStd-Book;
+        font-size: 12px;
         border-bottom: 1px solid;
+        letter-spacing: 2;
+        color: #000;
+        padding-bottom: 2px;
     }
 </style>
 <div class="container-fluid container_60">
