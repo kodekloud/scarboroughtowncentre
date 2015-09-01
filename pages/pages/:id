@@ -30,7 +30,9 @@
         font-family: CircularStd-Book;
     }
     #mm_page_content a{
-         font-size:18px;
+        
+        color: #000;
+        font-size:18px;
         font-family: ChronicleTextG1-Roman;  
         line-height:1.5;
         border-bottom: 1px solid;
@@ -44,11 +46,11 @@
         width:100%;
     }
     #mm_page_content p a{
-       
-        border-bottom: 1px solid;
-         font-size:18px;
+        color: #000;
+        font-size:18px;
         font-family: ChronicleTextG1-Roman;  
         line-height:1.5;
+        border-bottom: 1px solid;
     }
 </style>
 <div class="container-fluid container_60">
