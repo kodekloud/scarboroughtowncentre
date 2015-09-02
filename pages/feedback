@@ -79,7 +79,7 @@
         }
         $('#feedback_form').submit(function(e){
             e.preventDefault();
-            $.post("http://stc.mallmavericks.com/email_feedback", $(this).serialize(), function(data, status, xhr){
+            $.post("http://stc.mallmaverick.com/email_feedback", $(this).serialize(), function(data, status, xhr){
                 if(status == "success"){
                     $("#success_subscribe").fadeIn();
                     $('#form_div').hide();
