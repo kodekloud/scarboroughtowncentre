@@ -124,7 +124,7 @@
                 <div class="navbar stc_navbar">
                     <div class="collapse navbar-collapse" id="stc_menu">
                         <ul class="stc_nav nav navbar-nav">
-                            <li><a class="menu_link menu_home" href="/">SCARBOROUGH TOWN CENTRE</a></li>
+                            <li><a class="menu_link menu_home" href="/">SCARBOROUGH TOWN CENTREs</a></li>
                             <li class="desktop_menu dropdown menu_link">
                                 <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">STORES</a>
                                 <div class="dropdown-menu invisible_dropdown_div dd_stores dropdown-menu-hover">
