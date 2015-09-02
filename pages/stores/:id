@@ -19,8 +19,8 @@
                     </div>
                 </script>
             </div>
-            <div id="zlevel_container">
-                
+            <div id="level_container">
+                <script id="level_template" type="x-tmpl-mustache/text">
             </div>
         </div>
         <!--<div class="col-md-1 hidden_phone">-->
