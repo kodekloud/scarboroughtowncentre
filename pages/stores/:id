@@ -21,6 +21,7 @@
             </div>
             <div id="level_container">
                 <script id="level_template" type="x-tmpl-mustache/text">
+                    <p>{{level}}</p>
                 </script>
             </div>
         </div>
