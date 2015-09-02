@@ -6,7 +6,7 @@
             <script id="post_template" type="x-tmpl-mustache/text">
                 <h1>{{title}}</h1>
                 <div class="line"></div>
-                <img class="width_100" src="{{post_image}}" alt="Post" />
+                <img class="width_100" src="{{post_image}}" alt="{{title}}" />
                 <div class="margin_30"></div>
                 <div class="description ">{{{html_body}}}</div>
                 <div class="margin_30"></div>
