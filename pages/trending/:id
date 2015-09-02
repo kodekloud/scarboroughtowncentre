@@ -25,7 +25,7 @@
                     <a class="share_link" target="_blank" href="http://twitter.com/share?text={{title}}&url=http://scarboroughtowncentre.com/trending/{{slug}}">
                         <img class="share_img site_icons" alt="twitter share" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_twitter.png" />
                     </a>
-                    <a class="share_link" target="_blank" href="http://pinterest.com/pin/create/button/?url=http://scarboroughtowncentre.com/trending/{{slug}}" count-layout="horizontal">
+                    <a onclick="pinIt()" style="padding: 0;border: 0;background: none; cursor:pointer">
                         <img class="share_img site_icons" alt="pinterest share" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/social_pin.png" />
                     </a>
                 </p>
