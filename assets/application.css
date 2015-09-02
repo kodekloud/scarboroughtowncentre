@@ -433,6 +433,12 @@ display:none;
     #menu-secondary-menu{
         padding:0;
     }
-    
+    .og-grid li, .og-overlay{
+        height: 300px!important;
+        width: 300px !important;
+    }
+    .og-grid li a img{
+        width: 100% !important;
+    }
 }
 
