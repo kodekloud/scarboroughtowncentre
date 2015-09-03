@@ -43,10 +43,10 @@
     .left_page_div h2{
         font-size:12px;
     }
-    #mm_page_content img{
+    .pages_container img{
         width:100%;
     }
-    #mm_page_content p a{
+    .pages_container p a{
         color: #000;
         font-size:18px;
         font-family: ChronicleTextG1-Roman;  
