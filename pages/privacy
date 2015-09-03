@@ -93,7 +93,7 @@
         function renderAll (){
             init_home_hours();
             renderpageHTML();
-            $("#pages_stc-security-about-us_stores").show();
+            $("#pages_stc-privacy-online-privacy-policy").show();
             show_content();
         }
         
