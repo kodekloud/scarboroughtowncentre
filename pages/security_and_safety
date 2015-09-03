@@ -76,8 +76,8 @@
             <h1 class="hidden_phone">Security & Safety</h1>
             <div class="line"></div>
             <br class="show_phone" />
-            <div class="pages_container" id="cat_stores_container">
-                <script id="cat_stores_template" type="x-tmpl-mustache/text">
+            <div class="pages_container" id="pages_container">
+                <script id="pages_template" type="x-tmpl-mustache/text">
                     <div class="cat_div" id="cat_{{slug}}" onclick="javascript:show_stores('{{slug}}')">
                         {{title}}
                         <i id="icon_{{slug}}" class="fa fa-plus list_icon"></i>
