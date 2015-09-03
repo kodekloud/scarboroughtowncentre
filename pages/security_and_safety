@@ -111,7 +111,7 @@
         function add_to_page_array (data){
             full_page_array.push(data);
         }
-        renderInsidePages("#cat_stores_container","#cat_stores_template",full_page_array, "pages")
+        renderInsidePages("#pages_container","#cat_stores_template",full_page_array, "pages")
         
         loadMallDataCached(renderAll); 
 		
