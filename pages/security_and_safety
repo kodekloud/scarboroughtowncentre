@@ -71,7 +71,7 @@
             </div>
         </div>
         <div class="col-md-7 left_pad">
-            <h1 class="hidden_phone">Security & Safety</h1>
+            <h1>Security & Safety</h1>
             <div class="line"></div>
             <br class="show_phone" />
             <div class="pages_container" id="pages_container">
