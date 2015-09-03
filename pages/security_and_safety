@@ -92,7 +92,7 @@
         function renderAll (){
             init_home_hours();
             renderpageHTML();
-            $(pages_stc-security-about-us_stores).slideUp();
+            $("pages_stc-security-about-us_stores").show();
             show_content();
         }
         
