@@ -88,6 +88,10 @@ h1 {
     display:none;
 }
 
+.page_inside_div:first-child{
+    display:block;
+}
+
 .container_60{
     margin-top:60px;
 }
