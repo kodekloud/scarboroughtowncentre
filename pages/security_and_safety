@@ -91,7 +91,7 @@
         
         function renderpageHTML(){
             var prefix = get_prefix();
-            var page_array = ["",]
+            var page_array = ["/pages/stc-security-about-us", "/pages/stc-security-services", "/pages/stc-security-safety-checklist", "/pages/stc-security-job-opportunities"]
             show_content();
         }
         loadMallDataCached(renderAll); 
