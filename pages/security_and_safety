@@ -86,6 +86,7 @@
         function renderAll (){
             init_home_hours();
             renderpageHTML();
+            show_content();
         }
         
         function renderpageHTML(){
@@ -105,7 +106,6 @@
             $.ajaxSetup({
                 async: true
             });
-            show_content();
         }
         
         function add_to_page_array (data){
