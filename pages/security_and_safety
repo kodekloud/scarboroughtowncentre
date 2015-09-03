@@ -90,3 +90,20 @@
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(function(e) {
+        init(e)
+        function renderAll (){
+            init_home_hours();
+            renderpageHTML();
+            $(".modal-backdrop").remove();
+        }
+        
+        function renderpageHTML(){
+            
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+		
+    });
+</script>
