@@ -22,7 +22,7 @@
         letter-spacing: 2;
         color: #E65400;
         text-transform:uppercase;
-            margin-bottom: 0;
+        margin-bottom: 0;
     }
     .pages_container h3{
         font-family: CircularStd-Book;
