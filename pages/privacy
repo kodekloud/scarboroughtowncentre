@@ -61,7 +61,7 @@
             <img id="side_img" src="http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/8145457936ef8cb613a266a0fefedb69/STC%20Security%20&%20Privacy.jpg" class="width_100" alt="">  
         </div>
         <div class="col-md-7 left_pad">
-            <h1>Security & Safetys</h1>
+            <h1>Privacy</h1>
             <div class="line"></div>
             <div class="pages_container" id="pages_container">
                 <script id="pages_template" type="x-tmpl-mustache/text">
