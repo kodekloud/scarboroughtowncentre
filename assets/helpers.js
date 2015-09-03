@@ -326,3 +326,11 @@ function pinIt(){
     document.body.appendChild(e);
     return false;
 }
+
+function show_pages(id){
+    if ($("#pages_"+id+"_stores").is(":visible")){
+        $("#pages_"+id+"_stores").slideUp();
+    } else {
+        $("#pages_"+id+"_stores").slideDown();
+    }
+}
