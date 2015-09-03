@@ -100,7 +100,6 @@
         }
         
         function renderpageHTML(){
-            
             show_content();
         }
         loadMallDataCached(renderAll); 
