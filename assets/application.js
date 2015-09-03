@@ -803,7 +803,7 @@ function renderFeatureItems(feature_template,feature_items,featureList){
     
 }
 
-function renderPageData(container, template, collection, type){
+function renderInsidePages(container, template, collection, type){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
