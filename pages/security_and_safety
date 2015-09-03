@@ -78,7 +78,7 @@
             <br class="show_phone" />
             <div class="pages_container" id="pages_container">
                 <script id="pages_template" type="x-tmpl-mustache/text">
-                    <div class="cat_div" id="cat_{{slug}}" onclick="javascript:show_stores('{{slug}}')">
+                    <div class="pages_inside_title" id="cat_{{slug}}" onclick="javascript:show_stores('{{slug}}')">
                         {{title}}
                     </div>
                     <div class="page_inside_div" id="cat_{{slug}}_stores">
