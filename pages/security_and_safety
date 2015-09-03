@@ -104,10 +104,7 @@
                     // $("#page_title").html(data.title)
                     // $('#mm_page_content').html(data.body);
                     add_to_page_array (data)
-                })
-                
-                
-                
+                });
             })
             
             $.ajaxSetup({
