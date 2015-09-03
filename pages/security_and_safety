@@ -1,7 +1,4 @@
 <style>
-    #pages_side_nav{
-        display:none;
-    }
     .pages_container p, .pages_container ul {
         font-size: 18px;
         line-height: 27px;
