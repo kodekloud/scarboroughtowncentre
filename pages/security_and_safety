@@ -90,6 +90,8 @@
         }
         
         function renderpageHTML(){
+            var prefix = get_prefix();
+            var page_array = ["",]
             show_content();
         }
         loadMallDataCached(renderAll); 
