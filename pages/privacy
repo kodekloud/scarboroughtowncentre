@@ -99,7 +99,7 @@
         
         function renderpageHTML(){
             var prefix = get_prefix();
-            var page_array = ["stc-security-about-us", "stc-security-services", "stc-security-safety-checklist", "stc-security-job-opportunities"]
+            var page_array = ["stc-privacy-online-privacy-policy", "stc-privacy-what-is-personal-information", "stc-privacy-what-information-are-we-responsible-for-protecting", "stc-privacy-what-information-do-we-collect-and-why", "stc-privacy-surveys-contests", "stc-privacy-video-surveillance", "stc-privacy-when-do-we-share-your-personal-information", "stc-privacy-gift-card-program", "stc-privacy-cookies", "stc-privacy-how-you-can-refuse-or-withdraw-your-consent", "stc-privacy-how-long-do-we-keep-your-personal-information", "stc-privacy-how-do-we-protect-your-personal-information", "stc-privacy-notification-of-changes", "stc-privacy-third-party-links", "stc-privacy-updating-your-personal-information", "stc-privacy-how-do-you-access-your-personal-information", "stc-privacy-if-you-have-a-complaint-we-want-to-know-about-it"]
             full_page_array = []
             $.ajaxSetup({
                 async: false
