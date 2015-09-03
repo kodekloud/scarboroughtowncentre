@@ -106,12 +106,13 @@
             $.ajaxSetup({
                 async: true
             });
+            renderInsidePages("#pages_container","#pages_template", full_page_array)
         }
         
         function add_to_page_array (data){
             full_page_array.push(data);
         }
-        renderInsidePages("#pages_container","#pages_template", full_page_array)
+        
         
         loadMallDataCached(renderAll); 
 		
