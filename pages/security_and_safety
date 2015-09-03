@@ -81,7 +81,7 @@
                     <div class="cat_div" id="cat_{{slug}}" onclick="javascript:show_stores('{{slug}}')">
                         {{title}}
                     </div>
-                    <div class="stores_div" id="cat_{{slug}}_stores">
+                    <div class="page_inside_div" id="cat_{{slug}}_stores">
                     {{{body}}}
                     </div>
                 </script>
