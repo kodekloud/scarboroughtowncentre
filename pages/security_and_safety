@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="col-md-7 left_pad">
-            <h1 id="page_title" class="hidden_phone"></h1>
+            <h1 class="hidden_phone">Security & Safety</h1>
             <div class="line"></div>
             <br class="show_phone" />
             <h1 id="mobile_page_title" class="show_phone" style=" margin-bottom: 20px; "></h1>
