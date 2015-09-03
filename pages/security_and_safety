@@ -101,7 +101,7 @@
         
         function renderpageHTML(){
             var prefix = get_prefix();
-            var page_array = ["/pages/stc-security-about-us", "/pages/stc-security-services", "/pages/stc-security-safety-checklist", "/pages/stc-security-job-opportunities"]
+            var page_array = ["stc-security-about-us", "stc-security-services", "stc-security-safety-checklist", "stc-security-job-opportunities"]
             full_page_array = []
             $.ajaxSetup({
                 async: false
