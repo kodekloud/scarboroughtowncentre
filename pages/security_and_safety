@@ -118,10 +118,6 @@
         function add_to_page_array (data){
             full_page_array.push(data);
         }
-        
-        
-        
-        
         loadMallDataCached(renderAll); 
 		
     });
