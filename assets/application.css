@@ -75,6 +75,14 @@ h1 {
     text-align:center;
 }
 
+.pages_inside_title{
+    font-size: 14px;
+    font-family: CircularStd-Book;
+    letter-spacing: 2;
+    color: #E65400;
+    text-transform:uppercase;
+}
+
 .container_60{
     margin-top:60px;
 }
