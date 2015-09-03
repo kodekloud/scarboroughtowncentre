@@ -122,14 +122,7 @@
             full_page_array.push(data);
         }
         
-        function show_stores(id){
-       if ($("#pages_"+id+"_stores").is(":visible")){
-           $("#pages_"+id+"_stores").slideUp();
-       } else {
-           $("#pages_"+id+"_stores").slideDown();
-           $("#icon_"+id).removeClass("fa-plus")
-       }
-    }
+        }
         
         
         loadMallDataCached(renderAll); 
