@@ -86,7 +86,6 @@
         function renderAll (){
             init_home_hours();
             renderpageHTML();
-            $(".modal-backdrop").remove();
         }
         
         function renderpageHTML(){
