@@ -329,7 +329,7 @@ function pinIt(){
 
 function show_pages(id){
     if ($("#pages_"+id+"_stores").is(":visible")){
-        $("#pages_"+id+"_stores").fadeout();
+        $("#pages_"+id+"_stores").slideUp();
     } else {
         $("#pages_"+id+"_stores").slideDown();
     }
