@@ -5,10 +5,10 @@
         margin-right: auto;
     }
 </style>
-<div class="popup_home hidden_now">
-    <img src="http://assets.kodekloud.io/sites/55e7179b6e6f645163010000/b07dc47bacffa41a8577b97cc6cd4122/STC_Pop-Up 750x750.png" />
-    <i class="fa fa-remove close_popup"></i>
-</div>
+<!--<div class="popup_home hidden_now">-->
+<!--    <img src="http://assets.kodekloud.io/sites/55e7179b6e6f645163010000/b07dc47bacffa41a8577b97cc6cd4122/STC_Pop-Up 750x750.png" />-->
+<!--    <i class="fa fa-remove close_popup"></i>-->
+<!--</div>-->
 <div class="flexslider">
     <ul class="slides" id="home_banner">
         <script id="banner_template" type="x-tmpl-mustache/text">
